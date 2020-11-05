@@ -33,7 +33,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 import requests,re
 def GetLSProData(page_data,Cookie_Jar,m):
  try:
-  url = '[makelist2.param3]'.replace('Â (','%C2%A0(').replace(' ','%20')
+  url = '[makelist2.param3]'.replace(' (','%C2%A0(').replace(' ','%20')
   return re.findall('(?s)tulos de series.*?data-src="(.*?jpg)',requests.get('http://www.sensacine.com/busqueda/?q='+url).content)[0]
  except:
   return 'http://www.losprincipios.org/images/default.jpg'
