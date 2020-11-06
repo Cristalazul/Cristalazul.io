@@ -8,7 +8,7 @@
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[COLOR aqua][makelist2.param1][/COLOR]</title>
+<title>[makelist2.param2]   [COLOR aqua][makelist2.param1][/COLOR]</title>
 <info>[COLOR aqua]Grupo telegram: [COLOR gold]@addonfestaycristal[/COLOR]</info>
 <link>$doregex[makelist]</link>
 <thumbnail>$pyFunction:('https://www2.seriespapaya.nu/uploads[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
