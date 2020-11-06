@@ -11,7 +11,7 @@ https://www2.seriespapaya.nu/uploads/Fear-The-Walking-Dead73.jpg|user-agent=Mozi
 <title>[COLOR aqua][makelist2.param1][/COLOR]</title>
 <info>[COLOR aqua]Grupo telegram: [COLOR gold]@addonfestaycristal[/COLOR]</info>
 <link>$doregex[makelist]</link>
-<thumbnail>$pyFunction:('https://www2.seriespapaya.nu/uploads/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/').replace('https://www2.seriespapaya.nu/uploads/https://i.imgur.com/jZ4HiVq.png','https://i.imgur.com/jZ4HiVq.png')</thumbnail>
+<thumbnail>$pyFunction:('https://www2.seriespapaya.nu/uploads[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/').replace('https://www2.seriespapaya.nu/uploads/https://i.imgur.com/jZ4HiVq.png','https://i.imgur.com/jZ4HiVq.png')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
