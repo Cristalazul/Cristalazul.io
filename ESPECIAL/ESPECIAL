@@ -77,7 +77,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/Ge0iWOq.jpg</thumbnail>
-<fanart>https://i.imgur.com/NZaQKPm.jpg</fanart>
+<fanart>https://i.imgur.com/rYkRTJK.jpg</fanart>
 </item>
 
 
@@ -98,7 +98,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/Ge0iWOq.jpg</thumbnail>
-<fanart>https://i.imgur.com/NZaQKPm.jpg</fanart>
+<fanart>https://i.imgur.com/rYkRTJK.jpg</fanart>
 </item>
 
 
@@ -172,7 +172,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/Ge0iWOq.jpg</thumbnail>
-<fanart>https://i.imgur.com/NZaQKPm.jpg</fanart>
+<fanart>https://i.imgur.com/rYkRTJK.jpg</fanart>
 </item>
 
 
@@ -191,7 +191,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/Ge0iWOq.jpg</thumbnail>
-<fanart>https://i.imgur.com/NZaQKPm.jpg</fanart>
+<fanart>https://i.imgur.com/rYkRTJK.jpg</fanart>
 </item>
 
 
@@ -265,5 +265,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/Ge0iWOq.jpg</thumbnail>
-<fanart>https://i.imgur.com/NZaQKPm.jpg</fanart>
+<fanart>https://i.imgur.com/rYkRTJK.jpg</fanart>
 </item>
