@@ -325,7 +325,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 
-
+<!--
 
 <item>
 <title>[COLOR gold]* [COLOR lightgreen]Agenda[COLOR white] Deportes Tequila[/COLOR]</title>
@@ -408,7 +408,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
 
-
+-->
 
 
 
