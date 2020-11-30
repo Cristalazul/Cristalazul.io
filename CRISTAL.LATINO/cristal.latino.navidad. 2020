@@ -1,139 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+
+
+
+<!--
 <item>
-<title>[B][COLOR red]DIA 01[/COLOR] [COLOR white]MENSAJE DE PAPA NOEL[/COLOR][/B]</title>
-<link>$doregex[id3]</link>
-<regex>
-<name>id3</name>
+<title>[COLOR gold]* [/COLOR][COLOR white]CONCURSO INFANTIL[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/5FmLwRc.jpg<thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+<externallink>https://pastebin.com/raw/DFr8Terv</externallink>
+</item>
 
-<expres><![CDATA[#$pyFunction
+-->
 
-def GetLSProData(page_data,Cookie_Jar,m):
 
-   import resolveurl
 
-   url = 'https://ok.ru/video/2044447689380'
 
-   try:
 
-       u = resolveurl.resolve(url)
-
-   except:
-
-       u = ''
-
-   return u
-
-]]></expres>
-
-<page></page>
-
-</regex> 
-<thumbnail>https://i.imgur.com/TanrSTX.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]SECCION INFANTIL[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/L63sg0B.png<thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/FESTAKIDS/festakids/main/FESTAKIDS.MENU.PRINCIPAL/Menu.navidad.kids.latino</externallink>
 </item>
 
 
 <item>
-<title>[B][COLOR red]DIA 02[/COLOR] [COLOR white]MANUALIDADES[/COLOR][/B]</title>
-<link>$doregex[link_inteligente]</link>
-<regex>
-<name>link_inteligente</name>
-<listrepeat><![CDATA[
-<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
-<link>$doregex[id]</link>
-<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=oRaUpydisLI&list=PLWMYMD0Gnd9T3T0QZwo9GAyZANuwL6Y3-'
-import re,requests,xbmc
-def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
- 
-  if '=' in url[:7]:
-    if 'canal' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-    elif 'lista' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
-    elif 'enlace' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
-        html = url + '2018CristalAzul'
-        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
-        return [(titulo, enlace)]
-    else:
-        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
-  elif 'channel' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'youtube.com/c/' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'youtube.com/user' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'list' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
-  else:
-    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
-    html = url + '2018CristalAzul'
-    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
-    return [(titulo, enlace)]
-]]></expres>
-<page></page>
-</regex> 
-<regex>
-<name>id</name>
-<expres><![CDATA[#$pyFunction
-import resolveurl
-def GetLSProData(page_data,Cookie_Jar,m):
-  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
-  return resolveurl.resolve(url)
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://i.imgur.com/dzvFmjW.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-<item>
-<title>[B][COLOR red]DIA 03[/COLOR] [COLOR white]ESCRIBIR CARTA A PAPA NOEL[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=BvbsvthaNg8'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/Ae9ouvV.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR red]DIA 04[/COLOR] [COLOR white]SESION DE CINE[/COLOR][/B]</title>
+<title>[COLOR gold]* [/COLOR][COLOR white]CINE[/COLOR]</title>
 <link>$doregex[c]</link>
 <regex>
 <name>c</name>
@@ -219,67 +114,25 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/9b1JNDM.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
 </item>
 
 
 
 <item>
-<title>[B][COLOR red]DIA 05[/COLOR] [COLOR white]DECORAR[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=LnbJ_Ag-odw'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/k3qmI2h.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-<item>
-<title>[B][COLOR red]DIA 06[/COLOR] [COLOR white]COCINAR EN FAMILIA[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=dyFoMb7SZNU'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>  
-<thumbnail>https://i.imgur.com/tmSTZ5m.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-<item>
-<title>[B][COLOR red]DIA 07[/COLOR] [COLOR white]ADIVINA LA PELÍCULA[/COLOR][/B]</title>
+<title>[COLOR gold]* [/COLOR][COLOR white]DECORACIÓN[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
 <listrepeat><![CDATA[
-<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=d5xgyM94cfY&list=PLfhEmscHOTKO2bLl3vFgeOyyrZIDHr9HT'
+url = 'https://www.youtube.com/watch?v=mpVP-IJG6ZY&list=PLTz7vpaOlTLvNrm6rF2U5DxrpQ2sY9tJq'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -332,131 +185,608 @@ import resolveurl
 def GetLSProData(page_data,Cookie_Jar,m):
   url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
   return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item> 
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]KARAOkE[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+<externallink>https://pastebin.com/raw/Pi5Q4dur</externallink>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]MÚSICA[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+<externallink>https://pastebin.com/raw/BtYudGgy
+</externallink>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]JUEGOS[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+ <externallink>https://pastebin.com/raw/2aG1kkJF</externallink>
+</item>
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]POSTALES NAVIDEÑAS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=O4nTx_z8H_c&list=PLwzfcZoiJrCRR33V6Prka9XLMZBA8d2Ec'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]SCRAPBOOK NAVIDAD[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=_IW8oSIXZUE&list=PLPW20nn_RpKp3HauQ7hiEPZrDiRh3NDDh'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item>
+
+
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]MANUALIDADES[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=6qc_K1tw8a4&list=PLX6zz6I1VouYoX44LrzpvDEtXnDfEb5jP'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]RECETAS[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=8_zEkEdn08U&list=PL3sCZ5oi5rkXGpvjmy8mQFdRBY5QovwlS'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]SESIÓN DE FOTOS FAMILIARES CREATIVAS[/COLOR]</title>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+import urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+ url = 'https://www.youtube.com/watch?v=GmHbGB68YMQ'
+ streamLink = urlresolver.resolve(url)
+ return streamLink
+]]></expres>
+<page></page>
+</regex>     
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+<info>@addonfestaycristal</info>
+</item>
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]NAVIDAD POR EL MUNDO[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'http://www.youtube.com/watch?v=7pmvkKGGS7Y&amp;list=PLWVTnUUgGFJDjQHRvrs-orJ5XykCpDd4h'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item>
+
+
+ <item>
+<title>[COLOR gold]* [/COLOR][COLOR white]ADOPTAR  MASCOTA [COLOR gold](No compres, adopta)[/COLOR]</title>
+<link>$doregex[noticia]</link>
+<regex>
+<name>noticia</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import xbmc
+ import xbmcgui
+ import webbrowser
+ return  webbrowser.open_new_tab('http://wallamascotas.com/') + xbmc.executebuiltin('StartAndroidActivity(,android.intent.action.VIEW,,%s)' % 'http://wallamascotas.com/')
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+<info>Que no hablen no significa que no sientan. No compres, adopta</info>
+</item>
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]ESPECTÁCULOS NAVIDEÑOS[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+<externallink>https://pastebin.com/raw/yAdSv0C2</externallink>
+</item>
+
+
+
+ <item>
+<title>[COLOR gold]* [/COLOR][COLOR white]AMIGO INVISIBLE[/COLOR]</title>
+<link>$doregex[link_inteligente]</link>
+<regex>
+<name>link_inteligente</name>
+<listrepeat><![CDATA[
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<link>$doregex[id]</link>
+<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = 'https://www.youtube.com/watch?v=27S10bPXisw&list=PLFgJlUSFcOYit20lU3l6EZj0kPZLwi7vU'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if '=' in url[:7]:
+    if 'canal' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+    elif 'lista' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+    elif 'enlace' in url[:7]:
+        s2 = url + '2018Cristalazul'
+        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
+        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+        html = url + '2018CristalAzul'
+        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+        return [(titulo, enlace)]
+    else:
+        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
+  elif 'channel' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/c/' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'youtube.com/user' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
+  elif 'list' in url:
+    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
+  else:
+    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
+    html = url + '2018CristalAzul'
+    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
+    return [(titulo, enlace)]
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+import resolveurl
+def GetLSProData(page_data,Cookie_Jar,m):
+  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
+  return resolveurl.resolve(url)
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
+<item>
+<title>[COLOR gold]* [COLOR white]REGALO SOLIDARIO[/COLOR][/COLOR]</title>      
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+<externallink>https://pastebin.com/raw/gemZkhzt</externallink>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR gold]* [/COLOR][COLOR white]SESION DISCOFESTA[/COLOR]</title>
+<link>$doregex[resolve]</link>
+<regex>
+<name>resolve</name>
+<expres><![CDATA[#$pyFunction
+import urlresolver
+def GetLSProData(page_data,Cookie_Jar,m):
+ url = 'https://www.youtube.com/watch?v=5brlYZm-vw8'
+ streamLink = urlresolver.resolve(url)
+ return streamLink
 ]]></expres>
 <page></page>
 </regex>   
-<thumbnail>https://i.imgur.com/Ewyxi4A.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
 </item>
 
 
 
 
 
-
-
 <item>
-<title>[B][COLOR red]DIA 08[/COLOR] [COLOR white]SESION DE CUENTOS[/COLOR][/B]</title>
+<title>[COLOR gold]* [/COLOR][COLOR white]JUST DANCE NAVIDAD[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
 <listrepeat><![CDATA[
-<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=uyOI7jH5rmk&list=PLeIqlNvGf6TYtuev4UjVobW67l95J7XGf'
-import re,requests,xbmc
-def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
- 
-  if '=' in url[:7]:
-    if 'canal' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-    elif 'lista' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
-    elif 'enlace' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
-        html = url + '2018CristalAzul'
-        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
-        return [(titulo, enlace)]
-    else:
-        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
-  elif 'channel' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'youtube.com/c/' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'youtube.com/user' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'list' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
-  else:
-    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
-    html = url + '2018CristalAzul'
-    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
-    return [(titulo, enlace)]
-]]></expres>
-<page></page>
-</regex> 
-<regex>
-<name>id</name>
-<expres><![CDATA[#$pyFunction
-import resolveurl
-def GetLSProData(page_data,Cookie_Jar,m):
-  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
-  return resolveurl.resolve(url)
-]]></expres>
-<page></page>
-</regex> 
-<thumbnail>https://i.imgur.com/IPjZwav.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-<item>
-<title>[B][COLOR red]DIA 09[/COLOR] [COLOR white]HACER POSTALES NAVIDEÑAS[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=QiogQYwEfXM'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/2OCwnmw.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR red]DIA 10[/COLOR] [COLOR white]SESIÓN DIBUJOS ANIMADOS[/COLOR][/B]</title>
-<link>$doregex[link_inteligente]</link>
-<regex>
-<name>link_inteligente</name>
-<listrepeat><![CDATA[
-<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
-<link>$doregex[id]</link>
-<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=RCR-C7S0YVo&list=PL0jWOfkzaPFoBcIjA67y1UgtzehfTuHIg'
+url = 'https://www.youtube.com/watch?v=LczWHYYvyx4&amp;list=PLztQv6iNC4GCFZMs2qsvdSlRXjYd5-9dw'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -512,106 +842,25 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/PY1Yed7.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR red]DIA 11[/COLOR] [COLOR white]MAGIA[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=a2uDdt7UR_E'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/LJDFpkJ.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-
-
-
-<item>
-<title>[B][COLOR red]DIA 12[/COLOR] [COLOR white]SESIÓN RISOTERAPIA[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=XTw5xfhIP3M'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/UFoc5iN.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-
-<item>
-<title>[B][COLOR red]DIA 13[/COLOR] [COLOR white]KARAOKE[/COLOR][/B]</title>
-<link>http://ignorame</link>
-<thumbnail>https://i.imgur.com/cnq2XFQ.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<externallink>https://pastebin.com/raw/E29QAfWa</externallink>
-</item>
-
-
-
-
-
-<item>
-<title>[B][COLOR red]DIA 9[/COLOR] [COLOR white]DIA SOLIDARIO[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=2N9UKSsDfr0'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/U9Qo3y9.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
 </item>
 
 
 
 <item>
-<title>[B][COLOR red]DIA 15[/COLOR] [COLOR white]JUST DANCE[/COLOR][/B]</title>
+<title>[COLOR gold]* [/COLOR] [COLOR white]ZUMBA NAVIDEÑA[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
 <listrepeat><![CDATA[
-<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=8jn_f5tVhR8&list=PL6KwSb1wGniwJJBf1K8mVPzi0NlG-Gp4C'
+url = 'http://www.youtube.com/watch?v=tuQtHzza2A8&amp;list=PLWVTnUUgGFJARI8SqVnbi6c0H0Y5BzUdI'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -667,166 +916,25 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/v9BHQ8F.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item> 
 
 
 
 <item>
-<title>[B][COLOR red]DIA 16[/COLOR] [COLOR white]ADIVINANZAS[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=BWhPzDIKxsg'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/msXeUoR.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-<item>
-<title>[B][COLOR red]DIA 17[/COLOR] [COLOR white]CAPSULA DEL TIEMPO[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=dlAvgWchb04'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/8TaRloB.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-<item>
-<title>[B][COLOR red]DIA 18[/COLOR] [COLOR white]AMIGO INVISIBLE[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=6vCz6SpPzOQ&t=437s'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/agq14qw.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-
-<item>
-<title>[B][COLOR red]DIA 19[/COLOR] [COLOR white]HACER GALLETAS NAVIDEÑAS[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=QiogQYwEfXM'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/v2snCSm.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-<item>
-<title>[B][COLOR red]DIA 20[/COLOR] [COLOR white]CAJA DE LOS 5 SENTIDOS[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=xukgK5Lo1ao&t=24s'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/rEG2VVd.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-<item>
-<title>[B][COLOR red]DIA 21[/COLOR] [COLOR white]NAVIDADES DISNEY[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=BvpFnH7IgRI'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/2ZQpChM.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-
-<item>
-<title>[B][COLOR red]DIA 22[/COLOR] [COLOR white]CIRCO DEL SOL[/COLOR][/B]</title>
-<link>$doregex[resolve]</link>
-<regex>
-<name>resolve</name>
-<expres><![CDATA[#$pyFunction
-import urlresolver
-def GetLSProData(page_data,Cookie_Jar,m):
- url = 'https://www.youtube.com/watch?v=nQ5eUJNXrMw'
- streamLink = urlresolver.resolve(url)
- return streamLink
-]]></expres>
-<page></page>
-</regex>     
-<thumbnail>https://i.imgur.com/4q1qjBN.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
-
-<item>
-<title>[B][COLOR red]DIA 23[/COLOR] [COLOR white]SESIÓN ORIGAMI[/COLOR][/B]</title>
+<title>[COLOR gold]* [/COLOR] [COLOR white]VILLANCICOS LATINOAMERICANOS[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
 <listrepeat><![CDATA[
-<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
+<title>[COLOR yellow]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
 <link>$doregex[id]</link>
 <thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
+<fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=Kh1KXAOmVhU&list=PLWMYMD0Gnd9S6bkgTiuP2uL8lwQ5KX8S3'
+url = 'https://www.youtube.com/watch?v=K13_KEn51uk&list=PLTlKdKj4QBgYIrItNFI9_LIQ-yyo3z1hW'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
@@ -881,86 +989,47 @@ def GetLSProData(page_data,Cookie_Jar,m):
   return resolveurl.resolve(url)
 ]]></expres>
 <page></page>
-</regex> 
-<thumbnail>https://i.imgur.com/Gkee4Gx.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
-</item>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item> 
+
 
 
 <item>
-<title>[B][COLOR red]DIA 24[/COLOR] [COLOR white]VILLANCICOS[/COLOR][/B]</title>
-<link>$doregex[link_inteligente]</link>
+<title>[COLOR gold]* [/COLOR][COLOR white]ENSAYANDO LAS UVAS[/COLOR]</title>
+<link>$doregex[resolve]</link>
 <regex>
-<name>link_inteligente</name>
-<listrepeat><![CDATA[
-<title>[COLOR red]+[/COLOR] [COLOR white][link_inteligente.param1][/COLOR]</title>
-<link>$doregex[id]</link>
-<thumbnail>https://i.ytimg.com/vi/[link_inteligente.param2]/hqdefault.jpg</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-]]></listrepeat>
+<name>resolve</name>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=9VRaDOxr6eQ&list=PLBKAda9AzdgjKKJq8hry4KwrNG66E3qj-'
-import re,requests,xbmc
-def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
- 
-  if '=' in url[:7]:
-    if 'canal' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-    elif 'lista' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
-    elif 'enlace' in url[:7]:
-        s2 = url + '2018Cristalazul'
-        url = re.findall('(http.*?)2018Cristalazul', s2)[0]
-        titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-        titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
-        html = url + '2018CristalAzul'
-        enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
-        return [(titulo, enlace)]
-    else:
-        return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Error [/COLOR],[COLOR white]Enlace Mal puesto[/COLOR], 4000)")
-  elif 'channel' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'youtube.com/c/' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'youtube.com/user' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)"title":\{"accessibility":\{"accessibilityData":\{"label":".*?".*?simpleText":"(.*?)".*?watch.v=(.*?)"', html)
-  elif 'list' in url:
-    html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    return re.findall('(?s)playlistPanelVideoRenderer".*?simpleText":"(.*?)".*?vi\/(.*?)\/', html)
-  else:
-    titulo2 = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
-    titulo = re.findall('title.":{."simpleText.":."(.*?)"', titulo2)[0]
-    html = url + '2018CristalAzul'
-    enlace = re.findall('v=(.*?)2018CristalAzul', html)[0]
-    return [(titulo, enlace)]
-]]></expres>
-<page></page>
-</regex> 
-<regex>
-<name>id</name>
-<expres><![CDATA[#$pyFunction
-import resolveurl
+import urlresolver
 def GetLSProData(page_data,Cookie_Jar,m):
-  url = 'https://www.youtube.com/watch?v=[link_inteligente.param2]'
-  return resolveurl.resolve(url)
+ url = 'https://www.youtube.com/watch?v=[https://youtu.be/tWtcS4x2NA4]'
+ streamLink = urlresolver.resolve(url)
+ return streamLink
 ]]></expres>
 <page></page>
-</regex>    
-<thumbnail>https://i.imgur.com/ALSge4H.png</thumbnail>
-<fanart>https://i.imgur.com/PAjbyGX.jpg</fanart>
-<info>@addonfestaycristal</info>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
 </item>
 
 
 
 
+ <item>
+<title>[COLOR gold]** [/COLOR][COLOR white]FESTAyCRISTAL FELICITA[COLOR gold] **[/COLOR]</title>
+<link>$doregex[text]</link>
+<regex>
+<name>text</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    dialog.textviewer('FESTAyCRISTAL FELICITA', '[COLOR gold]El equipo Festa y cristal Azul os desea:[/COLOR]\n[COLOR aqua]TANTA SALUD[/COLOR]\n[COLOR white]como gotas tiene la lluvia[/COLOR]\n[COLOR aqua]TANTO AMOR[/COLOR]\n[COLOR white]como rayos de luz, tiene el sol[/COLOR]\n[COLOR aqua]Y TANTA SUERTE[/COLOR]\n[COLOR white]como arena tiene el desierto[/COLOR]\n[COLOR god]FELIZ NAVIDAD[/COLOR]\n[COLOR gold]Y QUE NO PARE LA FESTA.[/COLOR]')
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WVdmcUt.jpg<thumbnail>
+<fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
+</item>
