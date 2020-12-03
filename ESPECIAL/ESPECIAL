@@ -470,7 +470,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/kKmzFLe.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-url = 'https://www.youtube.com/watch?v=v71PU0SAN3I&amp;list=PLgUPuWjkRQv2CPNRJSVey3aoBF9uvsW70'
+url = 'https://www.youtube.com/watch?v=KxJhQTAUqRs&list=PLr28xd8sWTMCSntRQnkCPmQXaDGhAVoqi'
 import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
