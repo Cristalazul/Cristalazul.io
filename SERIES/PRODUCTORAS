@@ -33,7 +33,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/[makelist2.param1]'
+    url= 'https://www.seriespapaya.se/[makelist2.param3]'
     agente = {'User-Agent': AgenteCristal()}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('(?s)location = "([^"]+).*? href="([^"]+).*?img src="([^"]+).*?;([^<]+).*?', extraer.text)
