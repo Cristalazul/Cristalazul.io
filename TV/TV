@@ -79,7 +79,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/V3kqc1G.png</thumbnail>  
-<fanart>https://i.imgur.com/1dZv6kC.jpg</fanart>
+<fanart>https://i.imgur.com/14XyBrY.jpg</fanart>
  </item>
 
 
@@ -90,7 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/TV/tv.enc/pasarela.spain$$LSProEncKey= $$</externallink>
 <link>na</link>
 <thumbnail>https://i.imgur.com/ZVepqUF.png</thumbnail>  
-<fanart>https://i.imgur.com/1dZv6kC.jpg</fanart>
+<fanart>https://i.imgur.com/14XyBrY.jpg</fanart>
 </item>
 
 
@@ -103,7 +103,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/TV/tv.enc/pasarela.latina$$LSProEncKey= $$</externallink>
 <link>na</link>
 <thumbnail>https://i.imgur.com/2vjuf9V.png</thumbnail>  
-<fanart>https://i.imgur.com/1dZv6kC.jpg</fanart>
+<fanart>https://i.imgur.com/14XyBrY.jpg</fanart>
 </item>
 
 
@@ -113,7 +113,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/TV/tv.enc/pasarela.mundial$$LSProEncKey= $$</externallink>
 <link>na</link>
 <thumbnail>https://i.imgur.com/n486XYJ.png</thumbnail>  
-<fanart>https://i.imgur.com/1dZv6kC.jpg</fanart>
+<fanart>https://i.imgur.com/14XyBrY.jpg</fanart>
 </item>
 
 
