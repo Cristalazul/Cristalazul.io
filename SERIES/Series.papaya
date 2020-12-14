@@ -183,7 +183,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>$pyFunction:('www.seriespapaya.se/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')[COLOR lightskyblue] [makelist2.param3] [/COLOR][COLOR gold][makelist2.param4][/COLOR]</title>
+<title>[COLOR lightskyblue] [makelist2.param3] [/COLOR][COLOR gold][makelist2.param4][/COLOR]</title>
 <thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <info>[COLOR lightskyblue][makelist2.param5][/COLOR]</info>
