@@ -31,7 +31,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/[makelist2.param1]'
+    url= 'https://www.seriespapaya.se/serie/[makelist2.param3]'
     agente = {'User-Agent': AgenteCristal()}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('(?s)location = "([^"]+).*? href="([^"]+).*?img src="([^"]+).*?;([^<]+).*?', extraer.text)
@@ -58,7 +58,7 @@ def AgenteCristal():
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/[makelist.param3]'
+    url= 'https://www.seriespapaya.se/[makelist.param2]'
     agente = {'User-Agent': AgenteCristal(), 'Referer': 'https://www.seriespapaya.nu/serie/breaking-bad.html'}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('idioma[\w\W\s]{0,47}images\/(.*?)\.p[\w\W\s]{0,80}fecha\"\>\n(.*?)<[\w\W\s]{0,217}(Upto.*?|Gamo.*?|Vido.*?|Streamch.*?|Gounlimi.*?|Uqload.*?|Ok.*?|Upstreamt.*?|Fembed.*?|Clipwatch.*?)<[\w\W\s]{0,99}href="(.*?)"[\w\W\s]{0,88}calidad">\n(.*?)<', extraer.text)
