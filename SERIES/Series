@@ -73,7 +73,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.text)[0]
@@ -100,7 +100,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -121,7 +121,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
