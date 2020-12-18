@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.text)[0]
@@ -103,7 +103,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -124,7 +124,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -197,7 +197,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][B] [makelist.param4][/B] [COLOR white]entra en los servidores[/COLOR]</title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[picapau2]</link>
 <name>makelist</name>
@@ -213,7 +213,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.text)[0]
@@ -225,7 +225,7 @@ def AgenteCristal():
 <name>picapau2</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist.param4][/COLOR] [COLOR white] [picapau2.param3] [COLOR lightskyblue][picapau2.param5] [COLOR gold]idioma [picapau2.param1][/COLOR] </title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[selecion_inteligente]</link>
 ]]></listrepeat>
@@ -240,7 +240,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -261,7 +261,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -324,7 +324,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][B] [makelist.param4][/B] [COLOR white]entra en los servidores[/COLOR]</title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[picapau2]</link>
 <name>makelist</name>
@@ -340,7 +340,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.text)[0]
@@ -352,7 +352,7 @@ def AgenteCristal():
 <name>picapau2</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist.param4][/COLOR] [COLOR white] [picapau2.param3] [COLOR lightskyblue][picapau2.param5] [COLOR gold]idioma [picapau2.param1][/COLOR] </title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[selecion_inteligente]</link>
 ]]></listrepeat>
@@ -367,7 +367,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -388,7 +388,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -452,7 +452,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][B] [makelist.param4][/B] [COLOR white]entra en los servidores[/COLOR]</title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[picapau2]</link>
 <name>makelist</name>
@@ -468,7 +468,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.text)[0]
@@ -480,7 +480,7 @@ def AgenteCristal():
 <name>picapau2</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist.param4][/COLOR] [COLOR white] [picapau2.param3] [COLOR lightskyblue][picapau2.param5] [COLOR gold]idioma [picapau2.param1][/COLOR] </title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[selecion_inteligente]</link>
 ]]></listrepeat>
@@ -495,7 +495,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
@@ -516,7 +516,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return ExpresCristal
 
 def AgenteCristal():
-    url= 'https://pastebin.com/raw/KfH67FfV'
+    url= 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/AgenteCristal'
     agente = {'User-Agent': 'Mozilla/5.0'}
     extraer = requests.get(url, headers=agente)
     AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
