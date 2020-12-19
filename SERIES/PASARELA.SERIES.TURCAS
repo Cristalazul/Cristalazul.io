@@ -9,7 +9,7 @@
 <title>[COLOR aqua][makelist2.param1][/COLOR]</title>
 <info>[COLOR aqua]Grupo telegram: [COLOR gold]@addonfestaycristal[/COLOR]</info>
 <link>$doregex[makelist]</link>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/uploads/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.se/uploads/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/').replace('https://www.seriespapaya.se/uploads/https://i.imgur.com/w6VUR30.png','https://i.imgur.com/w6VUR30.png')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
@@ -133,37 +133,29 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <regex>
   <name>capitulos</name>
   <listrepeat><![CDATA[
-    <title>[COLOR white][capitulos.param1][COLOR gold][capitulos.param2][/COLOR]</title>
+    <title>[COLOR white][capitulos.param1][/COLOR]</title>
     <thumbnail>https://i.pinimg.com/474x/b8/41/80/b84180293465528b5dc2dcea8c443832.jpg</thumbnail>
     <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
     <link>$doregex[id5]</link>
   ]]></listrepeat>
-<expres><![CDATA[title="(Fuerza de Mujer)(.*?)".*?href="(.*?)">.*?]]></expres>  
-<page>https://turcasmania.com/fuerza-de-mujer-capitulos-online/</page>
+<expres><![CDATA[(Capitulo.*?)[\n\r]+([^\r\n]+)]]></expres>  
+<page>https://pastebin.com/raw/U4D20uDL</page>
 </regex>
-
-<regex>
-<name>enlace</name>
-<expres>(?s)title="Doodstream">.*?src="(.*?)"</expres>
-<page>[capitulos.param3]</page>
-</regex>
-
 
 <regex>
 <name>id5</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
   import resolveurl,xbmc 
-  url = '$doregex[enlace]'
+  url = '[capitulos.param2]'
   try:
     u = resolveurl.resolve(url)
   except:
-    u = xbmc.executebuiltin("XBMC.Notification([COLOR red]RevoLuar[/COLOR],[COLOR yellow]Enlace caido[/COLOR],4000)")
+    u = xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR yellow]Enlace caido[/COLOR],4000)")
   return u    
 ]]></expres>
 <page></page> 
 </regex>
-
 <thumbnail>https://i.imgur.com/ylKGzs8.jpg</thumbnail>
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
