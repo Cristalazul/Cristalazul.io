@@ -940,7 +940,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <item>
 <title>[COLOR aqua]@addonfestaycristal[/COLOR]</title>
 <link>http://ignorame</link>
-<externallink>http://bit.ly/submenus$doregex[search]$$LSProEncKey= $$</externallink>
+<externallink>http://bit.ly/submenu_gith$doregex[search]$$LSProEncKey= $$</externallink>
 <regex>
 <name>search</name>
 <expres><![CDATA[#$pyFunction
