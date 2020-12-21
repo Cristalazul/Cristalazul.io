@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<items_info> 
+      <title>[COLOR lightskyblue]*^Cristal Azul^* V=0.0.12[/COLOR]</title> 
+      <genre>tv premium, deportes, cine, series y documentales</genre>
+      <description>[COLOR lightskyblue]addon cristal azul[/COLOR]</description>
+      <thumbnail>https://i.imgur.com/bg6n3AV.png</thumbnail>
+      <fanart>https://i.imgur.com/bg6n3AV.png</fanart>
+      <date>[COLOR red]tv premium, deportes, cine, series y documentales[/COLOR]</date>
+      <credits>picapau,lourdes,supertopo,luisma</credits>
+    </items_info>
+
+
 
 
 <item>
