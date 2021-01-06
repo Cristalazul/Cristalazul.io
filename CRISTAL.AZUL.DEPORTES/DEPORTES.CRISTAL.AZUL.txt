@@ -34,7 +34,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>Numancia vs Almeria</title>
+<title>[COLOR white]Numancia vs Almeria[/COLOR]</title>
 <link>plugin://plugin.video.twitch/?channel_id=201868217&amp;mode=play</link>
 <thumbnail>https://i.imgur.com/s9vmydi.png</thumbnail>
 <fanart>https://i.imgur.com/sv5yRUU.jpg</fanart>
