@@ -108,11 +108,13 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 
 <item>
 <title>[COLOR chartreuse]* [COLOR white]DEPORTES[/COLOR]</title>
-<link>$doregex[lou]</link>
-<jsonrpc>plugin://plugin.video.cristalazul/?fanart=https%3a%2f%2fi.imgur.com%2fbg6n3AV.png&amp;mode=1&amp;name=%5bCOLOR%20white%5dDEPORTES%5b%2fCOLOR%5d&amp;url=http%3a%2f%2fbit.ly%2fcristalazuldeportes</jsonrpc>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CRISTAL.AZUL.DEPORTES/DEPORTES.CRISTAL.AZUL.txt</externallink>
+<link>na</link>
 <thumbnail>https://i.imgur.com/hQwDRDd.png</thumbnail>
 <fanart>https://i.imgur.com/dlaTOZK.jpg</fanart>
 </item>
+
+
 
 
 <item>
