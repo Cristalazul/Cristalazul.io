@@ -17,7 +17,7 @@
 <regex>
  <name>lou</name>  
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2][/COLOR]     [lou.param4]</title>
+<title>[COLOR white][lou.param2][/COLOR] [COLOR gold][lou.param4]</title>
 <link>$doregex[enlaces]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>[lou.param5]</fanart>
@@ -37,7 +37,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>enlaces</name>
 <listrepeat><![CDATA[
-        <title>[COLOR white][lou.param2][/COLOR]:[COLOR white][enlaces.param2][/COLOR]</title>
+        <title>[COLOR white][lou.param2][/COLOR]:[COLOR orange][enlaces.param2][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>[lou.param5]</thumbnail>
     <fanart>[lou.param5]</fanart>
