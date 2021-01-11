@@ -61,49 +61,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
+<!--
 <item>
 <title>[COLOR gold]* [COLOR lightsalmon]Supercine [COLOR white]Latino[/COLOR]</title>
-<link>$doregex[makelist0]</link>
 
-<regex>
-<name>makelist0</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist0.param1][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<thumbnail>https://i.imgur.com/yoOu3Bc.png</thumbnail>
-<fanart>https://i.imgur.com/daGCtqN.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[-(.*?)="(.*?)"]]></expres>
-<page>-[COLOR gold]* [COLOR white]Ultimas Agregadas[/COLOR]="ltimas Agregadas"
--[COLOR gold]* [COLOR white]Estrenos (FHD)[/COLOR]="Estrenos.*?Buena"
--[COLOR gold]* [COLOR white]Estrenos (SD)[/COLOR]="Estrenos.*?Mala"
--[COLOR gold]* [COLOR white]Doble Audio FULLHD[/COLOR]="Doble Audio"
--[COLOR gold]* [COLOR white]FullHD[/COLOR]="Full HD"
--[COLOR gold]* [COLOR white]Especiales [COLOR red]Netflix[/COLOR]="Especiales"
--[COLOR gold]* [COLOR white]Acción[/COLOR]="Acci"
--[COLOR gold]* [COLOR white]Aventura[/COLOR]="Aventura"
--[COLOR gold]* [COLOR white]Animación[/COLOR]="Animaci"</page>
-<referer>http://cinetux.tv/</referer>
-</regex>
-
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][makelist.param2][/COLOR]</title>
-<link>[makelist.param3]</link>
-<thumbnail>[makelist.param1]</thumbnail>
-<fanart>https://i.imgur.com/daGCtqN.jpg</fanart>
-]]></listrepeat>
-<expres><![CDATA[[makelist0.param2].*?logo="(.*?)".*?\,(.*?)\n(http.*?(mkv|mp4))]]></expres>
-<page>http://bit.ly/novasajugartusolo</page>
-<referer>http://cinetux.tv/</referer>
-</regex>
 <thumbnail>https://i.imgur.com/yoOu3Bc.png</thumbnail>
 <fanart>https://i.imgur.com/daGCtqN.jpg</fanart>
 </item>
 
-
+-->
 
 
 
