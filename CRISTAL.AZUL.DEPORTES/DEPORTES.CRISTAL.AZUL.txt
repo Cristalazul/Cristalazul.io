@@ -28,7 +28,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/bg6n3AV.png</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
--->
+
 
 
 
@@ -39,7 +39,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/s9vmydi.png</thumbnail>
 <fanart>https://i.imgur.com/sv5yRUU.jpg</fanart>
 </item>
-
+-->
 
 
 
