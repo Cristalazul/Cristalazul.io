@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
 
 
-
+<!--
 
  <item>
 <title>[COLOR gold]ESPECIAL [COLOR white]Navidad[/COLOR]</title>
@@ -66,12 +66,7 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 <fanart>https://i.imgur.com/6Ts8E1Z.jpg</fanart>
 </item>
 
- 
- 
 
-
-
-<!--
 <item>
 <title>[COLOR chartreuse]* [COLOR white]TV[/COLOR]</title> 
 <link>$doregex[lou]</link>
@@ -84,11 +79,13 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 
 <item>
 <title>[COLOR chartreuse]* [COLOR white]TV[/COLOR]</title> 
-<link>https://ignoreme</link>
-<externallink>https://pastebin.com/raw/mVmwUmut$$LSProEncKey= $$</externallink>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/TV/tv.enc/pasarela.latina$$LSProEncKey= $$</externallink>
+<link>na</link>
 <thumbnail>https://i.imgur.com/e4CSUGC.png</thumbnail>
 <fanart>https://i.imgur.com/dlaTOZK.jpg</fanart>
 </item>
+
+
 
 
 
