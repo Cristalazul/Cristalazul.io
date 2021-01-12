@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR orangered]SERIES TURCAS[/COLOR] [COLOR white]Cristal Azul[/COLOR]</title>
+<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal Azul[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -127,7 +127,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 <item>
-<title>[COLOR aqua]ESPECIAL [COLOR white]Fuerza de Mujer [COLOR red]audio latino[/COLOR]</title>  
+<title>[COLOR orangered]ESPECIAL [COLOR white]Fuerza de Mujer [COLOR gold]audio latino[/COLOR]</title>  
 <link>$doregex[capitulos]</link>
  
 <regex>
@@ -158,4 +158,34 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <thumbnail>https://i.imgur.com/ylKGzs8.jpg</thumbnail>
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR orangered]ESTRENO [COLOR white]Love Is In The Air [/COLOR]</title>
+<link>$doregex[novelas]</link>  
+<regex>
+<name>novelas</name>  
+<listrepeat><![CDATA[
+<title>[COLOR red][novelas.param2][/COLOR]</title> 
+<thumbnail>https://1.bp.blogspot.com/-lf0BvzIw2tg/X_AwFapmUqI/AAAAAAAACT4/Q2WGm6RKHScP3CFOoSXYHa-Pu-xlvVbowCLcBGAsYHQ/w400-h225/66383619_10218565909329894_3508262809316098048_n.jpg</thumbnail> 
+<fanart>https://i.imgur.com/j9xEwA2.jpg</fanart> 
+<link>$doregex[final]</link> 
+]]></listrepeat>
+<expres><![CDATA[<a href="(.*?)".*?>(.*?)<.*?]]></expres>
+<page>http://seriestvblogger.blogspot.com/2021/01/love-is-in-air-sen-cal-kapm-espanol.html</page>
+<regex>
+<name>final</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m,url='[novelas.param1]'):
+    import resolveurl
+    u = resolveurl.resolve(url)
+    return u
+]]></expres>
+<page></page>
+</regex>
+<info>Eda Yıldız es una joven vendedora de flores que se enfrenta a Serkan Bolat, un rico heredero, cuando la chica va a realizar sus estudios en el extranjero y pierde la beca por culpa de este. Así, Bolat le propone un trato: si acepta pasar dos meses con él como si fuese su prometida, le ayudará a pagar sus estudios. Aunque al principio la relación no es buena, a medida que pasan los días cambia radicalmente</info>
+<thumbnail>https://1.bp.blogspot.com/-lf0BvzIw2tg/X_AwFapmUqI/AAAAAAAACT4/Q2WGm6RKHScP3CFOoSXYHa-Pu-xlvVbowCLcBGAsYHQ/w400-h225/66383619_10218565909329894_3508262809316098048_n.jpg</thumbnail> 
+<fanart>https://i.imgur.com/j9xEwA2.jpg</fanart> 
+ <info>Gracias Novelas Stream por compartirla</info> 
 </item>
