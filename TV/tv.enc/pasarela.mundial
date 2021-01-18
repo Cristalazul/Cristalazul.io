@@ -1,1 +1,299 @@
-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
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+------------------------------------------------------------------------------------------------------------------------------
+
+<item>
+<title>[COLOR orangered] **** [COLOR gold] NECESARIO VPN PARA ALGUNAS OPERADORAS [COLOR orangered] **** [/COLOR]</title>
+<externallink>$$LSProEncKey= $$</externallink>
+<link>na</link>
+<thumbnail>https://i.imgur.com/1ACcfrK.jpg</thumbnail>  
+<fanart>https://i.imgur.com/1dZv6kC.jpg</fanart>
+</item>
+
+------------------------------------------------------------------------------------------------------------------------------
+
+
+<item> 
+<title>[COLOR lightskyblue]TV chikiry_cristal[COLOR white] THE CAT_EUROPA[/COLOR]</title> 
+<link>$doregex[makelist]</link> 
+<regex> 
+<name>makelist</name> 
+<listrepeat><![CDATA[ 
+<title>Pagina [makelist.param1]</title> 
+<link>$doregex[makelist2]</link> 
+<thumbnail>https://i.imgur.com/43scIbD.png</thumbnail> 
+<fanart>https://i.imgur.com/Dn9heUa.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction 
+import re 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  lastpg=re.findall('data-ci-pagination-page="(\d+)"><i\s*class',page_data)[0] 
+  return [(str(pages),) for pages in range(1,int(lastpg)+1)] 
+]]></expres> 
+<page>https://iptvcat.com/europe_-/</page> 
+</regex> 
+<regex> 
+<name>makelist2</name> 
+<listrepeat><![CDATA[ 
+<title>[makelist2.param1] [makelist2.param2]</title> 
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=ChikiryCristal Tv&amp;url=[makelist2.param3]?OPT:http-reconnect=true</link> 
+<thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail> 
+<fanart>http://catfishing-uk.com/wp-content/uploads/2020/09/depositphotos_76034327-stock-photo-web-design-concept-iptv-on.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction 
+import requests,re 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  response = requests.get('https://iptvcat.com/europe_-/[makelist.param1]', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://iptvcat.com/'}, timeout=10, verify=False).content
+  items = re.findall('(?s)div>" title="(.*?)".*?green.*?title="(.*?)".*?text="(.*?)".*?.+?data-clipboard-text=".*?"', response)
+  videos = []
+  for item in items:
+    if 'CAZA' in item[0] or 'Offline' in item[1]:
+        item0 = ''
+    else:
+        item0 = item[0]
+        item1 = item[1].replace('Online','[COLOR green]ON[/COLOR]').replace('Offline','[COLOR red]OFF[/COLOR]')
+        videos += [(item0, item1, item[2])]
+  return videos
+]]></expres> 
+<page></page> 
+</regex> 
+<thumbnail>https://i.imgur.com/3Zp0Dhd.png</thumbnail> 
+<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
+</item>
+
+
+=================================================================================================
+
+
+
+<item> 
+<title>[COLOR lightskyblue]TV chikiry_cristal[COLOR white] THE CAT_NORT.AMERICA[/COLOR]</title> 
+<link>$doregex[makelist]</link> 
+<regex> 
+<name>makelist</name> 
+<listrepeat><![CDATA[ 
+<title>Pagina [makelist.param1]</title> 
+<link>$doregex[makelist2]</link> 
+<thumbnail>https://i.imgur.com/43scIbD.png</thumbnail> 
+<fanart>https://i.imgur.com/Dn9heUa.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction 
+import re 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  lastpg=re.findall('data-ci-pagination-page="(\d+)"><i\s*class',page_data)[0] 
+  return [(str(pages),) for pages in range(1,int(lastpg)+1)] 
+]]></expres> 
+<page>https://iptvcat.com/north_america_/</page> 
+</regex> 
+<regex> 
+<name>makelist2</name> 
+<listrepeat><![CDATA[ 
+<title>[makelist2.param1] [makelist2.param2]</title> 
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=ChikiryCristal Tv&amp;url=[makelist2.param3]?OPT:http-reconnect=true</link> 
+<thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail> 
+<fanart>http://catfishing-uk.com/wp-content/uploads/2020/09/depositphotos_76034327-stock-photo-web-design-concept-iptv-on.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction 
+import requests,re 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  response = requests.get('https://iptvcat.com/north_america_/[makelist.param1]', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://iptvcat.com/'}, timeout=10, verify=False).content
+  items = re.findall('(?s)div>" title="(.*?)".*?green.*?title="(.*?)".*?text="(.*?)".*?.+?data-clipboard-text=".*?"', response)
+  videos = []
+  for item in items:
+    if 'CAZA' in item[0] or 'Offline' in item[1]:
+        item0 = ''
+    else:
+        item0 = item[0]
+        item1 = item[1].replace('Online','[COLOR green]ON[/COLOR]').replace('Offline','[COLOR red]OFF[/COLOR]')
+        videos += [(item0, item1, item[2])]
+  return videos
+]]></expres> 
+<page></page> 
+</regex> 
+<thumbnail>https://i.imgur.com/3Zp0Dhd.png</thumbnail> 
+<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
+</item>
+
+======================================================================================================================
+
+
+<item> 
+<title>[COLOR lightskyblue]TV chikiry_cristal[COLOR white] THE CAT_ASIA[/COLOR]</title> 
+<link>$doregex[makelist]</link> 
+<regex> 
+<name>makelist</name> 
+<listrepeat><![CDATA[ 
+<title>Pagina [makelist.param1]</title> 
+<link>$doregex[makelist2]</link> 
+<thumbnail>https://i.imgur.com/43scIbD.png</thumbnail> 
+<fanart>https://i.imgur.com/Dn9heUa.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction 
+import re 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  lastpg=re.findall('data-ci-pagination-page="(\d+)"><i\s*class',page_data)[0] 
+  return [(str(pages),) for pages in range(1,int(lastpg)+1)] 
+]]></expres> 
+<page>https://iptvcat.com/asia_/</page> 
+</regex> 
+<regex> 
+<name>makelist2</name> 
+<listrepeat><![CDATA[ 
+<title>[makelist2.param1] [makelist2.param2]</title> 
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=ChikiryCristal Tv&amp;url=[makelist2.param3]?OPT:http-reconnect=true</link> 
+<thumbnail>https://iptvcat.com/res/images/logo_iptvcat.png</thumbnail> 
+<fanart>http://catfishing-uk.com/wp-content/uploads/2020/09/depositphotos_76034327-stock-photo-web-design-concept-iptv-on.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction 
+import requests,re 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  response = requests.get('https://iptvcat.com/asia_/[makelist.param1]', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://iptvcat.com/'}, timeout=10, verify=False).content
+  items = re.findall('(?s)div>" title="(.*?)".*?green.*?title="(.*?)".*?text="(.*?)".*?.+?data-clipboard-text=".*?"', response)
+  videos = []
+  for item in items:
+    if 'CAZA' in item[0] or 'Offline' in item[1]:
+        item0 = ''
+    else:
+        item0 = item[0]
+        item1 = item[1].replace('Online','[COLOR green]ON[/COLOR]').replace('Offline','[COLOR red]OFF[/COLOR]')
+        videos += [(item0, item1, item[2])]
+  return videos
+]]></expres> 
+<page></page> 
+</regex> 
+<thumbnail>https://i.imgur.com/3Zp0Dhd.png</thumbnail> 
+<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
+</item>
+
+===================================================================================================================
+
+<!--
+
+<item>
+<title>[COLOR lightskyblue]No Estable [COLOR white]Multilistas Mundiales[/COLOR]</title> 
+<link>$doregex[cristaltv]</link>
+<regex>
+<name>cristaltv</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][cristaltv.param2][/COLOR]</title>
+<thumbnail>https://i.imgur.com/YHlUlb3.png</thumbnail>  
+<fanart>https://i.imgur.com/Vi4y6TF.jpg</fanart>
+<link>$doregex[cristal3]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)urlmund='(.*?)','(.*?)']]></expres>
+<page>https://pastebin.com/raw/F8S1eYmJ</page>
+</regex>
+<regex>
+<name>cristal3</name>
+<listrepeat><![CDATA[
+<title>[COLOR white]$doregex[titulo][/COLOR]</title>
+<thumbnail>$doregex[img]</thumbnail>  
+<fanart>https://i.imgur.com/Vi4y6TF.jpg</fanart>
+<link>$doregex[plugin]$doregex[formato]</link>
+]]></listrepeat>
+<expres><![CDATA[#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)]]></expres>
+<page>$doregex[final_lista]</page> 
+</regex>
+<regex>
+<name>titulo</name>
+<expres>$pyFunction:('[cristal3.param2]').replace('|','').replace(',','').replace('-','')</expres>
+<page></page>
+</regex>
+<regex>
+<name>final_lista</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url='[cristaltv.param1]'):#cPrLItsLTfakl
+  pastebin = 'https://pastebin.com/u/Hectobo roba'
+  pastebin = 'https://pastebin.com/raw/zA16Z1sa'
+  pastebin = 'https://pastebin.com/raw/Abn4kQwe'
+  pastebin = 'https://pastebin.com/raw/ZpvBwAqN'
+  if 'username' in url:
+    return url.replace('amp;', '')
+  else:
+    return url
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>formato</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url='[cristal3.param3]'):#cPrLItsLTfakl
+  if 'plugin://' in url:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando Addon Externo[/COLOR],[COLOR gold][/COLOR], 5000)')
+    return url
+  elif 'acestream' in url:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando Acestream[/COLOR],[COLOR gold]Necesario Plexus y Acestream[/COLOR], 5000)')
+    return 'plugin://program.plexus/?url=' +url+ '&mode=1&name=[COLOR aqua] By Cristal Azul[/COLOR]'
+  elif 'm3u8' in url:
+    return '/?streamtype=HLSRETRY&name=$doregex[titulo]&url=[cristal3.param3]'
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando f4mTester[/COLOR],[COLOR gold]Para dar estabilidad[/COLOR], 5000)')
+  elif '.ts' in url:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando f4mTester[/COLOR],[COLOR gold]Para dar estabilidad[/COLOR], 5000)')
+    return '/?streamtype=TSDOWNLOADER&name=$doregex[titulo]&url=[cristal3.param3]'
+  elif '.mkv' in url:
+    return url+'|user-agent=ipad&referer=[cristal3.param3]'
+  elif '.mp4' in url:
+    return url+'|user-agent=ipad&referer=[cristal3.param3]'
+  elif 'EXTINF' in url:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]No Existe Enlace[COLOR gold] En Estos Momentos[/COLOR],[COLOR gold][/COLOR], 5000)')
+    return 'no hay'
+  else:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando f4mTester[/COLOR],[COLOR gold]Para dar estabilidad[/COLOR], 5000)')
+    return '/?streamtype=TSDOWNLOADER&name=$doregex[titulo]&url=[cristal3.param3]'
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>plugin</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url='[cristal3.param3]'):#cPrLItsLTfakl
+ 
+  if 'plugin://' in url:
+    return ''
+  elif 'acestream' in url:
+    return ''
+  elif '.mp4' in url:
+    return ''
+  elif '.mkv' in url:
+    return ''
+  elif '.m3u8' in url:
+    return 'plugin://plugin.video.f4mTester'
+  elif 'EXTINF' in url:
+    return 'no hay'
+  elif '.ts' in url:
+    return 'plugin://plugin.video.f4mTester'
+  else:
+    return 'plugin://plugin.video.f4mTester'
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>img</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url='[cristal3.param1][cristal3.param2]'):#cPrLItsLTfakl
+  if not 'jpg' or not 'png' in url:
+    return 'https://i.imgur.com/8olt8cS.png'
+  elif 'tvg-logo' in url:
+    return re.findall('tvg-logo=[\'"](.*?)[\'"]', url, re.DOTALL)[0]
+  else:
+    return 'https://i.imgur.com/8olt8cS.png'
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/iOxvHl0.png</thumbnail>
+<fanart>https://i.imgur.com/Vi4y6TF.jpg</fanart>
+</item>
+-->
+
+
+<item>
+ <title>[COLOR lightskyblue]No Estable [COLOR white]Iptv World[/COLOR]</title> 
+<link>https://ignoreme</link>
+<externallink>https://pastebin.com/raw/Gh56X85M</externallink>
+<thumbnail>https://i.imgur.com/n486XYJ.png</thumbnail>
+<fanart>https://i.imgur.com/Vi4y6TF.jpg</fanart>
+</item>
