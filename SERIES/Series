@@ -541,7 +541,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <title>[COLOR aqua][makelist2.param1][/COLOR]</title>
 <info>[COLOR aqua]Grupo telegram: [COLOR gold]@addonfestaycristal[/COLOR]</info>
 <link>$doregex[makelist]</link>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/uploads/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/').replace('https://www.seriespapaya.se/uploads/https://i.imgur.com/bVddFrl.png','https://i.imgur.com/bVddFrl.png')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.io/uploads/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/').replace('https://www.seriespapaya.io/uploads/https://i.imgur.com/bVddFrl.png','https://i.imgur.com/bVddFrl.png')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
@@ -554,7 +554,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][B] [makelist.param4][/B] [COLOR white]entra en los servidores[/COLOR]</title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.io[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[picapau2]</link>
 <name>makelist</name>
@@ -563,7 +563,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/serie/[makelist2.param3]'
+    url= 'https://www.seriespapaya.io/[makelist2.param1]'
     agente = {'User-Agent': AgenteCristal()}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('(?s)location = "([^"]+).*? href="([^"]+).*?img src="([^"]+).*?;([^<]+).*?', extraer.text)
@@ -582,7 +582,7 @@ def AgenteCristal():
 <name>picapau2</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist.param4][/COLOR] [COLOR white] [picapau2.param3] [COLOR lightskyblue][picapau2.param5] [COLOR gold]idioma [picapau2.param1][/COLOR] </title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.io[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[selecion_inteligente]</link>
 ]]></listrepeat>
@@ -590,7 +590,7 @@ def AgenteCristal():
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/[makelist.param2]'
+    url= 'https://www.seriespapaya.io/[makelist.param2]'
     agente = {'User-Agent': AgenteCristal(), 'Referer': 'https://www.seriespapaya.nu/serie/breaking-bad.html'}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('idioma[\w\W\s]{0,47}images\/(.*?)\.p[\w\W\s]{0,80}fecha\"\>\n(.*?)<[\w\W\s]{0,217}(Upto.*?|Gamo.*?|Vido.*?|Streamch.*?|Gounlimi.*?|Uqload.*?|Ok.*?|Upstreamt.*?|Fembed.*?|Clipwatch.*?)<[\w\W\s]{0,99}href="(.*?)"[\w\W\s]{0,88}calidad">\n(.*?)<', extraer.text)
@@ -611,7 +611,7 @@ def AgenteCristal():
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/[picapau2.param4]'
+    url= 'https://www.seriespapaya.io/[picapau2.param4]'
     agente = {'User-Agent': AgenteCristal(), 'Referer': 'https://www.seriespapaya.nu/serie/breaking-bad.html'}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall("location\.href='(.*?)'", extraer.content)[0]
@@ -667,7 +667,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <title>[COLOR aqua][makelist2.param1][/COLOR]</title>
 <info>[COLOR aqua]Grupo telegram: [COLOR gold]@addonfestaycristal[/COLOR]</info>
 <link>$doregex[makelist]</link>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se/uploads/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/').replace('https://www.seriespapaya.se/uploads/https://i.imgur.com/nelRTMH.png','https://i.imgur.com/nelRTMH.png')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.io/uploads/[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/').replace('https://www.seriespapaya.io/uploads/https://i.imgur.com/nelRTMH.png','https://i.imgur.com/nelRTMH.png')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
@@ -680,7 +680,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][B] [makelist.param4][/B] [COLOR white]entra en los servidores[/COLOR]</title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.io[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[picapau2]</link>
 <name>makelist</name>
@@ -689,7 +689,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/serie/[makelist2.param3]'
+    url= 'https://www.seriespapaya.io/[makelist2.param1]'
     agente = {'User-Agent': AgenteCristal()}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('(?s)location = "([^"]+).*? href="([^"]+).*?img src="([^"]+).*?;([^<]+).*?', extraer.text)
@@ -708,7 +708,7 @@ def AgenteCristal():
 <name>picapau2</name>
 <listrepeat><![CDATA[
 <title>[COLOR lightskyblue][makelist.param4][/COLOR] [COLOR white] [picapau2.param3] [COLOR lightskyblue][picapau2.param5] [COLOR gold]idioma [picapau2.param1][/COLOR] </title>
-<thumbnail>$pyFunction:('https://www.seriespapaya.se[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
+<thumbnail>$pyFunction:('https://www.seriespapaya.io[makelist2.param2]|user-agent=Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F86.0.4240.183+Safari%2F537.36').replace('\u00f1','%C3%B1').replace('\/','/')</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[selecion_inteligente]</link>
 ]]></listrepeat>
@@ -716,7 +716,7 @@ def AgenteCristal():
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/[makelist.param2]'
+    url= 'https://www.seriespapaya.io/[makelist.param2]'
     agente = {'User-Agent': AgenteCristal(), 'Referer': 'https://www.seriespapaya.nu/serie/breaking-bad.html'}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('idioma[\w\W\s]{0,47}images\/(.*?)\.p[\w\W\s]{0,80}fecha\"\>\n(.*?)<[\w\W\s]{0,217}(Upto.*?|Gamo.*?|Vido.*?|Streamch.*?|Gounlimi.*?|Uqload.*?|Ok.*?|Upstreamt.*?|Fembed.*?|Clipwatch.*?)<[\w\W\s]{0,99}href="(.*?)"[\w\W\s]{0,88}calidad">\n(.*?)<', extraer.text)
@@ -737,7 +737,7 @@ def AgenteCristal():
 import re , requests , xbmc , xbmcaddon , xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://www.seriespapaya.se/[picapau2.param4]'
+    url= 'https://www.seriespapaya.io/[picapau2.param4]'
     agente = {'User-Agent': AgenteCristal(), 'Referer': 'https://www.seriespapaya.nu/serie/breaking-bad.html'}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall("location\.href='(.*?)'", extraer.content)[0]
