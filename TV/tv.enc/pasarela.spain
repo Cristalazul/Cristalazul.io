@@ -135,49 +135,8 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 <item> 
-<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Channels_Spain The Cat[/COLOR]</title> 
-<link>$doregex[makelist]</link> 
-<regex> 
-<name>makelist</name> 
-<listrepeat><![CDATA[ 
-<title>[COLOR orangered] Lista [makelist.param1][/COLOR]</title> 
-<link>$doregex[makelist2]</link> 
-<thumbnail>https://i.imgur.com/Z2uD47a.jpg</thumbnail> 
-<fanart>https://i.imgur.com/fp05txz.jpg</fanart> 
-]]></listrepeat> 
-<expres><![CDATA[#$pyFunction 
-import re 
-def GetLSProData(page_data,Cookie_Jar,m): 
-  lastpg=re.findall('data-ci-pagination-page="(\d+)"><i\s*class',page_data)[0] 
-  return [(str(pages),) for pages in range(1,int(lastpg)+1)] 
-]]></expres> 
-<page>https://iptvcat.com/spain_-/</page> 
-</regex> 
-<regex> 
-<name>makelist2</name> 
-<listrepeat><![CDATA[ 
-<title>[COLOR white][makelist2.param1] [/COLOR] [makelist2.param2]</title> 
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=ChikiryCristal Tv&amp;url=[makelist2.param3]?OPT:http-reconnect=true</link> 
-<thumbnail>https://i.imgur.com/Z2uD47a.jpg</thumbnail> 
-<fanart>https://i.imgur.com/fp05txz.jpg</fanart> 
-]]></listrepeat> 
-<expres><![CDATA[#$pyFunction 
-import requests,re 
-def GetLSProData(page_data,Cookie_Jar,m): 
-  response = requests.get('https://iptvcat.com/spain_-/[makelist.param1]', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://iptvcat.com/'}, timeout=10, verify=False).content
-  items = re.findall('(?s)div>" title="(.*?)".*?green.*?title="(.*?)".*?text="(.*?)".*?.+?data-clipboard-text=".*?"', response)
-  videos = []
-  for item in items:
-    if 'CAZA' in item[0] or 'Offline' in item[1]:
-        item0 = ''
-    else:
-        item0 = item[0]
-        item1 = item[1].replace('Online','[COLOR green]ON[/COLOR]').replace('Offline','[COLOR red]OFF[/COLOR]')
-        videos += [(item0, item1, item[2])]
-  return videos
-]]></expres> 
-<page></page> 
-</regex> 
+<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Channels_Spain The Cat [COLOR gold]En mantenimiento[/COLOR]</title> 
+
 <thumbnail>https://i.imgur.com/RRMufBH.png</thumbnail> 
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
@@ -186,120 +145,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Multilistas España[/COLOR]</title>
-<link>$doregex[cristaltv]</link>
-<regex>
-<name>cristaltv</name>
-<listrepeat><![CDATA[
-<title>[COLOR white][cristaltv.param2][/COLOR]</title>
-<thumbnail>https://i.imgur.com/YHlUlb3.png</thumbnail>  
-<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
-<link>$doregex[cristal3]</link>
-]]></listrepeat>
-<expres><![CDATA[(?s)urlcast='(.*?)','(.*?)']]></expres>
-<page>https://www.dropbox.com/s/xzvv2obzhppwnpk/base%20chikiry%20cristal%20spain.txt?dl=1</page>
-</regex>
-<regex>
-<name>cristal3</name>
-<listrepeat><![CDATA[
-<title>[COLOR white]$doregex[titulo][/COLOR]</title>
-<thumbnail>$doregex[img]</thumbnail>  
-<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
-<link>$doregex[plugin]$doregex[formato]</link>
-]]></listrepeat>
-<expres><![CDATA[#EXTINF:(.+?),(.*?)[\n\r]+([^\r\n]+)]]></expres>
-<page>$doregex[final_lista]</page> 
-</regex>
-<regex>
-<name>titulo</name>
-<expres>$pyFunction:('[cristal3.param2]').replace('|','').replace(',','').replace('-','')</expres>
-<page></page>
-</regex>
-<regex>
-<name>final_lista</name>
-<expres><![CDATA[#$pyFunction
-import re,requests,xbmc
-def GetLSProData(page_data,Cookie_Jar,m,url='[cristaltv.param1]'):#cPrLItsLTfakl
-  pastebin = 'https://pastebin.com/u/Hectobo roba'
-  pastebin = 'https://pastebin.com/raw/zA16Z1sa'
-  pastebin = 'https://pastebin.com/raw/Abn4kQwe'
-  pastebin = 'https://pastebin.com/raw/ZpvBwAqN'
-  if 'username' in url:
-    return url.replace('amp;', '')
-  else:
-    return url
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>formato</name>
-<expres><![CDATA[#$pyFunction
-import re,requests,xbmc
-def GetLSProData(page_data,Cookie_Jar,m,url='[cristal3.param3]'):#cPrLItsLTfakl
-  if 'plugin://' in url:
-    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando Addon Externo[/COLOR],[COLOR gold][/COLOR], 5000)')
-    return url
-  elif 'acestream' in url:
-    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando Acestream[/COLOR],[COLOR gold]Necesario Plexus y Acestream[/COLOR], 5000)')
-    return 'plugin://program.plexus/?url=' +url+ '&mode=1&name=[COLOR aqua] By Cristal Azul[/COLOR]'
-  elif 'm3u8' in url:
-    return '/?streamtype=HLSRETRY&name=$doregex[titulo]&url=[cristal3.param3]'
-    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando f4mTester[/COLOR],[COLOR gold]Para dar estabilidad[/COLOR], 5000)')
-  elif '.ts' in url:
-    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando f4mTester[/COLOR],[COLOR gold]Para dar estabilidad[/COLOR], 5000)')
-    return '/?streamtype=TSDOWNLOADER&name=$doregex[titulo]&url=[cristal3.param3]'
-  elif '.mkv' in url:
-    return url+'|user-agent=ipad&referer=[cristal3.param3]'
-  elif '.mp4' in url:
-    return url+'|user-agent=ipad&referer=[cristal3.param3]'
-  elif 'EXTINF' in url:
-    xbmc.executebuiltin('XBMC.Notification([COLOR white]No Existe Enlace[COLOR gold] En Estos Momentos[/COLOR],[COLOR gold][/COLOR], 5000)')
-    return 'no hay'
-  else:
-    xbmc.executebuiltin('XBMC.Notification([COLOR white]Lanzando f4mTester[/COLOR],[COLOR gold]Para dar estabilidad[/COLOR], 5000)')
-    return '/?streamtype=TSDOWNLOADER&name=$doregex[titulo]&url=[cristal3.param3]'
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>plugin</name>
-<expres><![CDATA[#$pyFunction
-import re,requests,xbmc
-def GetLSProData(page_data,Cookie_Jar,m,url='[cristal3.param3]'):#cPrLItsLTfakl
- 
-  if 'plugin://' in url:
-    return ''
-  elif 'acestream' in url:
-    return ''
-  elif '.mp4' in url:
-    return ''
-  elif '.mkv' in url:
-    return ''
-  elif '.m3u8' in url:
-    return 'plugin://plugin.video.f4mTester'
-  elif 'EXTINF' in url:
-    return 'no hay'
-  elif '.ts' in url:
-    return 'plugin://plugin.video.f4mTester'
-  else:
-    return 'plugin://plugin.video.f4mTester'
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>img</name>
-<expres><![CDATA[#$pyFunction
-import re,requests,xbmc
-def GetLSProData(page_data,Cookie_Jar,m,url='[cristal3.param1][cristal3.param2]'):#cPrLItsLTfakl
-  if not 'jpg' or not 'png' in url:
-    return 'https://i.imgur.com/xa8Jmpn.png'
-  elif 'tvg-logo' in url:
-    return re.findall('tvg-logo=[\'"](.*?)[\'"]', url, re.DOTALL)[0]
-  else:
-    return 'https://i.imgur.com/xa8Jmpn.png'
-]]></expres>
-<page></page>
-</regex>
+<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Multilistas España [COLOR gold]En mantenimiento[/COLOR]</title>
+
 <thumbnail>https://i.imgur.com/RJnHTtC.png</thumbnail>
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
