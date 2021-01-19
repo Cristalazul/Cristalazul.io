@@ -89,7 +89,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lightskyblue]TV [COLOR orangered]Chikiry_Cristal [COLOR white]SPAIN[/COLOR]</title>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/TV/tv.enc/pasarela.spain</externallink>
 <link>na</link>
-<thumbnail>https://i.imgur.com/ZVepqUF.png</thumbnail>  
+<thumbnail>https://i.imgur.com/knrTdP2.png</thumbnail>  
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
 
@@ -102,7 +102,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lightskyblue]TV [COLOR orangered]Chikiry_Cristal [COLOR white]LATINA[/COLOR]</title>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/TV/tv.enc/pasarela.latina</externallink>
 <link>na</link>
-<thumbnail>https://i.imgur.com/2vjuf9V.png</thumbnail>  
+<thumbnail>https://i.imgur.com/H7kTtT3.png</thumbnail>  
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
 
@@ -112,7 +112,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR lightskyblue]TV [COLOR orangered]Chikiry_Cristal [COLOR white]MUNDIAL[/COLOR]</title>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/TV/tv.enc/pasarela.mundial</externallink>
 <link>na</link>
-<thumbnail>https://i.imgur.com/n486XYJ.png</thumbnail>  
+<thumbnail>https://i.imgur.com/1jsb0Fh.png</thumbnail>  
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
 
