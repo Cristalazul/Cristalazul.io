@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Los Oscar[/COLOR]</title>
 <link>cristalazul</link>
@@ -22,7 +24,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 import re,requests,xbmc,xbmcaddon,xbmcgui,shutil,urllib2
 def GetLSProData(page_data,Cookie_Jar,m):
-      pasta = requests.get('http://bit.ly/cristal_menus_distancia', headers={'User-Agent': 'Mozilla/5.0'}).content
+      pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CINE/Oscar/Menu.Los.Oscar.txt', headers={'User-Agent': 'Mozilla/5.0'}).content
       return re.findall('="(.*?)"', pasta)[0]
 ]]></expres>
 <page></page>
