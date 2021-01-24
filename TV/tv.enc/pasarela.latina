@@ -18,6 +18,8 @@
 
 <item>
 <title>[COLOR red]Estable [COLOR blue]1 [COLOR white]Tv Latina [COLOR gold][/COLOR]</title>
+<link>$doregex[makelist]</link>
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
