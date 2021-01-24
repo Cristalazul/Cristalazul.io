@@ -1,7 +1,7 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR white]Auga Seca [COLOR chartreuse](Estreno)[/COLOR]</title>
+<title>[COLOR white]Auga Seca [COLOR gold]720 HD[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -115,7 +115,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <item>
-<title>[COLOR white]Defender a Jacob [COLOR chartreuse](Estreno)[/COLOR]</title>
+<title>[COLOR white]Defender a Jacob [COLOR gold]720 HD[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
