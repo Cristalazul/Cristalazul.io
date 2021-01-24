@@ -26,7 +26,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/bg6n3AV.png</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
@@ -49,7 +49,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>https://ignoreme</link>
 <externallink>http://bit.ly/Cristal_Footers</externallink>
 <thumbnail>https://i.imgur.com/1YaUkjI.png</thumbnail>
-<fanart>https://i.imgur.com/sv5yRUU.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 <!--
@@ -152,7 +152,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/PfZc5UD.png</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
@@ -162,7 +162,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>cristalazul</link>
 <externallink>http://bit.ly/menu_agendas_sincestream</externallink>
 <thumbnail>https://i.imgur.com/1XEOF1e.png</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
