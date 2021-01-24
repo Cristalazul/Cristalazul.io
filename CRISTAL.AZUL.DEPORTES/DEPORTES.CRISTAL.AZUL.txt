@@ -223,7 +223,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/WX0Nqv6.png</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <info>[COLOR white]base agenda grupo Acestram_spanish[/COLOR]</info>
 </item>
 
@@ -293,7 +293,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/eEzn1FD.png</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <info>[COLOR white]base agenda grupo Acestram_spanish[/COLOR]</info>
 </item>
 
@@ -304,7 +304,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignorame</link>
 <externallink>https://pastebin.com/raw/pN6j8fzn</externallink>
 <thumbnail>https://i.imgur.com/VbpqzuI.png</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
@@ -316,7 +316,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>cristalazul</link>
 <externallink>https://pastebin.com/raw/xV0u0K3B</externallink>
 <thumbnail>https://i.imgur.com/5ehPvsj.png</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 -->
 
@@ -326,7 +326,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <title>[COLOR gold]* [COLOR lightgreen]Agendas [COLOR white] Arenavision[/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/jTkDsMu.png</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <externallink>https://pastebin.com/raw/YRFQ1RVH</externallink>
 </item>
 
@@ -338,7 +338,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>na</link>
 <externallink>https://pastebin.com/raw/gtKsWgWp</externallink>
 <thumbnail>https://i.imgur.com/pwb5HIp.png</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
@@ -385,7 +385,7 @@ def revist_dag(page_data):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/apQPxwk.jpg</thumbnail>
-<fanart>https://3.bp.blogspot.com/-uyqN98AMAT0/W50CmwLceTI/AAAAAAAAKR4/W0eHyDPSTGE7yU0D4KYxrFnH1BVCUIA6gCLcBGAs/s1600/og-default.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 -->
 
@@ -395,7 +395,7 @@ def revist_dag(page_data):
 <title>[COLOR gold]* [COLOR lightgreen]Repeticiones [COLOR white]Deportivas[/COLOR] </title>
 <link>http://ignoreme</link>
 <thumbnail>https://i.imgur.com/HvKR8AM.png</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <externallink>https://pastebin.com/raw/dNkEPZ4J</externallink
 </item>
 
@@ -416,7 +416,7 @@ def revist_dag(page_data):
 <page>http://www.formulatv.com/programacion/movistarplus/</page>
 </regex>
 <thumbnail>https://i.imgur.com/Z8b4EEH.png</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
@@ -429,7 +429,7 @@ def revist_dag(page_data):
 <title>[COLOR gold]* [COLOR lightgreen]Seleccion [COLOR white]Cristal[/COLOR]</title>
 <link>cristalazul</link>
 <thumbnail>https://i.imgur.com/A4Xqe1n.jpg</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <externallink>https://pastebin.com/raw/jrKhRTdD</externallink>
 </item>
 
@@ -440,7 +440,7 @@ def revist_dag(page_data):
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.cristalazul/?iconimage=https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg&amp;mode=17&amp;regexs=%7bu%27fullcristal%27%3a%20%7b%27listrepeat%27%3a%20u%27%5cr%5cn%3ctitle%3e%5bCOLOR%20lightgreen%5dEvento%5bCOLOR%20white%5d%20%5bfullcristal.param1%5d%5b%2fCOLOR%5d%3c%2ftitle%3e%20%5cr%5cn%3cthumbnail%3ehttps%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%3c%2fthumbnail%3e%5cr%5cn%3cfanart%3ehttp%3a%2f%2fwww.arturogoga.com%2fwp-content%2fuploads%2f2009%2f12%2fimage4.png%3c%2ffanart%3e%5cr%5cn%3clink%3e%24doregex%5bcristalazul%5d%3c%2flink%3e%5cr%5cn%27%2c%20%27expres%27%3a%20u%22%27(.%2a%3f)%27%22%2c%20%27name%27%3a%20u%27fullcristal%27%2c%20%27page%27%3a%20u%22%271%27%2c%272%27%2c%273%27%2c%274%27%2c%275%27%2c%276%27%2c%277%27%2c%278%27%2c%279%27%2c%2710%27%22%7d%2c%20u%27cristalazul%27%3a%20%7b%27expres%27%3a%20u%22%23%24pyFunction%5cr%5cndef%20GetLSProData(page_data%2cCookie_Jar%2cm)%3a%5cr%5cn%20%20%20%20import%20re%5cr%5cn%20%20%20%20import%20requests%5cr%5cn%20%20%20%20url%20%3d%20%27https%3a%2f%2ftumarcador.xyz%2fac%5bfullcristal.param1%5d.html%27%5cr%5cn%20%20%20%20html%20%3d%20requests.get(url%2c%20headers%3d%7b%27User-Agent%27%3a%20%27Mozilla%2f5.0%20(Windows%20NT%2010.0%3b%20Win64%3b%20x64%3b%20rv%3a65.0)%20Gecko%2f20100101%20Firefox%2f65.0%27%2c%20%27Referer%27%3a%20%27https%3a%2f%2ftumarcador.xyz%2f%27%7d%2c%20verify%3dFalse).text%5cr%5cn%20%20%20%20return%20re.findall(%27(%3fs)file%3a.%5c%5c%27(.%2a%3f)%5c%5c%27%27%2c%20html)%5b0%5d%5cr%5cn%22%2c%20%27name%27%3a%20u%27cristalazul%27%2c%20%27page%27%3a%20None%7d%7d&amp;url=%24doregex%5bfullcristal%5d</jsonrpc>
 <thumbnail>https://i.imgur.com/GYkAB4y.jpg</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
@@ -489,7 +489,7 @@ def revist_dag(page_data):
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/Nus9IQh.jpg</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
 
@@ -502,7 +502,7 @@ def revist_dag(page_data):
 <title>[COLOR gold]* [COLOR lightgreen]Agendas [COLOR white] Avezy[/COLOR] </title>
 <link>http://ignorame</link>
 <thumbnail>https://i.imgur.com/rgCW77g.jpg</thumbnail>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <externallink>https://pastebin.com/raw/RCUAZzrP</externallink>
 </item>
 
@@ -513,7 +513,7 @@ def revist_dag(page_data):
 <title>[COLOR gold]* [COLOR lightgreen]Agenda [COLOR white]Acelist[/COLOR]</title>
 <link>http://Ignoreme</link>
 <jsonrpc>plugin://plugin.video.cristalazul/?iconimage=https%3a%2f%2fi.imgur.com%2fvEoCPVN.jpg&amp;mode=17&amp;regexs=%7bu%27hora%27%3a%20%7b%27expres%27%3a%20u%22%24pyFunction%3a(%27%5bmakelist.param4%5d%27).replace(%27%200%3a%27%2c%2701%3a%27).replace(%27%201%3a%27%2c%2702%3a%27).replace(%27%202%3a%27%2c%2703%3a%27).replace(%27%203%3a%27%2c%2704%3a%27).replace(%27%204%3a%27%2c%2705%3a%27).replace(%27%205%3a%27%2c%2706%3a%27).replace(%27%206%3a%27%2c%2707%3a%27).replace(%27%207%3a%27%2c%2708%3a%27).replace(%27%208%3a%27%2c%2709%3a%27).replace(%27%209%3a%27%2c%2710%3a%27).replace(%27%2010%3a%27%2c%2711%3a%27).replace(%27%2011%3a%27%2c%2712%3a%27).replace(%27%2012%3a%27%2c%2713%3a%27).replace(%27%2013%3a%27%2c%2714%3a%27).replace(%27%2014%3a%27%2c%2715%3a%27).replace(%27%2015%3a%27%2c%2716%3a%27).replace(%27%2016%3a%27%2c%2717%3a%27).replace(%27%2017%3a%27%2c%2718%3a%27).replace(%27%2018%3a%27%2c%2719%3a%27).replace(%27%2019%3a%27%2c%2720%3a%27).replace(%27%2020%3a%27%2c%2721%3a%27).replace(%27%2021%3a%27%2c%2722%3a%27).replace(%27%2022%3a%27%2c%2723%3a%27).replace(%27%2023%3a%27%2c%2700%3a%27)%22%2c%20%27name%27%3a%20u%27hora%27%2c%20%27page%27%3a%20None%7d%2c%20u%27img2%27%3a%20%7b%27expres%27%3a%20u%22%24pyFunction%3a(%27%5bmakelist.param8%5d%27).replace(%27SOCCER%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-soccer%27).replace(%27TENNIS%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-tennis%27).replace(%27FOOTBALL%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-football%27).replace(%27RUGBY%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-football%27).replace(%27MOTORSPORT%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-motorsport%27).replace(%27ATHLETICS%27%2c%27https%3a%2f%2fi.imgur.com%2flQrhRs8.jpg%27).replace(%27BADMINTON%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-badminton%27).replace(%27BASEBALL%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-baseball%27).replace(%27BASKETBALL%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-basketball%27).replace(%27BOWLING%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-bowling%27).replace(%27BOXING%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-boxing%27).replace(%27CRICKET%27%2c%27https%3a%2f%2fi.imgur.com%2flQrhRs8.jpg%27).replace(%27CYCLING%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-cycling%27).replace(%27DARTS%27%2c%27https%3a%2f%2fi.imgur.com%2flQrhRs8.jpg%27).replace(%27FORMULA%201%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-motorsport%27).replace(%27GOLF%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-golf%27).replace(%27HOCKEY%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-hockey%27).replace(%27MMA%27%2c%27https%3a%2f%2fi.imgur.com%2flQrhRs8.jpg%27).replace(%27MOTOGP%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-motogp%27).replace(%27PING-PONG%27%2c%27https%3a%2f%2fi.imgur.com%2flQrhRs8.jpg%27).replace(%27POOL%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-pool%27).replace(%27SOCCER_(W)%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-soccer%27).replace(%27SWIMMING%27%2c%27https%3a%2f%2fi.imgur.com%2flQrhRs8.jpg%27).replace(%27VOLLEYBALL%27%2c%27http%3a%2f%2fbit.ly%2fimg-avezy-volleyball%27).replace(%27WATERPOLO%27%2c%27https%3a%2f%2fi.imgur.com%2flQrhRs8.jpg%27)%22%2c%20%27name%27%3a%20u%27img2%27%2c%20%27page%27%3a%20None%7d%2c%20u%27makelist%27%3a%20%7b%27listrepeat%27%3a%20u%27%5cr%5cn%3ctitle%3e%5bCOLOR%20lightskyblue%5d%5bmakelist.param1%5d%5b%2fCOLOR%5d%5bCOLOR%20yellow%5d%24doregex%5bhora%5d%5bmakelist.param6%5d%5b%2fCOLOR%5d%5bCOLOR%20orange%5d%5bUPPERCASE%5d%20%5bmakelist.param9%5d%5b%2fUPPERCASE%5d%20%5b%2fCOLOR%5d%5bCOLOR%20white%5d%20%20%5bmakelist.param10%5d%5b%2fCOLOR%5d%5bCOLOR%20red%5d%20%5bmakelist.param12%5d%20%5bmakelist.param13%5d%5b%2fCOLOR%5d%3c%2ftitle%3e%5cr%5cn%3cinfo%3e%5bCOLOR%20lightskyblue%5d%5bmakelist.param1%5d%5b%2fCOLOR%5d%5bCOLOR%20yellow%5d%5bmakelist.param4%5d%5b%2fCOLOR%5d%5bCOLOR%20orange%5d%5bUPPERCASE%5d%20%5bmakelist.param6%5d%5b%2fUPPERCASE%5d%20%5b%2fCOLOR%5d%5bCOLOR%20white%5d%20%5bmakelist.param7%5d%20%5bmakelist.param8%5d%5b%2fCOLOR%5d%5bCOLOR%20red%5d%20%5bmakelist.param10%5d%20%5bmakelist.param11%5d%5b%2fCOLOR%5d%3c%2finfo%3e%5cr%5cn%3cfanart%3ehttps%3a%2f%2fugc.kn3.net%2fi%2forigin%2fhttp%3a%2f%2f3.bp.blogspot.com%2f-7Sq_1Ap72R0%2fTcnvEtT2eyI%2fAAAAAAAAA_Y%2fHWSWReXQsmI%2fs1600%2fcamp-nou.jpg%3c%2ffanart%3e%5cr%5cn%3cthumbnail%3e%24doregex%5bimg1%5d%24doregex%5bimg2%5d%24doregex%5bimg3%5d%3c%2fthumbnail%3e%5cr%5cn%3clink%3eplugin%3a%2f%2fprogram.plexus%2f%3furl%3d%5bmakelist.param11%5d%26amp%3bmode%3d1%26amp%3bname%3d%5bCOLOR%20aqua%5dcristal%20azul%5b%2fCOLOR%5d%3c%2flink%3e%5cr%5cn%27%2c%20%27expres%27%3a%20u%27(%3fs)colspan%3d%223%22%3e.%2a%3fh4%3e%5c%5cs%2a((.%2a%3f)%20(.%2a%3f)201%5c%5cd)%7cstyle%3d%22margin-left%3a%20auto%5c%5c%3b%22%3e.%2a%3fclass%3d%22text-right%22%3e%5c%5cn%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20((.%2a%3f)%3a)(.%2b%3f)%5c%5cs%2a%3c%2f.%2a%3f%3ctd%20class.%2a%3f%3e%5c%5cs%2a(.%2a%3f)%5c%5cs%2a%3c%2ftd.%2a%3f%3ctd%3e%5c%5cs%2a(.%2a%3f)%5c%5cs%2a%3c.%2a%3f%3ctd%20colspan%3d%222%22%3e%5c%5cs%2a(.%2a%3f)%5c%5cs%2a%3c.%2a%3fclass.%2a%3f%3e%5c%5cs%2a(.%2a%3f)%5c%5cs%2a%3c%2ftd%7chref%3d%22aces.%2a%3f%2f%2f(.%2a%3f)%22.%2a%3fChannel(.%2a%3f)%3c.%2a%3f%3e(.%2a%3f)%22%27%2c%20%27name%27%3a%20u%27makelist%27%2c%20%27page%27%3a%20u%27https%3a%2f%2facelisting.in%2f%27%7d%2c%20u%27img1%27%3a%20%7b%27expres%27%3a%20u%22%24pyFunction%3a(%27%5bmakelist.param2%5d%27).replace(%27Sunday%27%2c%27https%3a%2f%2fwww.tdpevents.es%2fwp-content%2fuploads%2f2014%2f12%2fCalendar-150x150.jpg%27).replace(%27Monday%27%2c%27https%3a%2f%2fwww.tdpevents.es%2fwp-content%2fuploads%2f2014%2f12%2fCalendar-150x150.jpg%27).replace(%27Tuesday%27%2c%27https%3a%2f%2fwww.tdpevents.es%2fwp-content%2fuploads%2f2014%2f12%2fCalendar-150x150.jpg%27).replace(%27Wednesday%27%2c%27https%3a%2f%2fwww.tdpevents.es%2fwp-content%2fuploads%2f2014%2f12%2fCalendar-150x150.jpg%27).replace(%27Thursday%27%2c%27https%3a%2f%2fwww.tdpevents.es%2fwp-content%2fuploads%2f2014%2f12%2fCalendar-150x150.jpg%27).replace(%27Friday%27%2c%27https%3a%2f%2fwww.tdpevents.es%2fwp-content%2fuploads%2f2014%2f12%2fCalendar-150x150.jpg%27).replace(%27Saturday%27%2c%27https%3a%2f%2fwww.tdpevents.es%2fwp-content%2fuploads%2f2014%2f12%2fCalendar-150x150.jpg%27)%22%2c%20%27name%27%3a%20u%27img1%27%2c%20%27page%27%3a%20None%7d%2c%20u%27img3%27%3a%20%7b%27expres%27%3a%20u%22%24pyFunction%3a%27%5bmakelist.param12%5d%27.replace(%27%2010%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2011%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2012%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2013%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2014%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2015%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2016%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2017%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2018%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2019%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2020%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2021%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2022%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2023%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2024%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2025%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2026%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2027%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2028%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2029%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2030%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2031%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2032%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2033%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2034%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2035%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2036%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2037%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2038%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2039%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2040%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2041%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%2042%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%201%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%202%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%203%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%204%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%205%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%206%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%207%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%208%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27).replace(%27%209%27%2c%27https%3a%2f%2fi.imgur.com%2f1uUlv8M.jpg%27)%22%2c%20%27name%27%3a%20u%27img3%27%2c%20%27page%27%3a%20None%7d%7d&amp;url=%24doregex%5bmakelist%5d</jsonrpc>
-<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <thumbnail>https://i.imgur.com/aDDYYio.jpg</thumbnail>
 </item>
 -->
