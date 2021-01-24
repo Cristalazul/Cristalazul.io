@@ -299,7 +299,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<item>
+<title>[COLOR gold]* [COLOR lightgreen]Cristal[COLOR white] Canales Deportes[COLOR red] [/COLOR] </title>
+<link>http://ignorame</link>
+<externallink>https://pastebin.com/raw/pN6j8fzn</externallink>
+<thumbnail>https://i.imgur.com/A4Xqe1n.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+</item>
 
 
 
