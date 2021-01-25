@@ -222,7 +222,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/WX0Nqv6.png</thumbnail>
+<thumbnail>https://i.imgur.com/tpGORZO.png</thumbnail>
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <info>[COLOR white]base agenda grupo Acestram_spanish[/COLOR]</info>
 </item>
