@@ -174,7 +174,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>picapau</name>
 <listrepeat><![CDATA[
 <title>[COLOR aqua][picapau.param1]$doregex[evento_terminado_o_no][/COLOR]</title>
-<thumbnail>https://i.imgur.com/WsnN7aR.jpg</thumbnail>
+<thumbnail>https://i.imgur.com/tpGORZO.png</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <info>[picapau.param6]</info>
 <link>$doregex[link_inteligente]</link>
