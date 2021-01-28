@@ -125,8 +125,8 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/qvzF7Rz.jpg</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<thumbnail>https://i.imgur.com/vrZEnJ4.png</thumbnail>
+<fanart>https://i.imgur.com/dlaTOZK.jpg</fanart>
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <item>
@@ -254,15 +254,15 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/fUmWn5D.png</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<thumbnail>https://i.imgur.com/vrZEnJ4.png</thumbnail>
+<fanart>https://i.imgur.com/dlaTOZK.jpg</fanart>
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Series [COLOR white]Dilo[/COLOR]</title>
 <link>NOLINK</link>
-<thumbnail>https://i.imgur.com/T4DbHGd.png</thumbnail>
-<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
+<thumbnail>https://i.imgur.com/vrZEnJ4.png</thumbnail>
+<fanart>https://i.imgur.com/dlaTOZK.jpg</fanart>
  <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Dilo</externallink>
 </item>
  
