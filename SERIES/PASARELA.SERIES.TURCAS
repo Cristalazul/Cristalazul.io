@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal Azul [COLOR yellow](Nuevo).[/COLOR]</title>
+<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal [COLOR yellow](Nuevo)[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -115,7 +115,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 <item>
-<title>[COLOR orangered]ESPECIAL [COLOR white]Fuerza de Mujer [COLOR gold]audio latino[/COLOR]</title>  
+<title>[COLOR orangered]ESPECIAL [COLOR white]Fuerza de Mujer [COLOR yellow](Audio Latino)[/COLOR]</title>  
 <link>$doregex[capitulos]</link>
  
 <regex>
@@ -150,7 +150,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR orangered]ESTRENO [COLOR white]Love Is In The Air [/COLOR]</title>
+<title>[COLOR orangered]ESTRENO [COLOR white]Love Is In The Air [COLOR yellow](Opcion 2)[/COLOR]</title>
 <link>$doregex[novelas]</link>  
 <regex>
 <name>novelas</name>  
