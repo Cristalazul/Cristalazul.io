@@ -184,7 +184,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[B][COLOR gold]STAR WARS [COLOR white]CURIOSIDADES[/COLOR]</title>
+<title>[COLOR gold]STAR WARS [COLOR white]CURIOSIDADES[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
