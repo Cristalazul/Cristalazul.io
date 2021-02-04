@@ -2,6 +2,10 @@
 
 
 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Amazon Prime[/COLOR] </title>
 <link>$doregex[makelist2]</link>
@@ -102,7 +106,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/QaTc8Hx.png</thumbnail>
-<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -206,8 +210,8 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/qvzF7Rz.jpg</thumbnail>
-<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+<thumbnail>https://i.imgur.com/GlB2z5m.png</thumbnail>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -311,8 +315,8 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/cYJ070e.png</thumbnail>
-<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+<thumbnail>https://i.imgur.com/thTfzMZ.png</thumbnail>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
 
@@ -417,7 +421,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/jZ4HiVq.png</thumbnail>
-<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
 
@@ -522,7 +526,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/uuMCYff.png</thumbnail>
-<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -628,7 +632,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/cYJ070e.png</thumbnail>
-<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -732,7 +736,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/iaEDuGU.png</thumbnail>
-<fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -743,4 +747,4 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/5kY0BRB.png</thumbnail>
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
