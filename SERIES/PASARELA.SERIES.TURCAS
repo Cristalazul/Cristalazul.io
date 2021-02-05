@@ -140,30 +140,46 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR orangered]ESTRENO [COLOR white]Love Is In The Air [COLOR yellow](Opcion 2)[/COLOR]</title>
-<link>$doregex[novelas]</link>  
+<title>[COLOR red]ESPECIAL [COLOR white]Love is in the Air [COLOR gold](Nueva opción)[/COLOR]</title>
+<link>$doregex[lou]</link>
 <regex>
-<name>novelas</name>  
+<name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR red][novelas.param2][/COLOR]</title> 
-<thumbnail>https://1.bp.blogspot.com/-lf0BvzIw2tg/X_AwFapmUqI/AAAAAAAACT4/Q2WGm6RKHScP3CFOoSXYHa-Pu-xlvVbowCLcBGAsYHQ/w400-h225/66383619_10218565909329894_3508262809316098048_n.jpg</thumbnail> 
-<fanart>https://i.imgur.com/j9xEwA2.jpg</fanart> 
-<link>$doregex[final]</link> 
+<title>[lou.param2] [lou.param1]</title>
+<link>$doregex[id3]</link>
+<thumbnail>[lou.param4]</thumbnail>
+<fanart>[lou.param5]</fanart>
 ]]></listrepeat>
-<expres><![CDATA[<a href="(.*?)".*?>(.*?)<.*?]]></expres>
-<page>http://seriestvblogger.blogspot.com/2021/01/love-is-in-air-sen-cal-kapm-espanol.html</page>
-<regex>
-<name>final</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m,url='[novelas.param1]'):
-    import resolveurl
-    u = resolveurl.resolve(url)
-    return u
-]]></expres>
-<page></page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?urlsolve>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?]]></expres>
+<page>https://pastebin.com/raw/GYWWujub</page>
 </regex>
-<info>Eda Yıldız es una joven vendedora de flores que se enfrenta a Serkan Bolat, un rico heredero, cuando la chica va a realizar sus estudios en el extranjero y pierde la beca por culpa de este. Así, Bolat le propone un trato: si acepta pasar dos meses con él como si fuese su prometida, le ayudará a pagar sus estudios. Aunque al principio la relación no es buena, a medida que pasan los días cambia radicalmente</info>
-<thumbnail>https://1.bp.blogspot.com/-lf0BvzIw2tg/X_AwFapmUqI/AAAAAAAACT4/Q2WGm6RKHScP3CFOoSXYHa-Pu-xlvVbowCLcBGAsYHQ/w400-h225/66383619_10218565909329894_3508262809316098048_n.jpg</thumbnail> 
-<fanart>https://i.imgur.com/j9xEwA2.jpg</fanart> 
- <info>Gracias Novelas Stream por compartirla</info> 
+<regex>
+
+<name>id3</name>
+
+<expres><![CDATA[#$pyFunction
+
+def GetLSProData(page_data,Cookie_Jar,m):
+
+   import resolveurl
+
+   url = '[lou.param3]'
+
+   try:
+
+       u = resolveurl.resolve(url)
+
+   except:
+
+       u = ''
+
+   return u
+
+]]></expres>
+
+<page></page>
+
+</regex>
+<thumbnail>https://i.imgur.com/u483P9W.jpg<thumbnail>
+<fanart>https://i.imgur.com/SbpAQBV.jpg</fanart>
 </item>
