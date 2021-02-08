@@ -44,6 +44,36 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+
+
+<item>
+<title>[COLOR red]Próximamante[/COLOR]</title>
+<link>$doregex[text]</link>
+<regex>
+<name>text</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+    import xbmcgui
+    dialog = xbmcgui.Dialog()
+    dialog.textviewer("""[COLOR orange]CRISTAL AZUL INFORMA[/COLOR]""", """[COLOR gold]Prepárate para lo nunca visto, Aveces los sueños se cumplen...[/COLOR]
+
+                                                                                                                                              
+[COLOR orange]Camaradas[/COLOR]""")
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/rJXTpMN.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+</item>
+
+
+
+
+
+
+
+
 <item>
 <title>[COLOR gold]* [COLOR lightgreen]Cristal [COLOR gold]Footers[/COLOR]</title>
 <link>https://ignoreme</link>
