@@ -63,7 +63,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/rJXTpMN.jpg</thumbnail>
+<thumbnail>https://i.ytimg.com/vi/HhUil0Vj4kI/maxresdefault.jpg</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
 
