@@ -56,7 +56,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 def GetLSProData(page_data,Cookie_Jar,m):
     import xbmcgui
     dialog = xbmcgui.Dialog()
-    dialog.textviewer("""[COLOR orange]CRISTAL AZUL INFORMA[/COLOR]""", """[COLOR gold]Prepárate para lo nunca visto, Aveces los sueños se cumplen...[/COLOR]
+    dialog.textviewer("""[COLOR aqua]CRISTAL AZUL INFORMA[/COLOR]""", """[COLOR orange]Prepárate para lo nunca visto, Aveces los sueños se cumplen...[/COLOR]
 
                                                                                                                                               
 [COLOR orange]Camaradas[/COLOR]""")
