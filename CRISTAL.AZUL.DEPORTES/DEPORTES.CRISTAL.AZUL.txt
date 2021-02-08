@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR aqua]     Próximamante Aquí ;-)[/COLOR]</title>
+<title>[COLOR aqua]     Próximamente ;-)[/COLOR]</title>
 <link>$doregex[text]</link>
 <regex>
 <name>text</name>
