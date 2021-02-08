@@ -24,19 +24,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Series [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
 <link>$doregex[makelist2]</link>
@@ -147,16 +134,6 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/S1r1T5Y.png</thumbnail>
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -416,7 +393,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
  <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Por Productoras[/COLOR]</title>
 <link>$doregex[lou]</link>
-<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/PRODUCTORAS</externallink>
+<externallink>https://www.dropbox.com/s/vv84uune00tafm0/Series.productoras.menu.txt?dl=1</externallink>
 <thumbnail>https://i.imgur.com/5kY0BRB.png</thumbnail>
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
