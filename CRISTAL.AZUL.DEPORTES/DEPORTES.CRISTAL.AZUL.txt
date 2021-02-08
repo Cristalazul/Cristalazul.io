@@ -59,7 +59,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     dialog.textviewer("""[COLOR aqua]CRISTAL AZUL INFORMA[/COLOR]""", """[COLOR orange]Prepárate para lo nunca visto, Aveces los sueños se cumplen...[/COLOR]
 
                                                                                                                                               
-[COLOR orange]Camaradas[/COLOR]""")
+[COLOR orange]-Camaradas.[/COLOR]""")
 ]]></expres>
 <page></page>
 </regex>
