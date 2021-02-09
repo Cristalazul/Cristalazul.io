@@ -47,6 +47,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
+
+
 <item>
 <title>[COLOR aqua]     Próximamente ;-)[/COLOR]</title>
 <link>$doregex[text]</link>
@@ -63,10 +65,38 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.ytimg.com/vi/HhUil0Vj4kI/maxresdefault.jpg</thumbnail>
+<thumbnail>$doregex[img]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<regex>
+<name>img</name>
+<expres><![CDATA[#$pyFunction
+from datetime import datetime, timedelta
+from HTMLParser import HTMLParser
+import re,requests,urllib2,xbmc,time
+def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
+  fecha = datetime.today().strftime("%d")
+  if '09' in fecha:
+    return 'https://i.ytimg.com/vi/HhUil0Vj4kI/maxresdefault.jpg'
+  elif '10' in fecha:
+    return 'https://i.ytimg.com/vi/HmuN_DBCCUY/hqdefault.jpg'
+  elif '11' in fecha:
+    return 'https://www.denia.com/wp-content/uploads/2013/01/Cuenta-atrás-4-Días1.jpg'
+  elif '12' in fecha:
+    return 'https://pbs.twimg.com/media/DkGWsIYW0AsE2W6.jpg'
+  elif '13' in fecha:
+    return 'https://samesamedreams.files.wordpress.com/2015/03/img_7099.jpg'
+  elif '14' in fecha:
+    return 'https://i.ytimg.com/vi/7VgZ0iiFSDs/maxresdefault.jpg'
+  else:
+    return 'https://i.ytimg.com/vi/7VgZ0iiFSDs/maxresdefault.jpg'
+]]></expres>
+<page></page>
+</regex>
 </item>
 
+
+ 
+ 
 
 
 
