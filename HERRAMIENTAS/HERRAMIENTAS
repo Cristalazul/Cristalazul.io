@@ -2492,10 +2492,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-
 <item>
-<title>[COLOR white]Winner_dev [COLOR gold]Nuevo Addon de Deportes!!!![/COLOR]</title>
+<title>prueba [COLOR white]Winner_dev [COLOR gold]Nuevo Addon de Deportes!!!![/COLOR]</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
@@ -2505,14 +2503,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
  hola = xbmc.getCondVisibility('System.HasAddon(plugin.video.winner_dev)')
  if hola==0:
      xbmc.executebuiltin('InstallAddon(plugin.video.winner_dev)')
-     return xbmc.executebuiltin('XBMC.RunPlugin("plugin://plugin.video.winner_dev/")')
+     return xbmc.executebuiltin('RunAddon(plugin.video.winner_dev)')
  else:
-     return xbmc.executebuiltin('XBMC.RunPlugin("plugin://plugin.video.winner_dev/")')
+     return xbmc.executebuiltin('RunAddon(plugin.video.winner_dev)')
 ]]></expres>
 <page></page>
 <NOTPlayable>True</NOTPlayable>
-</regex>
-<thumbnail>https://i.imgur.com/Wa217u7.jpg</thumbnail>
+</regex><thumbnail>https://i.imgur.com/Wa217u7.jpg</thumbnail>
 <fanart>https://i.imgur.com/RsLj1lh.jpg</fanart>
 </item>
 
