@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
+<!--
 <item>
 <title>[COLOR aqua]     Próximamente ;-)[/COLOR]</title>
 <link>$doregex[text]</link>
@@ -93,12 +93,35 @@ def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
 <page></page>
 </regex>
 </item>
-
+-->
 
  
  
 
 
+
+<item>
+<title>[COLOR white]Winner [COLOR gold]Nuevo Addon de Deportes!!!![/COLOR]</title>
+<link>$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import xbmc, xbmcaddon
+ hola = xbmc.getCondVisibility('System.HasAddon(plugin.video.winner)')
+ if hola==0:
+     xbmc.executebuiltin('InstallAddon(plugin.video.winner)')
+     xbmc.executebuiltin('RunAddon(plugin.video.winner)')
+     return xbmc.executebuiltin('XBMC.Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
+ else:
+     xbmc.executebuiltin('RunAddon(plugin.video.winner)')
+     return xbmc.executebuiltin('XBMC.Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
+]]></expres>
+<page></page>
+<NOTPlayable>True</NOTPlayable>
+</regex><thumbnail>https://i.imgur.com/Wa217u7.jpg</thumbnail>
+<fanart>https://i.imgur.com/RsLj1lh.jpg</fanart>
+</item>
 
 
 
