@@ -143,7 +143,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/u29PuSk.jpg</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
--->
+
 
 <item>
 <title>[COLOR gold]* [COLOR lightgreen]Cristal[COLOR white] Directos[/COLOR]</title>
@@ -237,7 +237,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/PfZc5UD.png</thumbnail>
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
-
+-->
 
 
 <item>
