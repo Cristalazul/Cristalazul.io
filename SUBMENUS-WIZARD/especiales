@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR orangered]CARNAVAL, CARNAVAL [COLOR yellow][/COLOR]</title>
+<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR white]CARNAVAL[COLOR yellow][/COLOR]</title>
 <link>cristalazul</link>
 <externallink>$doregex[c]</externallink>
 <regex>
@@ -66,7 +66,7 @@ def revist_dag(page_data):
 ============================================================================================================================
 
 <item>
-<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR orangered]SEMANA SANTA ADDON COFRADE [COLOR yellow][/COLOR]</title>
+<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR white]SEMANA SANTA[COLOR yellow][/COLOR]</title>
 <link>cristalazul</link>
 <externallink>$doregex[c]</externallink>
 <regex>
@@ -124,7 +124,7 @@ def revist_dag(page_data):
 =======================================================================================================================
 
 <item>
-<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR white]Dragon Ball [COLOR orangered][COLOR orangered][/COLOR]</title>
+<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR white]DRAGON BALL [COLOR orangered][COLOR orangered][/COLOR]</title>
 <link>cristalazul</link>
 <externallink>$doregex[c]</externallink>
 <regex>
@@ -189,7 +189,7 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 ============================================================================================================================
 <!--
 <item>
-<title>[COLOR gold]ESPECIAL [COLOR white] Navidad[/COLOR]</title>
+<title>[COLOR gold]ESPECIAL [COLOR white] NAVIDAD[/COLOR]</title>
 <link>cristalazul</link>
 <externallink>$doregex[c]</externallink>
 <regex>
@@ -242,7 +242,7 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 
 
 <item>
-<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR lightsalmon][COLOR white]Los Oscar[/COLOR]</title>
+<title>[COLOR gold]ESPECIAL[/COLOR] [COLOR lightsalmon][COLOR white]LOS OSCAR[/COLOR]</title>
 <link>cristalazul</link>
 <externallink>$doregex[c]</externallink>
 <regex>
