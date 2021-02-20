@@ -9,7 +9,7 @@
 <thumbnail>https://i.imgur.com/bg6n3AV.png</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
--->
+
 
 <item>
 <title>[COLOR gold]* [COLOR lightgreen]Cristal[COLOR white] Directos[/COLOR]</title>
@@ -93,7 +93,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/VqyKLMp.jpg</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
-
+-->
 
 
 
