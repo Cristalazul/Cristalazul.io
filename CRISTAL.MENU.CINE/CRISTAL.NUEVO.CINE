@@ -228,6 +228,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!--
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Cristal[/COLOR]</title>
 <link>$doregex[A]</link>
@@ -318,8 +319,18 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/hEKykpy.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
-
+-->
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<item>
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Cristal[/COLOR]</title> 
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CINE/Nuevo.supercine.enc/menu.supercine.txt</externallink>
+<thumbnail>https://i.imgur.com/vTy5Olu.jpg</thumbnail>
+<fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
+</item>
+direct link
+-------------------------------------------------------------------------------------------------------------------------------------------
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Por Productoras[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -411,16 +422,6 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/dRGJYb3.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
--------------------------------------------------------------------------------------------------------------------------------------------
-
-<item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Direct Link[/COLOR]</title> 
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CINE/Nuevo.supercine.enc/menu.supercine.txt</externallink>
-<thumbnail>https://i.imgur.com/vTy5Olu.jpg</thumbnail>
-<fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
-</item>
-
 -------------------------------------------------------------------------------------------------------------------------------------------
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Webs[/COLOR]</title> 
