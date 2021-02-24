@@ -96,6 +96,28 @@ def GetLSProData(page_data,Cookie_Jar,m):
 -->
 
 
+<item>
+<title>[COLOR white]Winner Sports [COLOR gold]Directo[/COLOR]</title>
+<link>$doregex[id]</link>
+<regex>
+<name>id</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+ import xbmc, xbmcaddon
+ hola = xbmc.getCondVisibility('System.HasAddon(plugin.video.winner)')
+ if hola==0:
+     xbmc.executebuiltin('InstallAddon(plugin.video.winner)')
+     xbmc.executebuiltin('RunAddon(plugin.video.winner)')
+     return xbmc.executebuiltin('XBMC.Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
+ else:
+     xbmc.executebuiltin('RunAddon(plugin.video.winner)')
+     return xbmc.executebuiltin('XBMC.Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
+]]></expres>
+<page></page>
+<NOTPlayable>True</NOTPlayable>
+</regex><thumbnail>https://i.imgur.com/Wa217u7.jpg</thumbnail>
+<fanart>https://i.imgur.com/RsLj1lh.jpg</fanart>
+</item>
 
 
 <item>
@@ -138,7 +160,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 
-
+<!--
 <item>
 <title>[COLOR gold] [COLOR lightgreen]SIN Acestream [COLOR white]Full Sport Hd [/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -158,7 +180,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/1uUlv8M.jpg</thumbnail>
 <fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
 </item>
-
+-->
 
 
 
