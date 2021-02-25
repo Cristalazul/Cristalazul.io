@@ -232,3 +232,50 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/6VqzmVs.jpg<thumbnail>
 <fanart>https://i.imgur.com/Yzlxiv6.jpg</fanart> 
 </item>
+    
+    ---------------------------------------------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR red]ESPECIAL [COLOR white]Mi Hogar, Mi Destino [COLOR gold](Estreno)[/COLOR]</title>
+<link>$doregex[lou]</link>
+<regex>
+<name>lou</name>
+<listrepeat><![CDATA[
+<title>[lou.param2] [lou.param1]</title>
+<link>$doregex[id3]</link>
+<thumbnail>[lou.param4]</thumbnail>
+<fanart>[lou.param5]</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?urlsolve>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?]]></expres>
+<page>https://pastebin.com/raw/zc5hfC8C</page>
+</regex>
+<regex>
+
+<name>id3</name>
+
+<expres><![CDATA[#$pyFunction
+
+def GetLSProData(page_data,Cookie_Jar,m):
+
+   import resolveurl
+
+   url = '[lou.param3]'
+
+   try:
+
+       u = resolveurl.resolve(url)
+
+   except:
+
+       u = ''
+
+   return u
+
+]]></expres>
+
+<page></page>
+
+</regex>
+<thumbnail>https://i.imgur.com/u483P9W.jpg<thumbnail>
+<fanart>https://i.imgur.com/SbpAQBV.jpg</fanart>
+</item>
+ -----------------------------------------------------------------------------------------------------   
