@@ -8,7 +8,7 @@
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <item>
- <title>[COLOR gold]D+ STAR [COLOR white]Cine[/COLOR]</title>
+ <title>[COLOR gold]D+ STAR [COLOR white]Cine Marvel[/COLOR]</title>
  <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -78,7 +78,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/cs2OGKr.jpg<thumbnail>
+<thumbnail>https://i.imgur.com/DPNoZln.jpg<thumbnail>
 <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
  </item>
  
@@ -192,7 +192,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/bVddFrl.png</thumbnail>
+<thumbnail>https://i.imgur.com/ACIhGDe.jpg</thumbnail>
 <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
