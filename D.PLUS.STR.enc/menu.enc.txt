@@ -7,6 +7,7 @@
 <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!--
 <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Lo Nuevo de la semana[/COLOR]</title>
  <link>http://ignorame</link>
@@ -14,7 +15,7 @@
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
  <externallink></externallink>
  </item>
- 
+ -->
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Cine[/COLOR]</title>
@@ -229,7 +230,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
  <link>http://ignorame</link>
  <thumbnail>https://i.imgur.com/Ni6IBNd.jpg<thumbnail>
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
- <externallink></externallink>
+ <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/D.PLUS.STR.enc/Nat.Geo/Menu.NatGeo.txt</externallink>
  </item>
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
