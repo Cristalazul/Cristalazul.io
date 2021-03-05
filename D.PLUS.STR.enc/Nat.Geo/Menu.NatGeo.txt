@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<item>
+<title>[B][COLOR yellow]Grupo Telegram[COLOR white] @addonfestaycristal[/COLOR][/B]</title>
+<link>NOLINK</link>
+<thumbnail>https://i.imgur.com/TfN094h.jpg<thumbnail>
+<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
+</item>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<item>
+<title>[COLOR gold]D+ STAR [COLOR white]Documentales Nat Geographic[/COLOR][/B]</title>
+<externallink>https://pastebin.com/raw/yyzNCecZ</externallink>
+<link>na</link>
+<thumbnail>https://i.imgur.com/Ni6IBNd.jpg</thumbnail>
+<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
+</item>
