@@ -210,7 +210,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
  <link>http://ignorame</link>
  <thumbnail>https://i.imgur.com/uWjOtiw.jpg<thumbnail>
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
- <externallink></externallink>
+ <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/D.PLUS.STR.enc/StWars/menu.sw.txt</externallink>
  </item>
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
