@@ -19,7 +19,6 @@
 <item>
 <title>[COLOR red]Estable [COLOR blue]1 [COLOR white]Tv Latina [COLOR gold][/COLOR]</title>
 <link>$doregex[makelist]</link>
-<thumbnail></thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
@@ -91,7 +90,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 
 
 -------------------------------------------------------------------------------------------------------------------------------
-
+<!--
 <item>
 <title>[COLOR orangered]Chikiry_Cristal [COLOR white]Multilistas Latina[/COLOR]</title>
 <link>$doregex[cristaltv]</link>
@@ -206,7 +205,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url='[cristal3.param1][cristal3.param2]'
 <thumbnail>https://i.imgur.com/H7kTtT3.png</thumbnail>
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
-
+-->
 ---------------------------------------------------------------------------------------------------------------------------------------
 <item> 
 <title>[COLOR orangered]Chikiry_Cristal [COLOR white] THE CAT_LATINOS [COLOR gold][/COLOR]</title>  
