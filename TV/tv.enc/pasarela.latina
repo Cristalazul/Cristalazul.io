@@ -19,18 +19,18 @@
 <item>
 <title>[COLOR red]Estable [COLOR blue]1 [COLOR white]Tv Latina [COLOR gold][/COLOR]</title>
 <link>$doregex[makelist]</link>
-
+<thumbnail></thumbnail>
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-  <title>[COLOR=fff5f5f5][makelist.param2][/COLOR]</title>
+  <title>[COLOR gold][makelist.param2][/COLOR]</title>
   <link>$doregex[getM3U8]</link>
   <thumbnail>[makelist.param3]</thumbnail>
-<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
+  <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 import re
-def GetLSProData(page_data,Cookie_Jar,m):
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
   return re.findall('href="([^"]+).*?alt="([^"]+)\s*en.+?src="([^"]+)',re.findall('channelstv.>(?s)(.*?)desde este lugar',page_data)[0])
 ]]></expres>
 <page>https://www.televisiongratishd.com/parrilla-gratis.html</page>
@@ -38,13 +38,26 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>getM3U8</name>
 <expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
+import re,requests,jsunpack
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
   link=re.findall('(?:href|src)="(.*?/live[^#"]+)',page_data)[0]
-  source=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).content
-  stream=re.findall('(?:href|src)="(.*?/live[^#]+)',source)[0]
-  source = requests.get(stream,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).content
-  return re.findall('id="livevideo".*?(?:source|src|file)=[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+stream
+  if 'id=' in link:
+    source = requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).content
+    if '<video' in source:
+      return re.findall('<video.*?(?:source|src|file)=[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
+    else:
+      return re.findall('id=.player[\w\W]*?(?:source|src|file):.+?[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+stream
+  else:
+    source=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).content
+    stream=re.findall('(?:href|src)="(.*?/live[^#]+)',source)[0]
+    source=requests.get(stream,headers={'user-agent':'Mozilla/5.0','referer':link}).content
+    if '<video' in source:
+      return re.findall('<video.*?(?:source|src|file)=[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
+    else:
+      murl=re.findall('<iframe\s*src="(.+?embed/[^"]+)',source)[0]
+      source=requests.get(murl,headers={'user-agent':'Mozilla/5.0','host':'wigistream.to','referer':stream,'accept':'*/*'}).content
+      m3u8=jsunpack.unpack(re.findall('(eval.*m3u8.*)',source)[0])
+      return re.findall('(?:source|src|file):[\'"](https:.+?/hls[^\'"]+)',m3u8)[0]+'|user-agent=ipad&referer='+murl
 ]]></expres>
 <page>[makelist.param1]</page>
 </regex>
