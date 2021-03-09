@@ -127,7 +127,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
     <link>$doregex[id5]</link>
   ]]></listrepeat>
 <expres><![CDATA[(Capitulo.*?)[\n\r]+([^\r\n]+)]]></expres>  
-<page>https://pastebin.com/raw/U4D20uDL</page>
+<page>https://pastebin.com/raw/nRyZFLfk</page>
 </regex>
 
 <regex>
