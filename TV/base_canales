@@ -434,7 +434,7 @@
 
 "name": "Cuatro HD",
                     "image": "https://2.bp.blogspot.com/-Aqf9YbMBv-s/Wzjkfkay5YI/AAAAAAAAIEI/U1fkk4TNKmscvA4tO-NNJB0WDudpPdbpwCLcBGAs/s1600/04.jpg",
-                    "url": "https://livehlsdai-i.akamaihd.net/hls/live/571643/cuatro/bitrate_3.m3u8",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=cuatro&f=.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/cuatro.php",
                     "embed": "Cuatro">'.
 
@@ -456,7 +456,7 @@
 
 "name": "Telecinco HD",
                     "image": "https://3.bp.blogspot.com/-iGQ0z0Wxjsg/WzjkfxVyOdI/AAAAAAAAIEQ/tCXTNlchF8YN6cXw7lxUyYRunbCMsQZYACLcBGAs/s1600/05.jpg",
-                    "url": "https://livehlsdai-i.akamaihd.net/hls/live/571640/telecinco/bitrate_3.m3u8",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=telecinco&f=.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/telecinco.php",
                     "embed": "Telecinco">'.
 
@@ -563,7 +563,7 @@
 
  "name": "Energy",
                     "image": "https://4.bp.blogspot.com/-RfnyvQnYIKY/Wzk0CSFXFoI/AAAAAAAAIHY/E7NcLSgCCgM3heV0QA5SPFxtRH2jZ_tagCLcBGAs/s1600/24.jpg",
-                    "url": "https://vergol.com/canales228/live/energy.php",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=energy&f=.m3u8",
                     "referer": "https://vergol.com/canales228/live/energy.php",
                     "embed": "Energy">'.
 
@@ -580,7 +580,7 @@
 
  "name": "Bemad",
                     "image": "https://i.imgur.com/1OSC9B0.jpg",
-                    "url": "https://vergol.com/canales228/live/bemad.php",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=bemad&f=.m3u8",
                     "referer": "https://vergol.com/canales228/live/energy.php",
                     "embed": "SOL M.*?sica">'.
 
@@ -620,7 +620,7 @@
 
 "name": "Divinity",
                     "image": "http://www.caratulasylogos.com/sites/default/files/divinity.jpg",
-                    "url": "https://vergol.com/canales228/live/divinity.php",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=divinity&f=.m3u8",
                     "referer": "https://vergol.com/canales228/live/divinity.php",
                     "embed": "Divinity">'.
 
