@@ -249,7 +249,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
+<!--
 <item>
 <title>[COLOR gold]* [COLOR lightgreen]Agenda[COLOR white] Deportes_Acestream[/COLOR]</title>
 <link>$doregex[picapau]</link>
@@ -309,7 +309,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <info>[COLOR white]base agenda grupo Acestram_spanish[/COLOR]</info>
 </item>
-
+-->
 
 
 COLOREADA
@@ -401,7 +401,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/5ehPvsj.png</thumbnail>
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
--->
+
 
 
 
@@ -412,7 +412,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 <externallink>https://pastebin.com/raw/YRFQ1RVH</externallink>
 </item>
-
+-->
 
 
 
