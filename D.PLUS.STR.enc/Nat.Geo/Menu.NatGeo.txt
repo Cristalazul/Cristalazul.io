@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR gold]D+ STAR [COLOR white]Documentales Nat Geographic[/COLOR][/B]</title>
+<title>[B][COLOR gold]D+ STAR [COLOR white]Documentales Nat Geographic[/COLOR][/B]</title>
 <externallink>https://pastebin.com/raw/yyzNCecZ</externallink>
 <link>na</link>
 <thumbnail>https://i.imgur.com/Ni6IBNd.jpg</thumbnail>
