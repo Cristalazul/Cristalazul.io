@@ -29,7 +29,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
-F
+
 
 
 
