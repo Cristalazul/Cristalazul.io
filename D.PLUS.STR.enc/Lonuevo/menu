@@ -98,7 +98,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
  <link>http://ignorame</link>
  <thumbnail>https://i.imgur.com/cs2OGKr.jpg<thumbnail>
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
- <externallink></externallink>
+ <externallink>$$LSProEncKey= $$</externallink>
  </item>
 --------------------------------------------------------------------------------------------------------
   <item>
@@ -106,5 +106,5 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
  <link>http://ignorame</link>
  <thumbnail>https://i.imgur.com/d6q1U7Q.jpg<thumbnail>
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
- <externallink></externallink>
+ <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/D.PLUS.STR.enc/Lonuevo/series.lonuevo.ec.txt$$LSProEncKey= $$</externallink>
  </item>
