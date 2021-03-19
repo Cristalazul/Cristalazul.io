@@ -11,9 +11,9 @@
 <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Lo Nuevo de la semana[/COLOR]</title>
  <link>http://ignorame</link>
- <thumbnail>https://i.imgur.com/RBMAO5H.jpg<thumbnail>
+ <thumbnail>https://i.imgur.com/EVdTp4H.jpg<thumbnail>
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
- <externallink></externallink>
+ <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/D.PLUS.STR.enc/Lonuevo/menu</externallink>
  </item>
  -->
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
