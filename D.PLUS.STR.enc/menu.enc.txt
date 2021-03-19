@@ -7,7 +7,7 @@
 <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<!--
+
 <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Lo Nuevo de la semana[/COLOR]</title>
  <link>http://ignorame</link>
@@ -15,7 +15,7 @@
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
  <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/D.PLUS.STR.enc/Lonuevo/menu</externallink>
  </item>
- -->
+ 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Cine[/COLOR]</title>
