@@ -96,7 +96,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Pelis[/COLOR]</title>
  <link>http://ignorame</link>
- <thumbnail><thumbnail>
+ <thumbnail>https://i.imgur.com/cs2OGKr.jpg<thumbnail>
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
  <externallink></externallink>
  </item>
@@ -104,7 +104,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
   <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Series[/COLOR]</title>
  <link>http://ignorame</link>
- <thumbnail><thumbnail>
+ <thumbnail>https://i.imgur.com/d6q1U7Q.jpg<thumbnail>
  <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
  <externallink></externallink>
  </item>
