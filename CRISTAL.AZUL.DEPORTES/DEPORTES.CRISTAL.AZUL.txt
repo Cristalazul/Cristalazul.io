@@ -604,3 +604,78 @@ def revist_dag(page_data):
 
 
 
+
+
+<item>
+<title>[COLOR gold]* [COLOR lightgreen]Prueba Agenda[COLOR white] Acestream_Spanish[/COLOR]</title>
+<link>$doregex[picapau]</link>
+<regex>
+<name>picapau</name>
+<listrepeat><![CDATA[
+<title>[COLOR aqua][picapau.param1]$doregex[evento_terminado_o_no][/COLOR]</title>
+<thumbnail>https://i.imgur.com/Nus9IQh.jpg</thumbnail>
+<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<info>[picapau.param6]</info>
+<link>$doregex[link_inteligente]</link>
+]]></listrepeat>
+<expres><![CDATA[(?s)(AceStream Spanish)|Telegram(.*?)".*?fecha\s*"\s*:\s*"((\d+)/(\d+)/20(\d+))".*?hora\s*"\s*:\s*"((\d+):(\d+))".*?url\s*"\s*:\s*"(.*?)".*?|autor\s*"\s*:\s*"(.*?)"]]></expres>
+<page>https://pastebin.com/raw/FrRi1dtc</page>
+<agent>Mozilla/5.0 Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36</agent>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<regex>
+<name>evento_terminado_o_no</name>
+<expres><![CDATA[#$pyFunction
+from datetime import datetime, date, time, timedelta
+import calendar
+def GetLSProData(page_data,Cookie_Jar,m,fecha_evento='[picapau.param6][picapau.param5][picapau.param4][picapau.param8]'):#cPrLItsLTfakl
+ 
+  formato = "%y%m%d%H"
+  fecha = datetime.today()
+  fecha_final = fecha.strftime(formato)
+  fecha_real = int(fecha_final) - 2
+  if fecha_real < int(fecha_evento):
+    return '[COLOR aqua][picapau.param1][COLOR white][picapau.param2] [COLOR orange] [picapau.param3] [COLOR yellow]La emisión termina a las [picapau.param7][/COLOR]'
+  else:
+    return '[COLOR red]Este Evento Terminó[/COLOR]'
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>link_inteligente</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url='[picapau.param10]'):#cPrLItsLTfakl
+
+  if not 'http' in url:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Intentando Reproducir[COLOR gold] Acestream[/COLOR],[COLOR gold]Necesario Plexus y Acestream[/COLOR], 5000)')
+    url = url.replace('id:"', '')
+    url = 'plugin://program.plexus/?url=' +url+ '&mode=1&name=[COLOR aqua] By Cristal Azul[/COLOR]'
+    return xbmc.executebuiltin('XBMC.RunPlugin("' + url + '")')
+    #return 'plugin://program.plexus/?url=' +url+ '&mode=1&name=[COLOR aqua] By Cristal Azul[/COLOR]'
+  elif '//vk.' in url:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Intentando Reproducir[COLOR gold] Vk[/COLOR],[COLOR gold][/COLOR], 5000)')
+    return '$doregex[vk]'.replace('\/','/')
+  elif 'f4mTester' in url:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Intentando Reproducir[COLOR gold] f4mTester[/COLOR],[COLOR gold][/COLOR], 5000)')
+    return url
+  else:
+    xbmc.executebuiltin('XBMC.Notification([COLOR white]Intentando Reproducir[COLOR gold] m3u8[/COLOR],[COLOR gold][/COLOR], 5000)')
+    return url
+]]></expres>
+<page></page>
+</regex> 
+<regex>
+<name>vk</name>
+<expres>hls":"(.*?)"</expres>
+<page>[picapau.param10]</page>
+<referer>https://vk.com/</referer>
+ <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0</agent>  
+ <cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.imgur.com/Nus9IQh.jpg</thumbnail>
+<fanart>https://ugc.kn3.net/i/origin/http://3.bp.blogspot.com/-7Sq_1Ap72R0/TcnvEtT2eyI/AAAAAAAAA_Y/HWSWReXQsmI/s1600/camp-nou.jpg</fanart>
+<info>[COLOR white]base agenda grupo Acestram_spanish[/COLOR]</info>
+</item>
+
+
