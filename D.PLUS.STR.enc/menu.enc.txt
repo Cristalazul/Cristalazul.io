@@ -7,7 +7,14 @@
 <fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+<item>
+<title>[B][COLOR darkgoldenrod]* [COLOR white]DISNEY + [COLOR gold]Infantil[/COLOR][/B]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/DEn70RD.png</thumbnail>
+<fanart>https://i.imgur.com/octb2sN.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/FESTAKIDS/festakids/main/DPLUS/MENU.PRINCIPAL.DPLUS$$LSProEncKey= $$</externallink>
+</item>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <item>
  <title>[COLOR gold]D+ STAR [COLOR white]Lo Nuevo de la semana[/COLOR]</title>
  <link>http://ignorame</link>
