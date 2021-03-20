@@ -22,7 +22,51 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
  
+<item>
+<title>[COLOR gold]Especial Fin Temporada[COLOR white]Hierro[/COLOR]</title>
+<link>$doregex[lou]</link>
+<regex>
+<name>lou</name>
+<listrepeat><![CDATA[
+<title>[lou.param2] [lou.param1]</title>
+<link>$doregex[id3]</link>
+<thumbnail>[lou.param4]</thumbnail>
+<fanart>[lou.param5]</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?urlsolve>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?]]></expres>
+<page>https://pastebin.com/raw/NfnPJmJf</page>
+</regex>
+<regex>
 
+<name>id3</name>
+
+<expres><![CDATA[#$pyFunction
+
+def GetLSProData(page_data,Cookie_Jar,m):
+
+   import resolveurl
+
+   url = '[lou.param3]'
+
+   try:
+
+       u = resolveurl.resolve(url)
+
+   except:
+
+       u = ''
+
+   return u
+
+]]></expres>
+
+<page></page>
+
+</regex>
+<thumbnail>https://i.imgur.com/MAKnIZz.jpg<thumbnail>
+<fanart>https://i.imgur.com/gjUJtCA.jpg</fanart>
+</item>
+---------------------------------------------------------------------------------------------------------
 
 <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Series [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
