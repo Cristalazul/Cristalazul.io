@@ -83,33 +83,6 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 
-<item>
-<title>[COLOR gold][COLOR lightgreen][COLOR white]matrix[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<expres><![CDATA[#$pyFunction
-from resolveurl.plugins.lib import jsunpack
-import xbmc,xbmcgui,marshal,base64,re,requests,urllib
-def GetLSProData(page_data,Cookie_Jar,m):
- ArchivoEncriptar = xbmc.translatePath('special://home/addons/plugin.video.cristalazul/')
- script = open(ArchivoEncriptar + 'changelog.txt').read()
- script = re.findall('(?s)(import base64, codecs.*?)</textarea>', requests.post('https://firetvguru.net/matrix/', headers={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0','referer':'https://firetvguru.net/matrix/','Origin':'https://firetvguru.net'},data={'txtCode':script,'cmdEncode':'Encode string'}).text)[0]
- code = compile (script,'script','exec')
- code2 = marshal.dumps(code)
- code2 = base64.b64encode(code2)
- code2 = 'import marshal;exec(marshal.loads(base64.b64decode("'+code2+'")))'
- code2 = base64.b64encode(code2)
- code2 = 'import base64;exec(base64.b64decode("'+code2+'"))'
- ArchivoDestino = xbmc.translatePath('special://home/addons/plugin.video.cristalazul/')
- open(ArchivoDestino + 'changelog.txt','wb').write(code2)
- return xbmc.executebuiltin('XBMC.Notification([COLOR white]Archivo[/COLOR],[COLOR gold]Encriptado[/COLOR], 5000)')
-]]></expres>
-<page></page>
-</regex>
-</item>
-
-
 
 
 <item>
@@ -140,7 +113,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
  except:
   id = xbmcaddon.Addon().getAddonInfo('id')
-  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+  if 'cristalazul' in id or 'festa' in id or 'streamspro' in id:
     patron = '(?s)class="item tvshows">.*?href="(https://playdede.com/pelicula.*?)".*?src="(.*?)".*?<p>(.*?)<.*?<h3>(.*?)<.*?span>(.*?)<'
     cookie_distancia = urllib2.urlopen('https://pastebin.com/raw/A35dMZS1').read()
     cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
@@ -180,7 +153,7 @@ import re,requests,base64,xbmc,xbmcgui,xbmcaddon,random,urllib2
 def GetLSProData(page_data,Cookie_Jar,m,url=url):
 
   id = xbmcaddon.Addon().getAddonInfo('id')
-  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+  if 'cristalazul' in id or 'festa' in id or 'streamspro' in id:
     cookie_distancia = urllib2.urlopen('https://pastebin.com/raw/A35dMZS1').read()
     patron = '(?s)href="(.*?)".*?src.*?>(.*?)<.*?>(.*?)<.*?languages/(.*?)[_\.]'
     cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
@@ -257,7 +230,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,referer=referer):
 <name>selecion_inteligente</name>
 <expres><![CDATA[#$pyFunction
 url = '$doregex[link_final_total]'
-$doregex[importar]
+import re,requests,xbmc,xbmcaddon,resolveurl,cookielib,urllib,urllib2,HTMLParser,cfscrape,urlparse
+from lib.megaserver import Client
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
 
