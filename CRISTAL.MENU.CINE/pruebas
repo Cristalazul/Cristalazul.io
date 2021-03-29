@@ -230,7 +230,10 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,referer=referer):
 <name>selecion_inteligente</name>
 <expres><![CDATA[#$pyFunction
 url = '$doregex[link_final_total]'
-import re,requests,xbmc,xbmcaddon,resolveurl,cookielib,urllib,urllib2,HTMLParser,cfscrape,urlparse
+#import re,requests,xbmc,xbmcaddon,resolveurl,cookielib,urllib,urllib2,HTMLParser,cfscrape,urlparse
+import re,requests,resolveurl
+from kodi_six import xbmcplugin, xbmcgui, xbmcaddon, xbmcvfs, xbmc
+from six.moves import urllib_request, urllib_parse, urllib_error, http_cookiejar, html_parser
 from lib.megaserver import Client
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
