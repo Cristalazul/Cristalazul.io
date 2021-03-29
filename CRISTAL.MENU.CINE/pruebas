@@ -4,6 +4,33 @@
 
 
 
+<item>
+<title>[COLOR gold][COLOR lightgreen][COLOR white]matrix[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<expres><![CDATA[#$pyFunction
+from resolveurl.plugins.lib import jsunpack
+import xbmc,xbmcgui,marshal,base64,re,requests,urllib
+def GetLSProData(page_data,Cookie_Jar,m):
+ ArchivoEncriptar = xbmc.translatePath('special://home/addons/plugin.video.cristalazul/')
+ script = open(ArchivoEncriptar + 'changelog.txt').read()
+ script = re.findall('(?s)(import base64, codecs.*?)</textarea>', requests.post('https://firetvguru.net/matrix/', headers={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0','referer':'https://firetvguru.net/matrix/','Origin':'https://firetvguru.net'},data={'txtCode':script,'cmdEncode':'Encode string'}).text)[0]
+ code = compile (script,'script','exec')
+ code2 = marshal.dumps(code)
+ code2 = base64.b64encode(code2)
+ code2 = 'import marshal;exec(marshal.loads(base64.b64decode("'+code2+'")))'
+ code2 = base64.b64encode(code2)
+ code2 = 'import base64;exec(base64.b64decode("'+code2+'"))'
+ ArchivoDestino = xbmc.translatePath('special://home/addons/plugin.video.cristalazul/')
+ open(ArchivoDestino + 'changelog.txt','wb').write(code2)
+ return xbmc.executebuiltin('XBMC.Notification([COLOR white]Archivo[/COLOR],[COLOR gold]Encriptado[/COLOR], 5000)')
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
 
 
 <item>
