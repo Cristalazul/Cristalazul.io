@@ -332,8 +332,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
   <name>capitulos</name>
   <listrepeat><![CDATA[
     <title>[COLOR white][capitulos.param1][/COLOR]</title>
-    <thumbnail>https://i.pinimg.com/474x/b8/41/80/b84180293465528b5dc2dcea8c443832.jpg</thumbnail>
-    <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
+   <thumbnail>https://i.imgur.com/Lz5jAVf.jpg<thumbnail>
+<fanart>https://i.imgur.com/YZsKkrp.jpg</fanart>
     <link>$doregex[id5]</link>
   ]]></listrepeat>
 <expres><![CDATA[(Capitulo.*?)[\n\r]+([^\r\n]+)]]></expres>  
