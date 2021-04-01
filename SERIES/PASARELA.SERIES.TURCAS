@@ -326,33 +326,44 @@ def GetLSProData(page_data,Cookie_Jar,m):
  -----------------------------------------------------------------------------------------------------   
     <item>
 <title>[COLOR orangered]ESPECIAL [COLOR white]Omer: sueños robados [COLOR yellow](Estreno)[/COLOR]</title>  
-<link>$doregex[capitulos]</link>
- 
+<link>$doregex[lou]</link>
 <regex>
-  <name>capitulos</name>
-  <listrepeat><![CDATA[
-    <title>[COLOR white][capitulos.param1][/COLOR]</title>
-   <thumbnail>https://i.imgur.com/Lz5jAVf.jpg<thumbnail>
-<fanart>https://i.imgur.com/YZsKkrp.jpg</fanart>
-    <link>$doregex[id5]</link>
-  ]]></listrepeat>
-<expres><![CDATA[(Capitulo.*?)[\n\r]+([^\r\n]+)]]></expres>  
+<name>lou</name>
+<listrepeat><![CDATA[
+<title>[lou.param2] [lou.param1]</title>
+<link>$doregex[id3]</link>
+<thumbnail>[lou.param4]</thumbnail>
+<fanart>[lou.param5]</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?urlsolve>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?]]></expres>
 <page>https://pastebin.com/raw/Xdf0nFWx</page>
 </regex>
-
 <regex>
-<name>id5</name>
+
+<name>id3</name>
+
 <expres><![CDATA[#$pyFunction
+
 def GetLSProData(page_data,Cookie_Jar,m):
-  import resolveurl,xbmc 
-  url = '[capitulos.param2]'
-  try:
-    u = resolveurl.resolve(url)
-  except:
-    u = xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR yellow]Enlace caido[/COLOR],4000)")
-  return u    
+
+   import resolveurl
+
+   url = '[lou.param3]'
+
+   try:
+
+       u = resolveurl.resolve(url)
+
+   except:
+
+       u = ''
+
+   return u
+
 ]]></expres>
-<page></page> 
+
+<page></page>
+
 </regex>
 <thumbnail>https://i.imgur.com/Lz5jAVf.jpg<thumbnail>
 <fanart>https://i.imgur.com/YZsKkrp.jpg</fanart>
