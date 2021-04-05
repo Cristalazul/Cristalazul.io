@@ -1,4 +1,292 @@
-"name": "[COLOR gold]*^Movistar^*  [COLOR aqua]Cristal Azul[/COLOR]",
+"name": "                [COLOR gold]*^Tdt^*[/COLOR]",
+                    "image": "https://i.imgur.com/BbYB3Kh.jpg",
+                    "url": "https://vergol.com/canales228/live/",
+                    "referer": "https://verliga1.net/tv/nacionales/tve1.php",
+                    "embed": "SOL M.*?sica">'.
+
+
+
+
+"name": "La 1",
+                    "image": "https://1.bp.blogspot.com/-InY0CInOv7s/WzjkeWxHjZI/AAAAAAAAIEA/oCWo7-7rWxINq4s1AvTQbyBEVHyL1B15gCLcBGAs/s1600/01.jpg",
+                    "url": "https://vergol.com/canales228/live/tve1.php",
+                    "referer": "https://verliga1.net/tv/nacionales/tve1.php",
+                    "embed": " La 1">'.
+
+
+
+"name": "La 1 HD",
+                    "image": "https://1.bp.blogspot.com/-InY0CInOv7s/WzjkeWxHjZI/AAAAAAAAIEA/oCWo7-7rWxINq4s1AvTQbyBEVHyL1B15gCLcBGAs/s1600/01.jpg",
+                    "url": "http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/tve1.php",
+                    "embed": " La 1">'.
+
+
+
+"name": "La 1 Nueva HD",
+                    "image": "https://1.bp.blogspot.com/-InY0CInOv7s/WzjkeWxHjZI/AAAAAAAAIEA/oCWo7-7rWxINq4s1AvTQbyBEVHyL1B15gCLcBGAs/s1600/01.jpg",
+                    "url": "http://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@584096/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/tve1.php",
+                    "embed": " La 1">'.
+
+
+
+
+
+"name": "La 2 HD",
+                    "image": "https://i.imgur.com/GiuwXGb.jpg",
+                    "url": "http://mvod.lvlt.rtve.es/resources/TE_NGVA/mp4/0/0/2200000000000.mp4",
+                    "referer": "https://verliga1.net/tv/nacionales/tve1.php",
+                    "embed": "La 2">'.
+
+
+
+"name": "Antena 3 ",
+                    "image": "https://1.bp.blogspot.com/-u8yq5uR3TF8/Wzjkek2HARI/AAAAAAAAID8/Blwfd5eLWFIRYXaDGheZgGzduId-pK0qgCLcBGAs/s1600/03.jpg",
+                    "url": "https://vergol.com/canales228/live1/antena3.php",
+                    "referer": "https://verliga1.net/tv/nacionales/antena-3.php",
+                    "embed": "Antena 3">'.
+
+
+
+"name": "Antena 3 HD",
+                    "image": "https://1.bp.blogspot.com/-u8yq5uR3TF8/Wzjkek2HARI/AAAAAAAAID8/Blwfd5eLWFIRYXaDGheZgGzduId-pK0qgCLcBGAs/s1600/03.jpg",
+                    "url": "https://livestartover.atresmedia.com/antena3/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/antena-3.php",
+                    "embed": "Antena 3">'.
+
+
+
+"name": "Antena 3 FHD",
+                    "image": "https://1.bp.blogspot.com/-u8yq5uR3TF8/Wzjkek2HARI/AAAAAAAAID8/Blwfd5eLWFIRYXaDGheZgGzduId-pK0qgCLcBGAs/s1600/03.jpg",
+                    "url": "https://livestartover.atresmedia.com/antena3/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/antena-3.php",
+                    "embed": "Antena 3">'.
+
+
+
+
+"name": "Antena 3 HD Geo",
+                    "image": "https://1.bp.blogspot.com/-u8yq5uR3TF8/Wzjkek2HARI/AAAAAAAAID8/Blwfd5eLWFIRYXaDGheZgGzduId-pK0qgCLcBGAs/s1600/03.jpg",
+                    "url": "https://livestartover.atresmedia.com/antena3/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/antena-3.php",
+                    "embed": "Antena 3">'.
+
+
+
+
+"name": "La Voz HD",
+                    "image": "http://photocall.tv/images/lavoz.png",
+                    "url": "https://pull12.atresmedia.com/lavoz/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/antena-3.php",
+                    "embed": "SOL M.*?sica">'.
+
+
+
+
+
+"name": "Cuatro",
+                    "image": "https://2.bp.blogspot.com/-Aqf9YbMBv-s/Wzjkfkay5YI/AAAAAAAAIEI/U1fkk4TNKmscvA4tO-NNJB0WDudpPdbpwCLcBGAs/s1600/04.jpg",
+                    "url": "https://vergol.com/canales228/live1/cuatro.php",
+                    "referer": "https://verliga1.net/tv/nacionales/cuatro.php",
+                    "embed": "Cuatro">'.
+              
+
+
+"name": "Cuatro HD",
+                    "image": "https://2.bp.blogspot.com/-Aqf9YbMBv-s/Wzjkfkay5YI/AAAAAAAAIEI/U1fkk4TNKmscvA4tO-NNJB0WDudpPdbpwCLcBGAs/s1600/04.jpg",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=cuatro&f=.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/cuatro.php",
+                    "embed": "Cuatro">'.
+
+
+"name": "Cuatro FHD",
+                    "image": "https://2.bp.blogspot.com/-Aqf9YbMBv-s/Wzjkfkay5YI/AAAAAAAAIEI/U1fkk4TNKmscvA4tO-NNJB0WDudpPdbpwCLcBGAs/s1600/04.jpg",
+                    "url": "https://livehlsdai-i.akamaihd.net/hls/live/571643/cuatro/bitrate_4.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/cuatro.php",
+                    "embed": "Cuatro">'.
+
+
+"name": "Telecinco",
+                    "image": "https://3.bp.blogspot.com/-iGQ0z0Wxjsg/WzjkfxVyOdI/AAAAAAAAIEQ/tCXTNlchF8YN6cXw7lxUyYRunbCMsQZYACLcBGAs/s1600/05.jpg",
+                    "url": "https://vergol.com/canales228/live1/telecinco.php",
+                    "referer": "https://verliga1.net/tv/nacionales/telecinco.php",
+                    "embed": "Telecinco">'.
+
+
+
+"name": "Telecinco HD",
+                    "image": "https://3.bp.blogspot.com/-iGQ0z0Wxjsg/WzjkfxVyOdI/AAAAAAAAIEQ/tCXTNlchF8YN6cXw7lxUyYRunbCMsQZYACLcBGAs/s1600/05.jpg",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=telecinco&f=.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/telecinco.php",
+                    "embed": "Telecinco">'.
+
+
+
+"name": "Telecinco FHD",
+                    "image": "https://3.bp.blogspot.com/-iGQ0z0Wxjsg/WzjkfxVyOdI/AAAAAAAAIEQ/tCXTNlchF8YN6cXw7lxUyYRunbCMsQZYACLcBGAs/s1600/05.jpg",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=telecinco&f=.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/telecinco.php",
+                    "embed": "Telecinco">'.
+
+
+
+
+
+
+
+ "name": "La Sexta ",
+                    "image": "https://1.bp.blogspot.com/-nYdfsromOrI/Wzjkf-1zp_I/AAAAAAAAIEM/LRnf5e6Jxf09ts-3_mQT6dWc57tY5R8DACLcBGAs/s1600/06.jpg",
+                    "url": "https://vergol.com/canales228/live1/lasexta.php",
+                    "referer": "https://verliga1.net/tv/nacionales/la-sexta.php",
+                    "embed": "laSexta">'.
+                
+
+
+ "name": "La Sexta HD",
+                    "image": "https://1.bp.blogspot.com/-nYdfsromOrI/Wzjkf-1zp_I/AAAAAAAAIEM/LRnf5e6Jxf09ts-3_mQT6dWc57tY5R8DACLcBGAs/s1600/06.jpg",
+                    "url": "https://pull2c-i.akamaized.net/lasexta/bitrate_3.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/la-sexta.php",
+                    "embed": "laSexta">'.
+                
+
+
+ "name": "La Sexta FHD",
+                    "image": "https://1.bp.blogspot.com/-nYdfsromOrI/Wzjkf-1zp_I/AAAAAAAAIEM/LRnf5e6Jxf09ts-3_mQT6dWc57tY5R8DACLcBGAs/s1600/06.jpg",
+                    "url": "https://livestartover.atresmedia.com/lasexta/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/la-sexta.php",
+                    "embed": "laSexta">'.
+
+
+
+
+ "name": "La Sexta HD Geo",
+                    "image": "https://1.bp.blogspot.com/-nYdfsromOrI/Wzjkf-1zp_I/AAAAAAAAIEM/LRnf5e6Jxf09ts-3_mQT6dWc57tY5R8DACLcBGAs/s1600/06.jpg",
+                    "url": "https://livestartover.atresmedia.com/lasexta/master.m3u8",
+                    "referer": "https://verliga1.net/tv/nacionales/la-sexta.php",
+                    "embed": "laSexta">'.
+
+
+
+ "name": "Mega",
+                    "image": "https://4.bp.blogspot.com/-ZLw4Nbm89po/Wzk0JsEXvEI/AAAAAAAAIJM/c31DUnOW8foR3PCwR3HSyn1si1ygkc1eACLcBGAs/s1600/53.jpg",
+                    "url": "https://vergol.com/canales228/live1/mega.php",
+                    "referer": "https://vergol.com/canales228/live/fdf.php",
+                    "embed": "Mega \(Espa.*?\)">'.
+
+
+
+
+
+
+ "name": "Mega HD Geo",
+                    "image": "https://4.bp.blogspot.com/-ZLw4Nbm89po/Wzk0JsEXvEI/AAAAAAAAIJM/c31DUnOW8foR3PCwR3HSyn1si1ygkc1eACLcBGAs/s1600/53.jpg",
+                    "url": "https://livestartover.atresmedia.com/geomega/master.m3u8",
+                    "referer": "https://vergol.com/canales228/live/fdf.php",
+                    "embed": "Mega \(Espa.*?\)">'.
+
+
+
+
+ "name": "Mega FHD Geo 2",
+                    "image": "https://4.bp.blogspot.com/-ZLw4Nbm89po/Wzk0JsEXvEI/AAAAAAAAIJM/c31DUnOW8foR3PCwR3HSyn1si1ygkc1eACLcBGAs/s1600/53.jpg",
+                    "url": "https://livestartover-i.akamaized.net/geomega/master.m3u8",
+                    "referer": "https://vergol.com/canales228/live/fdf.php",
+                    "embed": "Mega \(Espa.*?\)">'.
+
+
+
+
+ "name": "FDF",
+                    "image": "https://4.bp.blogspot.com/-cxoPvZBLEW0/Wzk0B7k2NHI/AAAAAAAAIHU/gbVuct3guLsb4RVDqRV_BSFr8nXmg2jogCLcBGAs/s1600/23.jpg",
+                    "url": "https://vergol.com/canales228/live/fdf.php",
+                    "referer": "https://vergol.com/canales228/live/fdf.php",
+                    "embed": "FDF">'.
+
+
+
+
+ "name": "Neox",
+                    "image": "https://3.bp.blogspot.com/-xy1Me-3LBwo/Wzk0LFv-uAI/AAAAAAAAIJ0/Lj9GZBQpcLAR9eOdomxEci6srNF_IBiBwCLcBGAs/s1600/62.jpg",
+                    "url": "https://vergol.com/canales228/live/neox.php",
+                    "referer": "https://vergol.com/canales228/live/fdf.php",
+                    "embed": "Neox">'.
+
+
+ "name": "Neox HD",
+                    "image": "https://3.bp.blogspot.com/-xy1Me-3LBwo/Wzk0LFv-uAI/AAAAAAAAIJ0/Lj9GZBQpcLAR9eOdomxEci6srNF_IBiBwCLcBGAs/s1600/62.jpg",
+                    "url": "https://livestartover.atresmedia.com/geoneox/master.m3u8",
+                    "referer": "https://vergol.com/canales228/live/fdf.php",
+                    "embed": "Neox">'.
+
+
+
+
+ "name": "Energy",
+                    "image": "https://4.bp.blogspot.com/-RfnyvQnYIKY/Wzk0CSFXFoI/AAAAAAAAIHY/E7NcLSgCCgM3heV0QA5SPFxtRH2jZ_tagCLcBGAs/s1600/24.jpg",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=energy&f=.m3u8",
+                    "referer": "https://vergol.com/canales228/live/energy.php",
+                    "embed": "Energy">'.
+
+
+
+ "name": "Canal Sur",
+                    "image": "http://photocall.tv/images/canalsur.png",
+                    "url": "http://canalsur-pair302-live.hls.adaptive.level3.net/egress/bhandler/sandetel/rtva/.m3u8",
+                    "referer": "https://vergol.com/canales228/live/energy.php",
+                    "embed": "SOL M.*?sica">'.
+
+
+
+
+ "name": "Bemad",
+                    "image": "https://i.imgur.com/1OSC9B0.jpg",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=bemad&f=.m3u8",
+                    "referer": "https://vergol.com/canales228/live/energy.php",
+                    "embed": "SOL M.*?sica">'.
+
+
+
+
+"name": "Disney Channel HD",
+                    "image": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-e6lzoj_4c65a315.jpg",
+                    "url": "https://cdnapisec.kaltura.com/p/1068292/sp/106829200/playManifest/entryId/1_d8lnsqu0/format/applehttp/protocol/https/uiConfId/40058201/a.m3u8",
+                    "referer": "https://verliga1.net/tv/deportes/multi-liga.php",
+                    "embed": "Disney Channel">'.
+
+
+
+
+
+"name": "PequeradioTV",
+                    "image": "http://photocall.tv/images/pequeradio.png",
+                    "url": "http://panel2.cdnstreamserver.com/live/peque-pequetv.m3u8",
+                    "referer": "https://verliga1.net/tv/deportes/multi-liga.php",
+                    "embed": "SOL M.*?sica">'.
+
+
+
+
+ "name": "Canal Cocina ",
+                    "image": "https://3.bp.blogspot.com/-HjUxe25D5TY/Wzk0JZhKQtI/AAAAAAAAIJQ/7SJ7lSSxMB8eU3INf6-PqDEOIMUFea46gCLcBGAs/s1600/52.jpg",
+                    "url": "https://vergol.com/canales228/live/cocina.php",
+                    "referer": "https://vergol.com/canales228/live/cocina.php",
+                    "embed": "Canal Cocina">'.
+            
+
+
+
+
+
+
+"name": "Divinity",
+                    "image": "http://www.caratulasylogos.com/sites/default/files/divinity.jpg",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=divinity&f=.m3u8",
+                    "referer": "https://vergol.com/canales228/live/divinity.php",
+                    "embed": "Divinity">'.
+
+
+"name": "[COLOR gold]*^Movistar^*  [COLOR red]EN MANTENIMIENTO[/COLOR]",
                     "image": "https://i.imgur.com/0qEnjwp.jpg",
                     "url": "https://vergol.com/canales228/live/",
                     "referer": "https://verliga1.net/tv/nacionales/canal-cero.php",
