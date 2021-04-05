@@ -9,7 +9,7 @@
 
 "name": "La 1",
                     "image": "https://1.bp.blogspot.com/-InY0CInOv7s/WzjkeWxHjZI/AAAAAAAAIEA/oCWo7-7rWxINq4s1AvTQbyBEVHyL1B15gCLcBGAs/s1600/01.jpg",
-                    "url": "https://vergol.com/canales228/live/tve1.php",
+                    "url": "https://rtvelivestream.akamaized.net/la1_dvr.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/tve1.php",
                     "embed": " La 1">'.
 
@@ -17,7 +17,7 @@
 
 "name": "La 1 HD",
                     "image": "https://1.bp.blogspot.com/-InY0CInOv7s/WzjkeWxHjZI/AAAAAAAAIEA/oCWo7-7rWxINq4s1AvTQbyBEVHyL1B15gCLcBGAs/s1600/01.jpg",
-                    "url": "http://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8",
+                    "url": "https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@584096/master.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/tve1.php",
                     "embed": " La 1">'.
 
@@ -25,7 +25,7 @@
 
 "name": "La 1 Nueva HD",
                     "image": "https://1.bp.blogspot.com/-InY0CInOv7s/WzjkeWxHjZI/AAAAAAAAIEA/oCWo7-7rWxINq4s1AvTQbyBEVHyL1B15gCLcBGAs/s1600/01.jpg",
-                    "url": "http://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@584096/master.m3u8",
+                    "url": "https://hlsliveamdgl7-lh.akamaihd.net/i/hlsdvrlive_1@583042/master.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/tve1.php",
                     "embed": " La 1">'.
 
@@ -35,7 +35,7 @@
 
 "name": "La 2 HD",
                     "image": "https://i.imgur.com/GiuwXGb.jpg",
-                    "url": "http://mvod.lvlt.rtve.es/resources/TE_NGVA/mp4/0/0/2200000000000.mp4",
+                    "url": "https://rtvelivestream.akamaized.net/la2_dvr.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/tve1.php",
                     "embed": "La 2">'.
 
@@ -87,7 +87,7 @@
 
 "name": "Cuatro",
                     "image": "https://2.bp.blogspot.com/-Aqf9YbMBv-s/Wzjkfkay5YI/AAAAAAAAIEI/U1fkk4TNKmscvA4tO-NNJB0WDudpPdbpwCLcBGAs/s1600/04.jpg",
-                    "url": "https://vergol.com/canales228/live1/cuatro.php",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=cuatro&f=.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/cuatro.php",
                     "embed": "Cuatro">'.
               
@@ -100,16 +100,10 @@
                     "embed": "Cuatro">'.
 
 
-"name": "Cuatro FHD",
-                    "image": "https://2.bp.blogspot.com/-Aqf9YbMBv-s/Wzjkfkay5YI/AAAAAAAAIEI/U1fkk4TNKmscvA4tO-NNJB0WDudpPdbpwCLcBGAs/s1600/04.jpg",
-                    "url": "https://livehlsdai-i.akamaihd.net/hls/live/571643/cuatro/bitrate_4.m3u8",
-                    "referer": "https://verliga1.net/tv/nacionales/cuatro.php",
-                    "embed": "Cuatro">'.
-
 
 "name": "Telecinco",
                     "image": "https://3.bp.blogspot.com/-iGQ0z0Wxjsg/WzjkfxVyOdI/AAAAAAAAIEQ/tCXTNlchF8YN6cXw7lxUyYRunbCMsQZYACLcBGAs/s1600/05.jpg",
-                    "url": "https://vergol.com/canales228/live1/telecinco.php",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=telecinco&f=.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/telecinco.php",
                     "embed": "Telecinco">'.
 
@@ -120,18 +114,6 @@
                     "url": "https://forocable.webcindario.com/mitele.php?ch=telecinco&f=.m3u8",
                     "referer": "https://verliga1.net/tv/nacionales/telecinco.php",
                     "embed": "Telecinco">'.
-
-
-
-"name": "Telecinco FHD",
-                    "image": "https://3.bp.blogspot.com/-iGQ0z0Wxjsg/WzjkfxVyOdI/AAAAAAAAIEQ/tCXTNlchF8YN6cXw7lxUyYRunbCMsQZYACLcBGAs/s1600/05.jpg",
-                    "url": "https://forocable.webcindario.com/mitele.php?ch=telecinco&f=.m3u8",
-                    "referer": "https://verliga1.net/tv/nacionales/telecinco.php",
-                    "embed": "Telecinco">'.
-
-
-
-
 
 
 
@@ -199,7 +181,7 @@
 
  "name": "FDF",
                     "image": "https://4.bp.blogspot.com/-cxoPvZBLEW0/Wzk0B7k2NHI/AAAAAAAAIHU/gbVuct3guLsb4RVDqRV_BSFr8nXmg2jogCLcBGAs/s1600/23.jpg",
-                    "url": "https://vergol.com/canales228/live/fdf.php",
+                    "url": "https://forocable.webcindario.com/mitele.php?ch=fdf&f=.m3u8",
                     "referer": "https://vergol.com/canales228/live/fdf.php",
                     "embed": "FDF">'.
 
@@ -274,11 +256,6 @@
                     "embed": "Canal Cocina">'.
             
 
-
-
-
-
-
 "name": "Divinity",
                     "image": "http://www.caratulasylogos.com/sites/default/files/divinity.jpg",
                     "url": "https://forocable.webcindario.com/mitele.php?ch=divinity&f=.m3u8",
@@ -286,7 +263,7 @@
                     "embed": "Divinity">'.
 
 
-"name": "[COLOR gold]*^Movistar^*  [COLOR red]EN MANTENIMIENTO[/COLOR]",
+"name": "[COLOR gold]*^Movistar^*  [COLOR red]**** EN MANTENIMIENTO ****[/COLOR]",
                     "image": "https://i.imgur.com/0qEnjwp.jpg",
                     "url": "https://vergol.com/canales228/live/",
                     "referer": "https://verliga1.net/tv/nacionales/canal-cero.php",
