@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<!-
+
 <item>
 <title>[COLOR gold]*^Top Mejores Series Cristal Azul^*[/COLOR]</title>
 <link>NOLINK</link>
@@ -23,6 +23,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
  
+ 
+ <!--
 <item>
 <title>[COLOR gold]Especial Fin Temporada[COLOR white]Hierro[/COLOR]</title>
 <link>$doregex[lou]</link>
@@ -67,7 +69,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/MAKnIZz.jpg<thumbnail>
 <fanart>https://i.imgur.com/gjUJtCA.jpg</fanart>
 </item>
- -->
+-->
 ---------------------------------------------------------------------------------------------------------
 
 <item>
@@ -831,70 +833,4 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <!--
 <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Made in Spain[/COLOR]</title>
-
-<thumbnail>https://i.imgur.com/sz6Wfgt.png</thumbnail>
-<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
-</item>
-
-
-
-
-<item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Retro[/COLOR]</title>
-
-<thumbnail>https://i.imgur.com/nelRTMH.png</thumbnail>
-<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
-</item>
--->
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<!--
-<item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series [COLOR white]TuNovela[/COLOR]</title>
-<link>NOLINK</link>
-<thumbnail>https://i.imgur.com/STlxBcy.png</thumbnail>
-<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
- <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Tunovela</externallink>
-</item> 
--->
- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- <!--
- <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series [COLOR white]Danko[/COLOR]</title>
-<link>NOLINK</link>
-<thumbnail>https://i.imgur.com/Cs4v0zB.png</thumbnail>
-<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
- <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Danko</externallink>
-</item> 
--->
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-<item>
-<title>[COLOR aqua]@addonfestaycristal[/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>http://bit.ly/submenu_gith$doregex[search]$$LSProEncKey= $$</externallink>
-<regex>
-<name>search</name>
-<expres><![CDATA[#$pyFunction
-
-import xbmc
-
-import xbmcaddon
-
-import xbmcgui
-
-def GetLSProData(page_data,Cookie_Jar,m):
-
-    dialog = xbmcgui.Dialog()
-
-    d = dialog.input('contraseña privada: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
-
-    return d
-
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://i.imgur.com/UzBYB4P.jpg</thumbnail>
-<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
- </item>
------------------------------------------------------
+<title>[COLOR gold]* 
