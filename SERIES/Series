@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
+<!-
 <item>
 <title>[COLOR gold]*^Top Mejores Series Cristal Azul^*[/COLOR]</title>
 <link>NOLINK</link>
@@ -66,6 +67,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/MAKnIZz.jpg<thumbnail>
 <fanart>https://i.imgur.com/gjUJtCA.jpg</fanart>
 </item>
+ -->
 ---------------------------------------------------------------------------------------------------------
 
 <item>
@@ -183,6 +185,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ <!--
  <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Miniseries Cristal [COLOR white]Cristal [COLOR gold][/COLOR]</title>
 <link>http://ignorame</link>
@@ -190,6 +193,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <fanart>https://i.imgur.com/RsLj1lh.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Base.Miniseries.txt$$LSProEncKey= $$</externallink>
 </item>
+-->
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix[/COLOR] </title>
@@ -306,7 +310,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 </item>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Hd[/COLOR] </title>
+<title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Hd [COLOR yellow]En Mantenimiento[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
