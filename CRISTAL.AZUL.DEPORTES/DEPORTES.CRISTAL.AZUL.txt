@@ -1,45 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-
-
-
-
-<!--
-<item>
-<title>[COLOR gold]#YoMeQuedoEnCasa[/COLOR]</title>
-<link>$doregex[makelist5]</link>
- <regex>
-<name>openDialog</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import re, requests, xbmcgui, xbmcaddon, random, xbmc, time
-    hoyNumero = (time.strftime("%S"))
-    if float(hoyNumero) < 30: 
-        while float(hoyNumero) < 30:
-            xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul aconseja[/COLOR],[COLOR gold]#YoMeQuedoEnCasa[/COLOR], 4000)")
-            return '[COLOR yellow]#YoMeQuedoEnCasa[/COLOR]'
-    else:
-        while float(hoyNumero) > 30:
-            xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul informa[/COLOR],[COLOR gold]#CristalSeQuedaEnCasa[/COLOR], 4000)")
-            return '[COLOR yellow]#CristalSeQuedaEnCasa[/COLOR]'
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://i.imgur.com/bg6n3AV.png</thumbnail>
-<fanart>https://i.imgur.com/932XIJt.jpg</fanart>
-</item>
-
-
-
-
-
-<item>
-<title>[COLOR white]Numancia vs Almeria[/COLOR]</title>
-<link>plugin://plugin.video.twitch/?channel_id=201868217&amp;mode=play</link>
-<thumbnail>https://i.imgur.com/s9vmydi.png</thumbnail>
-<fanart>https://i.imgur.com/sv5yRUU.jpg</fanart>
-</item>
--->
+<items>
 
 
 
@@ -48,52 +8,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-<!--
-<item>
-<title>[COLOR aqua]     Próximamente ;-)[/COLOR]</title>
-<link>$doregex[text]</link>
-<regex>
-<name>text</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import xbmcgui
-    dialog = xbmcgui.Dialog()
-    dialog.textviewer("""[COLOR aqua]CRISTAL AZUL INFORMA[/COLOR]""", """[COLOR orange]Prepárate para lo nunca visto, Aveces los sueños se cumplen...[/COLOR]
-
-                                                                                                                                              
-[COLOR orange]-Camaradas.[/COLOR]""")
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>$doregex[img]</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
-<regex>
-<name>img</name>
-<expres><![CDATA[#$pyFunction
-from datetime import datetime, timedelta
-from HTMLParser import HTMLParser
-import re,requests,urllib2,xbmc,time
-def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
-  fecha = datetime.today().strftime("%d")
-  if '09' in fecha:
-    return 'https://i.ytimg.com/vi/HhUil0Vj4kI/maxresdefault.jpg'
-  elif '10' in fecha:
-    return 'https://i.ytimg.com/vi/HmuN_DBCCUY/hqdefault.jpg'
-  elif '11' in fecha:
-    return 'https://www.denia.com/wp-content/uploads/2013/01/Cuenta-atrás-4-Días1.jpg'
-  elif '12' in fecha:
-    return 'https://pbs.twimg.com/media/DkGWsIYW0AsE2W6.jpg'
-  elif '13' in fecha:
-    return 'https://samesamedreams.files.wordpress.com/2015/03/img_7099.jpg'
-  elif '14' in fecha:
-    return 'https://i.ytimg.com/vi/7VgZ0iiFSDs/maxresdefault.jpg'
-  else:
-    return 'https://i.ytimg.com/vi/7VgZ0iiFSDs/maxresdefault.jpg'
-]]></expres>
-<page></page>
-</regex>
-</item>
--->
 
  
  
@@ -611,3 +525,4 @@ def GetLSProData(page_data,Cookie_Jar,m,url='[picapau.param10]'):#cPrLItsLTfakl
 </item>
 -->
 
+</items>
