@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
+<items>
 
 
 <item>
@@ -235,6 +235,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>     
+</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item> 
@@ -254,6 +255,8 @@ def GetLSProData(page_data,Cookie_Jar,m):
  return streamLink
 ]]></expres>
 <page></page>
+</regex>     
+</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item> 
@@ -273,6 +276,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>     
+</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item> 
@@ -293,6 +297,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>     
+</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item>       
@@ -514,4 +519,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item>
 
-v
+
+
+<items>
