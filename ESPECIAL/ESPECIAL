@@ -235,7 +235,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>     
-</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item> 
@@ -255,8 +254,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  return streamLink
 ]]></expres>
 <page></page>
-</regex>     
-</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item> 
@@ -276,7 +273,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>     
-</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item> 
@@ -297,7 +293,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>     
-</regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item>       
