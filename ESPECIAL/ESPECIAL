@@ -2,12 +2,9 @@
 <items>
 
 
-<item>
- 
+<item> 
 <title>[COLOR gold]           ESPECIAL STAR WARS[/COLOR]</title>
- 
 <link>cristalazul</link>
- 
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item>
@@ -211,11 +208,8 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 <item>
- 
 <title>[COLOR gold]           ZONA FRIKI[/COLOR]</title>
- 
 <link>cristalazul</link>
- 
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
 </item>
@@ -234,7 +228,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  return streamLink
 ]]></expres>
 <page></page>
-</regex>     
 </regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
@@ -255,7 +248,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  return streamLink
 ]]></expres>
 <page></page>
-</regex>     
 </regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
@@ -275,7 +267,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  return streamLink
 ]]></expres>
 <page></page>
-</regex>     
 </regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
@@ -296,7 +287,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
  return streamLink
 ]]></expres>
 <page></page>
-</regex>     
 </regex>
 <thumbnail>https://i.imgur.com/3cXpNY1.jpg</thumbnail>
 <fanart>https://i.imgur.com/QDgTCT9.jpg</fanart>
