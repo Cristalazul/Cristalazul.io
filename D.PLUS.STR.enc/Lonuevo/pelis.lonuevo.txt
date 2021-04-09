@@ -38,12 +38,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
- 
-<genre>Comedia,Familia,Aventura</genre>
-<year>1994</year>  
-<thumbnail>https://i.imgur.com/Xen7cqR.jpg</thumbnail>
+ </regex> 
+<genre>Documental</genre>
+<year>2021</year>  
+<thumbnail>https://i.imgur.com/hAky0TM.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-<info>En una bonita mañana de verano, en un privilegiado suburbio de una gran ciudad, Baby Bink se dispone a comenzar su mañana como siempre suele hacer: su desayuno, un relajado baño y su libro de cuentos favoritos: "El bebé va de paseo". Pero la tranquila vida de Baby Bink se ve amenazada cuando es secuestrado por una banda de inteligentes ladrones que se hacen pasar por fotógrafos de niños. Los secuestradores pronto se darán cuenta de lo difícil que resulta cuidar de un bebé y, aunque no intencionadamente, Baby Bink se dispone a explorar la ciudad y esos sitios que tan bien conoce de su libro de cuentos. Los secuestradores pasarán por toda clase de aventuras y situaciones límites tratando de localizar al bebé que, inteligentemente, ha tomado un día libre. </info>
+<info>Sigue los pasos de cinco estudiantes y de su aventura mientras compiten para ganar el torneo de Global Student Entrepreneur. </info>
+<urlsolve>{"titulo" : "[COLOR white]Castellano[/COLOR]","url" : "https://mixdrop.to/f/rwqd8qj3a69keo"},{"titulo" : "[COLOR gold]Latino [/COLOR]","url" : "https://mixdrop.to/f/knx1qx60algxz4"}</urlsolve>
 </item>
 
 <item>
@@ -73,12 +74,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
- 
-<genre>Comedia,Familia,Aventura</genre>
-<year>1994</year>  
-<thumbnail>https://i.imgur.com/Xen7cqR.jpg</thumbnail>
+ </regex>
+<genre>Documental</genre>
+<year>2021</year>  
+<thumbnail>https://i.imgur.com/hAky0TM.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-<info>En una bonita mañana de verano, en un privilegiado suburbio de una gran ciudad, Baby Bink se dispone a comenzar su mañana como siempre suele hacer: su desayuno, un relajado baño y su libro de cuentos favoritos: "El bebé va de paseo". Pero la tranquila vida de Baby Bink se ve amenazada cuando es secuestrado por una banda de inteligentes ladrones que se hacen pasar por fotógrafos de niños. Los secuestradores pronto se darán cuenta de lo difícil que resulta cuidar de un bebé y, aunque no intencionadamente, Baby Bink se dispone a explorar la ciudad y esos sitios que tan bien conoce de su libro de cuentos. Los secuestradores pasarán por toda clase de aventuras y situaciones límites tratando de localizar al bebé que, inteligentemente, ha tomado un día libre. </info>
+<info>Sigue los pasos de cinco estudiantes y de su aventura mientras compiten para ganar el torneo de Global Student Entrepreneur. </info>
+<urlsolve>{"titulo" : "[COLOR white]Castellano[/COLOR]","url" : "https://mixdrop.to/f/rwqd8qj3a69keo"},{"titulo" : "[COLOR gold]Latino [/COLOR]","url" : "https://mixdrop.to/f/knx1qx60algxz4"}</urlsolve>
 </item>
 -------------------------------------------------------------------------------------------------------------------
 
@@ -109,7 +111,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
- 
+  </regex>
 <genre>Accion,Fantasia,Terror</genre>
 <year>2012</year>  
 <thumbnail>https://i.imgur.com/Yhyllq2.jpg</thumbnail>
@@ -144,7 +146,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
- 
+  </regex>
 <genre>Accion,Fantasia,Terror</genre>
 <year>2012</year>  
 <thumbnail>https://i.imgur.com/Yhyllq2.jpg</thumbnail>
@@ -178,7 +180,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
- 
+  </regex>
 <genre>Comedia,Familia,Aventura</genre>
 <year>2004</year>  
 <thumbnail>https://i.imgur.com/vMiSglk.jpg</thumbnail>
