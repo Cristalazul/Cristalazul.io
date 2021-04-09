@@ -1,2 +1,5 @@
-import re,requests,xbmc,xbmcaddon,resolveurl,cookielib,urllib,urllib2,HTMLParser,cfscrape,urlparse
+import re,requests,resolveurl,cfscrape,six
+from kodi_six import xbmc,xbmcaddon,xbmcgui
+from six.moves import urllib_parse
 from lib.megaserver import Client
+#from resources.lib.megaserver import Client
