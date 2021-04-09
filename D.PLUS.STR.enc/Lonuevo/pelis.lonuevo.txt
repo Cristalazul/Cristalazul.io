@@ -12,7 +12,7 @@
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 <item>
-<title>[COLOR white]Jovenes Emprendedores (Castellano) [/COLOR][COLOR gold](2021)[/COLOR]</title>  
+<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021) [COLOR lime](Castellano)[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -47,7 +47,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR white]Jovenes Emprendedores (Latino) [/COLOR][COLOR gold](2021)[/COLOR]</title>  
+<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021)[COLOR orange](Latino)[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -81,44 +81,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>En una bonita mañana de verano, en un privilegiado suburbio de una gran ciudad, Baby Bink se dispone a comenzar su mañana como siempre suele hacer: su desayuno, un relajado baño y su libro de cuentos favoritos: "El bebé va de paseo". Pero la tranquila vida de Baby Bink se ve amenazada cuando es secuestrado por una banda de inteligentes ladrones que se hacen pasar por fotógrafos de niños. Los secuestradores pronto se darán cuenta de lo difícil que resulta cuidar de un bebé y, aunque no intencionadamente, Baby Bink se dispone a explorar la ciudad y esos sitios que tan bien conoce de su libro de cuentos. Los secuestradores pasarán por toda clase de aventuras y situaciones límites tratando de localizar al bebé que, inteligentemente, ha tomado un día libre. </info>
 </item>
 -------------------------------------------------------------------------------------------------------------------
-<item>
-<title>[COLOR white]Cuestión de pelotas [/COLOR][COLOR gold](2004)[/COLOR]</title>  
-<link>$doregex[id3]</link>
-<regex>
-<name>id3</name>
- 
-<expres><![CDATA[#$pyFunction
- 
-def GetLSProData(page_data,Cookie_Jar,m):
- 
-   import resolveurl
- 
-   url = 'https://upstream.to/w8156wy8bb88'
- 
-   try:
- 
-       u = resolveurl.resolve(url)
- 
-   except:
- 
-       u = ''
- 
-   return u
- 
-]]></expres>
- 
-<page></page>
- 
-<genre>Comedia,Familia,Aventura</genre>
-<year>2004</year>  
-<thumbnail>https://i.imgur.com/vMiSglk.jpg</thumbnail>
-<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-<info>Peter LaFleur (Vince Vaughn), es el propietario del gimnasio Average Joe's, el cual está por quebrar. La clientela del gimnasio es muy escasa, y está compuesta por Steve "el Pirata", un hombre que se cree pirata; Justin Redman, un chico escuálido que sueña con impresionar a una animadora que está a años luz de sus posibilidades; Gordon Pibb, un hombre obeso aficionado a los deportes más raros; Owen, un joven sin muchas luces; y Dwight Baumgarten, un engreído sabiondo que en realidad no tiene ni idea de nada. Al humilde gimnasio de Peter, le echa el ojo White Goodman (Ben Stiller), estrella del mundo de los deportes y egocéntrico propietario del Globo Gym, el resplandeciente templo del fitness. </info>
-</item>
 
------------------------------------------------------------------------------------------------------
 <item>
-<title>[COLOR white]Abraham Lincoln: cazador de vampiros (Castellano) [/COLOR][COLOR gold](2012)[/COLOR]</title>  
+<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR lime](Castellano)[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -153,7 +118,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR white]Abraham Lincoln: cazador de vampiros (Latino) [/COLOR][COLOR gold](2012)[/COLOR]</title>  
+<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR orange](Latino)[/COLOR]</title>    
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -186,6 +151,41 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 <info>Indiana, 1818. La luz de la luna cae a través de los densos bosques que rodean una cabaña, donde un niño de nueve años llamado Abraham Lincoln se arrodilla junto a la cama de su madre que sufre. Ella ha sido atacada por algo que los lugareños llaman "Enfermedad de la Leche". Mi niño... susurra antes de morir. Más tarde, el niño se da cuenta de que la enfermedad mortal de su madre era en realidad obra de un vampiro. A partir de ese momento, el niño comienza un diario, y se propone ser un maestro de la mente y el cuerpo, con un sólo objetivo: Emprender un camino de venganza que le llevará a la Casa Blanca.</info>
 </item>
+<item>
+<title>[COLOR white]Cuestión de pelotas [COLOR gold](2004) [COLOR lime](Castellano)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/w8156wy8bb88'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Comedia,Familia,Aventura</genre>
+<year>2004</year>  
+<thumbnail>https://i.imgur.com/vMiSglk.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Peter LaFleur (Vince Vaughn), es el propietario del gimnasio Average Joe's, el cual está por quebrar. La clientela del gimnasio es muy escasa, y está compuesta por Steve "el Pirata", un hombre que se cree pirata; Justin Redman, un chico escuálido que sueña con impresionar a una animadora que está a años luz de sus posibilidades; Gordon Pibb, un hombre obeso aficionado a los deportes más raros; Owen, un joven sin muchas luces; y Dwight Baumgarten, un engreído sabiondo que en realidad no tiene ni idea de nada. Al humilde gimnasio de Peter, le echa el ojo White Goodman (Ben Stiller), estrella del mundo de los deportes y egocéntrico propietario del Globo Gym, el resplandeciente templo del fitness. </info>
+</item>
 
+-----------------------------------------------------------------------------------------------------
 
 
