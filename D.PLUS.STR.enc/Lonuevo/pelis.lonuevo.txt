@@ -12,7 +12,7 @@
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 <item>
-<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021) [COLOR lime](Castellano)[/COLOR]</title>  
+<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021) [COLOR lime]Castellano[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -48,7 +48,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021)[COLOR orange](Latino)[/COLOR]</title>  
+<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021)[COLOR orange]Latino[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -85,7 +85,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 -------------------------------------------------------------------------------------------------------------------
 
 <item>
-<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR lime](Castellano)[/COLOR]</title>  
+<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR lime]Castellano[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -120,7 +120,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR orange](Latino)[/COLOR]</title>    
+<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR orange]Latino[/COLOR]</title>    
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -154,7 +154,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <info>Indiana, 1818. La luz de la luna cae a través de los densos bosques que rodean una cabaña, donde un niño de nueve años llamado Abraham Lincoln se arrodilla junto a la cama de su madre que sufre. Ella ha sido atacada por algo que los lugareños llaman "Enfermedad de la Leche". Mi niño... susurra antes de morir. Más tarde, el niño se da cuenta de que la enfermedad mortal de su madre era en realidad obra de un vampiro. A partir de ese momento, el niño comienza un diario, y se propone ser un maestro de la mente y el cuerpo, con un sólo objetivo: Emprender un camino de venganza que le llevará a la Casa Blanca.</info>
 </item>
 <item>
-<title>[COLOR white]Cuestión de pelotas [COLOR gold](2004) [COLOR lime](Castellano)[/COLOR]</title>  
+<title>[COLOR white]Cuestión de pelotas [COLOR gold](2004) [COLOR lime]Castellano[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
