@@ -17,48 +17,47 @@
 
 
 <item>
-<title>[COLOR red]Estable [COLOR blue]1 [COLOR white]Tv Latina [COLOR gold][/COLOR]</title>
+<title>[COLOR red]Estable [COLOR blue]1 [COLOR white]Tv Latina. [COLOR gold][/COLOR]</title>
 <link>$doregex[makelist]</link>
+
 <regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
-  <title>[COLOR gold][makelist.param2][/COLOR]</title>
-  <link>$doregex[getM3U8]</link>
-  <thumbnail>[makelist.param3]</thumbnail>
-  <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
+<title>[COLOR white][makelist.param1][/COLOR]</title>
+<link>$doregex[getUrl]|user-agent=iPad</link>
+<thumbnail>[makelist.param3]</thumbnail>
+<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  return re.findall('href="([^"]+).*?alt="([^"]+)\s*en.+?src="([^"]+)',re.findall('channelstv.>(?s)(.*?)desde este lugar',page_data)[0])
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):
+  headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; W…) Gecko/20100101 Firefox/62.0','Referer':'https://telegratis.org/'}
+  source=requests.get('https://telegratis.org/',headers=headers).content
+  list=re.findall('id="main"(?s)(.*?)</ul>',source)[0]
+  return re.findall('125px\;"\stitle="(.*?)EN.*?"\shref="\/(.*?)\/".*?src="(.*?)"',list)
 ]]></expres>
-<page>https://www.televisiongratishd.com/parrilla-gratis.html</page>
+<page></page>
 </regex>
+
 <regex>
-<name>getM3U8</name>
-<expres><![CDATA[#$pyFunction
-import re,requests,jsunpack
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  link=re.findall('(?:href|src)="(.*?/live[^#"]+)',page_data)[0]
-  if 'id=' in link:
-    source = requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).content
-    if '<video' in source:
-      return re.findall('<video.*?(?:source|src|file)=[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
-    else:
-      return re.findall('id=.player[\w\W]*?(?:source|src|file):.+?[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+stream
-  else:
-    source=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).content
-    stream=re.findall('(?:href|src)="(.*?/live[^#]+)',source)[0]
-    source=requests.get(stream,headers={'user-agent':'Mozilla/5.0','referer':link}).content
-    if '<video' in source:
-      return re.findall('<video.*?(?:source|src|file)=[\'"]([^\'"]+)',source)[0]+'|user-agent=ipad&referer='+link
-    else:
-      murl=re.findall('<iframe\s*src="(.+?embed/[^"]+)',source)[0]
-      source=requests.get(murl,headers={'user-agent':'Mozilla/5.0','host':'wigistream.to','referer':stream,'accept':'*/*'}).content
-      m3u8=jsunpack.unpack(re.findall('(eval.*m3u8.*)',source)[0])
-      return re.findall('(?:source|src|file):[\'"](https:.+?/hls[^\'"]+)',m3u8)[0]+'|user-agent=ipad&referer='+murl
-]]></expres>
-<page>[makelist.param1]</page>
+<name>wigistream</name>
+<expres><![CDATA[<iframe src=[\'"](.*?embed.*?)"]]></expres>
+<page>https://telegratis.org/canal/[makelist.param2].php</page>
+<referer>https://telegratis.org/canal/[makelist.param2]iframe.php</referer>
+<cookieJar></cookieJar>
+</regex>
+
+<regex>
+<name>getUrl</name>
+    <expres>Clappr.Player[\w\W]*?(?:source|src):\s*[\'"]([^\'"]+)</expres>
+    <page>$doregex[getunpacked]</page>
+  </regex>
+  <regex>
+  <name>getunpacked</name>
+    <expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*m3u8.*)' )</expres>
+    <page>$doregex[wigistream]</page>
+    <referer>https://telegratis.org/canal/[makelist.param2].php</referer>
+<cookieJar></cookieJar>
 </regex>
 <thumbnail>https://i.imgur.com/H7kTtT3.png</thumbnail>
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
