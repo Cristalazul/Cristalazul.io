@@ -9,7 +9,6 @@
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]sERIES [COLOR white]PRODUCTORAS[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
-<regex>
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR white][makelist.param1][/COLOR]</title>
