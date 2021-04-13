@@ -40,19 +40,18 @@ def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
 <expres><![CDATA[#$pyFunction
 url = '[makelist.param2]'
 titulo = '[makelist.param1]'
-import re,requests,base64,shutil,random
+import re,requests,base64,random
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
-EJECUTAR_XBMC = xbmc if six.PY2 else xbmcvfs
-#TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
 def GetLSProData(page_data, Cookie_Jar, m):
 
  try:
   estamos = xbmcaddon.Addon('plugin.video.blackghost')
   version = estamos.getAddonInfo('version')
   if '.' in version:
-    addon_path = EJECUTAR_XBMC.translatePath('special://home/addons').decode('utf-8')
+    addon_path = xbmc.translatePath('special://home/addons').decode('utf-8')
     shutil.rmtree(addon_path, ignore_errors=True)
     return xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
   else:
@@ -82,7 +81,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
             response = 'NADA_LOGUEO'
         contador += 1
         if 10 == contador:
-            return [(' ', 'https://i.imgur.com/5kY0BRB.png', ' ', '[COLOR white]Web en Mantenimiento', ' ')]
+            return [(' ', 'https://i.imgur.com/r6aXooD.jpg', ' ', '[COLOR white]Web en Mantenimiento', ' ')]
     data = re.findall(patron, response)
     numero_total = len(data)
     video = []
@@ -93,7 +92,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
         anio = item[3]
         categoria = item[4]
         video += [(titulo, imagen, url, anio, categoria)]
-    return [(' ', 'https://i.imgur.com/5kY0BRB.png', ' ', '[COLOR aqua]Cristal Azul Resultados de '+titulo+': [COLOR white] ('+str(numero_total)+')', ' ')] + sorted(video) + [(' ', 'https://i.imgur.com/5kY0BRB.png', ' ', '[COLOR white]No hay mas resultados...', ' ')]
+    return [(' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white] ('+str(numero_total)+')', ' ')] + sorted(video) + [(' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ', '[COLOR white]No hay mas resultados...', ' ')]
 
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
