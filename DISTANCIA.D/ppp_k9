@@ -22,6 +22,7 @@ from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
   response = requests.get('https://pastebin.com/raw/mRDFTn7Y', verify=False).text
+  response = six.ensure_str(response)
   items = re.findall('(?s)"titulo":"(.*?)".*?"url":"(.*?)".*?"imagen":"(.*?)"', response)
   numero_total = len(items)
   return [('[COLOR aqua]Cristal Azul, Productoras:[COLOR white] ('+str(numero_total)+')', ' ', 'https://i.imgur.com/5kY0BRB.png')] + sorted(items) + [('[COLOR white]No hay mas resultados...', ' ', 'https://i.imgur.com/5kY0BRB.png')]
