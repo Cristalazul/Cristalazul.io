@@ -87,7 +87,8 @@ def GetLSProData(page_data, Cookie_Jar, m,url=url):
     for item in data:
         url = item[0]
         imagen = item[1]
-        titulo = item[2].encode('utf-8').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('Á', 'A').replace('É', 'E').replace('Ó', 'O').replace('Ú', 'U').replace('ñ', 'n')
+        titulo = item[2]
+        titulo = six.ensure_str(titulo).replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('Á', 'A').replace('É', 'E').replace('Ó', 'O').replace('Ú', 'U').replace('ñ', 'n')
         anio = item[3]
         categoria = item[4]
         video += [(titulo, imagen, url, anio, categoria)]
