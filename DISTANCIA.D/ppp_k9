@@ -863,15 +863,16 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,temporada=temporada):
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
 url = '[cap.param1]'
-import re,requests,base64,shutil,random
+import re,requests,base64,random
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
 TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+
 def GetLSProData(page_data,Cookie_Jar,m,url=url):
 
   id = xbmcaddon.Addon().getAddonInfo('id')
-  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+  if 'cristalazul' in id or 'festa' in id or 'streamspro' in id:
     cookie_distancia = urllib_request.urlopen('https://pastebin.com/raw/A35dMZS1').read()
     cookie_distancia = six.ensure_str(cookie_distancia)
     patron = '(?s)href="(.*?)".*?src.*?>(.*?)<.*?>(.*?)<.*?languages/(.*?)[_\.]'
@@ -886,13 +887,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
             if 'powvideo' in item[2] or 'waaw' in item[2] or 'streamplay' in item[2] or 'vidtodo' in item[2]:
                 url = ''
             else:
-                lista_post += [(item[1], item[2], item[3], item[0])]
+                lista_post += [(item[1], '[COLOR gold]E.Oficial '+item[2], item[3], item[0])]
     except:
         lista_post = []
     data = lista_post + data
     videos = []
     for item in data:
-      if 'powvideo' in item[0] or 'waaw' in item[0] or 'streamplay' in item[0] or 'vidtodo' in item[0]:
+      if 'powvideo' in item[1] or 'waaw' in item[1] or 'streamplay' in item[1] or 'vidtodo' in item[1]:
           url = ''
       else:
           url = item[0]
@@ -913,19 +914,25 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
 <expres><![CDATA[#$pyFunction
 url = '[link_final.param1]'
 referer = '[cap.param1]'
-import re,requests,base64,xbmc,xbmcgui,xbmcaddon,random,urllib2
+import re,requests,base64,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+
 def GetLSProData(page_data,Cookie_Jar,m,url=url,referer=referer):
 
   if 'http' in url:
     return url
   else:
     cookie_distancia = urllib_request.urlopen('https://pastebin.com/raw/A35dMZS1').read()
-    cookie_distancia = six.ensure_str(cookie_distancia)
+    cookie_distancia = six.ensure_str(cookie_distancia )
     patron = "src='(.*?)'"
     data = "------WebKitFormBoundaryOoOIK5GVbe9NzOCE\r\nContent-Disposition: form-data; name=\"_method\"\r\n\r\ngetPlayer\r\n------WebKitFormBoundaryOoOIK5GVbe9NzOCE\r\nContent-Disposition: form-data; name=\"id\"\r\n\r\n" + url + "\r\n------WebKitFormBoundaryOoOIK5GVbe9NzOCE\r\nContent-Disposition: form-data; name=\"width\"\r\n\r\n601\r\n------WebKitFormBoundaryOoOIK5GVbe9NzOCE\r\nContent-Disposition: form-data; name=\"height\"\r\n\r\n540\r\n------WebKitFormBoundaryOoOIK5GVbe9NzOCE--\r\n"
     try:
         cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
-        response = requests.post('https://playdede.com/ajax.php', headers={'authority': 'playdede.com', 'pragma': 'no-cache', 'cache-control': 'no-cache', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', 'content-type': 'multipart/form-data; boundary=----WebKitFormBoundaryOoOIK5GVbe9NzOCE', 'accept': '*/*', 'origin': 'https://playdede.com', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': referer, 'accept-language': 'es-ES,es;q=0.9', 'cookie': cookie}, data=data).text
+        #response = requests.post('https://playdede.com/ajax.php', headers={'authority': 'playdede.com', 'pragma': 'no-cache', 'cache-control': 'no-cache', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', 'content-type': 'multipart/form-data; boundary=----WebKitFormBoundaryOoOIK5GVbe9NzOCE', 'accept': '*/*', 'origin': 'https://playdede.com', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': referer, 'accept-language': 'es-ES,es;q=0.9', 'cookie': cookie}, data=data).text
+        response = requests.get('https://playdede.com/embed.php?id='+url+'&width=601&height=540', headers={'authority': 'playdede.com', 'pragma': 'no-cache', 'cache-control': 'no-cache', 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36', 'content-type': 'multipart/form-data; boundary=----WebKitFormBoundaryOoOIK5GVbe9NzOCE', 'accept': '*/*', 'origin': 'https://playdede.com', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': referer, 'accept-language': 'es-ES,es;q=0.9', 'cookie': cookie}).text
         response = six.ensure_str(response)
         url_post = re.findall(patron, response)[0]
     except:
