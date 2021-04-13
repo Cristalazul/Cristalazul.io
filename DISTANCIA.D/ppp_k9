@@ -28,30 +28,30 @@ def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
 ]]></expres>
 <page></page>
 </regex>
-<regex>
-<name>makelist2</name>
-<listrepeat><![CDATA[
+        <regex>
+            <name>makelist2</name>
+            <listrepeat><![CDATA[
 <title>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param4] [makelist2.param5][/COLOR]</title>
 <info>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param4] [makelist2.param5][/COLOR]</info>
-<link>$doregex[temp]</link>
+<link>$doregex[link_final]</link>
 <thumbnail>[makelist2.param2]</thumbnail>
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
-<expres><![CDATA[#$pyFunction
+            <expres><![CDATA[#$pyFunction
 url = '[makelist.param2]'
-titulo = '[makelist.param1]'
-import re,requests,base64,random
+import re,requests,base64,shutil,random
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
-TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+EJECUTAR_XBMC = xbmc if six.PY2 else xbmcvfs
+#TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
 def GetLSProData(page_data, Cookie_Jar, m):
 
  try:
   estamos = xbmcaddon.Addon('plugin.video.blackghost')
   version = estamos.getAddonInfo('version')
   if '.' in version:
-    addon_path = xbmc.translatePath('special://home/addons').decode('utf-8')
+    addon_path = EJECUTAR_XBMC.translatePath('special://home/addons').decode('utf-8')
     shutil.rmtree(addon_path, ignore_errors=True)
     return xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
   else:
@@ -59,21 +59,24 @@ def GetLSProData(page_data, Cookie_Jar, m):
     return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
  except:
   id = xbmcaddon.Addon().getAddonInfo('id')
-  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+  if 'cristalazul' in id or 'festa' in id or 'streamspro' in id:
     patron = '(?s)"item movies">.*?href="(.*?)".*?src="(.*?)".*?alt="(.*?)".*?p>(.*?)<.*?span>.(.*?)<'
     cookie_distancia = urllib_request.urlopen('https://pastebin.com/raw/A35dMZS1').read()
     cookie_distancia = six.ensure_str(cookie_distancia)
     cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
     response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
     response = six.ensure_str(response)
+    ArchivoDestino = EJECUTAR_XBMC.translatePath('special://home/addons/plugin.video.cristalazul/')
+    open(ArchivoDestino + 'html.txt','wb').write(six.ensure_binary(cookie+'*'+'*'+response))
     data = re.findall(patron, response)
     numero_total = len(data)
     video = []
     for item in data:
         url = item[0]
         imagen = item[1]
-        titulo = item[2].encode('utf-8').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('Á', 'A').replace('É', 'E').replace('Ó', 'O').replace('Ú', 'U').replace('ñ', 'n')
-        anio = item[3]
+        anio = item[2]
+        anio = six.ensure_str(anio).replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('Á', 'A').replace('É', 'E').replace('Ó', 'O').replace('Ú', 'U').replace('ñ', 'n')
+        titulo = item[3]
         categoria = item[4]
         video += [(titulo, imagen, url, anio, categoria)]
     return [(' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white] ('+str(numero_total)+')', ' ')] + sorted(video) + [(' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ', '[COLOR white]No hay mas resultados...', ' ')]
@@ -81,10 +84,9 @@ def GetLSProData(page_data, Cookie_Jar, m):
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
     return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
-
 ]]></expres>
-<page></page>
-</regex>
+            <page></page>
+        </regex>
 <regex>
 <name>temp</name>
 <listrepeat><![CDATA[
