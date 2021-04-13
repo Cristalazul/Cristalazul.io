@@ -287,7 +287,6 @@ url = '$doregex[link_final_total]'
 import re,requests,resolveurl,cfscrape,six
 from kodi_six import xbmc,xbmcaddon,xbmcgui
 from six.moves import urllib_parse
-#from lib.megaserver import Client
 from resources.lib.megaserver import Client
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
@@ -593,7 +592,6 @@ url = '$doregex[link_final_total]'
 import re,requests,resolveurl,cfscrape,six
 from kodi_six import xbmc,xbmcaddon,xbmcgui
 from six.moves import urllib_parse
-#from lib.megaserver import Client
 from resources.lib.megaserver import Client
 from resolveurl.plugins.lib import jsunpack
 from resolveurl.plugins.lib import jsunpack
