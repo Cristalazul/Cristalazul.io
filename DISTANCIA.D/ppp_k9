@@ -302,7 +302,7 @@ from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
 def GetLSProData(page_data,Cookie_Jar,m):
-    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/conector.a.distancia.definitivo', verify=False).text
+    pasta = requests.get('https://pastebin.com/raw/WbE5acSW', verify=False).text
     return six.ensure_str(pasta)
 ]]></expres>
 <page></page>
