@@ -63,25 +63,9 @@ def GetLSProData(page_data, Cookie_Jar, m):
     patron = '(?s)"item movies">.*?href="(.*?)".*?src="(.*?)".*?alt="(.*?)".*?p>(.*?)<.*?span>.(.*?)<'
     cookie_distancia = urllib_request.urlopen('https://pastebin.com/raw/A35dMZS1').read()
     cookie_distancia = six.ensure_str(cookie_distancia)
-    try:
-        cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
-        response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
-        response = six.ensure_str(response)
-        data = re.findall(patron, response)
-    except:
-        response = 'NADA_LOGUEO'
-    contador = 0
-    while 'NADA_LOGUEO' in response or 'Cloudflare Ray ID:' in response or 'Olvidaste tu contrase' in response:
-        try:
-            cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
-            response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
-            response = six.ensure_str(response)
-            data = re.findall(patron, response)
-        except:
-            response = 'NADA_LOGUEO'
-        contador += 1
-        if 10 == contador:
-            return [(' ', 'https://i.imgur.com/r6aXooD.jpg', ' ', '[COLOR white]Web en Mantenimiento', ' ')]
+    cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
+    response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
+    response = six.ensure_str(response)
     data = re.findall(patron, response)
     numero_total = len(data)
     video = []
