@@ -15,7 +15,7 @@
 <fanart>https://i.imgur.com/zMg28gY.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
-#url = 'https://www.youtube.com/playlist?list=PLOwMvBWGjS50Gt8EFb0kjIFddrimFQ-zG'
+url = 'https://www.youtube.com/playlist?list=PLOwMvBWGjS50Gt8EFb0kjIFddrimFQ-zG'
 import re,six
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
