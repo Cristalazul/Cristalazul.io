@@ -36,10 +36,10 @@ def GetLSProData(page_data,Cookie_Jar,m):
     pastebino = 'dsfrQWoPWWKDH='
     url = 'QnVzY2Fkb3JfcGlkZXBhbG9taXRhc19wb3N0'
     try:
-      page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/DISTANCIA.D/superestrenos.distancia').read()
-      page = six.ensure_str(page)
-      page_data = page[2:].decode('base64')
-      extraer = urllib_request.urlopen('http://bit.ly/'+page_data).read()
+      #page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/DISTANCIA.D/superestrenos.distancia').read()
+      #page = six.ensure_str(page)
+      #page_data = page[2:].decode('base64')
+      extraer = urllib_request.urlopen('http://bit.ly/superestrenos3').read()
     except:
       xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold]Imposible Conectar Con Base de Datos[/COLOR], 15000)")
       return [('[COLOR red]No Se Puede Acceder a la base...[/COLOR]', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg', 'Imposible Concetar con la base', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')] + [('[COLOR aqua]Solucion en Telegram: [COLOR white]@addonfestaycristal[/COLOR]', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg', 'Imposible Concetar con la base', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')]
