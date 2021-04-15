@@ -186,7 +186,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 <item>
-<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Movistar Lista 1 Pro[/COLOR]</title>
+<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Movistar Lista 1 Pro [COLOR yellow]EN MANTENIMIENTO[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -225,7 +225,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 <item>
-<title>[COLOR lightskyblue][COLOR orangered]Chikiry_Cristal [COLOR white]Premium [COLOR gold][/COLOR]</title>
+<title>[COLOR lightskyblue][COLOR orangered]Chikiry_Cristal [COLOR white]Premium [COLOR yellow]EN MANTENIMIENTO[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
