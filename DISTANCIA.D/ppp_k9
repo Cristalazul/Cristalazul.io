@@ -37,7 +37,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     try:
       #page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/DISTANCIA.D/superestrenos.distancia').read()
       #page = six.ensure_str(page)
-      page_data = base64.decodestring(page[2:])
+      page_data = base64.b64decode(page[2:])
       extraer = urllib_request.urlopen('http://bit.ly/'+page_data).read()
       extraer = six.ensure_str(extraer)
     except:
