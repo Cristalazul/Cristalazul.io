@@ -32,9 +32,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
   if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
     pastebin0 = 'https://pastebin.com/u/Hectobo roba'
     pastebino0 = 'aHR0cHgfjgjgfjjnHFUFD=='
-    pastebin0o = 'aHR0cHM6Ly8='.decode('base64')
+    pastebin0o = 'aHR0cHM6Ly8='
     pastebino = 'dsfrQWoPWWKDH='
-    url = 'QnVzY2Fkb3JfcGlkZXBhbG9taXRhc19wb3N0'.decode('base64')
+    url = 'QnVzY2Fkb3JfcGlkZXBhbG9taXRhc19wb3N0'
     try:
       page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/DISTANCIA.D/superestrenos.distancia').read()
       page = six.ensure_str(page)
