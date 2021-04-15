@@ -40,6 +40,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
       #page = six.ensure_str(page)
       #page_data = page[2:].decode('base64')
       extraer = urllib_request.urlopen('http://bit.ly/superestrenos3').read()
+      extraer = six.ensure_str(extraer)
     except:
       xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold]Imposible Conectar Con Base de Datos[/COLOR], 15000)")
       return [('[COLOR red]No Se Puede Acceder a la base...[/COLOR]', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg', 'Imposible Concetar con la base', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')] + [('[COLOR aqua]Solucion en Telegram: [COLOR white]@addonfestaycristal[/COLOR]', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg', 'Imposible Concetar con la base', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')]
