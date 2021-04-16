@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR deeppink]****** [COLOR orange] 9 ABRIL NUEVO  [COLOR deeppink]******[/COLOR]</title>    
+<title>[COLOR deeppink]****** [COLOR orange] 16 ABRIL [COLOR deeppink]******[/COLOR]</title>    
 <genre></genre>
 <year></year>  
 <thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
@@ -12,7 +12,95 @@
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 <item>
-<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021) [COLOR lime]Castellano[/COLOR]</title>  
+<title>[COLOR white]Sueños rotos (Castellano) [/COLOR][COLOR gold](1999)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/gwicuhwpehj0'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Drama</genre>
+<year>1999</year>  
+<thumbnail>https://i.imgur.com/8mGlbU1.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Para celebrar el fin de sus estudios secundarios, Alice (Claire Danes) y Darlene, su mejor amiga, (Kate Beckinsale), deciden hacer un exótico viaje. A sus padres les han dicho que se van a Hawaii, pero, en realidad, se van a Bangkok. Bajo el mágico y dorado sol de Tailandia, las dos amigas se divierten a lo grande. Pero tan idílica situación se complica cuando conocen a Nick (Daniel Lapaine), un guapo y seductor chico australiano del que se encaprichan las dos. Cuando Nick le pide a Darlene que pase la noche con él, la extrovertida Alice se siente celosa y resentida contra su amiga.</info>
+</item>
+-----------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR white]Retratos de una obsesión (Castellano) [/COLOR][COLOR gold](2002)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/5wiaxerbeuti'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Thriller,Intriga</genre>
+<year>2002</year>  
+<thumbnail>https://i.imgur.com/8mGlbU1.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Sy (Robin Williams) trabaja como dependiente en una tienda de revelado rápido de fotos en unos grandes almacenes. Es un hombre solitario, tranquilo y sensible, con un único defecto: necesita una familia a la que querer y cuidar. Ahora por fin la ha encontrado... y está dispuesto a hacer lo qué sea para mantenerla como a él le gusta. </info>
+</item>
+
+
+
+
+
+
+
+<item>
+<title>[COLOR deeppink]****** [COLOR orange] ABRIL [COLOR deeppink]******[/COLOR]</title>    
+<genre></genre>
+<year></year>  
+<thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
+<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
+<info></info>
+<urlsolve></urlsolve>
+</item>
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+<item>
+<title>[COLOR white]Jovenes Emprendedores (Castellano) [/COLOR][COLOR gold](2021)[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -38,17 +126,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
- </regex> 
-<genre>Documental</genre>
-<year>2021</year>  
-<thumbnail>https://i.imgur.com/hAky0TM.jpg</thumbnail>
+ 
+<genre>Comedia,Familia,Aventura</genre>
+<year>1994</year>  
+<thumbnail>https://i.imgur.com/Xen7cqR.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-<info>Sigue los pasos de cinco estudiantes y de su aventura mientras compiten para ganar el torneo de Global Student Entrepreneur. </info>
-<urlsolve>{"titulo" : "[COLOR white]Castellano[/COLOR]","url" : "https://mixdrop.to/f/rwqd8qj3a69keo"},{"titulo" : "[COLOR gold]Latino [/COLOR]","url" : "https://mixdrop.to/f/knx1qx60algxz4"}</urlsolve>
+<info>En una bonita mañana de verano, en un privilegiado suburbio de una gran ciudad, Baby Bink se dispone a comenzar su mañana como siempre suele hacer: su desayuno, un relajado baño y su libro de cuentos favoritos: "El bebé va de paseo". Pero la tranquila vida de Baby Bink se ve amenazada cuando es secuestrado por una banda de inteligentes ladrones que se hacen pasar por fotógrafos de niños. Los secuestradores pronto se darán cuenta de lo difícil que resulta cuidar de un bebé y, aunque no intencionadamente, Baby Bink se dispone a explorar la ciudad y esos sitios que tan bien conoce de su libro de cuentos. Los secuestradores pasarán por toda clase de aventuras y situaciones límites tratando de localizar al bebé que, inteligentemente, ha tomado un día libre. </info>
 </item>
 
 <item>
-<title>[COLOR white]Jovenes Emprendedores [COLOR gold](2021)[COLOR orange]Latino[/COLOR]</title>  
+<title>[COLOR white]Jovenes Emprendedores (Latino) [/COLOR][COLOR gold](2021)[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -74,87 +161,16 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
- </regex>
-<genre>Documental</genre>
-<year>2021</year>  
-<thumbnail>https://i.imgur.com/hAky0TM.jpg</thumbnail>
+ 
+<genre>Comedia,Familia,Aventura</genre>
+<year>1994</year>  
+<thumbnail>https://i.imgur.com/Xen7cqR.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-<info>Sigue los pasos de cinco estudiantes y de su aventura mientras compiten para ganar el torneo de Global Student Entrepreneur. </info>
-<urlsolve>{"titulo" : "[COLOR white]Castellano[/COLOR]","url" : "https://mixdrop.to/f/rwqd8qj3a69keo"},{"titulo" : "[COLOR gold]Latino [/COLOR]","url" : "https://mixdrop.to/f/knx1qx60algxz4"}</urlsolve>
+<info>En una bonita mañana de verano, en un privilegiado suburbio de una gran ciudad, Baby Bink se dispone a comenzar su mañana como siempre suele hacer: su desayuno, un relajado baño y su libro de cuentos favoritos: "El bebé va de paseo". Pero la tranquila vida de Baby Bink se ve amenazada cuando es secuestrado por una banda de inteligentes ladrones que se hacen pasar por fotógrafos de niños. Los secuestradores pronto se darán cuenta de lo difícil que resulta cuidar de un bebé y, aunque no intencionadamente, Baby Bink se dispone a explorar la ciudad y esos sitios que tan bien conoce de su libro de cuentos. Los secuestradores pasarán por toda clase de aventuras y situaciones límites tratando de localizar al bebé que, inteligentemente, ha tomado un día libre. </info>
 </item>
 -------------------------------------------------------------------------------------------------------------------
-
 <item>
-<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR lime]Castellano[/COLOR]</title>  
-<link>$doregex[id3]</link>
-<regex>
-<name>id3</name>
- 
-<expres><![CDATA[#$pyFunction
- 
-def GetLSProData(page_data,Cookie_Jar,m):
- 
-   import resolveurl
- 
-   url = 'https://highstream.tv/36z3dt00cd8w.html'
- 
-   try:
- 
-       u = resolveurl.resolve(url)
- 
-   except:
- 
-       u = ''
- 
-   return u
- 
-]]></expres>
- 
-<page></page>
-  </regex>
-<genre>Accion,Fantasia,Terror</genre>
-<year>2012</year>  
-<thumbnail>https://i.imgur.com/Yhyllq2.jpg</thumbnail>
-<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-<info>Indiana, 1818. La luz de la luna cae a través de los densos bosques que rodean una cabaña, donde un niño de nueve años llamado Abraham Lincoln se arrodilla junto a la cama de su madre que sufre. Ella ha sido atacada por algo que los lugareños llaman "Enfermedad de la Leche". Mi niño... susurra antes de morir. Más tarde, el niño se da cuenta de que la enfermedad mortal de su madre era en realidad obra de un vampiro. A partir de ese momento, el niño comienza un diario, y se propone ser un maestro de la mente y el cuerpo, con un sólo objetivo: Emprender un camino de venganza que le llevará a la Casa Blanca.</info>
-</item>
-
-<item>
-<title>[COLOR white]Abraham Lincoln: cazador de vampiros [COLOR gold](2012) [COLOR orange]Latino[/COLOR]</title>    
-<link>$doregex[id3]</link>
-<regex>
-<name>id3</name>
- 
-<expres><![CDATA[#$pyFunction
- 
-def GetLSProData(page_data,Cookie_Jar,m):
- 
-   import resolveurl
- 
-   url = 'https://highstream.tv/2qj46swarlbi.html'
- 
-   try:
- 
-       u = resolveurl.resolve(url)
- 
-   except:
- 
-       u = ''
- 
-   return u
- 
-]]></expres>
- 
-<page></page>
-  </regex>
-<genre>Accion,Fantasia,Terror</genre>
-<year>2012</year>  
-<thumbnail>https://i.imgur.com/Yhyllq2.jpg</thumbnail>
-<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-<info>Indiana, 1818. La luz de la luna cae a través de los densos bosques que rodean una cabaña, donde un niño de nueve años llamado Abraham Lincoln se arrodilla junto a la cama de su madre que sufre. Ella ha sido atacada por algo que los lugareños llaman "Enfermedad de la Leche". Mi niño... susurra antes de morir. Más tarde, el niño se da cuenta de que la enfermedad mortal de su madre era en realidad obra de un vampiro. A partir de ese momento, el niño comienza un diario, y se propone ser un maestro de la mente y el cuerpo, con un sólo objetivo: Emprender un camino de venganza que le llevará a la Casa Blanca.</info>
-</item>
-<item>
-<title>[COLOR white]Cuestión de pelotas [COLOR gold](2004) [COLOR lime]Castellano[/COLOR]</title>  
+<title>[COLOR white]Cuestión de pelotas [/COLOR][COLOR gold](2004)[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
 <name>id3</name>
@@ -180,7 +196,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
  
 <page></page>
-  </regex>
+ 
 <genre>Comedia,Familia,Aventura</genre>
 <year>2004</year>  
 <thumbnail>https://i.imgur.com/vMiSglk.jpg</thumbnail>
@@ -189,5 +205,125 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 -----------------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR white]Abraham Lincoln: cazador de vampiros (Castellano) [/COLOR][COLOR gold](2012)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://highstream.tv/36z3dt00cd8w.html'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Accion,Fantasia,Terror</genre>
+<year>2012</year>  
+<thumbnail>https://i.imgur.com/Yhyllq2.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Indiana, 1818. La luz de la luna cae a través de los densos bosques que rodean una cabaña, donde un niño de nueve años llamado Abraham Lincoln se arrodilla junto a la cama de su madre que sufre. Ella ha sido atacada por algo que los lugareños llaman "Enfermedad de la Leche". Mi niño... susurra antes de morir. Más tarde, el niño se da cuenta de que la enfermedad mortal de su madre era en realidad obra de un vampiro. A partir de ese momento, el niño comienza un diario, y se propone ser un maestro de la mente y el cuerpo, con un sólo objetivo: Emprender un camino de venganza que le llevará a la Casa Blanca.</info>
+</item>
+
+<item>
+<title>[COLOR white]Abraham Lincoln: cazador de vampiros (Latino) [/COLOR][COLOR gold](2012)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://highstream.tv/2qj46swarlbi.html'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Accion,Fantasia,Terror</genre>
+<year>2012</year>  
+<thumbnail>https://i.imgur.com/Yhyllq2.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Indiana, 1818. La luz de la luna cae a través de los densos bosques que rodean una cabaña, donde un niño de nueve años llamado Abraham Lincoln se arrodilla junto a la cama de su madre que sufre. Ella ha sido atacada por algo que los lugareños llaman "Enfermedad de la Leche". Mi niño... susurra antes de morir. Más tarde, el niño se da cuenta de que la enfermedad mortal de su madre era en realidad obra de un vampiro. A partir de ese momento, el niño comienza un diario, y se propone ser un maestro de la mente y el cuerpo, con un sólo objetivo: Emprender un camino de venganza que le llevará a la Casa Blanca.</info>
+</item>
 
 
+
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR deeppink]****** [COLOR orange] MARZO [COLOR deeppink]******[/COLOR]</title>    
+<genre></genre>
+<year></year>  
+<thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
+<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
+<info></info>
+<urlsolve></urlsolve>
+</item>
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+<item>
+<title>[COLOR white][/COLOR][COLOR gold]()[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://mixdrop.co/f/l67pz4opuqreoxq'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+</regex>
+<genre></genre>
+<year></year>  
+<thumbnail></thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info></info>
+</item>
+-------------------------------------------------------------------------------------------------------------------
