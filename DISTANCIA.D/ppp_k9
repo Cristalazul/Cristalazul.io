@@ -36,9 +36,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
     url = 'QnVzY2Fkb3JfcGlkZXBhbG9taXRhc19wb3N0'
     try:
       page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/DISTANCIA.D/superestrenos.distancia').read()
-      page = six.ensure_str(page)
+      page = six.ensure_binary(page)
       page_data = base64.decodestring(page[2:])
-      extraer = urllib_request.urlopen('http://bit.ly/'+page_data).read()
+      extraer = urllib_request.urlopen('http://bit.ly/'+six.ensure_str(page_data)).read()
       extraer = six.ensure_str(extraer)
     except:
       xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold]Imposible Conectar Con Base de Datos[/COLOR], 15000)")
