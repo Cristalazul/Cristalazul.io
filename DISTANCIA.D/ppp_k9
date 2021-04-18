@@ -358,13 +358,15 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <name>link_inteligente</name>
 <expres><![CDATA[#$pyFunction
 url = '$doregex[prueba_proxi]'
-import re,requests,xbmc,xbmcaddon,resolveurl,cookielib,urllib,urllib2
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+import six,re,requests
 from resolveurl.plugins.lib import jsunpack
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
   id = xbmcaddon.Addon().getAddonInfo('id')
   if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
     if 'adictosalatele' in url:
-      path = xbmc.translatePath("special://home/addons/plugin.video.cristalazul/html.txt")
+      path = TRANSLATEPATH("special://home/addons/plugin.video.cristalazul/html.txt")
       f = open(path, 'r')
       html = f.read()
       f.close()
