@@ -128,7 +128,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,header=header):
       elif len(proxy) == contador:
           xbmc.executebuiltin(("Notification([COLOR white]Usa VPN Despues de probar %s[/COLOR],[COLOR white]Proxy No hemos saltado bloqueo!![/COLOR], 8000)")%(contador))
           return ''
-  ArchivoDestino = xbmc.translatePath('special://home/addons/plugin.video.cristalazul/')
+  ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
   open(ArchivoDestino + 'html.txt','wb').write(six.ensure_binary('Proxi Utilizado='+proxi+'_'+str(contador)+html))
   return url
 ]]></expres>
@@ -148,7 +148,9 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
   f = open(path, 'r')
   html = f.read()
   f.close()
-  wigi = re.findall('(?s)iframe.*?src=[\'"]([^\'"]+)', html)[0]
+  wigi = re.findall('(?s)iframe.*?src=[\'"]([^\'"]+)', six.ensure_str(html))[0]
+  ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
+  open(ArchivoDestino + 'wigi.txt','wb').write(six.ensure_binary(wigi))
   html_1 = requests.get(wigi, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text
   html_1 = six.ensure_str(html_1)
   url2 = re.findall('source.*?[\'"](.*?m3u8.*?)[\'"]', html1)[0]
