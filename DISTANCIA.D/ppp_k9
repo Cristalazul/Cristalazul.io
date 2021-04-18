@@ -198,7 +198,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 <listrepeat><![CDATA[
 <title>[COLOR white][busca.param1][/COLOR]</title>
 <link>$doregex[plugin]$doregex[link_inteligente]</link>
-<thumbnail>[busca.param2]<thumbnail>
+<thumbnail>[busca.param2]</thumbnail>
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[#$pyFunction
@@ -239,7 +239,6 @@ def GetLSProData(page_data, Cookie_Jar, m,elegir=elegir):
 
       return [('El addon es completamente gratuito, no se aceptan donaciones.', 'https://i.imgur.com/Z2uD47a.jpg', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]', ' ')]
 		  
-
     elif 'deportes' == elegir:
 	
       html = requests.get(past, headers={'User-Agent': 'Mozilla/5.0', 'Referer': 'http://pastebin.com'}, verify=False).text
