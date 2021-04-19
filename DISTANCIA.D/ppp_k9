@@ -47,7 +47,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     cookie_distancia = six.ensure_str(cookie_distancia)
     cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
     Palabra_Buscada = xbmcgui.Dialog().input('Buscar Peliculas: ', type=xbmcgui.INPUT_ALPHANUM)
-    Palabra_Buscada = urllib_parse.quote_plus(six.ensure_str(palabrabuscada))
+    Palabra_Buscada = urllib_parse.quote_plus(six.ensure_str(Palabra_Buscada))
     response = requests.get('https://playdede.com/search/?s='+Palabra_Buscada, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
     response = six.ensure_str(response)
     ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
