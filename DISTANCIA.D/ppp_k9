@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series android[COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
+<title>[COLOR gold]* [COLOR lightseagreen]H Series android[COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -58,7 +58,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
         imagen = item[1]
         anio = item[2]
         titulo = item[3]
-        titulo = six.ensure_str(titulo).replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('Á', 'A').replace('É', 'E').replace('Ó', 'O').replace('Ú', 'U').replace('ñ', 'n')
+        #titulo = six.ensure_str(titulo).replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('Á', 'A').replace('É', 'E').replace('Ó', 'O').replace('Ú', 'U').replace('ñ', 'n')
         categoria = item[4]
         video += [(titulo, imagen, url, anio, categoria)]
     return [(' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white] ('+str(numero_total)+')', ' ')] + sorted(video) + [(' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ', '[COLOR white]No hay mas resultados...', ' ')]
