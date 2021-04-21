@@ -18,6 +18,7 @@
 <name>llamada</name>
 <expres><![CDATA[#$pyFunction
 from kodi_six import xbmc,xbmcgui
+from six.moves import urllib_parse
 def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
 
     id = xbmcgui.Dialog().input('Insertar Acestream: ', type=xbmcgui.INPUT_ALPHANUM)
@@ -28,7 +29,6 @@ def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
     return xbmc.executebuiltin('XBMC.RunPlugin("' + llamada + '")')
 ]]></expres>
 <page></page>
-<notplayable>None</notplayable>
 </regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
