@@ -6,6 +6,29 @@
 
 
 
+<item>
+<title>[COLOR white]pruebas horus[/COLOR]</title>
+<link>$doregex[llamada]</link>
+<regex>
+<name>llamada</name>
+<expres><![CDATA[#$pyFunction
+from kodi_six import xbmc,xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
+
+    id = xbmcgui.Dialog().input('Insertar Acestream: ', type=xbmcgui.INPUT_ALPHANUM)
+    Acestream = urllib_parse.quote_plus(six.ensure_str(id))
+    if Acestream == '':
+        Acestream = '21740ae9cd48ab593e8470a657cf71a85e7a04e4'
+    llamada = 'plugin://script.module.horus?action=play&id=' +Acestream+ '=Canal&iconimage='
+    return xbmc.executebuiltin('XBMC.RunPlugin("' + llamada + '")')
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
 
 
 <item>
