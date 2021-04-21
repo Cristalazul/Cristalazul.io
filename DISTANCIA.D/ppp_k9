@@ -24,11 +24,11 @@ def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
     Acestream = urllib_parse.quote_plus(six.ensure_str(id))
     if Acestream == '':
         Acestream = '21740ae9cd48ab593e8470a657cf71a85e7a04e4'
-    llamada = 'plugin://script.module.horus/?action=play&id=' +Acestream+ '=Canal&iconimage='
+    llamada = 'plugin://script.module.horus/?id=' +Acestream+ 'action=play&=Canal&iconimage=http'
     return xbmc.executebuiltin('XBMC.RunPlugin("' + llamada + '")')
 ]]></expres>
 <page></page>
-<notplayable>True</notplayable>
+<notplayable>None</notplayable>
 </regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
