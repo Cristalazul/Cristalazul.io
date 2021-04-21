@@ -9,7 +9,7 @@
 
 <item>
 <title>[COLOR white]pruebas sn horus[/COLOR]</title>
-<link>plugin://script.module.horus?action=play&id=21740ae9cd48ab593e8470a657cf71a85e7a04e4=Canal&iconimage=</link>
+<link>plugin://script.module.horus?action=play&amp;id=21740ae9cd48ab593e8470a657cf71a85e7a04e4=Canal&amp;iconimage=</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </item>
