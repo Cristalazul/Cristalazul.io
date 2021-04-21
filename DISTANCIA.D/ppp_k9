@@ -6,6 +6,17 @@
 
 
 
+
+<item>
+<title>[COLOR white]pruebas sn horus[/COLOR]</title>
+<link>plugin://script.module.horus?action=play&id=21740ae9cd48ab593e8470a657cf71a85e7a04e4=Canal&iconimage=</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
 <item>
 <title>[COLOR white]pruebas horus[/COLOR]</title>
 <link>$doregex[llamada]</link>
@@ -23,6 +34,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
     return xbmc.executebuiltin('XBMC.RunPlugin("' + llamada + '")')
 ]]></expres>
 <page></page>
+<notplayable>True</notplayable>
 </regex>
 <thumbnail></thumbnail>
 <fanart></fanart>
