@@ -15,7 +15,7 @@
 
 
 <item>
-<title>[COLOR gold]aaa STAR WARS [COLOR white]CINE[/COLOR]</title>  
+<title>[COLOR gold]STAR WARS [COLOR white]CINE[/COLOR]</title>  
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
