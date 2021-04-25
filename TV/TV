@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
 
 
 
 
-
-
-<!--
-<item>
-<title>[COLOR gold]#YoMeQuedoEnCasa[/COLOR]</title>
-<link>$doregex[makelist5]</link>
- <regex>
-<name>openDialog</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
-    import re, requests, xbmcgui, xbmcaddon, random, xbmc, time
-    hoyNumero = (time.strftime("%S"))
-    if float(hoyNumero) < 30: 
-        while float(hoyNumero) < 30:
-            xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul aconseja[/COLOR],[COLOR gold]#YoMeQuedoEnCasa[/COLOR], 4000)")
-            return '[COLOR yellow]#YoMeQuedoEnCasa[/COLOR]'
-    else:
-        while float(hoyNumero) > 30:
-            xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul informa[/COLOR],[COLOR gold]#CristalSeQuedaEnCasa[/COLOR], 4000)")
-            return '[COLOR yellow]#CristalSeQuedaEnCasa[/COLOR]'
-]]></expres>
-<page></page>
-</regex>
-<thumbnail>https://i.imgur.com/bg6n3AV.png</thumbnail>
-<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
-</item>
--->
 
 <item>
 <title>[COLOR lightskyblue]GUÍA DE TELEVISION[/COLOR]</title>
@@ -117,3 +91,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
+</items>
