@@ -255,7 +255,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR gold]you distancia STAR WARS [COLOR white]DATOS SOBRE LAS NAVES[/COLOR]</title>
+<title>[COLOR gold]youtube distancia STAR WARS [COLOR white]DATOS SOBRE LAS NAVES[/COLOR]</title>
 <link>$doregex[link_inteligente]</link>
 <regex>
 <name>link_inteligente</name>
@@ -268,7 +268,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <expres><![CDATA[#$pyFunction
 url = 'https://www.youtube.com/watch?v=mXO9hng_DL0&list=PLaugiuUfbaoM53PfqJiz17_HQrG1CD0Zt'
 import re,six
-$doregex[reparar_conectores]
+$doregex[conector_youtube]
 
 ]]></expres>
 <page></page>
