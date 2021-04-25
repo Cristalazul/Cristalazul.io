@@ -302,10 +302,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <name>selecion_inteligente</name>
 <expres><![CDATA[#$pyFunction
 url = '$doregex[link_final_total]'
-import re,requests,resolveurl,cfscrape,six
-from kodi_six import xbmc,xbmcaddon,xbmcgui
-from six.moves import urllib_parse
-from resources.lib.megaserver import Client
+$doregex[importar]
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
 
