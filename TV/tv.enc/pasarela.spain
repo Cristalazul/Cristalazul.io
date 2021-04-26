@@ -19,7 +19,7 @@
 
 
 <item>
-<title>[COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>[COLOR lightskyblue][COLOR orangered]Chikiry_Cristal [COLOR white]Premium [COLOR yellow][/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
