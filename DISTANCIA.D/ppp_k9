@@ -18,6 +18,64 @@
 
 
 
+<item> 
+<title>[COLOR orangered]ss Chikiry_Cristal [COLOR white]Channels_Spain The Cat[/COLOR]</title> 
+<link>$doregex[makelist]</link> 
+<regex> 
+<name>makelist</name> 
+<listrepeat><![CDATA[ 
+<title>[COLOR orangered] Lista [makelist.param1][/COLOR]</title> 
+<link>$doregex[makelist2]</link> 
+<thumbnail>https://i.imgur.com/Z2uD47a.jpg</thumbnail> 
+<fanart>https://i.imgur.com/fp05txz.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction 
+import re 
+def GetLSProData(page_data,Cookie_Jar,m): 
+  lastpg=re.findall('data-ci-pagination-page="(\d+)"><i\s*class',page_data)[0] 
+  return [(str(pages),) for pages in range(1,int(lastpg)+1)] 
+]]></expres> 
+<page>https://iptvcat.com/spain_-/</page> 
+</regex> 
+<regex> 
+<name>makelist2</name> 
+<listrepeat><![CDATA[ 
+<title>[COLOR white][makelist2.param1] [/COLOR] [makelist2.param2]</title> 
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=ChikiryCristal Tv&amp;url=[makelist2.param3]?OPT:http-reconnect=true</link> 
+<thumbnail>https://i.imgur.com/Z2uD47a.jpg</thumbnail> 
+<fanart>https://i.imgur.com/fp05txz.jpg</fanart> 
+]]></listrepeat> 
+<expres><![CDATA[#$pyFunction
+url = '[makelist.param1]'
+import requests,re,six
+def GetLSProData(page_data,Cookie_Jar,m,url=url): 
+  response = requests.get('https://iptvcat.com/spain_-/'+url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://iptvcat.com/'}, timeout=10, verify=False).text
+  source = six.ensure_str(source)
+  items = re.findall('(?s)div>" title="(.*?)".*?green.*?title=".*?".*?state (.*?)".*?.+?data-clipboard-text="(.*?)"', response)
+  videos = []
+  for item in items:
+    if 'CAZA' in item[0] or 'TORO' in item[0] or 'offline' in item[1]:
+        item0 = ''
+    else:
+        item0 = item[0]
+        item1 = item[1].replace('online','[COLOR green]ON[/COLOR]').replace('offline','[COLOR red]OFF[/COLOR]')
+        url = item[2]
+        videos += [(item0, item1, url)]
+  return videos
+]]></expres> 
+<page></page> 
+</regex> 
+<thumbnail>https://i.imgur.com/RRMufBH.png</thumbnail> 
+<fanart>https://i.imgur.com/fp05txz.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
 
 
 
