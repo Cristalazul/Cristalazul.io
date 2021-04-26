@@ -92,7 +92,6 @@ $doregex[reparar_proxies]
 <expres><![CDATA[#$pyFunction
 import requests,six
 def GetLSProData(page_data,Cookie_Jar,m):
-    #oficial https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/proxieshttps://pastebin.com/raw/GDkjkYh6
     pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/proxies', verify=False).text
     return six.ensure_str(pasta)
 ]]></expres>
