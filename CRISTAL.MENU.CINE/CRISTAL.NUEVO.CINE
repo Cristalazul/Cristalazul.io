@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+
 
 
 <item>
@@ -74,7 +77,13 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/r6aXooD.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Cine [COLOR white]Super Estrenos[/COLOR]</title>  
 <link>$doregex[c]</link>
@@ -134,7 +143,14 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/672TtdH.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Cine [/COLOR][COLOR white]Hd [COLOR yellow]En Mantenimiento[/COLOR]</title>
 <link>$doregex[A]</link>
@@ -227,7 +243,13 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/cpjS2JT.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Cristal[/COLOR]</title> 
 <link>http://ignorame</link>
@@ -236,7 +258,13 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
 direct link
--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Por Productoras[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -328,7 +356,12 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/dRGJYb3.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Webs[/COLOR]</title> 
 <link>http://ignorame</link>
@@ -336,7 +369,11 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/WyF0ICR.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Mundocine [COLOR gold][/COLOR]</title>
 <link>http://ignorame</link>
@@ -344,7 +381,12 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/Aqw5b2R.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 <!--
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Clásico [COLOR gold] [COLOR green][/COLOR]</title>
@@ -354,7 +396,10 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <externallink>https://pastebin.com/raw/2L8wuaw5</externallink>
 </item>
 -->
-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Clásico [COLOR gold] [COLOR green][/COLOR]</title>
 <link>$doregex[c]</link>
@@ -414,7 +459,12 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/2vFkANy.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Actor/Actriz/Director [COLOR gold][COLOR green][/COLOR]</title>
@@ -424,7 +474,10 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <externallink>http://bit.ly/spercineactores$$LSProEncKey= $$</externallink>
 </item>
 
------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]sagas[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -516,7 +569,11 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/Ge0iWOq.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Peticiciones[/COLOR]</title>  
 <link>$doregex[c]</link>
@@ -567,7 +624,11 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/thj5usV.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Seleccion Cristal [COLOR white]Torrents [COLOR green][/COLOR]</title>
 <link>http://ignorame</link>
@@ -576,9 +637,4 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <externallink>https://pastebin.com/raw/jRDWbwr7</externallink>
 </item>
 
-
-
-
-
-
-
+</items>
