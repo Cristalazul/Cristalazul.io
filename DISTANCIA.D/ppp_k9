@@ -50,7 +50,7 @@ url = '[makelist.param1]'
 import requests,re,six
 def GetLSProData(page_data,Cookie_Jar,m,url=url): 
   response = requests.get('https://iptvcat.com/spain_-/'+url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://iptvcat.com/'}, timeout=10, verify=False).text
-  source = six.ensure_str(source)
+  response = six.ensure_str(response)
   items = re.findall('(?s)div>" title="(.*?)".*?green.*?title=".*?".*?state (.*?)".*?.+?data-clipboard-text="(.*?)"', response)
   videos = []
   for item in items:
