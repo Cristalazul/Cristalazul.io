@@ -1266,7 +1266,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR darkgoldenrod]Cine [COLOR bisque]estrenoa cristal[/COLOR]</title>  
+<title>[COLOR gold]*[/COLOR] [COLOR darkgoldenrod]Cine [COLOR bisque]estrenos cristal[/COLOR]</title>  
 <link>$doregex[c]</link>
 <regex>
 <name>c</name>
@@ -1358,10 +1358,7 @@ def desencriptar():
 <name>selecion_inteligente</name>
 <expres><![CDATA[#$pyFunction
 url = '$doregex[multi]'
-import re,requests,resolveurl,cfscrape,six
-from kodi_six import xbmc,xbmcaddon,xbmcgui
-from six.moves import urllib_parse
-from resources.lib.megaserver import Client
+$doregex[importar]
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
 
@@ -1376,7 +1373,7 @@ from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
 def GetLSProData(page_data,Cookie_Jar,m):
-    pasta = requests.get('https://pastebin.com/raw/FzdqRYcC', verify=False).text
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/conector.a.distancia.definitivo', verify=False).text
     return six.ensure_str(pasta)
 ]]></expres>
 <page></page>
