@@ -16,6 +16,193 @@
 
 
 
+<item>
+<title>[COLOR lightgreen][COLOR white]Ultima proxy prueba  Py3[/COLOR]</title>
+<link>$doregex[plugin]$doregex[link_inteligente]</link>
+<regex>
+<name>prueba_proxi</name>
+<expres><![CDATA[#$pyFunction
+url = 'Directo=http://83.32.27.231:8001/1:0:1:7478:3F0:1:C00000:0:0:0:'
+header = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0','Referer': 'http://cdn.sportcast.life/webplayer.php?t=ifr&c=1574935&lang=en&eid=1049841&lid=1574935&ci=215&si=3'}
+from resolveurl.plugins.lib import jsunpack
+from datetime import datetime, timedelta
+import time
+import re,requests
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+import six
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+def GetLSProData(page_data,Cookie_Jar,m,url=url,header=header):
+
+ if not 'http' in url or 'f4m=' in url or 'Directo=' in url:
+  return url
+ else:
+  try:
+      web_proxy_1 = requests.get('https://api.proxyscrape.com/?request=displayproxies', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://cricfree.stream/home'}, verify=False).text
+      web_proxy_1 = six.ensure_str(web_proxy_1)
+      web_proxy1 = re.findall('(\d+.*?:\d+)', web_proxy_1)
+  except:
+      web_proxy1 = ""
+  try:
+      web_proxy_2 = requests.get('https://api.chrxw.com/proxy/get_all', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://cricfree.stream/home'}, verify=False).text
+      web_proxy_2 = six.ensure_str(web_proxy_2)
+      web_proxy2 = re.findall('(\d+.*?:\d+)', web_proxy_2)
+  except:
+      web_proxy2 = ""
+  try:
+      fecha_final = datetime.today().strftime("20%y%m%d")
+      dias = str(datetime.fromtimestamp(time.mktime(time.strptime(fecha_final, "%Y%m%d"))) + timedelta(days=-1))
+      fecha_nueva = 'https://proxysource.org/en/freeproxies/' + dias[:10]
+      proxy_source_response = requests.get(fecha_nueva, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+      proxy_source_response = six.ensure_str(proxy_source_response)
+      proxy_source_items = re.findall('[,\[]"(\d+.*?:\d+)"', proxy_source_response)
+      web_proxy_source = []
+      for item in proxy_source_items:
+          if item not in web_proxy_source:
+              web_proxy_source.append(item)
+  except:
+      web_proxy_source = ""
+  try:
+      web_hidemi_response = requests.get('https://hidemy.name/es/proxy-list/?maxtime=1000&type=h#list', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+      web_hidemi_response = six.ensure_str(web_hidemi_response)
+      web_hidemi_items = re.findall('</td></tr><tr><td>(.*?)<.*?(\d+)</td><td><i', web_hidemi_response)
+      web_hidemi = []
+      for item in web_hidemi_items:
+          proxy_integrado = item[0] + ':' + item[1]
+          web_hidemi += [proxy_integrado]
+  except:
+      web_hidemi = ""
+  try:
+      response = requests.get('https://proxyranker.com/japan#', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0'}, verify=False).text
+      response = six.ensure_str(response)
+      japon_items = re.findall('<tr><td>(.*?)<.*?port">(.*?)<', response)
+      web_japon = []
+      for item in japon_items:
+          proxy_integrado = item[0] + ':' + item[1]
+          web_japon += [proxy_integrado]
+  except:
+      web_japon = ""
+  try:
+      web_proxy_nuestra_1 = requests.get('https://pastebin.com/raw/Wa13VCMA', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://cricfree.stream/home'}, verify=False).text
+      web_proxy_nuestra_1 = six.ensure_str(web_proxy_nuestra_1)
+      web_proxy_nuestra = re.findall('(\d+.*?:\d+)', web_proxy_nuestra_1)
+  except:
+      web_proxy_nuestra = ""
+  try:
+      proxy = web_proxy_nuestra + web_proxy_source + web_hidemi + web_proxy2 + web_proxy1 + web_japon
+      Archivo = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
+      open(Archivo + 'cambio.txt','wb').write(six.ensure_binary('web_proxy_nuestra='+str(len(web_proxy_nuestra))+'_'+'web_proxy_source='+str(len(web_proxy_source))+'_'+'web_hidemi='+str(len(web_hidemi))+'_'+'web_proxy2='+str(len(web_proxy2))+'_'+'web_proxy1='+str(len(web_proxy1))+'_'+'web_japon='+str(len(web_japon))+'_'))
+  except:
+      proxy = []
+  path = TRANSLATEPATH("special://home/addons/plugin.video.cristalazul/html.txt")
+  try:
+      f = open(path, 'r')
+      key = f.read()
+      f.close()
+      full = re.findall('Proxi Utilizado=(.*?)_', key)[0]
+      proxy.insert(0, full)
+  except:
+      pass
+  contador = 0
+  try:
+      html = requests.get(url, headers=header, verify=False).text
+      html = six.ensure_str(html)
+      try:
+          html = re.findall('(Contenido bloqueado|Required! \| Cloudflare|Por causas ajenas a Vodafone|<html><body>Object not found</body></html>)', html)[0]
+      except:
+          html = html
+          proxi = 'No Proxies'
+  except:
+      html = 'Contenido bloqueado'
+  while 'Contenido bloqueado' in html or 'Required! | Cloudflare' in html or 'Por causas ajenas a Vodafone' in html or '<html><body>Object not found</body></html>' == html:
+      try:
+          xbmc.executebuiltin(("Notification([COLOR white]Usando Proxi %s de %s[/COLOR],[COLOR white]Intentando saltar bloqueo[/COLOR], 5000)")%(contador+1, len(proxy)))
+          html = requests.get(url, headers=header, proxies={"https": "http://"+proxy[contador]}, verify=False, timeout=10).text
+          html = six.ensure_str(html)
+          proxi = proxy[contador]
+          try:
+              html = re.findall('(Contenido bloqueado|Required! \| Cloudflare|Por causas ajenas a Vodafone|<html><body>Object not found</body></html>)', html)[0]
+              contador += 1
+          except:
+              html = html
+              xbmc.executebuiltin(("Notification([COLOR white]Proxi %s[/COLOR],[COLOR white]Logrado saltar bloqueo!![/COLOR], 8000)")%(proxi.replace('1', '3').replace('5', '1').replace('2', '5').replace('3', '7').replace('9', '0')))
+      except:
+          html = 'Contenido bloqueado'
+          contador += 1  
+      if len(proxy) == 0:
+          xbmc.executebuiltin("Notification([COLOR white]Usa VPN No hemos[/COLOR],[COLOR white]Conseguido Proxies!![/COLOR], 8000)")
+          return ''
+      elif len(proxy) == contador:
+          xbmc.executebuiltin(("Notification([COLOR white]Usa VPN Despues de probar %s[/COLOR],[COLOR white]Proxy No hemos saltado bloqueo!![/COLOR], 8000)")%(contador))
+          return ''
+  ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
+  open(ArchivoDestino + 'html.txt','wb').write(six.ensure_binary('Proxi Utilizado='+proxi+'_'+str(contador)+html))
+  return url
+]]></expres>
+<page></page>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>link_inteligente</name>
+<expres><![CDATA[#$pyFunction
+url = '$doregex[prueba_proxi]'
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+import six,re,requests
+from resolveurl.plugins.lib import jsunpack
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
+  id = xbmcaddon.Addon().getAddonInfo('id')
+  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+    if 'adictosalatele' in url:
+      path = TRANSLATEPATH("special://home/addons/plugin.video.cristalazul/html.txt")
+      f = open(path, 'r')
+      html = f.read()
+      f.close()
+      iframe = re.findall('(?s)iframe.*?src=[\'"]([^\'"]+)', html)[0]
+      html1 = requests.get(iframe, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text
+      try:
+          url2 = re.findall('source.*?[\'"](.*?m3u8.*?)[\'"]', html1)[0]
+      except:
+          pack = re.findall('(eval\(function\(p,a,c,k,e,d.*)', html1)[0]
+          unpack=jsunpack.unpack(pack)
+          url2 = re.findall('Clappr.Player[\w\W]*?(?:source|src):\s*[\'"]([^\'"]+)"', unpack)[0] + '|Referer=' + url
+      return url2
+    elif 'f4m=' in url:
+      url = url[4:]
+      return '/?' + url
+    elif 'Directo=' in url:
+      url = url[8:]
+      return url
+    else:
+      return url
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>plugin</name>
+<expres><![CDATA[#$pyFunction
+url = '[busca.param3]'
+import re,requests,xbmc
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if 'f4m=' in url:
+    return 'plugin://plugin.video.f4mTester'
+  else:
+    return ''
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+
+
+
+
 
 
 <item> 
