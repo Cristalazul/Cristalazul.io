@@ -17,8 +17,8 @@
 
 
 <item>
-<title>TEST |f4m</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=streamtype=HLSRETRY&amp;url=http://goodtv.xyz:2052/live/reggie/reggie/2159862.m3u8</link>
+<title>TEST 1|f4m</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=streamtype=HLSRETRY&amp;url=http://46.174.189.51/m3/tracks-v1a3/mono.m3u8</link>
 <thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>
 <fanart>https://i.imgur.com/bg6n3AV.png</fanart>
 </item>
@@ -26,8 +26,8 @@
 
 
 <item>
-<title>TEST |f4m cristal</title>
-<link>plugin://plugin.video.cristalazul_3.0/?mode=10&amp;streamtype=HLSRETRY&amp;url=http://goodtv.xyz:2052/live/reggie/reggie/2159862.m3u8</link>
+<title>TEST 1|f4m cristal</title>
+<link>plugin://plugin.video.cristalazul_3.0/?mode=10&amp;streamtype=HLSRETRY&amp;url=http://46.174.189.51/m3/tracks-v1a3/mono.m3u8</link>
 <thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>
 <fanart>https://i.imgur.com/bg6n3AV.png</fanart>
 </item>
