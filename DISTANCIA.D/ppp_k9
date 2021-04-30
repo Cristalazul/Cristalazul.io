@@ -1403,7 +1403,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
       return url2
     elif 'f4m=' in url:
       url = url[4:]
-      return '/?mode=10' + url
+      return '/?mode=10&' + url
     else:
       return url
   else:
