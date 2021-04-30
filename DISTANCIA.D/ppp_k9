@@ -1403,12 +1403,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
       return url2
     elif 'f4m=' in url:
       url = url[4:]
-      return '/?' + url
+      return '/?mode=10' + url
     else:
       return url
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
-    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+    return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
 ]]></expres>
 <page></page>
 </regex>
@@ -1420,7 +1420,7 @@ import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
   if 'f4m=' in url:
-    return 'plugin://plugin.video.f4mTester'
+    return 'plugin://plugin.video.cristalazul_3.0'
   else:
     return ''
 ]]></expres>
@@ -1429,6 +1429,12 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
 <thumbnail>https://i.imgur.com/Z2uD47a.jpg</thumbnail>  
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
  </item>
+
+
+
+
+
+
 
 
 
