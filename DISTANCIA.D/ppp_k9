@@ -31,7 +31,7 @@
 
 
 <item>
-<title>[COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>a [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -237,7 +237,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
       return url2
     elif 'f4m=' in url:
       url = url[4:]
-      return 'plugin://plugin.video.cristalazul_3.0/?mode=10&streamtype=TSDOWNLOADER&name= CHIKIRY CRISTAL TV&url=http://152.89.63.198:25461/Aida01/Aida01/39912' #+ url
+      return 'plugin://plugin.video.cristalazul_3.0/?mode=10&streamtype=TSDOWNLOADER&name= CHIKIRY CRISTAL TV&url=http://152.89.63.198:25461/Aida01/Aida01/39913'
+      #+ url
     else:
       return url
   else:
