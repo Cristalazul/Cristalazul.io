@@ -83,7 +83,7 @@
 
 
 <item>
-<title>aa [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>aaa [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -289,7 +289,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
       return url2
     elif 'f4m=' in url:
       url = url[4:]
-      return 'cristalazul_3.0/?mode=10&streamtype=HLSRETRY&url=http://77.83.117.60:8888/02_SPORTTV_3_720p/chunklist.m3u8'
+      return '.video.cristalazul_3.0/?mode=10&streamtype=HLSRETRY&url=http://77.83.117.60:8888/02_SPORTTV_3_720p/chunklist.m3u8'
       #+ url
     else:
       return url
@@ -307,7 +307,7 @@ import re,requests,xbmc
 def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
  
   if 'f4m=' in url:
-    return 'plugin://plugin.video.'
+    return 'plugin://plugin'
   else:
     return ''
 ]]></expres>
