@@ -105,7 +105,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 <name>busca</name>
 <listrepeat><![CDATA[
 <title>[COLOR white][busca.param1][/COLOR]</title>
-<link>$doregex[plugin]link_inteligente]$doregex[link_inteligente]</link>
+<link>$doregex[plugin]$doregex[link_inteligente]</link>
 <thumbnail>[busca.param2]</thumbnail>
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
