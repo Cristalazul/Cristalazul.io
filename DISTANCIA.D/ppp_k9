@@ -83,7 +83,7 @@
 
 
 <item>
-<title>aaa [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>aaaa [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
