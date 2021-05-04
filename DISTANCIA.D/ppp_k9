@@ -34,8 +34,8 @@
 
 
 <item>
-<title>TEST 6|f4m</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=http://77.83.117.60:8888/02_SPORTTV_3_720p/chunklist.m3u8</link>
+<title>TEST 6|winner f4m</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;url=http://77.83.117.60:8888/02_BTSPORTHD_1_720p/chunklist.m3u8</link>
 <thumbnail>https://i.imgur.com/yGTsSPk.jpg</thumbnail>
 <fanart>https://i.imgur.com/bg6n3AV.png</fanart>
 </item>
