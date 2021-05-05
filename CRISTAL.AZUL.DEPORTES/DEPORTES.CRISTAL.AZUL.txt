@@ -15,7 +15,7 @@
 
 
 <item>
-<title>[COLOR white]Winner [COLOR gold]Sports[/COLOR]</title>
+<title>[COLOR white]WINNER [COLOR gold]Sports[/COLOR]</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
@@ -405,6 +405,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
+<!--
 
 <item>
 <title>[COLOR gold]* [COLOR lightgreen]Acestream_Spanish [COLOR white]Canales Acestream[/COLOR]</title>
@@ -450,7 +451,7 @@ def revist_dag(page_data):
 <fanart>https://i.imgur.com/932XIJt.jpg</fanart>
 </item>
 
-<!--
+
 
 <item>
 <title>[COLOR gold]* [COLOR lightgreen]Prueba Agenda[COLOR white] Acestream_Spanish[/COLOR]</title>
