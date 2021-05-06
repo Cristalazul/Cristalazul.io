@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]sERIES [COLOR white]PRODUCTORAS[/COLOR]</title>
+<title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]Por Productoras[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -324,7 +324,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/S1r1T5Y.png</thumbnail>
+<thumbnail>https://i.imgur.com/5kY0BRB.png</thumbnail>
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
