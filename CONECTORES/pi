@@ -13,7 +13,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix final[/COLOR] </title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix final py3  prox[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -239,7 +239,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>selecion_inteligente</name>
 <expres><![CDATA[#$pyFunction
-url = '$doregex[link_final]'
+url = '$doregex[final_url]'
 $doregex[importar]
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
