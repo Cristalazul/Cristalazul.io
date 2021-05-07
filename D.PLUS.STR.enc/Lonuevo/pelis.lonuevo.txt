@@ -12,6 +12,230 @@
 -----------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------
 <item>
+<title>[COLOR white]Morgan (Cast) [/COLOR][COLOR gold](2016)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/embed-723xkyiox449.html'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Terror,Ficcion</genre>
+<year>2016</year>  
+<thumbnail>https://i.imgur.com/E9JNHcl.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Una compañía tecnológica crea una inteligencia artificial, sin ser conscientes de su verdadero potencial. Cuando las cosas comienzan a salirse de su control, deciden contratar a una especialista (Kate Mara) para determinar si acabar con la criatura o mantenerla encendida.</info>
+</item>
+-----------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR white]Morgan (Lat) [/COLOR][COLOR gold](2016)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/embed-b9uhxljrlewy.html'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Terror,Ficcion</genre>
+<year>2016</year>  
+<thumbnail>https://i.imgur.com/E9JNHcl.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Una compañía tecnológica crea una inteligencia artificial, sin ser conscientes de su verdadero potencial. Cuando las cosas comienzan a salirse de su control, deciden contratar a una especialista (Kate Mara) para determinar si acabar con la criatura o mantenerla encendida.</info>
+</item>
+-----------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR white]La llamada de lo salvaje (Cast) [/COLOR][COLOR gold](2020)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/84kvsa9py32k'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Drama,Aventura,Familia</genre>
+<year>1999</year>  
+<thumbnail>https://i.imgur.com/6BkJFPm.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Cuenta la historia vibrante de Buck, un perro grande y de buen corazón, un cruce entre un San Bernardo y un Scotch Collie, cuya despreocupada vida de ocio se alteró repentinamente cuando fue robado de su hogar en el condado de Santa Clara, California y llevado a Dawson City, Yukon, a fines de la década de 1890 durante la fiebre del oro, cuando los fuertes perros de trineo tenían una gran demanda. Como un recién llegado al servicio de entrega del equipo de perros, Buck está teniendo el momento de su vida. Obligado a luchar para sobrevivir, finalmente es llevado por su último propietario, John Thornton, a la proximidad del Círculo Polar Ártico, en algún lugar entre Yukon y Alaska, donde depende progresivamente de sus instintos primarios, se deshace de las comodidades de la civilización y responde "al llamado salvaje", convirtiéndose en su propio maestro.</info>
+</item>
+
+<item>
+<title>[COLOR white]La llamada de lo salvaje (Lat) [/COLOR][COLOR gold](2020)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/embed-ir6rxgkknmij.html'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Drama,Aventura,Familia</genre>
+<year>1999</year>  
+<thumbnail>https://i.imgur.com/6BkJFPm.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Cuenta la historia vibrante de Buck, un perro grande y de buen corazón, un cruce entre un San Bernardo y un Scotch Collie, cuya despreocupada vida de ocio se alteró repentinamente cuando fue robado de su hogar en el condado de Santa Clara, California y llevado a Dawson City, Yukon, a fines de la década de 1890 durante la fiebre del oro, cuando los fuertes perros de trineo tenían una gran demanda. Como un recién llegado al servicio de entrega del equipo de perros, Buck está teniendo el momento de su vida. Obligado a luchar para sobrevivir, finalmente es llevado por su último propietario, John Thornton, a la proximidad del Círculo Polar Ártico, en algún lugar entre Yukon y Alaska, donde depende progresivamente de sus instintos primarios, se deshace de las comodidades de la civilización y responde "al llamado salvaje", convirtiéndose en su propio maestro.</info>
+</item>
+-----------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR white]500 días juntos (Cast) [/COLOR][COLOR gold](2009)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/lsuqxb7opcnk'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Comedia,Drama,Romance</genre>
+<year>2009</year>  
+<thumbnail>https://i.imgur.com/TOeVI9L.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Tom aún sigue creyendo, incluso en este cínico mundo moderno, en la noción de un amor transformador, predestinado por el cosmos y que golpea como un rayo sólo una vez. Summer no cree lo mismo, para nada. La mecha se enciende desde el primer día, cuando Tom, un arquitecto en ciernes convertido en un sensiblero escritor de tarjetas de felicitación, se encuentra con Summer, la bella y fresca nueva secretaria de su jefe. Aunque aparentemente está fuera de su alcance, Tom pronto descubre que tienen un montón de cosas en común. La historia de Tom y Summer cubre desde el enamoramiento, las citas y el sexo hasta la separación, las recriminaciones y la redención, todo lo cual se suma al caleidoscópico retrato del por qué y el cómo seguimos esforzándonos de modo tan risible y rastrero para encontrar sentido al amor… y esperar convertirlo en realidad. </info>
+</item>
+
+<item>
+<title>[COLOR white]500 días juntos (Lat) [/COLOR][COLOR gold](2009)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://upstream.to/lsuqxb7opcnk'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Comedia,Drama,Romance</genre>
+<year>2009</year>  
+<thumbnail>https://i.imgur.com/TOeVI9L.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Tom aún sigue creyendo, incluso en este cínico mundo moderno, en la noción de un amor transformador, predestinado por el cosmos y que golpea como un rayo sólo una vez. Summer no cree lo mismo, para nada. La mecha se enciende desde el primer día, cuando Tom, un arquitecto en ciernes convertido en un sensiblero escritor de tarjetas de felicitación, se encuentra con Summer, la bella y fresca nueva secretaria de su jefe. Aunque aparentemente está fuera de su alcance, Tom pronto descubre que tienen un montón de cosas en común. La historia de Tom y Summer cubre desde el enamoramiento, las citas y el sexo hasta la separación, las recriminaciones y la redención, todo lo cual se suma al caleidoscópico retrato del por qué y el cómo seguimos esforzándonos de modo tan risible y rastrero para encontrar sentido al amor… y esperar convertirlo en realidad. </info>
+</item>
+
+
+
+
+<item>
+<title>[COLOR deeppink]****** [COLOR orange] ABRIL [COLOR deeppink]******[/COLOR]</title>    
+<genre></genre>
+<year></year>  
+<thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
+<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
+<info></info>
+<urlsolve></urlsolve>
+</item>
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+<item>
 <title>[COLOR white]Sueños rotos (Castellano) [/COLOR][COLOR gold](1999)[/COLOR]</title>  
 <link>$doregex[id3]</link>
 <regex>
@@ -82,22 +306,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
-
-
-
-
-<item>
-<title>[COLOR deeppink]****** [COLOR orange] ABRIL [COLOR deeppink]******[/COLOR]</title>    
-<genre></genre>
-<year></year>  
-<thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
-<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
-<info></info>
-<urlsolve></urlsolve>
-</item>
------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------
 
 <item>
 <title>[COLOR white]Jovenes Emprendedores (Castellano) [/COLOR][COLOR gold](2021)[/COLOR]</title>  
