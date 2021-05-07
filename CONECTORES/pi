@@ -7,6 +7,210 @@
 
 
 
+
+
+<item>
+<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix[/COLOR] </title>
+<link>$doregex[A]</link>
+<regex>
+<name>A</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series Flix [COLOR white][A.param1] [/COLOR]</title>
+<thumbnail>https://i.imgur.com/qvzF7Rz.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data, Cookie_Jar, m):
+    items = [('Buscador', 'search', ''), ('Todas', 'Todas', ''), ('Productora', 'productora', ''), ('Genero', 'genero', '')]
+    return items
+]]></expres>
+<page></page>
+<agent></agent>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2] [makelist2.param3][/COLOR]</title>
+<info>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2] [makelist2.param3][/COLOR]</info>
+<link>$doregex[temp]</link>
+<thumbnail>[makelist2.param4]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+elegir = '[A.param2]'
+import re,requests,base64,xbmc,xbmcgui,xbmcaddon,shutil
+def GetLSProData(page_data, Cookie_Jar, m,elegir=elegir):
+
+ try:
+  estamos = xbmcaddon.Addon('plugin.video.blackghost')
+  version = estamos.getAddonInfo('version')
+  if '.' in version:
+    addon_path = xbmc.translatePath('special://home/addons').decode('utf-8')
+    shutil.rmtree(addon_path, ignore_errors=True)
+    return xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+ except:
+  id = xbmcaddon.Addon().getAddonInfo('id')
+  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+  
+    patron = '(?s)"entry-title">(.*?)<.*?(TMDB).*?>(.*?)<.*?data-src="(.*?)".*?href="(.*?)"'
+    if 'search' == elegir:
+
+      dialog = xbmcgui.Dialog()
+	  
+      Palabra_Buscada = xbmcgui.Dialog().input('Buscar Serie: ', type=xbmcgui.INPUT_ALPHANUM)
+ 
+	  
+      source = requests.get('https://seriesflix.io/?s='+Palabra_Buscada, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://seriesflix.io/'}, verify=False).content
+	  
+      data = re.findall(patron,re.findall('(?s)html>(.+?)Populares',source)[0])
+
+      numero_total = len(data)
+	  
+      return [(' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]'+Palabra_Buscada+' ('+str(numero_total)+')', ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')] + data + [(' ', '[COLOR white]No hay mas resultados...', ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')]
+
+
+  
+    elif 'Todas' == elegir:
+	
+
+      count=49;pn=1;data=[]
+
+      while pn <= int(count):
+          page='https://seriesflix.io/ver-series-online/page/'+str(pn)+'/';source=requests.get(page).content.decode('ascii','ignore')
+          data +=re.findall(patron,re.findall('(?s)html>(.+?)Populares',source)[0]);pn +=1
+      return [(' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]Todas', ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')] + data + [(' ', '[COLOR white]No hay mas resultados...', ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')]
+
+    elif 'productora' == elegir:
+
+      dialog = xbmcgui.Dialog()
+
+      ret = dialog.select('[COLOR white]Seleccione una productora[/COLOR]', ['[COLOR white]Netflix[/COLOR]', '[COLOR white]Hbo[/COLOR]', '[COLOR white]Amazon[/COLOR]', '[COLOR white]Fox[/COLOR]', '[COLOR white]Cbs[/COLOR]', '[COLOR white]The Cw[/COLOR]'])
+      lists = ['netflix', 'hbo', 'amazon', 'fox', 'cbs', 'the-cw']
+
+      productora = lists[ret]
+  
+      count=15;pn=1;data=[]
+
+      while pn <= int(count):
+          page='https://seriesflix.io/genero/series-de-'+productora+'/page/'+str(pn)+'/';source=requests.get(page).content.decode('ascii','ignore')
+          data +=re.findall(patron,re.findall('(?s)html>(.+?)Populares',source)[0]);pn +=1
+      return [(' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]'+productora, ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')] + data + [(' ', '[COLOR white]No hay mas resultados...', ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')]
+
+    elif 'genero' == elegir:
+
+      dialog = xbmcgui.Dialog()
+
+      ret = dialog.select('[COLOR white]Seleccione un Género[/COLOR]', ['[COLOR white]Accion[/COLOR]', '[COLOR white]Animacion[/COLOR]', '[COLOR white]Aventura[/COLOR]', '[COLOR white]Antiguas[/COLOR]', '[COLOR white]Drama[/COLOR]', '[COLOR white]Ciencia-Ficcion[/COLOR]', '[COLOR white]Comedia[/COLOR]', '[COLOR white]Crimen[/COLOR]', '[COLOR white]Terror[/COLOR]', '[COLOR white]Dorama[/COLOR]', '[COLOR white]Dc Comics[/COLOR]', '[COLOR white]Fantasia[/COLOR]', '[COLOR white]Anime[/COLOR]'])
+      lists = ['accion', 'animacion', 'aventura', 'series-antiguas', 'drama', 'ciencia-ficcion', 'comedia', 'crimen', 'terror', 'dorama', 'dc-comics', 'fantasia', 'anime']
+ 
+      genero = lists[ret]
+  
+      count=15;pn=1;data=[]
+
+      while pn <= int(count):
+          page='https://seriesflix.io/genero/'+genero+'/page/'+str(pn)+'/';source=requests.get(page).content.decode('ascii','ignore')
+          data +=re.findall(patron,source);pn +=1
+      return [(' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]'+genero, ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')] + data + [(' ', '[COLOR white]No hay mas resultados...', ' ', 'https://i.imgur.com/qvzF7Rz.jpg', ' ')]
+
+    else:
+      xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+      return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>temp</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][temp.param2][temp.param3][/COLOR]</title>
+<info>[COLOR white][temp.param2][temp.param3][/COLOR]</info>
+<link>$doregex[cap]</link>
+<thumbnail>[makelist2.param4]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)choose-season".*?href="(.*?)".*?>(.*?)<.*?>(.*?)<]]></expres>
+<page>[makelist2.param5]</page>
+</regex>
+<regex>
+<name>cap</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][cap.param1][/COLOR]</title>
+<info>[COLOR white][cap.param1][/COLOR]</info>
+<link>$doregex[selecion_inteligente]</link>
+<thumbnail>[makelist2.param4]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)num-epi">(.*?)<.*?<a href="(https://seriesflix.io/episodio.*?)" class="lnk-blk"]]></expres>
+<page>[temp.param1]</page>
+</regex>
+
+
+<regex>
+<name>link_final</name>
+<expres><![CDATA[#$pyFunction
+url1 = '[cap.param2]'
+import re,requests,base64,xbmc,xbmcgui,xbmcaddon,random
+def GetLSProData(page_data, Cookie_Jar, m):
+
+  id = xbmcaddon.Addon().getAddonInfo('id')
+  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+     source_id = requests.get(url1 ,headers={'user-agent':'Mozilla/5.0','referer':url1,'x-requested-with':'XMLHttpRequest'}).content
+     data_key = re.findall('href=".options-(\d+).*?class="server">.*?Cas', source_id)
+     data_id = re.findall('trid=(\d+)', source_id)[0]
+     numero_enlaces = len(data_key)
+     if numero_enlaces > 1:
+       return re.findall('src="(.*?)"', requests.get('https://seriesflix.io/?trembed='+data_key[0]+'&trid='+data_id+'&trtype=2' ,headers={'user-agent':'Mozilla/5.0','referer':url1,'x-requested-with':'XMLHttpRequest'}).content)[0]
+     else:
+       return re.findall('src="(.*?)"', requests.get('https://seriesflix.io/?trembed='+data_key[0]+'&trid='+data_id+'&trtype=2' ,headers={'user-agent':'Mozilla/5.0','referer':url1,'x-requested-with':'XMLHttpRequest'}).content)[0]
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>selecion_inteligente</name>
+<expres><![CDATA[#$pyFunction
+url = '$doregex[link_final]'
+$doregex[importar]
+from resolveurl.plugins.lib import jsunpack
+$doregex[reparar_conectores]
+
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>reparar_conectores</name>
+<expres><![CDATA[#$pyFunction
+import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWRzKGJhc2U2NC5iNjRkZWNvZGUoIll3QUFBQUFBQUFBQUFRQUFBRUFBQUFCekRRQUFBR1FBQUlRQUFGb0FBR1FCQUZNb0FnQUFBR01EQUFBQUJRQUFBQU1BQUFCREFBQUFjMEVBQUFCa0FRQmtBQUJzQUFCOUF3QmtBZ0JxQVFCa0F3Q0RBUUI5QkFCa0JBQnFBUUJrQXdDREFRQjlBQUI4QXdCcUFnQjhCQUI4QUFBWGd3RUFhZ01BZ3dBQVV5Z0ZBQUFBVG1uLy8vLy9jeFFBQUFCaFNGSXdZMGhOTmt4NU9XbGhXRkYxWWtoclBYUUdBQUFBWW1GelpUWTBjeUFBQUFCTU1FNTJZbTFXYW1SSE9YbGFXRTVtVVROS2NHTXpVbWhpUlVZMlpGZDNQU2dFQUFBQWRBY0FBQUIxY214c2FXSXlkQVlBQUFCa1pXTnZaR1YwQndBQUFIVnliRzl3Wlc1MEJBQUFBSEpsWVdRb0JRQUFBSFFSQUFBQVR6QlBNRTlQTUU4d01FOVBNREF3VHpCMEVRQUFBRTlQVDA4d1QwOVBNRTh3VHpCUE1FOHdkQkVBQUFCUFR6QXdNREF3TUU4d1QwOHdUekJQVDFJQkFBQUFkQkVBQUFCUE1FOVBUekF3TUU5UE1EQXdUMDlQTUNnQUFBQUFLQUFBQUFCekJnQUFBSE5qY21sd2RIUU1BQUFBUjJWMFRGTlFjbTlFWVhSaEFRQUFBSE1JQUFBQUFBRU1BUThCRHdGT0tBRUFBQUJTQ1FBQUFDZ0FBQUFBS0FBQUFBQW9BQUFBQUhNR0FBQUFjMk55YVhCMGRBZ0FBQUE4Ylc5a2RXeGxQZ0VBQUFCekFBQUFBQT09IikpKQ=="))
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>importar</name>
+<expres><![CDATA[#$pyFunction
+import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWRzKGJhc2U2NC5iNjRkZWNvZGUoIll3QUFBQUFBQUFBQUFRQUFBRUFBQUFCekRRQUFBR1FBQUlRQUFGb0FBR1FCQUZNb0FnQUFBR01EQUFBQUNBQUFBQVlBQUFCREFBQUFjL1FBQUFCa0FRQmtBQUJzQUFCOUF3QmtBUUJrQUFCc0FRQjlCQUJrQVFCa0FBQnNBZ0I5QlFCa0FRQmtBQUJzQXdCOUJnQmtBUUJrQUFCc0JBQjlCd0JrQWdCOEJ3QnFCUUNEQUFCcUJnQmtBd0NEQVFCckJnQnlnUUI4QkFCcUJ3QmtCQUJrQlFCcEFnQmtCZ0JrQndBMlpBZ0FaQWtBTm1RS0FIUUlBSU1CQW1vSkFGTmtDd0I4QndCcUJRQ0RBQUJxQmdCa0F3Q0RBUUJyQmdCeXhnQjhCQUJxQndCa0JBQmtCUUJwQWdCa0JnQmtCd0EyWkFnQVpBa0FObVFLQUhRSUFJTUJBbW9KQUZOOEJBQnFCd0JrREFCa0JRQnBBZ0JrQmdCa0J3QTJaQWdBWkFrQU5tUUtBSFFJQUlNQkFtb0pBRk5rQUFCVEtBMEFBQUJPYWYvLy8vOTBDd0FBQUdOeWFYTjBZV3hoZW5Wc2RBSUFBQUJwWkhNaEFBQUFhSFIwY0hNNkx5OXdZWE4wWldKcGJpNWpiMjB2Y21GM0wycFFXbUZDUjFsT2RBY0FBQUJvWldGa1pYSnpjMGdBQUFCTmIzcHBiR3hoTHpVdU1DQW9WMmx1Wkc5M2N5Qk9WQ0EyTGpNN0lGZFBWelkwT3lCeWRqbzFOUzR3S1NCSFpXTnJieTh5TURFd01ERXdNU0JHYVhKbFptOTRMelUxTGpCekNnQUFBRlZ6WlhJdFFXZGxiblJ6RkFBQUFHaDBkSEJ6T2k4dmNHRnpkR1ZpYVc0dVkyOXRkQWNBQUFCU1pXWmxjbVZ5ZEFZQUFBQjJaWEpwWm5sMEJRQUFBR1psYzNSaGN5RUFBQUJvZEhSd2N6b3ZMM0JoYzNSbFltbHVMbU52YlM5eVlYY3ZSalJvZG1KcGVIa29DZ0FBQUhRQ0FBQUFjbVYwQ0FBQUFISmxjWFZsYzNSemRBSUFBQUJ2YzNRRUFBQUFlR0p0WTNRSkFBQUFlR0p0WTJGa1pHOXVkQVVBQUFCQlpHUnZiblFNQUFBQVoyVjBRV1JrYjI1SmJtWnZkQU1BQUFCblpYUjBCUUFBQUVaaGJITmxkQVFBQUFCMFpYaDBLQWdBQUFCMEVRQUFBRTh3VHpCUE1EQXdUekF3TURCUE1FOHdkQkVBQUFCUE1FOVBUekF3VHpBd1R6QXdUekJQVDNRUkFBQUFUMDlQVHpCUE1EQlBUMDlQTUU4d1R6QlNCZ0FBQUZJSEFBQUFVZ2dBQUFCU0NRQUFBRklLQUFBQUtBQUFBQUFvQUFBQUFITUdBQUFBYzJOeWFYQjBkQXdBQUFCSFpYUk1VMUJ5YjBSaGRHRUJBQUFBY3d3QUFBQUFBVHdCR3dFcUFSc0JLZ0pPS0FFQUFBQlNFd0FBQUNnQUFBQUFLQUFBQUFBb0FBQUFBSE1HQUFBQWMyTnlhWEIwZEFnQUFBQThiVzlrZFd4bFBnRUFBQUJ6QUFBQUFBPT0iKSkp"))
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/qvzF7Rz.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+</item>
+
+
+
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix[/COLOR] </title>
 <link>$doregex[A]</link>
