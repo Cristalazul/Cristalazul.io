@@ -141,7 +141,7 @@ def GetLSProData(page_data, Cookie_Jar, m,elegir=elegir):
 <listrepeat><![CDATA[
 <title>[COLOR white][cap.param1][/COLOR]</title>
 <info>[COLOR white][cap.param1][/COLOR]</info>
-<link>$doregex[selecion_inteligente]</link>
+<link>$doregex[link_final]</link>
 <thumbnail>[makelist2.param4]</thumbnail>
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
