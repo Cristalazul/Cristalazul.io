@@ -52,7 +52,7 @@ def GetLSProData(page_data, Cookie_Jar, m,elegir=elegir):
   estamos = xbmcaddon.Addon('plugin.video.blackghost')
   version = estamos.getAddonInfo('version')
   if '.' in version:
-    addon_path = xbmc.translatePath('special://home/addons').decode('utf-8')
+    addon_path = TRANSLATEPATH('special://home/addons')
     shutil.rmtree(addon_path, ignore_errors=True)
     return xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
   else:
@@ -233,7 +233,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 
 
 <regex>
-<name>final_url</name>
+<name>final_url44</name>
 <expres><![CDATA[#$pyFunction
 url = '[link_final.param1]'
 import re,requests,base64,xbmc,xbmcgui,xbmcaddon,random
@@ -246,10 +246,10 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
 <page></page>
 </regex>
 <regex>
-<name>final_url44</name>
+<name>final_url</name>
 <expres><![CDATA[#$pyFunction
 url = '[link_final.param1]'
-import re,requests,base64,xbmc,xbmcgui,xbmcaddon,random
+import re,requests,six,base64
 $doregex[reparar_final_url]
 
 ]]></expres>
