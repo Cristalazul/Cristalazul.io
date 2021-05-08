@@ -12,7 +12,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix fi py3 new[/COLOR] </title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix fi py3 news[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -123,8 +123,8 @@ $doregex[reparar_final_url]
 <name>reparar_final_url</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import urllib2
-    return urllib2.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/final_flix_distancia').read()
+    import requests
+    return requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/final_flix_distancia', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://github.com'}, verify=False).text
 ]]></expres>
 <page></page>
 </regex>
