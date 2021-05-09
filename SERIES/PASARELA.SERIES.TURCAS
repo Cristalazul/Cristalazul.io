@@ -232,7 +232,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-<thumbnail>https://i.imgur.com/6VqzmVs.jpg<thumbnail>
+<thumbnail>https://i.imgur.com/6VqzmVs.jpg</thumbnail>
 <fanart>https://i.imgur.com/Yzlxiv6.jpg</fanart> 
 </item>
     
