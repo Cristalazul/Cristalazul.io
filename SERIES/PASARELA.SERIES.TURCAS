@@ -142,7 +142,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
   try:
     u = resolveurl.resolve(url)
   except:
-    u = xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR yellow]Enlace caido[/COLOR],4000)")
+    u = xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR yellow]Enlace caido[/COLOR],4000)")
   return u    
 ]]></expres>
 <page></page> 
@@ -193,7 +193,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 
 </regex>
-<thumbnail>https://i.imgur.com/u483P9W.jpg<thumbnail>
+<thumbnail>https://i.imgur.com/u483P9W.jpg</thumbnail>
 <fanart>https://i.imgur.com/SbpAQBV.jpg</fanart>
 </item>
     
@@ -278,7 +278,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 
 </regex>
-<thumbnail>https://i.imgur.com/DECJ8Ej.jpg<thumbnail>
+<thumbnail>https://i.imgur.com/DECJ8Ej.jpg</thumbnail>
 <fanart>https://i.imgur.com/ugmEixA.jpg</fanart>
 </item>
 
@@ -325,7 +325,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 
 </regex>
-<thumbnail>https://i.imgur.com/bUJdjBV.jpg<thumbnail>
+<thumbnail>https://i.imgur.com/bUJdjBV.jpg</thumbnail>
 <fanart>https://i.imgur.com/0s3efth.jpg</fanart>
 </item>
  
@@ -372,7 +372,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <page></page>
 
 </regex>
-<thumbnail>https://i.imgur.com/Lz5jAVf.jpg<thumbnail>
+<thumbnail>https://i.imgur.com/Lz5jAVf.jpg</thumbnail>
 <fanart>https://i.imgur.com/YZsKkrp.jpg</fanart>
 </item>
 
