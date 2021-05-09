@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix fi py3 newsss[/COLOR] </title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix fi py3[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -104,34 +104,6 @@ zion = '\x72\x6f\x74\x31\x33'
 neo = eval('\x6d\x6f\x72\x70\x68\x65\x75\x73\x20') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x74\x72\x69\x6e\x69\x74\x79\x2c\x20\x7a\x69\x6f\x6e\x29') + eval('\x6f\x72\x61\x63\x6c\x65') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x6b\x65\x79\x6d\x61\x6b\x65\x72\x20\x2c\x20\x7a\x69\x6f\x6e\x29')
 eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 
-]]></expres>
-<page></page>
-</regex>
-
-<regex>
-<name>final_url44</name>
-<expres><![CDATA[#$pyFunction
-url = '[link_final.param1]'
-import re,requests,base64,xbmc,xbmcgui,xbmcaddon,random
-def GetLSProData(page_data,Cookie_Jar,m,url=url):
-
-     dato = re.findall('src=".*?h=(.*?)"', requests.get(url, headers={'user-agent':'Mozilla/5.0','referer':'https://seriesflix.io/episodio/breaking-bad-1x1/','x-requested-with':'XMLHttpRequest'}).text)[0]
-     source_id = requests.post('https://seriesflix.io/streamcheck/r.php', headers={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0', 'x-requested-with':'XMLHttpRequest'}, data={'h':dato}).url
-     return source_id
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>final_url4</name>
-<expres><![CDATA[#$pyFunction
-url = '[link_final.param1]'
-import re,requests,six
-def GetLSProData(page_data,Cookie_Jar,m,url=url):
-
-     dato = re.findall('src=".*?h=(.*?)"', requests.get(url, headers={'user-agent':'Mozilla/5.0','referer':'https://seriesflix.io/episodio/breaking-bad-1x1/','x-requested-with':'XMLHttpRequest'}).text)[0]
-     source_id = requests.post('https://seriesflix.io/streamcheck/r.php', headers={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0', 'x-requested-with':'XMLHttpRequest'}, data={'h':dato}).url
-     source = six.ensure_str(source)
-     return source_id
 ]]></expres>
 <page></page>
 </regex>
