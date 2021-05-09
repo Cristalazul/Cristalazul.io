@@ -144,7 +144,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,name=name):
 <regex>
 <name>m</name>
 <listrepeat><![CDATA[
-<title>$doregex[link_final]   [COLOR white][m.param2] [COLOR lightskyblue][m.param3] [COLOR gold][m.param1][/COLOR]</title>
+<title>https://seriesflv.org/[m.param4]   [COLOR white][m.param2] [COLOR lightskyblue][m.param3] [COLOR gold][m.param1][/COLOR]</title>
 <title></title>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>$doregex[img]</thumbnail>
