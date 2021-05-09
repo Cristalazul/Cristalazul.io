@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix fi py3 new[/COLOR] </title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]Series [/COLOR][COLOR white]Flix fi py3 newsss[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -109,7 +109,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 </regex>
 
 <regex>
-<name>final_url</name>
+<name>final_url44</name>
 <expres><![CDATA[#$pyFunction
 url = '[link_final.param1]'
 import re,requests,base64,xbmc,xbmcgui,xbmcaddon,random
@@ -136,7 +136,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
 <page></page>
 </regex>
 <regex>
-<name>final_url44</name>
+<name>final_url</name>
 <expres><![CDATA[#$pyFunction
 url = '[link_final.param1]'
 import re,requests,six
