@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas[/COLOR] </title>
+<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas va[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -171,7 +171,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,name=name):
   id = xbmcaddon.Addon().getAddonInfo('id')
   if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
       html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text 
-      data = re.findall('(?s)width="45"><img width="20" src=".*?language/(.*?)\..*?domain.[\w\W\s]{0,217}(Upto.*?|Gamo.*?|Vido.*?|Streamch.*?|Gounlimi.*?|Uqload.*?|Ok.*?|Upstreamt.*?|Cloudvide|Fembed.*?|Clipwatch.*?)<.*?center..\n*\s*(.*?)p.*?href=.(.*?)"', html)
+      data = re.findall('(?s)width="45"><img width="20" src=".*?language/(.*?)\..*?domain.[\w\W\s]{0,217}(Upto.*?|Gamo.*?|Vido.*?|Streamch.*?|Gounlimi.*?|Uqload.*?|Ok.*?|Upstreamt.*?|Cloudvide|Fembed.*?|Clipwatch.*?)<.*?center..\n*\s*(.*?)p.*?href=.(.*?)".*?<a data-enlace="(.*?)"', html)
       return [(' ', ' ', '[COLOR aqua]Cristal Azul Resultados: [COLOR white]Enlaces de '+name.replace('-',' ').title(), ' ')] + data + [(' ', ' ', '[COLOR white]No hay más resultados...', ' ')]
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
@@ -200,7 +200,7 @@ def GetLSProData(page_data,Cookie_Jar,m,finalurl=finalurl):#cLrJIhsDApL
 <regex>
 <name>selecion_inteligente</name>
 <expres><![CDATA[#$pyFunction
-url = '$doregex[link_final]'
+url = '[m.param5]'
 $doregex[importar]
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
