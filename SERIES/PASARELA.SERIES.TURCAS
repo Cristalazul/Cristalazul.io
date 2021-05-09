@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
 
 <item>
 <title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal [COLOR yellow](Nuevo)[/COLOR]</title>
@@ -112,7 +114,8 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/w6VUR30.png</thumbnail>
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
----------------------------------------------------------------------------------------------------------------------
+
+
 
 <item>
 <title>[COLOR orangered]ESPECIAL [COLOR white]Fuerza de Mujer [COLOR yellow](Audio Latino)[/COLOR]</title>  
@@ -148,7 +151,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
 </item>
 
----------------------------------------------------------------------------------------------------------------------------------
+
 <item>
 <title>[COLOR red]ESPECIAL [COLOR white]Love is in the Air [COLOR gold](Nueva opción)[/COLOR]</title>
 <link>$doregex[lou]</link>
@@ -193,7 +196,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/u483P9W.jpg<thumbnail>
 <fanart>https://i.imgur.com/SbpAQBV.jpg</fanart>
 </item>
- -----------------------------------------------------------------------------------------------------   
+    
 <item>
 <title>[COLOR red]ESPECIAL [COLOR white]Mi Hija: Kizim [COLOR gold](Nueva opción)[/COLOR]</title>
 <link>$doregex[lou]</link>
@@ -233,7 +236,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/Yzlxiv6.jpg</fanart> 
 </item>
     
-    ---------------------------------------------------------------------------------------------------------------------------------
+    
 <item>
 <title>[COLOR red]ESPECIAL [COLOR white]Mi Hogar, Mi Destino [COLOR gold](Estreno)[/COLOR]</title>
 <link>$doregex[lou]</link>
@@ -278,7 +281,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/DECJ8Ej.jpg<thumbnail>
 <fanart>https://i.imgur.com/ugmEixA.jpg</fanart>
 </item>
------------------------------------------------------------------------------------------------------   
+
+
+   
 <item>
 <title>[COLOR red]ESPECIAL [COLOR white]La Promesa (Yemin) [COLOR gold](Estreno-Latino)[/COLOR]</title>
 <link>$doregex[lou]</link>
@@ -323,7 +328,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/bUJdjBV.jpg<thumbnail>
 <fanart>https://i.imgur.com/0s3efth.jpg</fanart>
 </item>
- -----------------------------------------------------------------------------------------------------   
+ 
+
+   
     <item>
 <title>[COLOR orangered]ESPECIAL [COLOR white]Omer: sueños robados [COLOR yellow](Estreno)[/COLOR]</title>  
 <link>$doregex[lou]</link>
@@ -369,5 +376,5 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/YZsKkrp.jpg</fanart>
 </item>
 
----------------------------------------------------------------------------------------------------------------------------------
-d
+
+</items>
