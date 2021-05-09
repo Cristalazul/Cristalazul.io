@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas va[/COLOR] </title>
+<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas vam[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -144,7 +144,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,name=name):
 <regex>
 <name>m</name>
 <listrepeat><![CDATA[
-<title>https://seriesflv.org/[m.param4]   [COLOR white][m.param2] [COLOR lightskyblue][m.param3] [COLOR gold][m.param1][/COLOR]</title>
+<title>[COLOR white][m.param2] [COLOR lightskyblue][m.param3] [COLOR gold][m.param1][/COLOR]</title>
 <title></title>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>$doregex[img]</thumbnail>
