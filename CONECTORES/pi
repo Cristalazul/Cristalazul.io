@@ -113,7 +113,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <name>final_url</name>
 <expres><![CDATA[#$pyFunction
 url = '[link_final.param1]'
-import re,requests,six,base64
+import re,requests,six
 $doregex[reparar_final_url]
 
 ]]></expres>
@@ -123,8 +123,9 @@ $doregex[reparar_final_url]
 <name>reparar_final_url</name>
 <expres><![CDATA[#$pyFunction
 def GetLSProData(page_data,Cookie_Jar,m):
-    import requests
-    return requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/final_flix_distancia', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://github.com'}, verify=False).text
+    import requests,six
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/final_flix_distancia', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://github.com'}, verify=False).text
+    return six.ensure_str(pasta)
 ]]></expres>
 <page></page>
 </regex>
