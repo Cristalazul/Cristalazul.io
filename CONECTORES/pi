@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas vam[/COLOR] </title>
+<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas va[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
