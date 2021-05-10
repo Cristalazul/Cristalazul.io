@@ -3,7 +3,7 @@
 
 
 <item>
-<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal [COLOR yellow](Nuevo)[/COLOR]</title>
+<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal [COLOR yellow](Todas)[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
