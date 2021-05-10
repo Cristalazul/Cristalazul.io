@@ -10,7 +10,7 @@
 
 
 <item>
-<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas py3 vamos[/COLOR] </title>
+<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas py3 va[/COLOR] </title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -203,7 +203,6 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,name=name):
 <name>img</name>
 <expres><![CDATA[#$pyFunction
 finalurl = '[makelist2.param4]'
-import re,requests,xbmc,urlresolver
 def GetLSProData(page_data,Cookie_Jar,m,finalurl=finalurl):#cLrJIhsDApL
   if 'http' in finalurl:
    return finalurl
