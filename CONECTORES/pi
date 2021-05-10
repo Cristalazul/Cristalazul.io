@@ -12,7 +12,7 @@
 
 
 <item>
-<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas py3 va[/COLOR] </title>
+<title>[COLOR gold]* [COLOR lightseagreen]Series [/COLOR][COLOR white]SeriesFlv[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
