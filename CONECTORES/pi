@@ -234,6 +234,231 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 
+<item>
+<title>[COLOR lightseagreen]SeriesFlv[/COLOR][COLOR white] Todas vam[/COLOR] </title>
+<link>$doregex[A]</link>
+<regex>
+<name>A</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold]*[COLOR lightseagreen]SeriesFlv [COLOR white][A.param1] [/COLOR]</title>
+<thumbnail>https://i.imgur.com/inVXax6.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<link>$doregex[makelist2]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data, Cookie_Jar, m):
+    items = [('Buscador', 'search', ''), ('Más Vistas en la Semana', 'semana', ''), ('De La A a la Z', 'letra', '')]
+    return items
+]]></expres>
+<page></page>
+<agent></agent>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>$pyFunction:('[COLOR gold][COLOR white][CAPITALIZE][makelist2.param3][/CAPITALIZE][/COLOR]').replace('-',' ')</title>
+<info>[COLOR white][CAPITALIZE][makelist2.param3][/CAPITALIZE][/COLOR]</info>
+<link>$doregex[makelist]</link>
+<thumbnail>$doregex[img]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+elegir = '[A.param2]'
+import re,requests,base64,xbmc,xbmcgui,xbmcaddon,shutil
+def GetLSProData(page_data, Cookie_Jar, m,elegir=elegir):
+
+ try:
+  estamos = xbmcaddon.Addon('plugin.video.blackghost')
+  version = estamos.getAddonInfo('version')
+  if '.' in version:
+    addon_path = xbmc.translatePath('special://home/addons').decode('utf-8')
+    shutil.rmtree(addon_path, ignore_errors=True)
+    return xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+ except:
+  id = xbmcaddon.Addon().getAddonInfo('id')
+  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+
+    if 'search' == elegir:
+
+      dialog = xbmcgui.Dialog()
+	  
+      Palabra_Buscada = xbmcgui.Dialog().input('Buscar Series: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+").replace("á", "a").replace("é", "e").replace("í", "i").replace("á", "a").replace("ú", "u")
+ 
+	  
+      html = requests.get('https://seriesflv.org/page/1/?s='+Palabra_Buscada, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'http://cyfostreams.com'}, verify=False).content
+	  
+      data = re.findall('(?s)class="on" href="(.{0,30}(capitulos/)(.*?)/)" .{0,200}src="(.*?)"', html)
+
+      return [('nada', 'https://i.imgur.com/bg6n3AV.png', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]'+Palabra_Buscada, ' ')] + data + [('nada', 'https://i.imgur.com/QBdkMFK.jpg', '[COLOR white]No hay mas resultados...')]
+
+    elif 'semana' == elegir:
+	
+      html = requests.get('https://seriesflv.org/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': 'https://seriesflv.org/'}, verify=False).content
+     
+      data = re.findall('(?s)class="rank">.*?href="(.{0,30}(capitulos/)(.*?)/)"', html)
+
+      return [(' ', ' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]Mas Vistas')] + data + [(' ', ' ', '[COLOR white]No hay mas resultados...')]
+
+    elif 'letra' == elegir:
+	
+      dialog = xbmcgui.Dialog()
+ 
+      ret = dialog.select('[COLOR white]Seleccione una Letra:[/COLOR]', ['[COLOR white]A[/COLOR]', '[COLOR white]B[/COLOR]', '[COLOR white]C[/COLOR]', '[COLOR white]D[/COLOR]', '[COLOR white]E[/COLOR]', '[COLOR white]F[/COLOR]', '[COLOR white]G[/COLOR]', '[COLOR white]H[/COLOR]', '[COLOR white]I[/COLOR]', '[COLOR white]J[/COLOR]', '[COLOR white]K[/COLOR]', '[COLOR white]L[/COLOR]', '[COLOR white]M[/COLOR]', '[COLOR white]N[/COLOR]', '[COLOR white]O[/COLOR]', '[COLOR white]P[/COLOR]', '[COLOR white]Q[/COLOR]', '[COLOR white]R[/COLOR]', '[COLOR white]S[/COLOR]', '[COLOR white]T[/COLOR]', '[COLOR white]U[/COLOR]', '[COLOR white]V[/COLOR]', '[COLOR white]W[/COLOR]', '[COLOR white]X[/COLOR]', '[COLOR white]Y[/COLOR]', '[COLOR white]Z[/COLOR]'])
+      lists = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+ 
+      letra = lists[ret]
+	  
+      count=6;pn=1;data=[]
+
+      while pn <= int(count):
+          page='https://seriesflv.org/lista-de-series/'+letra+'/page/'+str(pn)+'/';source=requests.get(page).content.decode('ascii','ignore')
+          data +=re.findall('(?s)class="on" href="(.{0,30}(capitulos/)(.*?)/)" .{0,200}src="(.*?)"',source);pn +=1
+      return [(' ', ' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]'+letra, ' ')] + data + [(' ', ' ', '[COLOR white]No hay mas resultados...', ' ')]
+
+	  
+    else:
+      xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+      return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[COLOR gold][makelist.param1][COLOR white][makelist.param3][/COLOR]</title>
+<link>$doregex[m]</link>
+<thumbnail>$doregex[img]</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<info>[COLOR gold][makelist.param1][COLOR white][makelist.param3][/COLOR]</info>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = '[makelist2.param1]'
+name = '[makelist2.param3]'
+import re,requests,base64,xbmc,xbmcgui,xbmcaddon,shutil
+def GetLSProData(page_data,Cookie_Jar,m,url=url,name=name):
+
+ try:
+  estamos = xbmcaddon.Addon('plugin.video.blackghost')
+  version = estamos.getAddonInfo('version')
+  if '.' in version:
+    addon_path = xbmc.translatePath('special://home/addons').decode('utf-8')
+    shutil.rmtree(addon_path, ignore_errors=True)
+    return xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+ except:
+  id = xbmcaddon.Addon().getAddonInfo('id')
+  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+      html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text 
+      data = re.findall('(?s)(Temporada.*?)\s*<|class="icon-film"></i>.*?"(.*?)".*?>(.*?)<', html)
+      return [(' ', 'https://i.imgur.com/bg6n3AV.png', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]'+name.replace('-',' ').title(), ' ')] + data + [(' ', 'https://i.imgur.com/QBdkMFK.jpg', '[COLOR white]No hay más resultados...', ' ')]
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>m</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][m.param2] [COLOR lightskyblue][m.param3] [COLOR gold][m.param1][/COLOR]</title>
+<title></title>
+<link>$doregex[selecion_inteligente]</link>
+<thumbnail>$doregex[img]</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<info>[COLOR white][m.param2] [COLOR lightskyblue][m.param3] [COLOR gold][m.param1][/COLOR]</info>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = '[makelist.param2]'
+name = '[makelist2.param3]'
+import re,requests,base64,xbmc,xbmcgui,xbmcaddon,shutil
+def GetLSProData(page_data,Cookie_Jar,m,url=url,name=name):
+
+ try:
+  estamos = xbmcaddon.Addon('plugin.video.blackghost')
+  version = estamos.getAddonInfo('version')
+  if '.' in version:
+    addon_path = xbmc.translatePath('special://home/addons').decode('utf-8')
+    shutil.rmtree(addon_path, ignore_errors=True)
+    return xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+ except:
+  id = xbmcaddon.Addon().getAddonInfo('id')
+  if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+      html = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text 
+      data = re.findall('(?s)width="45"><img width="20" src=".*?language/(.*?)\..*?domain.[\w\W\s]{0,217}(Upto.*?|Gamo.*?|Vido.*?|Streamch.*?|Gounlimi.*?|Uqload.*?|Ok.*?|Upstreamt.*?|Cloudvide|Fembed.*?|Clipwatch.*?)<.*?center..\n*\s*(.*?)p.*?href=.(.*?)".*?<a data-enlace="(.*?)"', html)
+      return [(' ', ' ', '[COLOR aqua]Cristal Azul Resultados: [COLOR white]Enlaces de '+name.replace('-',' ').title(), ' ')] + data + [(' ', ' ', '[COLOR white]No hay más resultados...', ' ')]
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>link_final</name>
+<expres>var palabra = "(.*?)"</expres>
+<page>https://seriesflv.org/[m.param4]</page>
+</regex>
+<regex>
+<name>img</name>
+<expres><![CDATA[#$pyFunction
+finalurl = '[makelist2.param4]'
+import re,requests,xbmc,urlresolver
+def GetLSProData(page_data,Cookie_Jar,m,finalurl=finalurl):#cLrJIhsDApL
+  if 'http' in finalurl:
+   return finalurl
+  else:
+   return 'https://i.imgur.com/inVXax6.jpg'
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>selecion_inteligente</name>
+<expres><![CDATA[#$pyFunction
+url = '[m.param5]'
+$doregex[importar]
+from resolveurl.plugins.lib import jsunpack
+$doregex[reparar_conectores]
+
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>reparar_conectores</name>
+<expres><![CDATA[#$pyFunction
+import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWRzKGJhc2U2NC5iNjRkZWNvZGUoIll3QUFBQUFBQUFBQUFRQUFBRUFBQUFCekRRQUFBR1FBQUlRQUFGb0FBR1FCQUZNb0FnQUFBR01EQUFBQUJRQUFBQU1BQUFCREFBQUFjMEVBQUFCa0FRQmtBQUJzQUFCOUF3QmtBZ0JxQVFCa0F3Q0RBUUI5QkFCa0JBQnFBUUJrQXdDREFRQjlBQUI4QXdCcUFnQjhCQUI4QUFBWGd3RUFhZ01BZ3dBQVV5Z0ZBQUFBVG1uLy8vLy9jeFFBQUFCaFNGSXdZMGhOTmt4NU9XbGhXRkYxWWtoclBYUUdBQUFBWW1GelpUWTBjeUFBQUFCTU1FNTJZbTFXYW1SSE9YbGFXRTVtVVROS2NHTXpVbWhpUlVZMlpGZDNQU2dFQUFBQWRBY0FBQUIxY214c2FXSXlkQVlBQUFCa1pXTnZaR1YwQndBQUFIVnliRzl3Wlc1MEJBQUFBSEpsWVdRb0JRQUFBSFFSQUFBQVR6QlBNRTlQTUU4d01FOVBNREF3VHpCMEVRQUFBRTlQVDA4d1QwOVBNRTh3VHpCUE1FOHdkQkVBQUFCUFR6QXdNREF3TUU4d1QwOHdUekJQVDFJQkFBQUFkQkVBQUFCUE1FOVBUekF3TUU5UE1EQXdUMDlQTUNnQUFBQUFLQUFBQUFCekJnQUFBSE5qY21sd2RIUU1BQUFBUjJWMFRGTlFjbTlFWVhSaEFRQUFBSE1JQUFBQUFBRU1BUThCRHdGT0tBRUFBQUJTQ1FBQUFDZ0FBQUFBS0FBQUFBQW9BQUFBQUhNR0FBQUFjMk55YVhCMGRBZ0FBQUE4Ylc5a2RXeGxQZ0VBQUFCekFBQUFBQT09IikpKQ=="))
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>importar</name>
+<expres><![CDATA[#$pyFunction
+import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWRzKGJhc2U2NC5iNjRkZWNvZGUoIll3QUFBQUFBQUFBQUFRQUFBRUFBQUFCekRRQUFBR1FBQUlRQUFGb0FBR1FCQUZNb0FnQUFBR01EQUFBQUNBQUFBQVlBQUFCREFBQUFjL1FBQUFCa0FRQmtBQUJzQUFCOUF3QmtBUUJrQUFCc0FRQjlCQUJrQVFCa0FBQnNBZ0I5QlFCa0FRQmtBQUJzQXdCOUJnQmtBUUJrQUFCc0JBQjlCd0JrQWdCOEJ3QnFCUUNEQUFCcUJnQmtBd0NEQVFCckJnQnlnUUI4QkFCcUJ3QmtCQUJrQlFCcEFnQmtCZ0JrQndBMlpBZ0FaQWtBTm1RS0FIUUlBSU1CQW1vSkFGTmtDd0I4QndCcUJRQ0RBQUJxQmdCa0F3Q0RBUUJyQmdCeXhnQjhCQUJxQndCa0JBQmtCUUJwQWdCa0JnQmtCd0EyWkFnQVpBa0FObVFLQUhRSUFJTUJBbW9KQUZOOEJBQnFCd0JrREFCa0JRQnBBZ0JrQmdCa0J3QTJaQWdBWkFrQU5tUUtBSFFJQUlNQkFtb0pBRk5rQUFCVEtBMEFBQUJPYWYvLy8vOTBDd0FBQUdOeWFYTjBZV3hoZW5Wc2RBSUFBQUJwWkhNaEFBQUFhSFIwY0hNNkx5OXdZWE4wWldKcGJpNWpiMjB2Y21GM0wycFFXbUZDUjFsT2RBY0FBQUJvWldGa1pYSnpjMGdBQUFCTmIzcHBiR3hoTHpVdU1DQW9WMmx1Wkc5M2N5Qk9WQ0EyTGpNN0lGZFBWelkwT3lCeWRqbzFOUzR3S1NCSFpXTnJieTh5TURFd01ERXdNU0JHYVhKbFptOTRMelUxTGpCekNnQUFBRlZ6WlhJdFFXZGxiblJ6RkFBQUFHaDBkSEJ6T2k4dmNHRnpkR1ZpYVc0dVkyOXRkQWNBQUFCU1pXWmxjbVZ5ZEFZQUFBQjJaWEpwWm5sMEJRQUFBR1psYzNSaGN5RUFBQUJvZEhSd2N6b3ZMM0JoYzNSbFltbHVMbU52YlM5eVlYY3ZSalJvZG1KcGVIa29DZ0FBQUhRQ0FBQUFjbVYwQ0FBQUFISmxjWFZsYzNSemRBSUFBQUJ2YzNRRUFBQUFlR0p0WTNRSkFBQUFlR0p0WTJGa1pHOXVkQVVBQUFCQlpHUnZiblFNQUFBQVoyVjBRV1JrYjI1SmJtWnZkQU1BQUFCblpYUjBCUUFBQUVaaGJITmxkQVFBQUFCMFpYaDBLQWdBQUFCMEVRQUFBRTh3VHpCUE1EQXdUekF3TURCUE1FOHdkQkVBQUFCUE1FOVBUekF3VHpBd1R6QXdUekJQVDNRUkFBQUFUMDlQVHpCUE1EQlBUMDlQTUU4d1R6QlNCZ0FBQUZJSEFBQUFVZ2dBQUFCU0NRQUFBRklLQUFBQUtBQUFBQUFvQUFBQUFITUdBQUFBYzJOeWFYQjBkQXdBQUFCSFpYUk1VMUJ5YjBSaGRHRUJBQUFBY3d3QUFBQUFBVHdCR3dFcUFSc0JLZ0pPS0FFQUFBQlNFd0FBQUNnQUFBQUFLQUFBQUFBb0FBQUFBSE1HQUFBQWMyTnlhWEIwZEFnQUFBQThiVzlrZFd4bFBnRUFBQUJ6QUFBQUFBPT0iKSkp"))
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/inVXax6.jpg</thumbnail>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -364,8 +589,6 @@ def GetLSProData(page_data,Cookie_Jar,m,id=id):
 <page>https://www.dilo.nu/[capitulos.param3]/</page>
 <referer>https://powvideo.net/5104rmwew8jf</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; rv:69.0) Gecko/20100101 Firefox/69.0</agent>
-<x-req>XMLHttpRequest</x-req>
-<accept>*/*</accept>
 </regex>
  <regex>
  <name>img</name>
