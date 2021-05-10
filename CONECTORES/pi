@@ -463,7 +463,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 
 <item>
-<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu[/COLOR]</title>
+<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu v[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>buscador</name>
