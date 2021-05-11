@@ -6,7 +6,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]TELESERIES [/COLOR][COLOR white]BUSCADOR[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightseagreen]TELESERIES [/COLOR][COLOR white]BUSCADORr[/COLOR]</title>
 <link>$doregex[j63addon]</link>
 <regex>
 <name>j63addon</name>
@@ -50,7 +50,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>lou2</name>
 <listrepeat><![CDATA[
-<title>[COLOR white] [lou2.param2][/COLOR]</title>
+<title>[lou2.param2][COLOR white] [lou2.param2][/COLOR]</title>
 <thumbnail>[j63addon.param2]</thumbnail>
 <fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
 <link>$doregex[selecion_inteligente]</link>
