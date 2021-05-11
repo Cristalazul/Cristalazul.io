@@ -22,7 +22,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
-</regex>
 <info>[COLOR lightblue]ESPECIAL, 'CRISTAL AZUL'
 [COLOR white]
 "Cristal azul sólo contiene regex de webs que se encuentran en internet,
@@ -52,7 +51,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
     return 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CINE/STAR%20WARS/MENU%20ESPECIAL%20STAR%20WARS.txt'
 ]]></expres>
 <page></page>
-</regex>
 </regex>
 <info>[COLOR lightblue]ESPECIAL, 'CRISTAL AZUL'
 [COLOR white]
