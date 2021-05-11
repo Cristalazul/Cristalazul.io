@@ -19,7 +19,7 @@
 
 
 <item>
-<title>[COLOR lightskyblue][COLOR orangered][COLOR white]TDT + Premium[/COLOR]</title>
+<title>[COLOR lightskyblue][COLOR orangered][COLOR white]Movistar Premium + TDT[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
