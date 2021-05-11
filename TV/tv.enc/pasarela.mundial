@@ -3,7 +3,7 @@
 ------------------------------------------------------------------------------------------------------------------------------
 
 <item>
-<title>[COLOR orangered] **** [COLOR gold] [COLOR gold] Seccion no Estable [COLOR orangered] **** [/COLOR]</title>
+<title>[COLOR orangered] **** [COLOR gold] [COLOR gold] Chikiry_Cristal TV [COLOR orangered] **** [/COLOR]</title>
 <externallink>$$LSProEncKey= $$</externallink>
 <link>na</link>
 <thumbnail>https://i.imgur.com/1ACcfrK.jpg</thumbnail>  
@@ -13,7 +13,7 @@
 ------------------------------------------------------------------------------------------------------------------------------
 
 <item>
-<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Multilistas Mundiales[/COLOR]</title>
+<title>[COLOR orangered][COLOR white]Multilistas Mundiales[/COLOR]</title>
 <link>$doregex[cristaltv]</link>
 <regex>
 <name>cristaltv</name>
