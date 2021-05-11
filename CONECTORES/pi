@@ -50,7 +50,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     cookie_distancia = six.ensure_str(cookie_distancia)
     try:
         cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
-        response = requests.get('https://playdede.com/lista/5570/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
+        response = requests.get('https://playdede.com/lista/2332/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
         response = six.ensure_str(response)
         data = re.findall(patron, response)
     except:
@@ -59,7 +59,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
     while 'NADA_LOGUEO' in response or 'Cloudflare Ray ID:' in response or 'Olvidaste tu contrase' in response:
         try:
             cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
-            response = requests.get('https://playdede.com/lista/5570/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
+            response = requests.get('https://playdede.com/lista/2332/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
             response = six.ensure_str(response)
             data = re.findall(patron, response)
         except:
