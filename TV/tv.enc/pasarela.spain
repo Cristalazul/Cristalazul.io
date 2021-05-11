@@ -3,15 +3,15 @@
 
 
 
-<!--
+
 <item>
-<title>[COLOR orangered]          [COLOR aqua] TV SPAIN ESTABLE [COLOR orangered]          [/COLOR]</title>
+<title>[COLOR orangered]          [COLOR aqua] CHIKIRY_CRISTAL TV [COLOR orangered]          [/COLOR]</title>
 <externallink>$$LSProEncKey= $$</externallink>
 <link>na</link>
 <thumbnail>https://i.imgur.com/knrTdP2.png</thumbnail>  
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
--->
+
 
 
 
@@ -19,7 +19,7 @@
 
 
 <item>
-<title>[COLOR lightskyblue][COLOR orangered]Chikiry_Cristal [COLOR white]Premium [COLOR yellow][/COLOR]</title>
+<title>[COLOR lightskyblue][COLOR orangered]Chikiry_Cristal [COLOR white]Premium + TDT[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -148,7 +148,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 
 
 
-
+<!--
 <item>
 <title>[COLOR orangered]Chikiry_Cristal [COLOR white]Movistar Lista 1 Pro [COLOR yellow]EN MANTENIMIENTO[/COLOR]</title>
 <link>$doregex[makelist2]</link>
@@ -183,7 +183,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/AgY8dgR.png</thumbnail>  
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 </item>
-
+-->
 
 
 
@@ -193,7 +193,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 
 <item>
 
-<title>[COLOR orangered]Chikiry_Cristal [COLOR white]Tdt internacional[/COLOR]</title>
+<title>[COLOR orangered]Chikiry_Cristal [COLOR white]TDT internacional[/COLOR]</title>
 <externallink>https://www.tdtchannels.com/lists/tv.m3u8</externallink>
 <link>na</link>
 <thumbnail>https://i.imgur.com/kl3p3MV.png</thumbnail>  
