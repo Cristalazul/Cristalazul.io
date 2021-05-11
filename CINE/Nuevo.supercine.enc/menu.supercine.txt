@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+
 
 
 
@@ -9,49 +12,13 @@
 <regex>
 <name>c</name>
 <expres><![CDATA[#$pyFunction
-import urllib, re, requests, xbmcgui, xbmc, xbmcaddon, time
-import os
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+import time
 def GetLSProData(page_data,Cookie_Jar,m):
 
     xbmc.executebuiltin('PlayMedia("https://archive.org/download/oscars.theme/Oscars.Theme.mp3",1)')
     time.sleep( 1 )
     return 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CINE/Oscar/Menu.Los.Oscar.txt'
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>comecristal</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- import xbmc
- import xbmcaddon
- addon = xbmcaddon.Addon('plugin.video.cristalazul')
- Url = 'link[::4] + url[:8] + Creditos[62:] = http://bit.ly/sourcecristalazul'
- grupotelegram = 'http://t.me/addonfestaycristal'
- Creditos = 'el_addon_cristalazul_fue_creado_por_el_grupo_festa_para_el_disfrute_en familia, este_addon_es_completamente_gratuito,disfrute_de_la_seccion_de_tv_premium'
- cristal = 'jdt_cristal_azul_para_todos_gratuita_creada_por_picapau_y_lourdes'
- info = 'british.true.Build.py %7/'
- return  grupotelegram[:7] + info[::4] + cristal[:3] + Creditos[146:]
-def revist_dag(page_data):
-  final_url = ''
-  if '127.0.0.1' in page_data:
-      final_url = re_me(page_data, '&ver_t=([^&]+)&') + ' live=true timeout=15 playpath=' + re_me(page_data, '\\?y=([a-zA-Z0-9-_\\.@]+)')
- 
-  if re_me(page_data, 'token=([^&]+)&') != '':
-      final_url = final_url + '?token=' + re_me(page_data, 'token=([^&]+)&')
-  elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
-      final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
-  else:
-      final_url = re_me(page_data, 'HREF="([^"]+)"')
- 
-  if 'dag1.asx' in final_url:
-      return get_dag_url(final_url)
- 
-  if 'devinlivefs.fplive.net' not in final_url:
-      final_url = final_url.replace('devinlive', 'flive')
-  if 'permlivefs.fplive.net' not in final_url:
-      final_url = final_url.replace('permlive', 'flive')
-  return ''
 ]]></expres>
 <page></page>
 </regex>
@@ -65,7 +32,10 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 <thumbnail>https://i.imgur.com/nUJ6Tij.jpg</thumbnail>
 <fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
 </item>
-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]ESPECIAL [COLOR white]Star Wars[/COLOR]</title>
 <link>cristalazul</link>
@@ -73,49 +43,13 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 <regex>
 <name>c</name>
 <expres><![CDATA[#$pyFunction
-import urllib, re, requests, xbmcgui, xbmc, xbmcaddon, time
-import os
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+import time
 def GetLSProData(page_data,Cookie_Jar,m):
 
     xbmc.executebuiltin('PlayMedia("https://archive.org/download/star-wars-main-theme/Star_Wars_Main_Theme.mp3",1)')
     time.sleep( 1 )
     return 'https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CINE/STAR%20WARS/MENU%20ESPECIAL%20STAR%20WARS.txt'
-]]></expres>
-<page></page>
-</regex>
-<regex>
-<name>comecristal</name>
-<expres><![CDATA[#$pyFunction
-def GetLSProData(page_data,Cookie_Jar,m):
- import xbmc
- import xbmcaddon
- addon = xbmcaddon.Addon('plugin.video.cristalazul')
- Url = 'link[::4] + url[:8] + Creditos[62:] = http://bit.ly/sourcecristalazul'
- grupotelegram = 'http://t.me/addonfestaycristal'
- Creditos = 'el_addon_cristalazul_fue_creado_por_el_grupo_festa_para_el_disfrute_en familia, este_addon_es_completamente_gratuito,disfrute_de_la_seccion_de_tv_premium'
- cristal = 'jdt_cristal_azul_para_todos_gratuita_creada_por_picapau_y_lourdes'
- info = 'british.true.Build.py %7/'
- return  grupotelegram[:7] + info[::4] + cristal[:3] + Creditos[146:]
-def revist_dag(page_data):
-  final_url = ''
-  if '127.0.0.1' in page_data:
-      final_url = re_me(page_data, '&ver_t=([^&]+)&') + ' live=true timeout=15 playpath=' + re_me(page_data, '\\?y=([a-zA-Z0-9-_\\.@]+)')
- 
-  if re_me(page_data, 'token=([^&]+)&') != '':
-      final_url = final_url + '?token=' + re_me(page_data, 'token=([^&]+)&')
-  elif re_me(page_data, 'wmsAuthSign%3D([^%&]+)') != '':
-      final_url = re_me(page_data, '&ver_t=([^&]+)&') + '?wmsAuthSign=' + re_me(page_data, 'wmsAuthSign%3D([^%&]+)') + '==/mp4:' + re_me(page_data, '\\?y=([^&]+)&')
-  else:
-      final_url = re_me(page_data, 'HREF="([^"]+)"')
- 
-  if 'dag1.asx' in final_url:
-      return get_dag_url(final_url)
- 
-  if 'devinlivefs.fplive.net' not in final_url:
-      final_url = final_url.replace('devinlive', 'flive')
-  if 'permlivefs.fplive.net' not in final_url:
-      final_url = final_url.replace('permlive', 'flive')
-  return ''
 ]]></expres>
 <page></page>
 </regex>
@@ -129,7 +63,11 @@ sólo da acesso a ésas webs, éstas son las responsables de los contenidos"[/CO
 <thumbnail>https://i.imgur.com/ABCSKSV.jpg</thumbnail>
 <fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
 </item>
-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Por Temas[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -221,7 +159,10 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/AsrEGQ2.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]La lloreria[/COLOR]</title>
 <link>$doregex[makelist2]</link>
@@ -296,7 +237,9 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/laFPJyn.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
---------------------------------------------------------------------------------------------------------------------
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Las Más Taquilleras[/COLOR]</title>  
 <link>$doregex[c]</link>
@@ -356,7 +299,11 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/V9SqzX4.jpg</thumbnail>
 <fanart>https://i.imgur.com/i6rVUIV.jpg</fanart>
 </item>
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]Las 550 pelis que ver antes de morir[/COLOR]</title>
@@ -432,8 +379,8 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/SOLBsvo.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
+</items>
