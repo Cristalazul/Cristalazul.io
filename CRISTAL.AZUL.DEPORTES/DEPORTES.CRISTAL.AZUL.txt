@@ -12,8 +12,8 @@
 <regex>
 <name>id</name>
 <expres><![CDATA[#$pyFunction
+from kodi_six import xbmc
 def GetLSProData(page_data,Cookie_Jar,m):
- import xbmc, xbmcaddon
  hola = xbmc.getCondVisibility('System.HasAddon(plugin.video.winner)')
  if hola==0:
      xbmc.executebuiltin('InstallAddon(plugin.video.winner)')
