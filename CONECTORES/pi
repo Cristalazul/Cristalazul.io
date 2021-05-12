@@ -32,7 +32,8 @@ from six.moves import urllib_parse
 import six
 TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
 list = '4840'
-def GetLSProData(page_data, Cookie_Jar, m, list=list):
+img = 'https://i.imgur.com/SOLBsvo.jpg'
+def GetLSProData(page_data, Cookie_Jar, m, list=list, img=img):
 
  try:
   estamos = xbmcaddon.Addon('plugin.video.blackghost')
@@ -80,7 +81,7 @@ def GetLSProData(page_data, Cookie_Jar, m, list=list):
         anio = item[3]
         categoria = item[4]
         video += [(titulo, imagen, url, anio, categoria)]
-    return [(' ', 'https://i.imgur.com/SOLBsvo.jpg', ' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white] ('+str(numero_total)+')', ' ')] + sorted(video) + [(' ', 'https://i.imgur.com/SOLBsvo.jpg', ' ', '[COLOR white]No hay mas resultados...', ' ')]
+    return [(' ', img, ' ', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white] ('+str(numero_total)+')', ' ')] + sorted(video) + [(' ', img, ' ', '[COLOR white]No hay mas resultados...', ' ')]
 
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
