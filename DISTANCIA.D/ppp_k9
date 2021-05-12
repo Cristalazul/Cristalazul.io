@@ -221,10 +221,10 @@ def GetLSProData(page_data, Cookie_Jar, m,elegir=elegir):
       return [('[COLOR aqua]Chikiry Cristal Resultados de: [COLOR white]Latinos', 'https://i.imgur.com/bg6n3AV.png', '[COLOR aqua]Cristal Azul Resultados de: [COLOR white]', ' ')] + data + [('[COLOR none]No Hay mas Resultados...', 'https://i.imgur.com/QBdkMFK.jpg', '[COLOR white]No hay mÃƒÂ¡s', '[COLOR white]resultados...')]
     else:
       xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
-      return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+      return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
-    return xbmc.executebuiltin("XBMC.Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+    return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
 
 ]]></expres>
 <page></page>
@@ -280,6 +280,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):#cLrJIhsDApL
       f.close()
       iframe = re.findall('(?s)iframe.*?src=[\'"]([^\'"]+)', html)[0]
       html1 = requests.get(iframe, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text
+      html1 = six.ensure_str(html1)
       try:
           url2 = re.findall('source.*?[\'"](.*?m3u8.*?)[\'"]', html1)[0]
       except:
