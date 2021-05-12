@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR white]WINNER Sports[COLOR gold] Directos!![/COLOR]</title>
+<title>[COLOR white]WINNER Sports[COLOR gold] Directos[/COLOR]</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
