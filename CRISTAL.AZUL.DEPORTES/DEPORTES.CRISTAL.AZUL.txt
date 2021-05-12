@@ -6,16 +6,8 @@
 
 
 
-
-
-
- 
- 
-
-
-
 <item>
-<title>[COLOR white]WINNER [COLOR gold]Sports[/COLOR]</title>
+<title>[COLOR white]WINNER Sports[COLOR gold] Directos!![/COLOR]</title>
 <link>$doregex[id]</link>
 <regex>
 <name>id</name>
@@ -26,16 +18,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
  if hola==0:
      xbmc.executebuiltin('InstallAddon(plugin.video.winner)')
      xbmc.executebuiltin('RunAddon(plugin.video.winner)')
-     return xbmc.executebuiltin('XBMC.Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
+     return xbmc.executebuiltin('Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
  else:
      xbmc.executebuiltin('RunAddon(plugin.video.winner)')
-     return xbmc.executebuiltin('XBMC.Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
+     return xbmc.executebuiltin('Notification([COLOR white]Abriendo[/COLOR],[COLOR white]Winner[/COLOR], 5000)')
 ]]></expres>
 <page></page>
-<NOTPlayable>True</NOTPlayable>
-</regex><thumbnail>https://i.imgur.com/Wa217u7.jpg</thumbnail>
+<notplayable>True</notplayable>
+<thumbnail>https://i.imgur.com/Wa217u7.jpg</thumbnail>
 <fanart>https://i.imgur.com/RsLj1lh.jpg</fanart>
 </item>
+
+
 
 
 
