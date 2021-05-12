@@ -5,6 +5,55 @@
 
 
 
+<item>
+<title>[COLOR white] Anthony Hopkins [/COLOR]</title>
+<link>$doregex[lou]</link>
+<regex>
+<name>lou</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
+<info>[COLOR white][lou.param7][/COLOR]</info>
+<link>$doregex[id3]</link>
+<thumbnail>[lou.param5]</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)"Tag=(.*?1AHopkins).*?<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://pastebin.com/raw/iXTd60tE</page>
+</regex>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+from kodi_six import xbmc
+import re,requests,resolveurl
+def GetLSProData(page_data,Cookie_Jar,m,url='[c.param6]'):#cLrJIhsDApL
+    try:
+        mozhdr = {'User-Agent': 'Mozilla/5.0', 'Referer': 'https://drive.google.com/drivefolders'}
+        html = requests.get(url, headers=mozhdr, verify=False).text
+        part1 = re.findall('(excedido)', html)[0]
+        u = xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold]Servidor saturado. Exceso de usuarios superado. Use otro o secciones web[/COLOR], 12000)")
+    except:
+        u = reproducir()
+    return u
+
+
+def reproducir():
+    import resolveurl
+    url = '[lou.param8]'
+    try:
+        u = resolveurl.resolve(url)
+    except:
+        u = '[lou.param8]'.replace('https://drive.google.com/file/d/', 'https://www.googleapis.com/drive/v3/files/').replace('/view', '?alt=media&key=AIzaSyDdoetN4aDmDBc6Y11CUGK4nhZ0pvZbXOw')
+    return u
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://i.imgur.com/WYrkedd.jpg</thumbnail>
+<fanart>https://3.bp.blogspot.com/-BwSmYmb5nTE/WzEm9R2JmQI/AAAAAAAAHt4/9QSuAKUdZjQXuJ221alO-silPWB_1olOwCLcBGAs/s1600/fanaaa.jpg</fanart>
+</item>
+
+
+
+
 
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]La lloreria[/COLOR]</title>
