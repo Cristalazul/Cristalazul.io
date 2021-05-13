@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal [COLOR yellow][/COLOR]</title>
+<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal [COLOR yellow](Todas)[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -196,7 +196,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <page></page>
 </regex>
 <thumbnail>https://i.imgur.com/w6VUR30.png</thumbnail>
-<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
+<fanart>https://i.imgur.com/OjNrJQR.jpg</fanart>
 </item>
 
 
