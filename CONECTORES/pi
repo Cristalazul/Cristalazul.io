@@ -9,7 +9,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Por Productoras[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Por   Productoras[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -23,7 +23,7 @@
 from datetime import datetime, timedelta
 import re,requests,six
 def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
-  response = requests.get('https://pastebin.com/raw/mRDFTn7Y', verify=False).text
+  response = requests.get('https://pastebin.com/raw/W66SxPVs', verify=False).text
   response = six.ensure_str(response)
   items = re.findall('(?s)"titulo":"(.*?)".*?"url":"(.*?)".*?"imagen":"(.*?)"', response)
   numero_total = len(items)
