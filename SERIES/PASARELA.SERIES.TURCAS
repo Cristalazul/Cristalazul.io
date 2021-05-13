@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR orangered]SERIES TURCAS [COLOR white]Cristal [COLOR yellow](Todas)[/COLOR]</title>
+<title>[COLOR red]SERIES TURCAS [COLOR white]Cristal [COLOR yellow](Todas)[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -201,7 +201,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 
 
 <item>
-<title>[COLOR red]ESPECIAL [COLOR white]Ciudad Cruel [COLOR gold](Nueva opción)[/COLOR]</title>
+<title>[COLOR orangered]ESPECIAL [COLOR white]Ciudad Cruel [COLOR gold](Nueva opción)[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -246,7 +246,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR orangered]ESPECIAL [COLOR white]Fuerza de Mujer [COLOR yellow](Audio Latino)[/COLOR]</title>  
+<title>[COLOR orangered]ESPECIAL [COLOR white]Fuerza de Mujer [COLOR gold](Audio Latino)[/COLOR]</title>  
 <link>$doregex[capitulos]</link>
  
 <regex>
@@ -281,7 +281,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR red]ESPECIAL [COLOR white]Love is in the Air [COLOR gold](Nueva opción)[/COLOR]</title>
+<title>[COLOR orangered]ESPECIAL [COLOR white]Love is in the Air [COLOR gold](Nueva opción)[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -326,7 +326,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
     
 <item>
-<title>[COLOR red]ESPECIAL [COLOR white]Mi Hija: Kizim [COLOR gold](Nueva opción)[/COLOR]</title>
+<title>[COLOR orangered]ESPECIAL [COLOR white]Mi Hija: Kizim [COLOR gold](Nueva opción)[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -366,7 +366,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
     
     
 <item>
-<title>[COLOR red]ESPECIAL [COLOR white]Mi Hogar, Mi Destino [COLOR gold](Estreno)[/COLOR]</title>
+<title>[COLOR orangered]ESPECIAL [COLOR white]Mi Hogar, Mi Destino [COLOR gold](Estreno)[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -413,7 +413,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
    
 <item>
-<title>[COLOR red]ESPECIAL [COLOR white]La Promesa (Yemin) [COLOR gold](Estreno-Latino)[/COLOR]</title>
+<title>[COLOR orangered]ESPECIAL [COLOR white]La Promesa (Yemin) [COLOR gold](Latino)[/COLOR]</title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -460,7 +460,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
    
     <item>
-<title>[COLOR orangered]ESPECIAL [COLOR white]Omer: sueños robados [COLOR yellow](Estreno)[/COLOR]</title>  
+<title>[COLOR orangered]ESPECIAL [COLOR white]Omer: sueños robados [COLOR gold](Estreno)[/COLOR]</title>  
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
