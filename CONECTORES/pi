@@ -9,7 +9,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Por Productoras[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white] Por   Productoras[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -47,7 +47,7 @@ from six.moves import urllib_request
 from six.moves import urllib_parse
 import six
 TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
-list = '4487'
+list = '[makelist.param2]'.replace('https://playdede.com/lista/', '').replace('/', '')
 img = 'https://i.imgur.com/5kY0BRB.png'
 import base64, codecs
 
