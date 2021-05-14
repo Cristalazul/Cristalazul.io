@@ -6,7 +6,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador   [COLOR white]Pidepalomitas[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador [COLOR white]Pidepalomitas[/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
