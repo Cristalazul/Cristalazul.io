@@ -1,7 +1,160 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <item>
-<title>[COLOR deeppink]****** [COLOR orange] 16 ABRIL [COLOR deeppink]******[/COLOR]</title>    
+<title>[COLOR deeppink]****** [COLOR orange] 14 Mayo [COLOR deeppink]******[/COLOR]</title>    
+<genre></genre>
+<year></year>  
+<thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
+<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
+<info></info>
+<urlsolve></urlsolve>
+</item>
+-----------------------------------------------------------------------------------------------------------
+
+<item>
+<title>[COLOR white]12 Trampas (Cast) [/COLOR][COLOR gold](2009)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://mixdrop.to/e/wtwunxm/'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Accion,Aventura,Drama</genre>
+<year>2009</year>  
+<thumbnail>https://i.imgur.com/OFPuMhR.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>El detective Danny Baxter (John Cena) está a punto de tener el peor día de su vida cuando un criminal y terrorista, Miles Jackson (Aiden Gillen), que se ha escapado de prisión tras haber sido detenido por Baxter, secuestra a su novia (Ashley Scott) y lo reta a 12 pruebas para salvarla en las calles de Nueva Orleans. </info>
+</item>
+
+<item>
+<title>[COLOR white]12 Trampas (Lat) [/COLOR][COLOR gold](2009)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://mixdrop.to/e/me0mnj3cy/'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Accion,Aventura,Drama</genre>
+<year>2009</year>  
+<thumbnail>https://i.imgur.com/OFPuMhR.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>El detective Danny Baxter (John Cena) está a punto de tener el peor día de su vida cuando un criminal y terrorista, Miles Jackson (Aiden Gillen), que se ha escapado de prisión tras haber sido detenido por Baxter, secuestra a su novia (Ashley Scott) y lo reta a 12 pruebas para salvarla en las calles de Nueva Orleans. </info>
+</item>
+-----------------------------------------------------------------------------------------------
+<item>
+<title>[COLOR white]12 Trampas 2 (Cast) [/COLOR][COLOR gold](2013)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://mixdrop.to/e/md4x918zurwp8v/'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Accion,Aventura,Suspense</genre>
+<year>2013</year>  
+<thumbnail>https://i.imgur.com/1tOSzB2.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Nick Malloy (Randy Orton) da vida a un técnico de emergencias médicas (EMT), que se ve envuelto en un vengativo juego compuesto por 12 peligrosas trampas. Con poco tiempo disponible, el paramédico deberá salvar la vida de su mujer en este peligroso juego. Secuela de la película protagonizada en el año 2009 por John Cena. </info>
+</item>
+
+<item>
+<title>[COLOR white]12 Trampas 2 (Lat) [/COLOR][COLOR gold](2009)[/COLOR]</title>  
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+ 
+<expres><![CDATA[#$pyFunction
+ 
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+   import resolveurl
+ 
+   url = 'https://mixdrop.to/e/7rg7q94lhjm93r/'
+ 
+   try:
+ 
+       u = resolveurl.resolve(url)
+ 
+   except:
+ 
+       u = ''
+ 
+   return u
+ 
+]]></expres>
+ 
+<page></page>
+ 
+<genre>Accion,Aventura,Suspense</genre>
+<year>2013</year>  
+<thumbnail>https://i.imgur.com/1tOSzB2.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+<info>Nick Malloy (Randy Orton) da vida a un técnico de emergencias médicas (EMT), que se ve envuelto en un vengativo juego compuesto por 12 peligrosas trampas. Con poco tiempo disponible, el paramédico deberá salvar la vida de su mujer en este peligroso juego. Secuela de la película protagonizada en el año 2009 por John Cena. </info>
+</item>
+-----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+<item>
+<title>[COLOR deeppink]****** [COLOR orange] SEMANAS ANTERIORES [COLOR deeppink]******[/COLOR]</title>    
 <genre></genre>
 <year></year>  
 <thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
@@ -223,18 +376,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 
-
-<item>
-<title>[COLOR deeppink]****** [COLOR orange] ABRIL [COLOR deeppink]******[/COLOR]</title>    
-<genre></genre>
-<year></year>  
-<thumbnail>https://i.imgur.com/EVdTp4H.jpg</thumbnail>
-<fanart>https://i.imgur.com/skkYoSC.jpg</fanart>
-<info></info>
-<urlsolve></urlsolve>
-</item>
------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------
 <item>
 <title>[COLOR white]Sueños rotos (Castellano) [/COLOR][COLOR gold](1999)[/COLOR]</title>  
 <link>$doregex[id3]</link>
