@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador [COLOR white]Pidepalomitas[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador   [COLOR white]Pidepalomitas[/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
@@ -57,19 +57,9 @@ def GetLSProData(page_data, Cookie_Jar, m):
 <page>[j63list.param1]</page>
 </regex>
 <regex>
-<name>link_final</name>
+<name>final_url</name>
 <expres>"(https://embed.mystream.to/.*?)"</expres>
 <page>$doregex[j63list2]</page>
-</regex>
-<regex>
-<name>final_url</name>
-<expres><![CDATA[#$pyFunction
-url = '[link_final.param1]'
-import re,requests,six
-$doregex[reparar_final_url]
-
-]]></expres>
-<page></page>
 </regex>
 <regex>
 <name>selecion_inteligente</name>
