@@ -31,7 +31,13 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-
+<item>
+<title>[COLOR gold]* [COLOR yellow]ESPECIAL [COLOR white]Play-offs 2B[/COLOR] </title>
+<link>http://ignoreme</link>
+<thumbnail>https://i.imgur.com/q7ncTrg.jpg</thumbnail>
+<fanart>https://i.imgur.com/hJ1wdum.jpg</fanart>
+<externallink>https://pastebin.com/raw/dNkEPZ4J</externallink>
+</item>
 
 
 <item>
