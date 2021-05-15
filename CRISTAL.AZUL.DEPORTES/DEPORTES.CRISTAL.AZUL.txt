@@ -36,7 +36,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <link>http://ignoreme</link>
 <thumbnail>https://i.imgur.com/q7ncTrg.jpg</thumbnail>
 <fanart>https://i.imgur.com/hJ1wdum.jpg</fanart>
-<externallink>https://pastebin.com/raw/dNkEPZ4J</externallink>
+<externallink>https://pastebin.com/raw/MPmMkwke</externallink>
 </item>
 
 
