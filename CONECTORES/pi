@@ -940,7 +940,7 @@ def reproducir():
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]La lloreria[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Supercine [COLOR white]La lloreria NEW[/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -980,7 +980,8 @@ def GetLSProData(page_data, Cookie_Jar, m, list=list, img=img):
     cookie_distancia = six.ensure_str(cookie_distancia)
     try:
         cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
-        response = requests.get('https://playdede.com/lista/'+list+'/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0','Cookie': cookie}).text
+        response = requests.get('https://playdede.com/lista/'+list+'/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0','Host': 'playdede.com','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3','Upgrade-Insecure-Requests': '1'
+,'Connection': 'keep-alive','Cookie': cookie}).text
         response = six.ensure_str(response)
         data = re.findall(patron, response)
     except:
