@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series papaya[COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
+<title>[COLOR gold]* [COLOR lightseagreen]Series papaya  [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -65,7 +65,8 @@ def GetLSProData(page_data, Cookie_Jar, m):
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
     return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
 ]]></expres>
-<page></page>
+<page>https://playdede.com/listas/</page>
+<nextpage><![CDATA[a class="page-link" href="(.*?)"]]></nextpage>
 </regex>
 <regex>
 <name>temp</name>
