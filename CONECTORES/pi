@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series papaya  [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
+<title>[COLOR gold]* [COLOR lightseagreen]Series papaya b [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>buscador</name>
@@ -31,7 +31,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
 <expres><![CDATA[(?s)<h2 class="entry-title">(.*?)<.*?</span>(.*?)<.*?src="(.*?)".*?div>.*?<a href="(.*?)"]]></expres>
-<page>https://seriespapaya.fun/?s=$doregex[serie]</page>
+<page>https://seriespapaya.fun/?s=$doregex[buscador]</page>
 <nextpage><![CDATA[a class="page-link" href="(.*?)"]]></nextpage>
 </regex>
 <thumbnail>https://i.imgur.com/S1r1T5Y.png</thumbnail>
