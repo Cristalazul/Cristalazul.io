@@ -6,6 +6,41 @@
 
 
 
+<item>
+<title>[COLOR gold]* [COLOR lightseagreen]Series papaya  [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
+<link>$doregex[makelist2]</link>
+<regex>
+<name>buscador</name>
+<expres><![CDATA[#$pyFunction
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('[COLOR aqua]Cristal Azul[/COLOR] [COLOR white]Busca serie[/COLOR]', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+").replace("á", "a").replace("é", "e").replace("í", "i").replace("á", "a").replace("ú", "u")
+    return d
+]]></expres>
+<page></page>
+<cookiejar></cookiejar>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2][/COLOR]</title>
+<info>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2][/COLOR]</info>
+<link>$doregex[temp]</link>
+<thumbnail>[makelist2.param3]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[(?s)<h2 class="entry-title">(.*?)<.*?</span>(.*?)<.*?src="(.*?)".*?div>.*?<a href="(.*?)"]]></expres>
+<page>https://seriespapaya.fun/?s=$doregex[serie]</page>
+<nextpage><![CDATA[a class="page-link" href="(.*?)"]]></nextpage>
+</regex>
+<thumbnail>https://i.imgur.com/S1r1T5Y.png</thumbnail>
+<fanart>https://i.imgur.com/tfdPOT5.jpg</fanart>
+</item>
+
+
+
+
 
 <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Series papaya  [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
