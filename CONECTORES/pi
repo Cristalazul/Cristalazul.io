@@ -43,12 +43,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
 
 
 <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series papaya py [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
+<title>[COLOR gold]* [COLOR lightseagreen]Series papaya py5 [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2][/COLOR]</title>
+<title>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2]  [makelist2.param5][/COLOR]</title>
 <info>[COLOR white][makelist2.param1] [COLOR aqua][makelist2.param2][/COLOR]</info>
 <link>$doregex[temp]</link>
 <thumbnail>[makelist2.param3]</thumbnail>
