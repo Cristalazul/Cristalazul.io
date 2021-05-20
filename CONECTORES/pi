@@ -5,6 +5,75 @@
 	
 
 
+<item>
+<title>[COLOR lightseagreen]SeriesPapaya  [COLOR lightseagreen][[COLOR white]Categorias[COLOR lightseagreen]][/COLOR] </title>
+<link>$doregex[lou]</link>
+<regex>
+<name>lou</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][lou.param3] [COLOR lightskyblue][lou.param4][/COLOR] </title>
+<thumbnail>https://i1.sndcdn.com/avatars-z9yL39jiY6uFRH5y-694iFw-t500x500.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<link>$doregex[series]</link>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+    url= 'https://seriespapaya.fun/series-de-tv'
+    agente = {'User-Agent': AgenteCristal(), 'Referer': 'https://seriespapaya.fun/series-de-tv'}
+    extraer = requests.get(url, headers=agente)
+    ExpresCristal = re.findall('(?s)class="cat-item.*?<.*?href="(.*?category/).*?(.*?)".*?>(.*?)<.*?a>(.*?)<.*?', extraer.text)
+    return ExpresCristal
+
+def AgenteCristal():
+    url= 'https://pastebin.com/raw/KfH67FfV'
+    agente = {'User-Agent': 'Mozilla/5.0'}
+    extraer = requests.get(url, headers=agente)
+    AgenteCristal = re.findall("(.*?)CRISTAL", extraer.content)[0]
+    return AgenteCristal
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>series</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][series.param1] [COLOR lightskyblue]*[series.param2][/COLOR]</title>
+<thumbnail>[series.param3]</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+<link>$doregex[temporada]</link>
+<name>makelist</name>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re , requests , xbmc , xbmcaddon , xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+    url= 'https://seriespapaya.fun/category/[lou.param1]'
+    agente = {'User-Agent': AgenteCristal()}
+    extraer = requests.get(url, headers=agente)
+    ExpresCristal = re.findall('(?s)<h2 class="entry-title">(.*?)<.*?TMDB</span>(.*?)<.*?src="(.*?)".*?href="(.*?)".*?', extraer.text)
+    return ExpresCristal
+
+def AgenteCristal():
+    url= 'https://pastebin.com/raw/KfH67FfV'
+    agente = {'User-Agent': 'Mozilla/5.0'}
+    extraer = requests.get(url, headers=agente)
+    AgenteCristal = re.findall("(.*?)CRISTAL", extraer.text)[0]
+    return AgenteCristal
+]]></expres>
+<page></page>
+</regex>
+</item>
+
+
+
+
+	
+
+
 
 <item>
 <title>[COLOR gold]* [COLOR lightseagreen]Series papaya b [COLOR lightseagreen][[COLOR white]Buscador[COLOR lightseagreen]][/COLOR]</title>
