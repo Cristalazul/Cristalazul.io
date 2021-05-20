@@ -30,7 +30,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>[makelist2.param3]</thumbnail>
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)class="entry-title">(.*?)<.*?TMDB.*?>(.*?)<.{120}.*?src="(.*?)".*?</div> <a href="(.*?)"]]></expres>
+<expres><![CDATA[(?s)class="entry-title">(.*?)<.*?TMDB.*?>(.*?)<.*?src="(.*?)".*?figure.*?div>.<.*?"(.*?)"]]></expres>
 <page>https://seriespapaya.fun/?s=$doregex[buscador]</page>
 <nextpage><![CDATA[a class="page-link" href="(.*?)"]]></nextpage>
 </regex>
