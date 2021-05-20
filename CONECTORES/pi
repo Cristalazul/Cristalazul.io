@@ -6,12 +6,12 @@
 
 
 <item>
-<title>[COLOR lightseagreen]SeriesPapaya y [COLOR lightseagreen][[COLOR white]Categorias[COLOR lightseagreen]][/COLOR] </title>
+<title>[COLOR lightseagreen]SeriesPapaya [COLOR lightseagreen][[COLOR white]Categorias[COLOR lightseagreen]][/COLOR] </title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param3] [COLOR lightskyblue][lou.param4][/COLOR] </title>
+<title>[COLOR white][lou.param1]  [lou.param3] [COLOR lightskyblue][lou.param4][/COLOR] </title>
 <thumbnail>https://i1.sndcdn.com/avatars-z9yL39jiY6uFRH5y-694iFw-t500x500.jpg</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 <link>$doregex[series]</link>
