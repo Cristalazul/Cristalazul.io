@@ -6,7 +6,7 @@
 
 
 <item>
-<title>[COLOR lightseagreen]SeriesPapaya yy [COLOR lightseagreen][[COLOR white]Categorias[COLOR lightseagreen]][/COLOR] </title>
+<title>[COLOR lightseagreen]SeriesPapaya y [COLOR lightseagreen][[COLOR white]Categorias[COLOR lightseagreen]][/COLOR] </title>
 <link>$doregex[lou]</link>
 <regex>
 <name>lou</name>
@@ -51,7 +51,7 @@ def AgenteCristal():
 import re,requests
 def GetLSProData(page_data,Cookie_Jar,m):
  
-    url= 'https://seriespapaya.fun/category/animacion'
+    url= 'https://seriespapaya.fun/category/[lou.param1]'
     agente = {'User-Agent': AgenteCristal()}
     extraer = requests.get(url, headers=agente)
     ExpresCristal = re.findall('(?s)<h2 class="entry-title">(.*?)<.*?TMDB</span>(.*?)<.*?src="(.*?)".*?href="(.*?)".*?', extraer.text)
