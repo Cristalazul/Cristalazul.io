@@ -6,7 +6,7 @@
 
 
 <item>
-<title>[COLOR gold]* [COLOR lightseagreen]Series  [COLOR lightseagreen][[COLOR white]Mixdrop[COLOR lightseagreen]][/COLOR]</title>
+<title>[COLOR gold]* [COLOR lightseagreen]Series  [COLOR lightseagreen][[COLOR white]Mixdrop_cookie[COLOR lightseagreen]][/COLOR]</title>
 <link>$doregex[makelist2]</link>
 <regex>
 <name>makelist2</name>
@@ -40,7 +40,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
   id = xbmcaddon.Addon().getAddonInfo('id')
   if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
     patron = '(?s)class="item tvshows">.*?href="(https://playdede.com/serie.*?)".*?src="(.*?)".*?<p>(.*?)<.*?<h3>(.*?)<.*?span>(.*?)<'
-    cookie_distancia = '_ga=GA1.2.581973566.1583364199; __ddg1=YxX8ZTIAjNriCljqIn6H; PHPSESSID=4advf07psvn6sv06n4l6887eeq; __ddgid=aldRBjwfu3QYatkY; __ddgmark=FWArwS8XihLRUPYt; _gid=GA1.2.1435184281.1622152669; uid=34576; pwd=cdddb5e6d9d64608f29651541bdcc70dd19c10843df6162586f31700536338c5'
+    cookie = '_ga=GA1.2.581973566.1583364199; __ddg1=YxX8ZTIAjNriCljqIn6H; PHPSESSID=4advf07psvn6sv06n4l6887eeq; __ddgid=aldRBjwfu3QYatkY; __ddgmark=FWArwS8XihLRUPYt; _gid=GA1.2.1435184281.1622152669; uid=34576; pwd=cdddb5e6d9d64608f29651541bdcc70dd19c10843df6162586f31700536338c5'
     response = requests.get('https://mixdrop.to/panel/', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0','Host': 'playdede.com','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3','Upgrade-Insecure-Requests': '1'
 ,'Connection': 'keep-alive','Cookie': cookie}).text
     response = six.ensure_str(response)
