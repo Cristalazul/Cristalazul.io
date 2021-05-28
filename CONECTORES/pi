@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon][COLOR white]Series[/COLOR]</title>    
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon][COLOR white]Series1[/COLOR]</title>    
 <link>$doregex[c]</link>
 <regex>
 <name>c</name>
@@ -37,11 +37,12 @@ def GetLSProData(page_data,Cookie_Jar,m):
     pastebino = 'dsfrQWoPWWKDH='
     url = 'QnVzY2Fkb3JfcGlkZXBhbG9taXRhc19wb3N0'
     try:
-      page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/SERIES.DIST/inocente.T1').read()
-      page = six.ensure_binary(page)
-      page_data = base64.decodestring(page[2:])
-      extraer = urllib_request.urlopen('http://bit.ly/'+six.ensure_str(page_data)).read()
-      extraer = 'https://pastebin.com/raw/4JJJuRMc'
+      #page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/SERIES.DIST/inocente.T1').read()
+      #page = six.ensure_binary(page)
+      #page_data = base64.decodestring(page[2:])
+      #extraer = urllib_request.urlopen('http://bit.ly/'+six.ensure_str(page_data)).read()
+      url = 'https://pastebin.com/raw/4JJJuRMc'
+      extraer = urllib_request.urlopen(url).read()
       extraer = six.ensure_str(extraer)
       ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
       open(ArchivoDestino + 'mixdrop.txt','wb').write(six.ensure_binary(extraer))
