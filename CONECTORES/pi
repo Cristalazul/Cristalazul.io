@@ -8,15 +8,15 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon][COLOR white]Series[/COLOR]</title>    
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon][COLOR white]Series 1[/COLOR]</title>    
 <link>$doregex[c]</link>
 <regex>
 <name>c</name>
 <listrepeat><![CDATA[
-<title>[c.param1]</title>
-<genre>[c.param2]</genre>
-<year>[c.param3]</year>
-<info>[c.param6]</info>
+<title>[c.param1] [c.param2]</title>
+<genre>[c.param1] [c.param2]</genre>
+<year>[c.param1] [c.param2]</year>
+<info>[c.param1] [c.param2]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -43,7 +43,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
       extraer = urllib_request.urlopen('http://bit.ly/'+six.ensure_str(page_data)).read()
       extraer = six.ensure_str(extraer)
       ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
-      open(ArchivoDestino + 'mixdrop.txt','wb').write(six.ensure_binary(exraer))
+      open(ArchivoDestino + 'mixdrop.txt','wb').write(six.ensure_binary(extraer))
     except:
       xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold]Imposible Conectar Con Base de Datos[/COLOR], 15000)")
       return [('[COLOR red]No Se Puede Acceder a la base...[/COLOR]', 'Imposible conectar', 'https://www.youtube.com/watch?v=4DPGjjCBcAg', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg')] + [('[COLOR aqua]Solucion en Telegram: [COLOR white]@addonfestaycristal[/COLOR]', ' ', 'https://www.youtube.com/watch?v=4DPGjjCBcAg', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg')]
