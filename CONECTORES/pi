@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon][COLOR white]Series 1[/COLOR]</title>    
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon][COLOR white]Series[/COLOR]</title>    
 <link>$doregex[c]</link>
 <regex>
 <name>c</name>
@@ -41,6 +41,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
       page = six.ensure_binary(page)
       page_data = base64.decodestring(page[2:])
       extraer = urllib_request.urlopen('http://bit.ly/'+six.ensure_str(page_data)).read()
+      extraer = 'https://pastebin.com/raw/4JJJuRMc'
       extraer = six.ensure_str(extraer)
       ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
       open(ArchivoDestino + 'mixdrop.txt','wb').write(six.ensure_binary(extraer))
