@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Cine [COLOR white]Super Estrenos[/COLOR]</title>    
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon][COLOR white]Series[/COLOR]</title>    
 <link>$doregex[c]</link>
 <regex>
 <name>c</name>
@@ -26,7 +26,7 @@ import re,requests,base64,shutil,random
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
-#superestrenos3
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
 def GetLSProData(page_data,Cookie_Jar,m):
  
   id = xbmcaddon.Addon().getAddonInfo('id')
@@ -37,16 +37,18 @@ def GetLSProData(page_data,Cookie_Jar,m):
     pastebino = 'dsfrQWoPWWKDH='
     url = 'QnVzY2Fkb3JfcGlkZXBhbG9taXRhc19wb3N0'
     try:
-      page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/DISTANCIA.D/superestrenos.distancia').read()
+      page = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/SERIES.DIST/inocente.T1').read()
       page = six.ensure_binary(page)
       page_data = base64.decodestring(page[2:])
       extraer = urllib_request.urlopen('http://bit.ly/'+six.ensure_str(page_data)).read()
       extraer = six.ensure_str(extraer)
+      ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
+      open(ArchivoDestino + 'mixdrop.txt','wb').write(six.ensure_binary(exraer))
     except:
       xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold]Imposible Conectar Con Base de Datos[/COLOR], 15000)")
-      return [('[COLOR red]No Se Puede Acceder a la base...[/COLOR]', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg', 'Imposible Concetar con la base', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')] + [('[COLOR aqua]Solucion en Telegram: [COLOR white]@addonfestaycristal[/COLOR]', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg', 'Imposible Concetar con la base', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')]
-    ExpresCristal = re.findall('(?s)<title>(.*?)<.*?genre>(.*?)<.*?year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<.*?<urlsolve>(.*?)<', extraer)
-    return [('[COLOR aqua]Cristal Azul Resultados de: [COLOR white]Estrenos[/COLOR]', ' ', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png', ' ', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')] + ExpresCristal + [('[COLOR white]No hay más resultados...[/COLOR]', ' ', ' ', 'https://i.imgur.com/2tS3oPI.jpg', 'http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png', ' ', 'https://www.youtube.com/watch?v=4DPGjjCBcAg')]
+      return [('[COLOR red]No Se Puede Acceder a la base...[/COLOR]', 'Imposible conectar', 'https://www.youtube.com/watch?v=4DPGjjCBcAg', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg')] + [('[COLOR aqua]Solucion en Telegram: [COLOR white]@addonfestaycristal[/COLOR]', ' ', 'https://www.youtube.com/watch?v=4DPGjjCBcAg', 'https://i.imgur.com/2tS3oPI.jpg', 'https://i.imgur.com/2tS3oPI.jpg')]
+    ExpresCristal = re.findall('(?s)<title>(.*?)-.*?(.*?)<.*?urlsolve>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<', extraer)
+    return [('[COLOR aqua]Cristal Azul Resultados de: [COLOR white]Estrenos[/COLOR]', ' ', 'https://www.youtube.com/watch?v=4DPGjjCBcAg', 'https://i.imgur.com/2tS3oPI.jpg', 'http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png')] + ExpresCristal + [('[COLOR white]No hay más resultados...[/COLOR]', ' ', 'https://www.youtube.com/watch?v=4DPGjjCBcAg', 'https://i.imgur.com/2tS3oPI.jpg', 'http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png')]
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
     return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
@@ -56,7 +58,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[c.param7]'
+url = '[c.param3]'
 title = '[c.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
