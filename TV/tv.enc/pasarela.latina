@@ -19,6 +19,7 @@
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item>
 
+<!--
 <item>
 <title>[COLOR red]Tv Lanita [COLOR white]Telegratis[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -60,7 +61,9 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <thumbnail>https://i.imgur.com/H7kTtT3.png</thumbnail>
 <fanart>https://i.imgur.com/fp05txz.jpg</fanart>
 </item> 
-  
+ --> 
+
+
 <item>
 <item>
 <title>[COLOR red]Tv Lanita [COLOR white]Adictos[/COLOR]</title>
