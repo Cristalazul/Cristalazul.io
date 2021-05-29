@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<items>
+
+
+
+<item>
+<title>[COLOR gold]* [COLOR white]22 de Julio[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/22.de.julio.txt</externallink>
+<info>Acto terrorista en Oslo y Utøya el 22 de julio de 2011. Esta es la historia contada</info>
+<thumbnail>https://i.imgur.com/qUfk7mD.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]50 m²[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/50m2.txt</externallink>
+<info>Miniserie de TV (2021). 2 episodios. Narra la historia de varias personas, sin ninguna relación entre sí, durante la pandemia del coronavirus. Entre los relatos se incluyen la difícil convivencia entre una adolescente rebelde y vegana con sus abuelos, el amor improbable entre una trabajadora de supermercado y su conflictiva vecina, y un joven que adopta un perro viejo y lento para hacer negocio, entre otras. La historia que marca el nexo común de la serie y enlaza a las demás es la de Javi (Paco León), un auxiliar de enfermería idealista y romántico que se enamora de la distante y estricta Doctora Cabanas</info>
+<thumbnail>https://i.imgur.com/Z5ncY5P.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Beartown[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Beartown.txt</externallink>
+<info>Serie de TV (2019-). El equipo de hockey sobre hielo es la única esperanza que tiene el pequeño pueblo de Beartown, cada vez más encerrado en su propia idiosincrasia. Pero cuando el equipo tiene opciones de ganar la semifinal nacional, todos los sueños del lugar se posan en los hombros de esos adolescentes, generándoles una pesada responsabilidad.</info>
+<thumbnail>https://i.imgur.com/w7tGV9f.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Besos al aire[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Besos.al.aire.txt</externallink>
+<info>Miniserie de TV (2021). 2 episodios. Narra la historia de varias personas, sin ninguna relación entre sí, durante la pandemia del coronavirus. Entre los relatos se incluyen la difícil convivencia entre una adolescente rebelde y vegana con sus abuelos, el amor improbable entre una trabajadora de supermercado y su conflictiva vecina, y un joven que adopta un perro viejo y lento para hacer negocio, entre otras. La historia que marca el nexo común de la serie y enlaza a las demás es la de Javi (Paco León), un auxiliar de enfermería idealista y romántico que se enamora de la distante y estricta Doctora Cabanas</info>
+<thumbnail>https://i.imgur.com/Z5ncY5P.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Bruja Escarlata y Vision[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Bruja.Escarlata.y.Vision.txt</externallink>
+<info>Miniserie de TV (2021). 9 episodios. Combinando el estilo clásico de las sitcoms con el MCU (Universo Cinematográfico de Marvel), cuenta la historia Wanda Maximoff y Vision, dos seres con superpoderes que viven una vida idílica en las afueras de una ciudad hasta que un día comienzan a sospechar que no todo es lo que parece.</info>
+<thumbnail>https://i.imgur.com/2wg0MqE.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Calls[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Calls.txt</externallink>
+<info>"Calls" se desarrolla mediante una serie de llamadas de teléfono, aparentemente cotidianas e inconexas, pero que rápidamente se irán volviendo inquientantes, a medida que los personajes se van enfrentando a experiencias aterradoras...</info>
+<thumbnail>https://i.imgur.com/jWzspxs.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Castillo de naipes (House of Cards)[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Castillo.de.naipes.txt</externallink>
+<info>Tras la caída de Margaret Thatcher, los que ambicionan su puesto como líder de los conservadores ingleses (tories) se enfrentan entre sí como buitres. Francis Urquhart, es el jefe de organización de los Tories, la persona encargada de dirigir a los parlamentarios para que sigan la línea del partido. Es un personaje poderoso que se mueve entre bambalinas y que ejerce su poder desde la sombra, es el prototipo del inglés de clase alta: educado, tradicionalista y clasista hasta la médula. Para su desgracia, el candidato elegido es un liberal que pone más énfasis del que a él le gustaría en la política social. No sólo eso: es elegido Primer Ministro por una escasa mayoría y pronto resulta evidente que va a ser un líder bienintencionado y popular, pero débil. Además, a la hora de repartir los ministerios, no sólo desoye los consejos de Urquhart, sino que incumple su promesa de darle un ministerio. Desde ese mismo momento, Urquhart planea el acoso y derribo del Primer Ministro, tarea para la que está muy bien dotado, pues posee un ingenio absolutamente pasmoso para la intriga y la doblez. </info>
+<thumbnail>https://i.imgur.com/caMHX4w.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Chernobyl[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Chernobyl.txt</externallink>page> 
+</regex>
+<info>Miniserie de TV (2019). 5 episodios. El 26 de abril de 1986, la Central Nuclear de Chernóbil, en Ucrania (por entonces perteneciente a la Unión Soviética), sufrió una explosión masiva que liberó material radioactivo en Ucrania, Bielorrusia, Rusia, así como en zonas de Escandinavia y Europa Central. La serie relata, desde múltiples puntos de vista, lo que aconteció en torno a una de las mayores tragedias en la historia reciente, así como los sacrificios realizados para salvar al continente de un desastre sin precedentes.</info>
+<thumbnail>https://i.imgur.com/eHv98AX.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Ciudad Invisible[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Ciudad.Invisible.txt</externallink>
+<info>Serie de TV (2020). 5 episodios. Un detective que investiga un caso de asesinato queda atrapado en una batalla entre el mundo visible y un reino subterráneo habitado por criaturas fantásticas.</info>
+<thumbnail>https://i.imgur.com/VDnQacV.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Cobra Kai[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Cobra.Kai.txt</externallink>
+<info>Serie de TV (2018-Actualidad). 3 temporadas. 30 episodios. Secuela de "Karate Kid". 30 años después de su enfrentamiento final en 1984 en el torneo de karate All Valley, Johnny Lawrence (William Zabka) está en un momento malo de su vida. Sin embargo, tras ayudar a Miguel (Xolo Maridueña), un niño que sufre bullying, Johnny decide volver a abrir el dojo Cobra Kai. El problema es que esto vuelve a desatar la rivalidad con Daniel LaRusso (Ralph Macchio), que ahora es un hombre de negocios felizmente casado, pero al que le falta algo tras la muerte de su mentor, el Sr. Miyagi.</info>
+<thumbnail>https://i.imgur.com/px0eOZ0.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Coyote[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Coyote.txt</externallink>
+<info>Tras 32 años de servicio, el agente de fronteras Ben Clemens (Michael Chiklis) se da cuenta de que en el fondo está ayudando al tipo de gente que ha tratado siempre de mantener fuera de los Estados Unidos.</info>
+<thumbnail>https://i.imgur.com/Uv3Hxyz.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Defender a Jacob[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Defender.a Jacob.txt
+</externallink>
+<info>Miniserie de TV (2020). 8 episodios. Basada en la novela homónima, que sigue la historia de Andy Barber, un ayudante del fiscal que, ante un caso de asesinato, ve cómo todas las pruebas conducen a su propio hijo. Dividido entre su deber de defender la justicia y el amor a su hijo, deberá intentar resolver el crimen, cuya víctima es un chico de 14 años, compañero de clase de su hijo.</info>
+<thumbnail>https://i.imgur.com/AcXsVJa.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]DES[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/DES.txt</externallink>
+<info>Miniserie de TV (2020). 3 episodios. Sigue la pista del arresto y la posterior investigación para encontrar a las víctimas del conocido asesino en serie del Reino Unido Dennis Nilsen (David Tennant). Conocido como el “asesino amable”, Nielsen era un funcionario que pasó 5 años asesinando niños y jóvenes que conocía en las calles de Londres entre 1978 y 1983. Conoció y se ganó su confianza ofreciéndoles comida o alojamiento para la noche en su piso del norte de la capital. Sus víctimas eran a menudo personas sin hogar o que vivían en la marginalidad, personas expulsadas de la sociedad. Cuando finalmente fue capturado, en febrero de 1983, había asesinado al menos a quince personas. tras su arresto, fue asombroso lo abierto a hablar que se mostró Nielsen. </info>
+<thumbnail>https://i.imgur.com/9BIz5q2.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Destino: La saga Winx[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Destino.La.saga.Winx.txt
+</externallink>
+<info>Serie de TV (2021- Actualidad). Primera temporada: 6 episodios. Destino: La saga Winx sigue el día a día de cinco hadas que empiezan a estudiar en Alfea, un internado en el que aprenderán a dominar sus poderes mágicos además de enfrentarse a problemas más terrenales como el amor, la rivalidad y unos monstruos que amenazan su existencia. Del creador Brian Young (Crónicas Vampíricas), "Destino: La saga Winx" es una reinvención en acción real de la serie italiana de dibujos animados WINX CLUB de Iginio Straffi.</info>
+<thumbnail>https://i.imgur.com/c9vVdq8.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Detrás de sus ojos[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Detras.de.sus.ojos.txt</externallink>
+<info>Serie de TV (2021). 6 episodios. Una madre soltera se adentra en un mundo de manipulaciones perversas al iniciar un amorío con su jefe y una amistad secreta con su enigmática esposa.</info>
+<thumbnail>https://i.imgur.com/hbGCCZY.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El baile de las Luciérnagas[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/</externallink>
+<info>10 episodios. Tully y Kate son amigas íntimas desde pequeñas, cuando eran vecinas, y han sido inseparables durante treinta años de altibajos. Una obtuvo fama y fortuna. La otra, amor y familia. Son las mejores amigas más dispares, pero también las más fieles.</info>
+<thumbnail>https://i.imgur.com/XzoFewp.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El corazón de Sergio Ramos[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.corazon.de.Sergio.Ramos.txt</externallink>
+<info>Miniserie de TV (2019). 8 capítulos. A través de una serie de acontecimientos en su vida común, esta miniserie documental trata de realizar un retrato sobre la personalidad de una de los futbolistas españoles más populares y exitosos de las últimas décadas: Sergio Ramos. Desde su relación sentimental a su labor como padre, pasando por los tejemanejes de su profesión como futbolista al estrecho vínculo que le une con su familia y más particularmente con su hermano René, el día a día del futbolista de Camas mezcla deporte con arte y pasión a raudales. </info>
+<thumbnail>https://i.imgur.com/p27Lv64.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El cuento de la criada[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.cuento.de.la.criada.txt</externallink>
+<info>Serie de TV (2017-Actualidad). 3 temporadas. 36 episodios. En un futuro distópico donde se ha implantado una dictadura fundamentalista, una joven se ve forzada a vivir como una concubina para dar hijos a su señor. Tras el asesinato del presidente de los Estados Unidos y la mayoría del Congreso, se instaura en el país un régimen teocrático basado en los más estrictos valores puritanos. Los Estados Unidos de América, desde ese momento, pasan a ser conocidos como la República de Gilead. En esa nueva sociedad, la mayor parte de los valores modernos occidentales han quedado desterrados. La mujer pasa a un segundo plano, siendo prácticamente un objeto cuyo único valor está en sus ovarios, pues hay un problema de fertilidad en Gilead. Adaptación de la novela de Margaret Atwood.</info>
+<thumbnail>https://i.imgur.com/GwqKEEc.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El desorden que dejas[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.desorden.que.dejas.txt</externallink>
+<info>Serie de TV (2020). 8 episodios. Con la intención de darle una oportunidad a su matrimonio, Raquel (Inma Cuesta), una joven profesora de literatura, acepta un trabajo en el instituto del pueblo donde creció su marido. "Y tú, ¿cuánto vas a tardar en morir?” Así de contundente es la nota que Raquel encuentra entre los trabajos a corregir el primer día de trabajo. Su ilusión por impartir clases se dará de bruces con unos alumnos que la reciben con esa macabra bienvenida. Pronto descubrirá quién era la profesora a la que sustituye, Viruca (Bárbara Lennie), y cómo ha marcado la vida de todos. Raquel iniciará su propia búsqueda para descubrir la verdad en un lugar en el que todos parecen guardar secretos.</info>
+<thumbnail>https://i.imgur.com/ZoWxnJq.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El Espía[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.Espia.txt</externallink>
+<info>Miniserie de TV (2019). 6 episodios. Serie basada en la vida del espía israelí Eli Cohen. En la década de 1960, Cohen se convirtió en agente secreto del Mossad para espiar a Siria bajo el nombre ficticio de Kamel Amin Thaabet. Una larguísima misión que, a lo largo de los años, le llevó a cuestionarse si su lealtad a la patria era más importante que vivir una segunda vida en peligro constante y lejos de su familia. </info>
+<thumbnail>https://i.imgur.com/8MJDY3P.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El Inocente[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.inocente.txt</externallink>
+<info>Miniserie de 8 episodios. Una noche, hace nueve años, Mateo intercedió inocentemente en una pelea y terminó convirtiéndose en un homicida. Ahora es un ex-convicto que no da nada por sentado. Su mujer, Olivia, está embarazada, y los dos están a punto de conseguir la casa de sus sueños. Pero una llamada impactante e inexplicable desde el móvil de Olivia vuelve a destrozar la vida de Mateo por segunda vez.</info>
+<thumbnail>https://i.imgur.com/74lOxxQ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El internado: Las cumbres[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.internado.Las.cumbres.txt</externallink>
+<info>Serie de TV (2021-Actualidad). Reinicio de 'El internado' cuya primera temporada constará de ocho episodios que transcurrirán en un colegio ubicado junto a un antiguo monasterio en un lugar inaccesible entre las montañas. En esta ocasión, los alumnos son chavales problemáticos y rebeldes que vivirán bajo la estricta y severa disciplina que impone el centro para reinsertarlos a la sociedad. El bosque circundante alberga antiguas leyendas, amenazas que siguen vigentes y que les sumergirán en aventuras trepidantes y terroríficas</info>
+<thumbnail>https://i.imgur.com/WiP4dDD.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El juego de las llaves[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.juego.de.las.llaves.txt</externallink>
+<info>10 episodios. Un encuentro casual entre Adriana y Sergio, ex compañeros del instituto, marca el inicio del juego de las llaves donde 4 parejas se intercambian y generan nuevas combinaciones sexuales y afectivas en un juego peligroso, entre el azar y el deseo. Una comedia sobre la monogamia a largo plazo, la autorrealización y el placer. Una historia sobre cuatro parejas que son amigos y deciden ser swingers entre ellos</info>
+<thumbnail>https://i.imgur.com/RXxtLeu.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+ 
+<item>
+<title>[COLOR gold]* [COLOR white]El Nudo[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.Nudo.txt</externallink>
+<info>Serie de TV (2019). 13 episodios. Narra el relato de dos parejas de mediana edad en una historia que se cuenta en dos tiempos, que arranca con un accidente, y en la que se habla de relaciones humanas y segundas oportunidades. Daniel, hijo único de una familia adinerada e influyente dedicada a la educación, sufre un accidente de coche y es ingresado muy grave en el hospital. A la espera de noticias, su madre, Miriam, y su esposa, Rebeca, empiezan a llamar a sus conocidos para informar de la situación, incluyendo a Sergio, el marido de la mejor amiga de Rebeca, Cristina. Las vidas de Rebeca, Sergio y Cristina se comienzan a tambalear cuando se descubre que en el coche también iba una mujer desconocida que, justo antes del accidente, se estaba yendo sin dejar rastro. La historia de la serie está desarrollada en dos tiempos: en el pasado, donde se narra una historia de amor prohibido entre las dos parejas que tiene mucho que ver con el accidente; y en el presente, donde se inicia una investigación en torno al accidente.</info>
+<thumbnail>https://i.imgur.com/sdAiouh.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]En el ojo de la tormenta[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/En.el.ojo.de.la.tormenta.txt</externallink>
+<info>En el transcurso de un solo día, Silverton es azotada por una serie de tornados sin precedentes. Toda la ciudad está a merced de ciclones erráticos y mortales, mientras que los cazadores de tormentas predicen que lo peor está aún por llegar. La mayoría de las personas buscan refugio, mientras que otras corren hacia el vórtice, poniendo a prueba hasta dónde está dispuesto a llegar un cazador de tormentas para conseguir esa toma que solo se hace una vez en la vida.</info>
+<thumbnail>https://i.imgur.com/p3d3sFR.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Equinox[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Equinox.txt</externallink>
+<info>Miniserie de TV. 6 episodios. Hace 20 años, Astrid presenció la desaparición de un autobús lleno de estudiantes. Ahora, acaba de encontrarse con una de las víctimas y decide investigar qué pasó.</info>
+<thumbnail>https://i.imgur.com/UvDfjl0.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Falcon y el soldado de invierno[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Falcon.y.el.soldado.de.invierno.txt</externallink>
+<info>Miniserie de TV. 6 episodios. Se centra en las aventuras de dos personajes del MCU (Universo Cinematográfico de Marvel): Falcon y Soldado de Invierno. Seis meses después de recibir el manto del Capitán América, Sam Wilson se une a Bucky Barnes en una aventura que pondrá a prueba sus habilidades, destrezas y paciencia.</info>
+<thumbnail>https://i.imgur.com/8oIrwvt.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Freud[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Freud.txt</externallink>
+<info>Miniserie de TV (2020). 8 episodios. Un joven Sigmund Freud resuelve desapariciones y asesinatos en la Viena de finales del siglo XIX, donde él y una médium se ven inmersos en una peligrosa conspiración.</info>
+<thumbnail>https://i.imgur.com/iosP2aQ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Gambito de dama[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Gambito.de.dama.txt</externallink>
+<info>Miniserie de 7 episodios. Kentucky, años 60. En plena Guerra Fría, la joven Beth Harmon (Anya Taylor-Joy) es una huérfana con una aptitud prodigiosa para el ajedrez, que lucha contra sus adicciones mientras trata de convertirse en la mejor jugadora del mundo ganando a los grandes maestros, en especial a los rusos.</info>
+<thumbnail>https://i.imgur.com/xTwgF90.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Halston[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Halston.txt</externallink>
+<info>Miniserie inspirada en el famoso diseñador de moda y socialité norteamericano Roy Halston Frowick, más conocido como Halston, icono de la moda que ayudó a definir el estilo de los años 70. La serie narra cómo convirtió su nombre inventado en un emporio mundial sinónimo de lujo, sexo, estatus y fama, definiendo literalmente su época —el Nueva York de los años 70 y 80— hasta que una OPA hostil lo obligó a luchar por su bien más preciado: Halston.</info>
+<thumbnail>https://i.imgur.com/xNdTvMR.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Helstrom[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Helstrom.txt</externallink>
+<info>Serie de TV (2020). 10 episodios. Daimon y Ana Helstrom son hijo e hija de un misterioso y poderoso asesino en serie. Los hermanos tienen una dinámica complicada mientras rastrean lo peor de la humanidad aterradora, cada uno con su actitud y habilidades.</info>
+<thumbnail>https://i.imgur.com/G2CWzZC.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Hierro[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Hierro.txt</externallink>
+<info>Miniserie de TV (2021). 5 episodios. Crónica de la vida y andanzas de cinco amigos en el Londres de los años 80, durante una década en la que el aumento del SIDA causó estragos entre la población homosexual.</info>
+<thumbnail>https://i.imgur.com/2VRGNkL.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]It's a Sin[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/It's.a.sin.txt</externallink>
+<info>Miniserie de TV (2021). 5 episodios. Crónica de la vida y andanzas de cinco amigos en el Londres de los años 80, durante una década en la que el aumento del SIDA causó estragos entre la población homosexual.</info>
+<thumbnail>https://i.imgur.com/2VRGNkL.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Jupiter's Legacy[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Jupiter's.Legacy.txt</externallink>
+<info>Serie de TV (2021-). 8 episodios. "Jupiter's Legacy" sigue la historia de los primeros superhéroes del mundo, que recibieron sus poderes allá por la década de 1930. Tras dedicar casi un siglo a proteger a la humanidad, ahora esta primera generación debe pasar el testigo a sus hijos para que continúen con su legado. Pero las tensiones van en aumento cuando los jóvenes, ansiosos por demostrar su valía, no logran estar a la altura ni de la legendaria reputación pública de sus progenitores ni tampoco de los exigentes estándares personales de estos.</info>
+<thumbnail>https://i.imgur.com/65RgbDy.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Kung Fu[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Kung.Fu.txt</externallink>
+<info>Una joven adolescente estadounidense de ascendencia china decide dejar la universidad para aventurarse a vivir una nueva vida en un monasterio chino. Sin embargo, cuando regresa a su pueblo natal y descubre que está plagado de crimen y corrupción, emplea las artes marciales y la filosofía Shaolin para proteger su comunidad y tratar de ajusticiar a los criminales. Todo ellos mientras busca al asesino de su maestro Shaolin, que ahora la ha puesto a ella en su diana.</info>
+<thumbnail>https://i.imgur.com/LGTmGB9.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La cocinera de Castamar[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.cocinera.de.Castamar.txt</externallink>
+<info>12 episodios. Adaptación de la novela homónima de Fernando J. Múñez, ambientada en el Madrid del siglo XVIII. La joven Clara Belmonte (Michelle Jenner) comienza a cocinar para Diego (Roberto Enríquez), Duque de Castamar. Esto cambiará la vida de ambos, que tendrán que luchar contra uno de los grandes obstáculos de la época para estar juntos: la diferencia de clases, además de hacer frente a la sed de venganza de Enrique de Arcona</info>
+<thumbnail>https://i.imgur.com/MaNAZcG.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La costa de los mosquitos[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.costa.de.los.mosquitos.txt</externallink>
+<info>Adaptación televisiva de la novela homónima de Paul Theroux -tío de Justin Theroux-, 'La costa de los mosquitos' sigue a Allie Fox, un hombre visionario, idealista y genio autodidacta que un buen día, harto de la civilización, decide dejar Estados Unidos y mudarse con su mujer y sus cuatro hijos a una aldea indígena en mitad de la selva nicaragüense con el fin de construir de cero una nueva sociedad utópica. La novela fue adaptada al cine en 1986 por Peter Weir con Harrison Ford, Helen Mirren y River Phoenix.</info>
+<thumbnail>https://i.imgur.com/015ydKQ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La guerra de los mundos[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.guerra.de.los.mundos.txt</externallink>
+<info>Serie de TV (2019-Actualidad). 2 temporadas. 16 episodios. Ambientada en la actualidad. Cuando los astrónomos detectan una transmisión desde otra galaxia, es una prueba definitiva de la existencia de vida extraterrestre inteligente. La población mundial espera un futuro contacto con la respiración contenida. Sin embargo, no tendrán que esperar mucho. En cuestión de días, la humanidad queda prácticamente aniquilada en un ataque devastador; los supervivientes se encontrarán un mundo misteriosamente desierto. Mientras los extraterrestres cazan y matan a los que quedan vivos, los supervivientes se preguntan quiénes son estos atacantes y por qué están empeñados en nuestra destrucción.</info>
+<thumbnail>https://i.imgur.com/pGp0MHW.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La leyenda de Sergio Ramos[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.leyenda.de.Sergio.Ramos.txt</externallink>
+<info>6 episodios. Nueva entrega sobre la vida del futbolista internacional que sigue la historia de "El Corazón de Sergio Ramos" (2019). La serie recorre los hitos que han escrito, escriben y aún escribirán la leyenda de Sergio Ramos, tomando como punto de partida los momentos más determinantes de su vida y su carrera profesional durante la pasada temporada. La Leyenda de Sergio Ramos mostrará imágenes inéditas de la conquista de la liga, reflexiones sobre las decisiones más relevantes de su carrera, recuerdos de grandes momentos y planes de futuro, todo ello con el testimonio de aquellos que han compartido su vida personal y profesional. Una historia que hablará de épica y de gloria, pero también de dolor y de decepción, porque el camino de un héroe exige sacrificio y, después de más de 15 años en la élite, Sergio Ramos sigue entregándose al deporte que ama como el primer día.</info>
+<thumbnail>https://i.imgur.com/UEGWJOg.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La linea invisible[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.linea.invisible.txt</externallink>
+<info>Miniserie de TV (2020). 6 episodios. Miniserie sobre los comienzos de ETA. El 7 de junio de 1968, el líder de ETA, Txabi Etxebarrieta, cruzaba "la línea invisible" asesinando a la primera de las 853 víctimas de la organización terrorista, el guardia civil gallego José Antonio Pardines, de sólo 25 ańos de edad. Pocas horas después, el propio Txabi Etxebarrieta era abatido en un enfrentamiento con la guardia civil, convirtiéndose así en el primer terrorista en matar y el primero en morir en la historia de ETA. Tras la muerte de su líder, los compañeros de Txabi decidieron vengarle asesinando a su principal perseguidor, el inspector Melitón Manzanas. No eran conscientes de que estaban a punto de abrir un camino plagado de dolor y venganza, de miedo y terror, que marcaría los siguientes cincuenta años de la historia de España -sinopsis oficial de Movistar-.</info>
+<thumbnail>https://i.imgur.com/eqUnWfm.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La maldición de Bly Manor[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.maldicion.de.Bly.Manor.txt</externallink>
+<info>Morir no equivale a desaparecer. En este gótico romance, una ‘au pair’ se adentra en un abismo de escalofriantes secretos.
+9 episodios. Continuación de "La maldición de Hill House" al estilo de "American Horror Story" o "Channel Zero", es decir, contando con nuevos personajes y una historia diferente. En esta ocasión, se basa en el clásico de Henry James "Otra vuelta de tuerca" (The Turn of the Screw), cuya mejor adaptación al cine, "Suspense" (1961), es uno de los grandes clásicos del cine de terror.</info>
+<thumbnail>https://i.imgur.com/9Iuvz8L.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La reina del flow[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.reina.del.flow.txt</externallink>
+<info>Serie de TV (2018-Actualidad). 82 episodios. En Colombia, 17 años después de ser injustamente encarcelada, la compositora Yeimy Montoya busca vengarse de los hombres que la hundieron y asesinaron a su familia.</info>
+<thumbnail>https://i.imgur.com/zwodQ1I.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La valla[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.valla.txt</externallink>
+<info>Serie de TV (2020). 13 episodios. Año 2045. La escasez de recursos naturales ha llevado a que regímenes dictatoriales hayan asumido el poder en gran parte de las democracias occidentales, incluida España. La capital está dividida en dos sectores por una valla, que separa al gobierno y las clases privilegiadas del resto de la población, y sus protagonistas son los miembros de una familia que lucha por recuperar a su hija, que ha caído en manos del gobierno.</info>
+<thumbnail>https://i.imgur.com/WA46X94.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Libertad[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Libertad.txt</externallink>
+<info>Miniserie de TV (2021). 5 episodios. Una mujer apodada La Llanera sale de prisión tras 17 años. Durante su encierro, ha sido sentada todos los años en el garrote vil e indultada en el último momento. Su hijo Juan nació en la celda y no conoce a su padre, el célebre bandolero Lagartijo. Madre e hijo intentarán vivir la libertad que tantos años les ha sido negada mientras son perseguidos por cuadrillas de bandoleros y escopeteros del Gobernador. Lagartijo, Aceituno y el Gobernador buscan a La Llanera, pero también se buscan entre sí. En la España del siglo XIX no hay sitio para todos, y mucho menos para traidores.
+En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato largometraje que se estrenará exclusivamente en pantalla grande. Su ficha puede consultarse por separado.</info>
+<thumbnail>https://i.imgur.com/rpnJbjL.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]LOL, Si te ries pierdes[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/LOL.Si.te.ries.pierdes.txt</externallink>
+<info>LOL: Si te ríes, pierdes sigue a diez humoristas españoles, conducidos por Santiago Segura, que se retan para ver quién puede mantenerse serie y al mismo tiempo intentar hacer reír a sus oponentes en una competición para conseguir un gran premio de nada menos que 100.000 euros. El cómico que consiga mantenerse serio durante más tiempo será el ganador y podrá donar el premio a una organización benéfica de su elección.</info>
+<thumbnail>https://i.imgur.com/gS0b82Z.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Los favoritos de Midas[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Los.favoritos.de.Midas.txt</externallink>
+<info>Miniserie TV (2020). 6 episodios. Ambientada en el Madrid actual. La historia está inspirada en el relato corto de Jack London 'The Minions of Midas', publicado en 1901, en el que un gran empresario sufre un extraño chantaje: si no accede a pagar una elevada suma de dinero, los autodenominados "Favoritos de Midas" matarán a una persona al azar en la fecha señalada y añadirán una nueva víctima periódicamente hasta conseguir su objetivo.</info>
+<thumbnail>https://i.imgur.com/ptcRIvJ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Los Reyes de noche[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Los.reyes.de.la.noche.txt</externallink>
+<info>Francisco Javier Maldonado, alias Paco el Cóndor, es el periodista deportivo más importante de la radio española en los 80. Los oyentes le admiran, los jugadores le temen, los presidentes de clubes (y el gobierno) le odian. Cada medianoche reúne a millones de oyentes junto al transistor. Desde hace años, el Cóndor no tiene rival. Hasta ahora.</info>
+<thumbnail>https://i.imgur.com/9TLUCJg.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Love and Anarchy[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Love.and.Anarchy.txt</externallink>
+<info>Una consultora casada y un joven informático se retan a cuestionar las convenciones sociales en un juego de seducción de consecuencias impredecibles. Sofie es una ambiciosa consultora y tiene dos hijos. Cuando recibe la orden de reestructurar una empresa editorial, su vida extremadamente ordenada comienza a desmoronarse. Entonces conoce al joven experto en informática Max, y comienza con él un coqueteo tan inesperado como atrevido. En el proceso, ambos se desafían mutuamente para hacer cosas que contradicen las normas sociales establecidas. Los juegos inofensivos pronto se convierten en serios, a medida que los desafíos entre ellos y las consecuencias resultantes se vuelven mayores y más incontrolables.</info>
+<thumbnail>https://i.imgur.com/xLSNSUq.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Love dead and Robots[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Love.dead.and.Robots.txt</externallink>
+<info>Serie de TV (2021). 8 episodios. Gigantes desnudos, demonios navideños y robots enloquecidos... Temporada 2 de la serie antológica de cortos con historias independientes, presentada por Tim Miller, David Fincher y Jennifer Yuh Nelson.</info>
+<thumbnail>https://i.imgur.com/yz8RqXp.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Lupin[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Lupin.txt</externallink>
+<info>Serie de TV (2021-). 5 episodios. Versión contemporánea del clásico francés, Assane Diop (Omar Sy) es un escurridizo ladrón de guante blanco y aficionado a las aventuras de Arsene Lupin que busca vengar la muerte de su padre a causa del poderoso patriarca de una rica familia. Años después de una trágica injusticia, Assane se propone ajustar cuentas -y una deuda- robando un collar de diamantes, pero las cosas no salen según lo previsto.</info>
+<thumbnail>https://i.imgur.com/Qkij04w.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Mare of Easttown[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Mare.of.Easttown.txt</externallink>
+<info>Serie de TV (2021-). 7 episodios. Una detective de un pequeño pueblo de Pennsylvania investiga un asesinato local mientras intenta que su vida no se desmorone. </info>
+<thumbnail>https://i.imgur.com/Fz0Hy11.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Marvel's M.o.d.o.k[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel's.M.o.d.o.k.txt</externallink>
+<info>El supervillano M.O.D.O.K ha perseguido durante mucho tiempo su sueño de conquistar el mundo. Pero después de años de reveses y fracasos luchando contra los héroes más poderosos de la Tierra, Derrocado como líder de A.I.M mientras lidia con el matrimonio y una vida familiar que se desmorona, M.O.D.O.K está listo para enfrentarse a su mayor desafío hasta ahora: una crisis de la mediana edad.</info>
+<thumbnail>https://i.imgur.com/Q9maGAt.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Missions[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Missions.txt</externallink>
+<info>La primera misión tripulada a Marte se acerca ahora al planeta rojo. La tripulación está integrada por científicos de alta categoría y por una joven psiquiatra, responsable de su salud mental. Pero justo cuando están a punto de aterrizar, algo sale mal.</info>
+<thumbnail>https://i.imgur.com/mJwDYoi.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Palomares[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Palomares.txt</externallink>
+<info>Miniserie de TV (2021). 4 episodios. El 17 de enero de 1966, 4 bombas nucleares con 75 veces la capacidad atómica de las de Hiroshima cayeron sobre un pequeño pueblo de Almería. 55 años después, `Palomares´ reconstruye por primera vez, en clave de thriller, lo que sucedió en aquellos días en los que el destino de la humanidad se libró aquí, en España. Gracias a documentos y materiales recientemente desclasificados y cientos de imágenes y fotografías inéditas, descubriremos la verdad, sin censura, y reviviremos el famoso baño de Fraga.</info>
+<thumbnail>https://i.imgur.com/9bUv1WK.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Patria[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Patria.txt</externallink>
+<info>Miniserie de TV (2019). 8 episodios. Basada en la novela de Fernando Aramburu, que abarca 30 años del conflicto vasco y estudia el impacto del mismo sobre la gente común, como la viuda de un hombre asesinado a tiros por la banda terrorista ETA, que vuelve a su pueblo natal tras el alto el fuego de 2011, o la madre de un etarra encarcelado. </info>
+<thumbnail>https://i.imgur.com/Oesbimx.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Prodigal Son[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Prodigal.Son.txt</externallink>
+<info>Serie de TV (2019-2020). 2 temporadas. 22 episodios. Malcolm Bright, uno de los mejores psicólogos criminalistas que existen, emplea su privilegiado ingenio para ayudar al cuerpo de policía de Nueva York a resolver crímenes de distinta índole.</info>
+<thumbnail>https://i.imgur.com/aMbOhrX.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Que viene el lobo[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Que.viene.el.lobo.txt</externallink>
+<info>Miniserie de TV. 8 episodios. Holly, una niña de 14 años, ha llamado la atención del profesorado tras escribir una redacción escolar donde expone con detalles el supuesto comportamiento violento de su padrastro. El asunto se traslada a Lars Madsen, un veterano trabajador social que decide profundizar en el caso y cuya primera decisión es separar provisionalmente a Holly y a su hermanastro, Theo, de su familia mientras se lleva a cabo una investigación. Los padres niegan las acusaciones y mantienen que la niña se ha inventado todo en un arranque de rebeldía adolescente. ¿Quién miente entonces y quién dice la verdad?</info>
+<thumbnail>https://i.imgur.com/ZB8iAgW.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]¿Quién mató a Sara?[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Quien.mato.a.Sara.txt</externallink>
+<info>Serie de TV (2021-). Tras 18 años de encarcelamiento injusto, Alex Guzmán es liberado con el plan perfecto para descubrir quién mató a su hermana Sara y por qué la familia Lazcano lo culpó del crimen. Lo que no sabe, es que la búsqueda de pruebas lo llevará por un desvío mucho más peligroso de lo que imaginaba. Cuando finalmente se enfrente al verdadero culpable, Alex deseará no haber buscado su venganza.</info>
+<thumbnail>https://i.imgur.com/qA6ox4l.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Quiz[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Quiz.txt</externallink>
+<info>Miniserie de TV (2020). 3 episodios. 'Quiz' cuenta la historia de Charles Ingram, un ex comandante del ejército británico, que causó un gran escándalo después de ser atrapado haciendo trampas para ganar 1 millón de libras en el programa '¿Quién quiere ser millonario?'.</info>
+<thumbnail>https://i.imgur.com/ao3XTO2.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Recursos inhumanos[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Recursos.inhumanos.txt</externallink>
+<info>Miniserie de TV (2020). 6 episodios. Alain Delambre es un hombre humillado tras seis años de desempleo. Así que cuando una prestigiosa compañía lo selecciona como candidato, está dispuesto a traicionar a su mujer, robar a sus propias hijas o pegar a su yerno, sabiendo que, si finalmente es el elegido, todo será perdonado. Pero nada resulta ser como parecía.</info>
+<thumbnail>https://i.imgur.com/BS2srLc.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Roadkill[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Roadkill.txt</externallink>
+<info>Serie de TV (2020). 4 episodios. Peter Laurence (Hugh Laurie) es un político hecho a sí mismo, energético y carismático, que ocupa un alto cargo en el gobierno conservador del Reino Unido. Pero su vida pública y privada se está cayendo a pedazos o, más bien, sus enemigos están intentando hacerle caer. Cuando comienzan a aparecer historias comprometedoras suyas, Peter, con una vergonzante falta de culpabilidad o remordimiento, echa a caminar por la cuerda floja que separa la ruina de la gloria. Mientras todos tratan de hundirlo, él intentará culminar sus propios planes. Sin embargo, los acontecimientos dejarán claro lo difícil que resulta dejar atrás el pasado, tanto para el ciudadano de a pie como para una nación.</info>
+<thumbnail>https://i.imgur.com/YeCnUbf.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]See[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/See.txt</externallink>
+<info>En el futuro, la raza humana ha perdido la capacidad de ver, y la sociedad ha encontrado nuevas formas de interactuar entre sí, de construir, de cazar y, sobre todo, de sobrevivir. Sin embargo, todo cambia tras el nacimiento de una pareja de gemelos que recobra la vista.</info>
+<thumbnail>https://i.imgur.com/J4yM25O.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Sexify[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Sexify.txt</externallink>
+<info>Mientras crean una innovadora aplicación de sexo, una joven y sus amigas exploran el mundo de la intimidad y se descubren a sí mismas en el proceso.</info>
+<thumbnail>https://i.imgur.com/O3dVgaD.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Sky Rojo[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Sky.Rojo.txt</externallink>
+<info>Coral, Wendy y Gina emprenden una huida en busca de su libertad mientras son perseguidas por Moisés y Christian, los secuaces de Romeo, el proxeneta y dueño del Club Las Novias. Juntas iniciarán una carrera desesperada en la se enfrentarán a todo tipo de peligros y cuyo único objetivo será seguir vivas cinco minutos más.</info>
+<thumbnail>https://i.imgur.com/g1CkZit.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Small Axe[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Small.Axe.txt</externallink>
+<info>Miniserie de antología de cinco entregas, con el racismo sufrido por la comunidad negra de Londres en las décadas de los 60, 70 y 80 como tema central. Episodios: 1. Mangrove 2. Lovers Rock 3. Red, White and Blue 4. Alex Wheatle 5. Education. El título alude a la frase de una canción de Bob Marley, "If you are the tall tree, then we are the small axe".</info>
+<thumbnail>https://i.imgur.com/4y8aPnG.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Snowfall[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Snfall.txt</externallink>
+<info>Los Ángeles, 1983. Drama sobre el origen de la epidemia del crack y su devastador impacto en la cultura como la conocemos. La historia sigue a varios personajes en un violento rumbo de colisión, incluyendo a Franklin Saint, un joven negro con gran visión para los negocios; Gustavo Zapata, un luchador mexicano atrapado en una lucha de poder dentro de un cartel; Teddy McDonald, un agente de la CIA que huye de un oscuro pasado e inicia una operación extraoficial para financiar a los contras nicaragüenses; y Lucía Villanueva, la calmada hija de un capo mexicano del crimen.</info>
+<thumbnail>https://i.imgur.com/aOzreNo.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Sombra y Hueso[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Sombra.y.Hueso.txt</externallink>
+<info>Fuerzas siniestras conspiran contra una joven soldado cuando descubre un poder mágico que podría unir a su mundo.</info>
+<thumbnail>https://i.imgur.com/qTitTEW.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Soulmates[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Soulmates.txt</externallink>
+<info>Serie de TV (2020-Actualidad). 6 episodios. Soulmates está ambientada 15 años en el futuro, cuando la ciencia ha hecho un descubrimiento que cambia la vida de todos en el planeta: una prueba que te dice de manera inequívoca quién es tu alma gemela. Cada uno de los seis episodios contará con un elenco diferente y explorará una historia completamente nueva en torno a descubrir (u optar por no descubrir) los resultados de esta nueva prueba y el impacto de esos resultados en una miríada de relaciones.</info>
+<thumbnail>https://i.imgur.com/BtUthjf.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Star Wars: La remesa mala[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Star.Wars.La.remesa.mala.txt</externallink>
+<info>Los clones de La Remesa Mala se encuentran en una galaxia cambiante tras las Guerras Clon. Episodio piloto de la serie de Dave Filoni "Star Wars: La Remesa Mala", de doble duración y estrenado el 4 de mayo de 2021 en Disney+.</info>
+<thumbnail>https://i.imgur.com/YvAqxWX.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Stranger Things[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Stranger.Things.txt</externallink>
+<info>Serie de TV (2016-Actualidad). Homenaje a los clásicos misterios sobrenaturales de los años 80, "Stranger Things" es la historia de un niño que desaparece en el pequeño pueblo de Hawkins, Indiana, sin dejar rastro en 1983. En su búsqueda desesperada, tanto sus amigos y familiares como el sheriff local se ven envueltos en un enigma extraordinario: experimentos ultrasecretos, fuerzas paranormales terroríficas y una niña muy, muy rara...</info>
+<thumbnail>https://i.imgur.com/MZUrpsv.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The Blacklist[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Blacklist.txt</externallink>
+<info>Serie de TV (2013-Actualidad). 8 temporadas. El criminal más buscado del mundo, Thomas Raymond Reddington (James Spader), se entrega misteriosamente y se ofrece a delatar a todos los que alguna vez han colaborado con él. Su única condición: sólo colaborará con Elisabeth Keen (Megan Boone), una nueva agente del FBI, con quien parece tener alguna conexión que ella desconoce. </info>
+<thumbnail>https://i.imgur.com/dZwVffW.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The Investigation[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Investigation.txt</externallink>
+<info>Miniserie de TV (2020). 6 episodios. Copenhague, agosto de 2017. La policía recibe la denuncia de desaparición de una periodista sueca llamada Kim Wall. Lo último que se sabe de ella es que subió a bordo de un submarino casero con la intención de entrevistar a su constructor y propietario. Pocas horas después, encuentran el submarino hundido y consiguen rescatar a su capitán, a quien interrogan sobre los hechos. Pero no hay rastro de la periodista ni pruebas concluyentes, y las declaraciones son contradictorias. Jens Møller, jefe de la unidad de homicidios de la policía, se hace cargo del retorcido caso, que no para de complicarse a cada paso. Una investigación que avanza bajo la presión de un fiscal que necesita pruebas para construir un caso sólido, unos padres en busca de respuestas y unos medios de comunicación hambrientos de titulares.</info>
+<thumbnail>https://i.imgur.com/HjDs40J.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The night of[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Night.of.txt</externallink>
+<info>Miniserie de TV (2016). 8 episodios. Después de pasar la noche con una desconocida a la que recoge con el taxi de su padre en Manhattan, el joven paquistaní Naz se despierta y la encuentra apuñalada en la cama. Asustado, el joven huye pero poco después es arrestado y se convierte en el único sospechoso del asesinato... Remake de la serie británica del mismo título.</info>
+<thumbnail>https://i.imgur.com/ywRKMDm.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The One[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/TheOne.One</externallink>
+<info>Un simple hisopo bucal es todo lo que se necesita. Una prueba de ADN rápida para encontrar tu pareja perfecta, para la que estás creado genéticamente. Una década después de que los científicos descubrieran que todos tienen un gen que comparten con una sola persona, millones se han sometido a la prueba, desesperados por encontrar el amor verdadero en la empresa The One, fundada por la ambiciosa Rebecca (Hannah Ware). Ahora, cinco personas más conocen su Match. Pero incluso las almas gemelas tienen secretos. Y algunos son más impactantes y mortíferos que otros.</info>
+<thumbnail>https://i.imgur.com/gbbWCnk.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The Serpent[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Serpent.txt</externallink>
+<info>8 episodios. Haciéndose pasar por un comerciante de gemas, Charles Sobhraj (Tahar Rahim) y su novia Marie-Andrée Leclerc (Jenna Coleman) viajaron por Tailandia, Nepal e India en 1975 y 1976, llevando a cabo una serie de crímenes en diferentes lugares frecuentados por hippies, y convirtiéndose ambos en los principales sospechosos de una serie de asesinatos de jóvenes occidentales que viajaban al Sudeste Asiático. Cuando Herman Knippenberg (Billy Howle), un diplomático subalterno de la embajada holandesa en Bangkok, sin saberlo, da con esta intrincada red de crímenes, desencadenará con ayuda de su esposa Angela (Ellie Bamber), una serie extraordinaria de eventos que harán que Sobhraj se convierta en el hombre más buscado por la Interpol, con órdenes de arresto en varios continentes.</info>
+<thumbnail>https://i.imgur.com/4HyrN96.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The Stand[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Stand.txt</externallink>
+<info>Miniserie de TV (2020). 7 episodios. Un falso mesías emerge tras la destrucción masiva causada por un virus humano llamado "Captain Trips", con un enorme poder y al parecer destinado a dominar la sociedad. Sólo un grupo de personas podrá detenerle a él y a su ejército.</info>
+<thumbnail>https://i.imgur.com/iBPTQXg.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The Undoing[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Undoing.txt</externallink>
+<info>Miniserie de TV (2020). 6 episodios. Grace Sachs (Nicole Kidman) es una mujer que ha cumplido todos los sueños de su vida: es una psicóloga que está a punto de publicar su primer libro, tiene un marido devoto, Jonathan Fraser (Hugh Grant), oncólogo pediatra de prestigio, y un hijo que va a uno de los colegios más importantes de Nueva York. Sin embargo, pocas semanas antes de que su libro se publique, la vida de Grace cambia por completo. Una trágica muerte y la desaparición de su marido Jonathan alteran drásticamente su forma de ver el mundo, y la obligan a comenzar de cero. Su única preocupación ahora es garantizar que su hijo pueda vivir la vida que se merece. Por desgracia para ambos, la tarea es mucho más complicada de lo que parece.</info>
+<thumbnail>https://i.imgur.com/XxY4M40.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Tribus de Europa[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Tribus.de.Europa.txt</externallink>
+<info>Serie de TV (2020-). En 2074, tres hermanos luchan por cambiar el destino de Europa, gobernada ahora por diferentes tribus desde que una catástrofe global fracturara el continente en innumerables microestados enfrentados entre sí.</info>
+<thumbnail>https://i.imgur.com/G8xaCJr.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Vikingos[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Vikingos.txt</externallink>
+<info>Serie de TV (2013-2020). 6 temporadas. 89 episodios. Narra las aventuras del héroe Ragnar Lothbrok, de sus hermanos vikingos y su familia, cuando él se subleva para convertirse en el rey de las tribus vikingas. Además de ser un guerrero valiente, Ragnar encarna las tradiciones nórdicas de la devoción a los dioses. Según la leyenda era descendiente directo del dios Odín.
+Sexta temporada (SPOILER DE LA 5ª): La temporada 6 de Vikings regresa tras la batalla entre hermanos que ha dejado a Bjorn victorioso y considerado un héroe para las personas que han estado bajo el gobierno tiránico de Ivar durante tanto tiempo. Como nuevo líder de Kattegat, Bjorn lucha por llenar el hueco de su difunto padre como rey, mientras se enfrenta varios dilemas y lucha con la idea de que el poder eclipsa la moral. </info>
+<thumbnail>https://i.imgur.com/CkEAFZh.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Westworld[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Westworld.txt</externallink>
+<info>Serie de TV (2016-Actualidad). Westworld es un parque de atracciones futurista y controlado por alta tecnología dirigido por el Dr. Robert Ford (Anthony Hopkins). Las instalaciones cuentan con androides cuya apariencia física es humana, y gracias a ellos los visitantes pueden dar rienda suelta a sus instintos y vivir cualquier tipo de aventura o fantasía, por muy oscura o peligrosa que sea, sabiendo que los robots no les harán daño. </info>
+<thumbnail>https://i.imgur.com/IVoXcEA.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Yasuke[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Yasuke.txt</externallink>
+<info>Serie de TV (2021). 6 episodios. Yasuke es un esclavo africano que llega a Japón en el siglo XVI y es acogido bajo la tutela del señor de la guerra Oda Nobunaga. En esta historia, Yasuke busca la paz tras una existencia llena de violencia, pero cuando en el pueblo en el que se encuentra se produce una trifulca social, Yasuke deberá trasnportar a un misterioso niño y evitar a los que le quieren capturar.</info>
+<thumbnail>https://i.imgur.com/yrGxOMG.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Your Honor[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Your.Honor.txt</externallink>
+<info>Miniserie de TV (2020). 10 episodios. Cuando el hijo de un respetado juez (Bryan Cranston) de Nueva Orleans se ve involucrado en un atropello y fuga, el plan de su padre porque nadie se entere conducirá a un juego de alto riesgo lleno de mentiras, engaños y decisiones imposibles. Todo se complicará más cuando se descubre quién era la víctima y las consecuencias de su identidad.</info>
+<thumbnail>https://i.imgur.com/aXeRQx3.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Zero[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Zero.txt</externallink>
+<info>Un hombre y una mujer se despiertan en un lugar extraño, desierto y desconocido, sin saber quiénes son y por qué se encuentran allí. Con el paso de los días, y mientras tratan de salir de ese inhóspito lugar, comienzan a recordar algunas cosas que tal vez preferirían no saber. Quizás las respuestas a todo las tenga Ismael, un hombre que les controla desde la distancia, sin ser visto.</info>
+<thumbnail>https://i.imgur.com/Hu1k2fM.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+
+
+</items>
