@@ -310,7 +310,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[lou.param2] [lou.param1]</title>
+<title>[COLOR white][lou.param1][/COLOR]</title>
 <link>$doregex[id3]</link>
 <thumbnail>https://i.imgur.com/Qnp839R.jpg</thumbnail>
 <fanart>https://i.imgur.com/FMMKHyv.jpg</fanart>
