@@ -8,9 +8,9 @@
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Comedia. Drama. Thriller</genre>
+<year>(2021)</year>
+<info>Serie de TV (2021-). Tras traicionar a sus jefes, un sicario se esconde en una sastrería vacía. Allí lo confunden con el hijo del difunto propietario, y decide adoptar esa identidad.</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
