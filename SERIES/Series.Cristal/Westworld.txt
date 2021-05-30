@@ -8,9 +8,8 @@
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Ciencia ficción. Western. Drama. Intriga</genre>
+<year>2016</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -110,9 +109,8 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Ciencia ficción. Western. Drama. Intriga</genre>
+<year>2016</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -211,9 +209,8 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Ciencia ficción. Western. Drama. Intriga</genre>
+<year>2016</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -302,4 +299,6 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <thumbnail>https://i.imgur.com/IVoXcEA.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
+
+
 </items>
