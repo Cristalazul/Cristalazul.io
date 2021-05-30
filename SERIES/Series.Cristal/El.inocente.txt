@@ -8,8 +8,8 @@
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
+<genre>Thriller. Intriga. Drama</genre>
+<year>(2021)</year>
 <info>[c.param1] [c.param2]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
