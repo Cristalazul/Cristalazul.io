@@ -8,9 +8,9 @@
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Drama</genre>
+<year>(2019)</year>
+<info>El equipo de hockey sobre hielo es la única esperanza que tiene el pequeño pueblo de Beartown, cada vez más encerrado en su propia idiosincrasia. Pero cuando el equipo tiene opciones de ganar la semifinal nacional, todos los sueños del lugar se posan en los hombros de esos adolescentes, generándoles una pesada responsabilidad.</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
