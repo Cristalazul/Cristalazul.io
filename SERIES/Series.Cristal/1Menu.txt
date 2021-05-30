@@ -106,8 +106,7 @@
 <item>
 <title>[COLOR gold]* [COLOR white]Defender a Jacob[/COLOR]</title>  
 <link>cristalazul</link>
-<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Defender.a Jacob.txt
-</externallink>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Defender.a.Jacob.txt</externallink>
 <info>Miniserie de TV (2020). 8 episodios. Basada en la novela homónima, que sigue la historia de Andy Barber, un ayudante del fiscal que, ante un caso de asesinato, ve cómo todas las pruebas conducen a su propio hijo. Dividido entre su deber de defender la justicia y el amor a su hijo, deberá intentar resolver el crimen, cuya víctima es un chico de 14 años, compañero de clase de su hijo.</info>
 <thumbnail>https://i.imgur.com/AcXsVJa.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
