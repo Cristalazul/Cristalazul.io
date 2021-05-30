@@ -170,7 +170,7 @@ import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWR
 <thumbnail>https://i.imgur.com/mk7GGeT.jpg</thumbnail>
 <fanart>https://i.imgur.com/RsLj1lh.jpg</fanart>
 </item>
-
+-->
 
 
 
@@ -314,4 +314,4 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 
-<items>
+</items>
