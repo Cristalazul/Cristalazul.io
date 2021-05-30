@@ -8,9 +8,8 @@
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Acción. Drama. Bélico</genre>
+<year>2013</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -108,9 +107,8 @@ Sexta temporada (SPOILER DE LA 5ª): La temporada 6 de Vikings regresa tras la b
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Acción. Drama. Bélico</genre>
+<year>2013</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -209,9 +207,8 @@ Sexta temporada (SPOILER DE LA 5ª): La temporada 6 de Vikings regresa tras la b
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Acción. Drama. Bélico</genre>
+<year>2013</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -310,9 +307,8 @@ Sexta temporada (SPOILER DE LA 5ª): La temporada 6 de Vikings regresa tras la b
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Acción. Drama. Bélico</genre>
+<year>2013</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -411,9 +407,8 @@ Sexta temporada (SPOILER DE LA 5ª): La temporada 6 de Vikings regresa tras la b
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Acción. Drama. Bélico</genre>
+<year>2013</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
@@ -512,9 +507,8 @@ Sexta temporada (SPOILER DE LA 5ª): La temporada 6 de Vikings regresa tras la b
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>[c.param1] [c.param2]</genre>
-<year>[c.param1] [c.param2]</year>
-<info>[c.param1] [c.param2]</info>
+<genre>Acción. Drama. Bélico</genre>
+<year>2013</year>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
