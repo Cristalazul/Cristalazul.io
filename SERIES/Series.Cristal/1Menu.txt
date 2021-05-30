@@ -143,7 +143,7 @@
 <item>
 <title>[COLOR gold]* [COLOR white]El baile de las Luciérnagas[/COLOR]</title>  
 <link>cristalazul</link>
-<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/</externallink>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.baile.de.las.Luciernagas.txt</externallink>
 <info>10 episodios. Tully y Kate son amigas íntimas desde pequeñas, cuando eran vecinas, y han sido inseparables durante treinta años de altibajos. Una obtuvo fama y fortuna. La otra, amor y familia. Son las mejores amigas más dispares, pero también las más fieles.</info>
 <thumbnail>https://i.imgur.com/XzoFewp.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
