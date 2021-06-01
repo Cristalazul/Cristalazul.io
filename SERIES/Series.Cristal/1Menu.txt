@@ -285,6 +285,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Gangs of London[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Gangs.of.London</externallink>
+<info>Serie de TV (2020-Actualidad). 9 episodios. Durante 20 años, Finn Wallace (Colm Meaney) fue el criminal más poderoso de Londres. Miles de millones de libras fluyeron a través de su organización cada año. Pero ahora está muerto y nadie sabe quién ordenó su asesinato. el impulsivo Sean Wallace (Joe Cole), con la ayuda de la familia Dumani encabezada por Ed Dumani (Lucian Msamati), toma el lugar de su padre. Si la situación no era ya suficientemente peligrosa, la toma de poder de Sean repercute en el mundo del crimen internacional. Tal vez el único hombre que podría ayudarlo y ser su aliado es Elliot Finch (Sope Dirsù), quien hasta la fecha ha sido un simple perdedor, un esbirro de la organización criminal con un misterioso interés en la familia Wallace. En este contexto turbulento, Elliot se verá transportado al interior de la mayor organización criminal de Londres</info>
+<thumbnail>https://i.imgur.com/6Qffswv.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Halston[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Halston.txt</externallink>
