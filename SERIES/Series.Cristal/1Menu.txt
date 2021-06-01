@@ -534,7 +534,7 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Parot</externallink>
 <info>10 episodios. Thriller de ficción ambientado en España en el año 2013. Tras la derogación de la doctrina judicial “Parot” por el Tribunal Europeo de Estrasburgo, decenas de presos han sido puestos en libertad. Pocos días después, algunos excarcelados empiezan a aparecer asesinados de la misma forma en que lo fueron sus víctimas. Isabel Mora (Adriana Ugarte), es una policía íntegra y perseverante que tendrá que asumir la investigación de los asesinatos mientras se enfrenta al intento de venganza por parte de uno de los excarcelados.</info>
-<thumbnail>https://i.imgur.com/RNIN8ks.jpg</thumbnail>
+<thumbnail>https://i.imgur.com/c9jaRj4.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
