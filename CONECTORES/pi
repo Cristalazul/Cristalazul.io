@@ -12,7 +12,7 @@
 
 
 <item>
-<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu[/COLOR]</title>
+<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu p[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>buscador</name>
