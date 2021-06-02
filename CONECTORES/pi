@@ -125,7 +125,7 @@ def GetLSProData(page_data,Cookie_Jar,m,id=id):
 <regex>
 <name>encontrar_servidores</name>
 <listrepeat><![CDATA[
-<title>[COLOR lightskyblue][encontrar_servidores.param2] [COLOR white][encontrar_servidores.param3][/COLOR]</title>
+<title>$doregex[final_link]  [COLOR lightskyblue][encontrar_servidores.param2] [COLOR white][encontrar_servidores.param3][/COLOR]</title>
 <info>[COLOR white][capitulos.param5][/COLOR]
 
 [COLOR white][makelist.param5][/COLOR]</info>
