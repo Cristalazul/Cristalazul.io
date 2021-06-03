@@ -12,7 +12,7 @@
 
 
 <item>
-<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu v[/COLOR]</title>
+<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu p[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>buscador</name>
@@ -158,7 +158,8 @@ def GetLSProData(page_data,Cookie_Jar,m,finalurl='[capitulos.param4]'):#cLrJIhsD
 <regex>
 <name>selecion_inteligente</name>
 <expres><![CDATA[#$pyFunction
-url = '$doregex[final_link]'
+#url = '$doregex[final_link]'
+url = 'http://gamovideo.com/x7sj6io7yniu'
 $doregex[importar]
 from resolveurl.plugins.lib import jsunpack
 $doregex[reparar_conectores]
