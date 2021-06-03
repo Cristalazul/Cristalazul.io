@@ -12,7 +12,7 @@
 
 
 <item>
-<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu v[/COLOR]</title>
+<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu p[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>buscador</name>
@@ -106,7 +106,7 @@ def GetLSProData(page_data,Cookie_Jar,m,id=id):
 <info>[COLOR white][capitulos.param5][/COLOR]
 
 [COLOR white][makelist.param5][/COLOR]</info>
-<link>$doregex[encontrar_servidores]</link>
+<link>$doregex[servidores]</link>
 <thumbnail>$doregex[img]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
@@ -123,19 +123,15 @@ def GetLSProData(page_data,Cookie_Jar,m,id=id):
 <page></page>
 </regex>
 <regex>
-<name>encontrar_servidores</name>
+<name>servidores</name>
 <listrepeat><![CDATA[
-<title>$doregex[final_link]  [COLOR lightskyblue][encontrar_servidores.param2] [COLOR white][encontrar_servidores.param3][/COLOR]</title>
-<info>[COLOR white][capitulos.param5][/COLOR]
-
-[COLOR white][makelist.param5][/COLOR]</info>
+<title>$doregex[final_link]  [COLOR lightskyblue][servidores.param2] [COLOR white][servidores.param3][/COLOR]</title>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>$doregex[img]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[(?s)(https://www.dilo.nu/api/servers/(?:upto.*?|jetload.*?|youtube.*?|drive.*?|mixdrop.*?|dailymotion.*?|fastplay.*?|gounlimi.*?|uqload.*?|ok.*?|upstreamt.*?|fembed.*?|gamovi.*?|vido.*?|clipwa.*?))".*?domain=(.*?)\..*?languajes\/(.*?)\.]]></expres>
 <page>https://www.dilo.nu/[capitulos.param3]/</page>
-<referer>https://powvideo.net/5104rmwew8jf</referer>
 <agent>Mozilla/5.0 (Windows NT 10.0; rv:69.0) Gecko/20100101 Firefox/69.0</agent>
 </regex>
  <regex>
@@ -153,7 +149,7 @@ def GetLSProData(page_data,Cookie_Jar,m,finalurl='[capitulos.param4]'):#cLrJIhsD
 <regex>
  <name>final_link</name>
  <expres><![CDATA[(?:href=|src=)"(.*?)"]]></expres>
- <page>[encontrar_servidores.param1]</page>
+ <page>[servidores.param1]</page>
 </regex>
 <regex>
 <name>selecion_inteligente</name>
