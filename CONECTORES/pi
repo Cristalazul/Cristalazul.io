@@ -12,7 +12,7 @@
 
 
 <item>
-<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu p[/COLOR]</title>
+<title> [COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador dilo.nu v[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>buscador</name>
@@ -132,7 +132,11 @@ def GetLSProData(page_data,Cookie_Jar,m,id=id):
 ]]></listrepeat>
 <expres><![CDATA[(?s)(https://www.dilo.nu/api/servers/(?:upto.*?|jetload.*?|youtube.*?|drive.*?|mixdrop.*?|dailymotion.*?|fastplay.*?|gounlimi.*?|uqload.*?|ok.*?|upstreamt.*?|fembed.*?|gamovi.*?|vido.*?|clipwa.*?))".*?domain=(.*?)\..*?languajes\/(.*?)\.]]></expres>
 <page>https://www.dilo.nu/[capitulos.param3]/</page>
-<agent>Mozilla/5.0 (Windows NT 10.0; rv:69.0) Gecko/20100101 Firefox/69.0</agent>
+</regex>
+<regex>
+ <name>final_link</name>
+ <expres><![CDATA[(?:href=|src=)"(.*?)"]]></expres>
+ <page>[servidores.param1]</page>
 </regex>
  <regex>
  <name>img</name>
@@ -145,11 +149,6 @@ def GetLSProData(page_data,Cookie_Jar,m,finalurl='[capitulos.param4]'):#cLrJIhsD
      return '[makelist.param2]'
 ]]></expres>
 <page></page>
-</regex>
-<regex>
- <name>final_link</name>
- <expres><![CDATA[(?:href=|src=)"(.*?)"]]></expres>
- <page>[servidores.param1]</page>
 </regex>
 <regex>
 <name>selecion_inteligente</name>
