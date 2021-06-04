@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <items>
 
-
+<item>
+<title>[COLOR gold]* [COLOR white]11 22 63[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/11.22.63.txt</externallink>
+<info>Miniserie de TV de 8 episodios (2016). El 22 de noviembre de 1963, los disparos que acabaron con la vida del Presidente Kennedy cambiaron el mundo. El profesor Jake Epping (James Franco) intenta viajar al pasado para impedir el magnicidio, pero su misión se verá amenazada.</info>
+<thumbnail>https://i.imgur.com/4CLljge.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
 
 <item>
 <title>[COLOR gold]* [COLOR white]22 de Julio[/COLOR]</title>  
@@ -36,6 +43,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Beartown.txt</externallink>
 <info>Serie de TV (2019-). El equipo de hockey sobre hielo es la única esperanza que tiene el pequeño pueblo de Beartown, cada vez más encerrado en su propia idiosincrasia. Pero cuando el equipo tiene opciones de ganar la semifinal nacional, todos los sueños del lugar se posan en los hombros de esos adolescentes, generándoles una pesada responsabilidad.</info>
 <thumbnail>https://i.imgur.com/w7tGV9f.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Belgravia[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Belgravia.txt</externallink>
+<info>Serie de TV (2020). 6 episodios. Relata los hechos acaecidos después de la aparición de los "nouveau riche" (nuevos ricos), incluyendo a la familia Trenchard, y de cómo su relación con las clases altas londinenses conllevaría la aparición de viejos secretos del pasado.</info>
+<thumbnail>https://i.imgur.com/AZTAGI5.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -241,11 +257,29 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]El método Kominsky[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.metodo.kominsky.txt</externallink>
+<info>Serie de TV (2018-Actualidad). Una comedia dramática sobre un veterano actor, Sandy (Michael Douglas), cuya carrera nunca llegó a funcionar del todo, y que se gana la vida dando clases de interpretación, y su agente Norman (Alan Arkin), recientemente enviudado y muy pesimista con todo lo que le rodea... Del creador de 'Big Bang' y 'Dos hombres y medio'.</info>
+<thumbnail>https://i.imgur.com/r57Mj6n.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]El padrino de Harlem[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.padrino.de.Harlem</externallink>
 <info>Cuenta la historia real del gángster Bumpy Johnson (Forest Whitaker), que se abre camino en Harlem durante los años 60 después de pasar diez años en prisión. Cuando vuelve al barrio que una vez fue suyo se lo encuentra prácticamente en ruinas. Con las calles controladas por la mafia italiana, Bumpy debe imponerse a la mafia genovesa para recuperar el control de la ciudad. Durante una brutal batalla forma una inesperada alianza con el radical Malcolm X, aprovechándose de su discurso político para tratar de evitar el caos social y la guerra entre clanes que se avecina.</info>
 <thumbnail>https://i.imgur.com/33pJlh3.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El Tercer día[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.tercer.dia.txt</externallink>
+<info>Miniserie de TV (2020). 6 episodios. La línea entre la realidad y la fantasía comienza a desdibujarse para un hombre que visita una misteriosa isla frente a la costa británica.</info>
+<thumbnail>https://i.imgur.com/MOB0rFb.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -567,6 +601,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]No hables con extraños[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/No.hables.con.extranos.txt</externallink>
+<info>Miniserie de TV. 8 episodios. Cuando una desconocida afirma algo inconcebible sobre su mujer, el padre de familia Adam Price se ve envuelto en un misterio mientras busca respuestas. De repente, una inesperada trama de secretos obligará a Adam a lanzarse en una misión desesperada para descubrir la verdad sobre sus seres más cercanos.</info>
+<thumbnail>https://i.imgur.com/LkHcN2x.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Our Boys[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Our.boys</externallink>
@@ -581,6 +624,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Palomares.txt</externallink>
 <info>Miniserie de TV (2021). 4 episodios. El 17 de enero de 1966, 4 bombas nucleares con 75 veces la capacidad atómica de las de Hiroshima cayeron sobre un pequeño pueblo de Almería. 55 años después, `Palomares´ reconstruye por primera vez, en clave de thriller, lo que sucedió en aquellos días en los que el destino de la humanidad se libró aquí, en España. Gracias a documentos y materiales recientemente desclasificados y cientos de imágenes y fotografías inéditas, descubriremos la verdad, sin censura, y reviviremos el famoso baño de Fraga.</info>
 <thumbnail>https://i.imgur.com/9bUv1WK.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Panic[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Panic.txt</externallink>
+<info>10 episodios. Adolescentes compiten en un juego peligroso en el que pueden tener la oportunidad de escapar de su pequeña ciudad rural.</info>
+<thumbnail>https://i.imgur.com/mfrBjqf.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -653,6 +705,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Recursos.inhumanos.txt</externallink>
 <info>Miniserie de TV (2020). 6 episodios. Alain Delambre es un hombre humillado tras seis años de desempleo. Así que cuando una prestigiosa compañía lo selecciona como candidato, está dispuesto a traicionar a su mujer, robar a sus propias hijas o pegar a su yerno, sabiendo que, si finalmente es el elegido, todo será perdonado. Pero nada resulta ser como parecía.</info>
 <thumbnail>https://i.imgur.com/BS2srLc.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Rellik[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Rellik.txt</externallink>
+<info>Miniserie de TV (2017). 6 episodios. Un asesino en serie, y una historia que se irá desentrañando poco a poco a través de terribles crímenes. Rellik es la historia de un asesino en serie contada hacia atrás. El carismático y perjudicado detective Gabriel Markham lleva a cabo una obsesiva caza de un brutal asesino. Mientras su vida personal y profesional se desdoblan, Rellik explora cómo nuestro pasado nos hace ser quienes somos.</info>
+<thumbnail>https://i.imgur.com/ZOga6kY.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -852,6 +913,16 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Tribus.de.Europa.txt</externallink>
 <info>Serie de TV (2020-). En 2074, tres hermanos luchan por cambiar el destino de Europa, gobernada ahora por diferentes tribus desde que una catástrofe global fracturara el continente en innumerables microestados enfrentados entre sí.</info>
 <thumbnail>https://i.imgur.com/G8xaCJr.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Veneno[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Veneno.txt</externallink>
+<info>Miniserie de TV (2020). 8 episodios. Miniserie sobre una famosa y controvertida transexual de los años 90 conocida como "la Veneno". Una serie inspirada en las memorias oficiales de Cristina Ortiz, "la Veneno", tituladas "¡Digo! Ni puta ni santa", escritas por Valeria Vegas, que cuenta la historia de la realidad transexual en España desde los años 60 hasta la actualidad. Cuando la autora del libro, Valeria, era una niña pequeña, nunca entendió por qué la gente la llamaba por un nombre que no era el suyo. Lo mismo le ocurrió a Cristina, por entonces llamada “Joselito”, que tuvo que sobrevivir a una violenta y cruel infancia en la España de los 60. Dos mujeres que nacieron en épocas muy diferentes pero que, por casualidad o por el destino, acaban unidas para siempre, cuando Valeria, estudiante de Periodismo, decide escribir un libro sobre la vida del icónico y mediático personaje. Adorada por su carisma y su forma de expresarse, libre, deslenguada y divertida, "la Veneno" alcanzó la popularidad gracias a sus apariciones televisivas en los años 90. Sin embargo, su vida y -sobre todo- su muerte siguen siendo un enigma.
+</info>
+<thumbnail>https://i.imgur.com/aRJ9DbU.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
