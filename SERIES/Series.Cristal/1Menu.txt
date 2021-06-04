@@ -514,7 +514,7 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <item>
 <title>[COLOR gold]* [COLOR white]Marvel's M.o.d.o.k[/COLOR]</title>     
 <link>cristalazul</link>
-<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel's.M.o.d.o.k.txt</externallink>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel.M.o.d.o.k.txt</externallink>
 <info>El supervillano M.O.D.O.K ha perseguido durante mucho tiempo su sueño de conquistar el mundo. Pero después de años de reveses y fracasos luchando contra los héroes más poderosos de la Tierra, Derrocado como líder de A.I.M mientras lidia con el matrimonio y una vida familiar que se desmorona, M.O.D.O.K está listo para enfrentarse a su mayor desafío hasta ahora: una crisis de la mediana edad.</info>
 <thumbnail>https://i.imgur.com/Q9maGAt.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
