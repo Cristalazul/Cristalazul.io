@@ -65,6 +65,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Betaal[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Betaal</externallink>
+<info>Miniserie de TV (2020). 4 episodios. La historia se desarrolla en una lejana aldea, que rápidamente se convierte en el escenario de una batalla sangrienta cuando el coronel de la "Compañía de las Indias Orientales", (de dos siglos de antigüedad), infectado con la maldición de Betaal, y su batallón de soldados zombis sedientos de sangre, son liberados de su tumba...</info>
+<thumbnail>https://i.imgur.com/bFcMdK3.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Black Monday[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Black.monday</externallink>
@@ -89,6 +98,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Calls.txt</externallink>
 <info>"Calls" se desarrolla mediante una serie de llamadas de teléfono, aparentemente cotidianas e inconexas, pero que rápidamente se irán volviendo inquientantes, a medida que los personajes se van enfrentando a experiencias aterradoras...</info>
 <thumbnail>https://i.imgur.com/jWzspxs.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Caminantes[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Caminantes</externallink>
+<info>Serie de TV (2020). 8 episodios. El grupo de jóvenes peregrinos se enfrentarán a situaciones límite mientras recorren el Camino de Santiago a su paso por la Selva de Irati (Navarra), donde está ambientada esta terrorífica experiencia.</info>
+<thumbnail>https://i.imgur.com/mCPXrea.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -212,6 +230,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]El desertor[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.desertor</externallink>
+<info>Año 1944, en plena Segunda Guerra Mundial. Tras sufrir un accidente, Walter, un joven soldado alemán, es enviado a una pequeña unidad en los bosques polacos rodeada de guerrilleros partisanos. Pronto se debate entre el sentido del deber, la culpa y su propia conciencia, un conflicto interior que se agravará tras enamorarse de Wanda, una guerrillera polaca.</info>
+<thumbnail>https://i.imgur.com/Q3tJIu6.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]El desorden que dejas[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.desorden.que.dejas.txt</externallink>
@@ -257,6 +284,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]El libro de los negros[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.libro.de.los.negros</externallink>
+<info>Miniserie de TV (2015). 6 episodios. Secuestrada en África y posteriormente esclavizada en Carolina del Sur, Aminata Diallo deberá hacer frente a una revolución en Nueva York, un aislamiento en Nueva Escocia y las traicioneras selvas de Sierra Leona, en un intento de asegurar su libertad en el siglo XIX.</info>
+<thumbnail>https://i.imgur.com/3Bmc08f.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]El método Kominsky[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.metodo.kominsky.txt</externallink>
@@ -289,6 +325,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.vecino</externallink>
 <info>Serie de TV (2019-2021). 2 temporadas. 20 episodios. A Javier no le van demasiado bien las cosas. Apenas llega a fin de mes con un trabajo precario, y su relación con Lola no va precisamente bien. Lo que menos necesitaba es que un extraterrestre le cayera encima y le pasara sus superpoderes antes de morir. Ahora, Javier es un superhéroe, y no le va ni un poquito mejor que antes. Resulta que los superpoderes no sirven para nada cuando te echan del trabajo o cuando tu novia decide que tenéis que tomaros un tiempo. Menos mal que ahí tiene a José Ramón, su vecino, que va a enseñarle a usar sus poderes para el bien y a ocultar su identidad secreta, especialmente a Lola, que ha decidido darle un giro a su mediocre carrera de periodista investigando a Titán, el misterioso superhéroe. </info>
 <thumbnail>https://i.imgur.com/fRmw79S.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El visitante[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.visitante</externallink>
+<info>Miniserie de TV. 10 episodios. El detective Ralph Anderson (Ben Mendelsohn) y Holly Gibney (Cynthia Erivo), una investigadora poco ortodoxa, investigan el brutal asesinato de Frankie Peterson, un niño de 11 años, ocurrido en un pacífico pueblo. Aunque al principio todo parece tener una explicación dentro de lo plausible, pronto se darán cuenta de que una fuerza sobrenatural parece tener mucho que ver en la desaparición del chico.</info>
+<thumbnail>https://i.imgur.com/MxGcgth.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
  
@@ -592,6 +637,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Marvel The Defenders[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel.the.defenders</externallink>
+<info>Miniserie de TV (2017). 8 episodios. The Defenders sigue a Daredevil (Charlie Cox), Jessica Jones (Krysten Ritter), Luke Cage (Mike Colter) y Iron Fist (Finn Jones). Cuatro héroes únicos con un objetivo común: salvar Nueva York. Esta es la historia de cuatro personas solitarias que sobrellevan sus propios desafíos y entienden que son más fuertes al formar un equipo.</info>
+<thumbnail>https://i.imgur.com/5GFaGJi.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Missions[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Missions.txt</externallink>
@@ -606,6 +660,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/No.hables.con.extranos.txt</externallink>
 <info>Miniserie de TV. 8 episodios. Cuando una desconocida afirma algo inconcebible sobre su mujer, el padre de familia Adam Price se ve envuelto en un misterio mientras busca respuestas. De repente, una inesperada trama de secretos obligará a Adam a lanzarse en una misión desesperada para descubrir la verdad sobre sus seres más cercanos.</info>
 <thumbnail>https://i.imgur.com/LkHcN2x.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Nobel[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Nobel</externallink>
+<info>Miniserie de 8 episodios. Un veterano de guerra (Aksel Hennie) se convierte en el peón de una conspiración internacional, poniendo a prueba su devoción por su familia. Su papel le lleva a cuestionar seriamente hasta qué punto está dispuesto a llegar para mantener la paz.</info>
+<thumbnail>https://i.imgur.com/x1juuhY.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -651,6 +714,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Patria.txt</externallink>
 <info>Miniserie de TV (2019). 8 episodios. Basada en la novela de Fernando Aramburu, que abarca 30 años del conflicto vasco y estudia el impacto del mismo sobre la gente común, como la viuda de un hombre asesinado a tiros por la banda terrorista ETA, que vuelve a su pueblo natal tras el alto el fuego de 2011, o la madre de un etarra encarcelado. </info>
 <thumbnail>https://i.imgur.com/Oesbimx.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Por H o por B[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Por.h.o.por.b</externallink>
+<info>Serie de TV (2020-Actualidad). Con el madrileño barrio de Malasaña convertido en un personaje más, contará la historia de Hache y Belén, dos amigas de Parla que, tras años sin hablarse, se reencuentran en su nueva vida en el centro de la ciudad. El inevitable choque cultural entre los dos mundos dará lugar a una catástrofe de divertidas proporciones.</info>
+<thumbnail>https://i.imgur.com/tWCx2aB.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
