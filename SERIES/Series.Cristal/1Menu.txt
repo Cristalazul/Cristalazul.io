@@ -49,6 +49,16 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Black Monday[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Black.monday</externallink>
+<info>19 de octubre de 1987, también conocido como Black Monday, la peor caída del mercado de valores en la historia de Wall Street. Nunca se ha sabido quién lo causó... hasta ahora. Es la historia de cómo un grupo de individuos al margen del sistema se enfrentaron a Wall Street y terminaron estrellando el sistema financiero más grande del mundo.</info>
+<thumbnail>https://i.imgur.com/5LSPZGZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+
+<item>
 <title>[COLOR gold]* [COLOR white]Bruja Escarlata y Vision[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Bruja.Escarlata.y.Vision.txt</externallink>
@@ -159,6 +169,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]El Cid[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.cid</externallink>
+<info>Serie de TV (2020-Actualidad). 'El Cid' cuenta la historia del hombre detrás de la leyenda, Rodrigo Díaz de Vivar, también conocido como “Ruy”, desde que era niño hasta que se convirtió en un héroe de guerra, mientras intenta encontrar su lugar dentro de una sociedad donde las intrigas de la Corona de León intenta controlarlo. El Cid es un héroe por todos conocido pero también uno de los personajes más misteriosos y complejos de la historia de España. La trama tiene lugar en el siglo XI, una de las épocas más fascinantes de la historia de España, donde cristianos, árabes y judíos convivieron en la Península Ibérica, enfrentándose en guerras y/o forjando alianzas. Una historia de aventuras, amor, intriga, traición y lucha entre quienes ostentan el poder y quienes poseen la auténtica autoridad.</info>
+<thumbnail>https://i.imgur.com/6iqtvCp.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]El corazón de Sergio Ramos[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.corazon.de.Sergio.Ramos.txt</externallink>
@@ -218,6 +237,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.juego.de.las.llaves.txt</externallink>
 <info>10 episodios. Un encuentro casual entre Adriana y Sergio, ex compañeros del instituto, marca el inicio del juego de las llaves donde 4 parejas se intercambian y generan nuevas combinaciones sexuales y afectivas en un juego peligroso, entre el azar y el deseo. Una comedia sobre la monogamia a largo plazo, la autorrealización y el placer. Una historia sobre cuatro parejas que son amigos y deciden ser swingers entre ellos</info>
 <thumbnail>https://i.imgur.com/RXxtLeu.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El padrino de Harlem[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.padrino.de.Harlem</externallink>
+<info>Cuenta la historia real del gángster Bumpy Johnson (Forest Whitaker), que se abre camino en Harlem durante los años 60 después de pasar diez años en prisión. Cuando vuelve al barrio que una vez fue suyo se lo encuentra prácticamente en ruinas. Con las calles controladas por la mafia italiana, Bumpy debe imponerse a la mafia genovesa para recuperar el control de la ciudad. Durante una brutal batalla forma una inesperada alianza con el radical Malcolm X, aprovechándose de su discurso político para tratar de evitar el caos social y la guerra entre clanes que se avecina.</info>
+<thumbnail>https://i.imgur.com/33pJlh3.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -344,6 +372,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Kung.Fu.txt</externallink>
 <info>Una joven adolescente estadounidense de ascendencia china decide dejar la universidad para aventurarse a vivir una nueva vida en un monasterio chino. Sin embargo, cuando regresa a su pueblo natal y descubre que está plagado de crimen y corrupción, emplea las artes marciales y la filosofía Shaolin para proteger su comunidad y tratar de ajusticiar a los criminales. Todo ellos mientras busca al asesino de su maestro Shaolin, que ahora la ha puesto a ella en su diana.</info>
 <thumbnail>https://i.imgur.com/LGTmGB9.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La casa de papel[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.casa.de.papel</externallink>
+<info>Serie de TV (2017-Actualidad). 4 temporadas. Un misterioso personaje, que se hace llamar "El Profesor", planea el mayor de los atracos jamás ideado. Para llevar a cabo el ambicioso plan, recluta a una banda formada por personas con ciertas cualidades y algo en común: no tienen nada que perder. El objetivo es atracar la Fábrica Nacional de Moneda y Timbre, con la intención de quedarse encerrados dentro con una misión muy concreta: no robar dinero, sino crearlo. Tras cinco meses de reclusión, memorizando cada paso, cada detalle, cada probabilidad..., por fin llega el día. Les esperan once días de encierro en la Fábrica de Moneda, rodeados de los cuerpos de élite de la policía y con 67 rehenes en su poder.</info>
+<thumbnail>https://i.imgur.com/EVlS2Su.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -530,6 +567,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Our Boys[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Our.boys</externallink>
+<info>Miniserie de TV (2019). 10 episodios. Miniserie de TV sobre los hechos que conllevaron la escalada de violencia en Gaza en 2014. Tres adolescentes judíos fueron secuestrados y asesinados por militantes de Hamas durante el verano de 2014 y, en respuesta, se asesinó al palestino Muhammad Abu Khdeir, de 16 años. Esta cadena de acontecimientos cambió las vidas de muchas personas. </info>
+<thumbnail>https://i.imgur.com/dWlIf86.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Palomares[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Palomares.txt</externallink>
@@ -674,6 +720,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Somos los mejores[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Somos.los.mejores</externallink>
+<info>10 episodios. Cuando Evan, de 12 años, no es seleccionado para el equipo de hockey, su madre le anima a formar un nuevo equipo con Gordon Bombay, el entrenador original de los Ducks.</info>
+<thumbnail>https://i.imgur.com/HYIfgfA.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Soulmates[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Soulmates.txt</externallink>
@@ -701,6 +756,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Superman y Lois[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Superman.y.Lois</externallink>
+<info>Serie de TV (2021-). Sigue a la periodista y al superhéroe más famoso del mundo y los cómics, y cómo lidian él y Lois todo el estrés, las presiones y las complejidades que conlleva ser lo que son y además ser padres trabajadores en la sociedad actual. </info>
+<thumbnail>https://i.imgur.com/uSOYlNY.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]The Blacklist[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Blacklist.txt</externallink>
@@ -717,6 +781,16 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <thumbnail>https://i.imgur.com/nngd1F9.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]The Hot Zone[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.hot.zone</externallink>
+<info>En 1989, un nuevo brote de ébola aparece en Estados Unidos. Los científicos del ejército arriesgaron sus vidas para combatir esta amenaza. Lucharon contra un enemigo invisible que podía matarlos con solo tocarlos... Inspirada en hechos reales, esta es la historia de un grupo de gente que hizo todo lo posible para frenar la expansión del virus más letal de la Tierra.</info>
+<thumbnail>https://i.imgur.com/JYOnnZs.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
 
 <item>
 <title>[COLOR gold]* [COLOR white]The Investigation[/COLOR]</title>     
