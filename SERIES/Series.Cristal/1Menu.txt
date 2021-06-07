@@ -74,6 +74,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Black Summer[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Black.Summer</externallink>
+<info>En los primeros y confusos días de un apocalipsis zombi, completos desconocidos deben aliarse para hacerse fuertes y regresar con sus seres queridos. Precuela de la serie "Z Nation" producida por The Asylum para el canal Syfy.</info>
+<thumbnail>https://i.imgur.com/VOsxAer.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Black Monday[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Black.monday</externallink>
@@ -194,6 +203,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Dom[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Dom</externallink>
+<info>8 episodios. Narra la historia real de Víctor, un oficial de policía que dedicó su vida a la guerra contra el narcotráfico, y de su hijo Pedro, un chico de clase media de Río de Janeiro que descubrió la cocaína en su adolescencia, se convirtió en un adicto, y eso lo llevó a alzarse finalmente como el líder de una banda criminal que dominó los tabloides de Río de Janeiro a principios de los 2000.</info>
+<thumbnail>https://i.imgur.com/0mImHUd.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]El baile de las Luciérnagas[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.baile.de.las.Luciernagas.txt</externallink>
@@ -302,11 +320,20 @@
 </item>
 
 <item>
-<title>[COLOR gold]* [COLOR white]El padrino de Harlem[/COLOR]</title>     
+<title>[COLOR gold]* [COLOR white]El niño ciervo[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.padrino.de.Harlem</externallink>
 <info>Cuenta la historia real del gángster Bumpy Johnson (Forest Whitaker), que se abre camino en Harlem durante los años 60 después de pasar diez años en prisión. Cuando vuelve al barrio que una vez fue suyo se lo encuentra prácticamente en ruinas. Con las calles controladas por la mafia italiana, Bumpy debe imponerse a la mafia genovesa para recuperar el control de la ciudad. Durante una brutal batalla forma una inesperada alianza con el radical Malcolm X, aprovechándose de su discurso político para tratar de evitar el caos social y la guerra entre clanes que se avecina.</info>
 <thumbnail>https://i.imgur.com/33pJlh3.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El padrino de Harlem[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.nino.ciervo</externallink>
+<info>Un cataclismo ha devastado el mundo. Gus, mitad chico y mitad ciervo, se une a una variopinta familia de niños híbridos como él para buscar respuestas a lo ocurrido.</info>
+<thumbnail>https://i.imgur.com/8jC0DDX.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -361,6 +388,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Equinox.txt</externallink>
 <info>Miniserie de TV. 6 episodios. Hace 20 años, Astrid presenció la desaparición de un autobús lleno de estudiantes. Ahora, acaba de encontrarse con una de las víctimas y decide investigar qué pasó.</info>
 <thumbnail>https://i.imgur.com/UvDfjl0.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Euphoria[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Euphoria</externallink>
+<info>Serie de TV (2019-Actualidad). 1 temporada. 8 episodios. Rue (Zendaya) es una joven de 17 años que vuelve de rehabilitación sin intención de mantenerse sobria. En una fiesta antes del comienzo del curso conoce a Jules (Hunter Schafer), una chica recién llegada a la ciudad.... Euphoria es una reflexión sobre la adolescencia a través de un grupo de estudiantes de instituto que tienen que hacer frente a temas recurrentes de su edad como las drogas, el sexo, la violencia, los problemas de identidad, los traumas, las redes sociales, el amor y la amistad.</info>
+<thumbnail>https://i.imgur.com/gSvHRkV.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -546,6 +582,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]La zona[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.zona</externallink>
+<info>Serie de TV (2017). 8 episodios. El inspector Héctor Uría (Eduard Fernández) regresa al servicio tres años después del grave accidente de un reactor nuclear al norte de España como el único superviviente del primer grupo que acudió en socorro de la central. Ahora debe investigar el brutal asesinato de un hombre en la Zona de Exclusión. </info>
+<thumbnail>https://i.imgur.com/E99IdkS.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Libertad[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Libertad.txt</externallink>
@@ -637,6 +682,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Marvel The Fury Files[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel.The.Fury.Files</externallink>
+<info>La serie ofrecerá acceso a todos los secretos de los archivos de S.H.I.E.L.D. relacionados con sus héroes y villanos. Todo ello con la ayuda de Fury, mezclando animación y un peculiar estilo cómic.</info>
+<thumbnail>https://i.imgur.com/AllVyze.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Marvel The Defenders[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel.the.defenders</externallink>
@@ -651,6 +705,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Missions.txt</externallink>
 <info>La primera misión tripulada a Marte se acerca ahora al planeta rojo. La tripulación está integrada por científicos de alta categoría y por una joven psiquiatra, responsable de su salud mental. Pero justo cuando están a punto de aterrizar, algo sale mal.</info>
 <thumbnail>https://i.imgur.com/mJwDYoi.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Mosaic[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Mosaic</externallink>
+<info>Miniserie de TV (2018). 6 episodios. Salió como aplicación para móvil en noviembre de 2017. Con la app de Mosaic, el público puede decidir cómo quiere que se desarrolle un misterio sobre una autora para niños (Sharon Stone) que aparece muerta en un pueblo con un resort de ski. Al final de cada capítulo los espectadores tienen que elegir entre dos personajes para que la historia continúe. HBO estrenó la serie, sin las opciones interactivas, el 22 de enero de 2018.</info>
+<thumbnail>https://i.imgur.com/Tu9nfhT.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -714,6 +777,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Patria.txt</externallink>
 <info>Miniserie de TV (2019). 8 episodios. Basada en la novela de Fernando Aramburu, que abarca 30 años del conflicto vasco y estudia el impacto del mismo sobre la gente común, como la viuda de un hombre asesinado a tiros por la banda terrorista ETA, que vuelve a su pueblo natal tras el alto el fuego de 2011, o la madre de un etarra encarcelado. </info>
 <thumbnail>https://i.imgur.com/Oesbimx.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Poldark[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Poldark</externallink>
+<info>Serie de TV (2015-2019). 5 temporadas. 43 episodios. Ross Poldark regresa a Inglaterra después de luchar en la Revolución Americana. Su familia y amigos pensaban que estaba muerto. La mujer con que esperaba casarse está ahora comprometida con su primo. Su padre está muerto, y la propiedad que ha heredado ha empezado a deteriorarse. Son los finales de 1700 en Cornwall, Inglaterra.</info>
+<thumbnail>https://i.imgur.com/R0k20Se.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -976,6 +1048,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Undoing.txt</externallink>
 <info>Miniserie de TV (2020). 6 episodios. Grace Sachs (Nicole Kidman) es una mujer que ha cumplido todos los sueños de su vida: es una psicóloga que está a punto de publicar su primer libro, tiene un marido devoto, Jonathan Fraser (Hugh Grant), oncólogo pediatra de prestigio, y un hijo que va a uno de los colegios más importantes de Nueva York. Sin embargo, pocas semanas antes de que su libro se publique, la vida de Grace cambia por completo. Una trágica muerte y la desaparición de su marido Jonathan alteran drásticamente su forma de ver el mundo, y la obligan a comenzar de cero. Su única preocupación ahora es garantizar que su hijo pueda vivir la vida que se merece. Por desgracia para ambos, la tarea es mucho más complicada de lo que parece.</info>
 <thumbnail>https://i.imgur.com/XxY4M40.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Trakers[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Trakers</externallink>
+<info>Serie de TV (2019-). Entrelaza tres tramas en un thriller de acción con crimen organizado, contrabando de diamantes, seguridad nacional, rinocerontes negros, la CIA y un complot terrorista internacional.</info>
+<thumbnail>https://i.imgur.com/XNOX8i6.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
