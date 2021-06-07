@@ -591,6 +591,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Las aventuras del joven Indiana Jones[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Las.aventuras.del.joven.indiana.jones</externallink>
+<info>Serie de TV (1992-1993). Las aventuras del joven Indiana Jones (The Young Indiana Jones Chronicles, en su título original en inglés) es una serie de televisión estadounidense ideada y producida por George Lucas y emitida entre 1992 y 1993 (con posteriores capítulos hasta 1996) por la cadena de televisión ABC. Consta en total de 44 capítulos, si bien no todos ellos fueron emitidos en su momento. En España, fue emitida por la cadena Antena 3 a partir de 1993.</info>
+<thumbnail>https://i.imgur.com/6mbSrau.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Libertad[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Libertad.txt</externallink>
