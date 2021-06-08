@@ -15,6 +15,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[COLOR white][makelist.param1][/COLOR]</title>
+<info>[makelist.param3]</info>
 <link>$doregex[makelist2]</link>
 <thumbnail>[makelist.param4]</thumbnail>
 <fanart>[makelist.param5]</fanart>
@@ -35,6 +36,7 @@ def GetLSProData(page_data,Cookie_Jar,m):#CpRdIsSaTvAmL
 <name>makelist2</name>
 <listrepeat><![CDATA[
 <title>[COLOR white][makelist2.param1][/COLOR]</title>
+<info>[makelist.param3]</info>
 <link>$doregex[c]</link>
 <thumbnail>[makelist.param4]</thumbnail>
 <fanart>[makelist.param5]</fanart>
@@ -58,8 +60,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,titulo=titulo):#CpRdIsSaTvAmL
 <name>c</name>
 <listrepeat><![CDATA[
 <title>[c.param1] [c.param2]</title>
-<genre>Fantástico. Drama</genre>
-<year>2020</year>
+<info>[makelist.param3]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[c.param4]</thumbnail>
 <fanart>[c.param5]</fanart>
