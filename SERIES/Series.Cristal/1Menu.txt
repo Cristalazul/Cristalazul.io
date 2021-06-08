@@ -105,7 +105,7 @@
 <title>[COLOR gold]* [COLOR white]Calls[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Calls.txt</externallink>
-<info>"Calls" se desarrolla mediante una serie de llamadas de teléfono, aparentemente cotidianas e inconexas, pero que rápidamente se irán volviendo inquientantes, a medida que los personajes se van enfrentando a experiencias aterradoras... </info>
+<info>"Calls" se desarrolla mediante una serie de llamadas de teléfono, aparentemente cotidianas e inconexas, pero que rápidamente se irán volviendo inquientantes, a medida que los personajes se van enfrentando a experiencias aterradoras </info>
 <thumbnail>https://i.imgur.com/jWzspxs.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
