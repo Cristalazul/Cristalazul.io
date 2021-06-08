@@ -9,7 +9,7 @@
 
 
 <item>
-<title>[COLOR gold]* [/COLOR][COLOR lightseagreen]Series [COLOR white]Cristal [COLOR gold][/COLOR]</title>
+<title>[COLOR gold]* [/COLOR][COLOR lightseagreen]b Series [COLOR white]Cristal [COLOR gold][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -47,7 +47,8 @@ url = '[makelist.param2]'
 def GetLSProData(page_data,Cookie_Jar,m,url=url,titulo=titulo):#CpRdIsSaTvAmL
   response = requests.get(url, verify=False).text
   response = six.ensure_str(response)
-  items = re.findall("""(?s)title.(.*?)<.*?url = '(.*?)'\stitulo = '(.*?)'.*?<info>(.*?)<.*?<thumbnail>(.*?)<.*?<fanart>(.*?)<""", response)
+  #patron = "(?s)title.(.*?)<.*?url = '(.*?)'.*?titulo = '(.*?)'.*?<info>(.*?)<.*?<thumbnail>(.*?)<.*?<fanart>(.*?)<"
+  items = re.findall("(?s)title.(.*?)<.*?url = '(.*?)'.*?titulo = '(.*?)'.*?<info>(.*?)<.*?<thumbnail>(.*?)<.*?<fanart>(.*?)<", response)
   numero_total = len(items)
   return [('[COLOR aqua]'+titulo+' Temporadas:[COLOR white] ('+str(numero_total)+')', ' ', 'https://i.imgur.com/Ge0iWOq.jpg')] + sorted(items) + [('[COLOR white]No hay mas resultados...', ' ', 'https://i.imgur.com/Ge0iWOq.jpg')]
 ]]></expres>
