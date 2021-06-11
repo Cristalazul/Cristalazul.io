@@ -202,6 +202,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]DNA[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Dna.txt</externallink>
+<info>1 temporada (8 episodios). Una comandante de policía francesa y un ex-investigador de la policía de Copenhague intentarán desmantelar una red internacional de tráfico de bebés. Una investigación que dará comienzo en Dinamarca y les llevará después a Polonia y a Francia.</info>
+<thumbnail>https://i.imgur.com/CknmkSN.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Dom[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Dom</externallink>
@@ -261,6 +270,24 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.desorden.que.dejas.txt</externallink>
 <info>Serie de TV (2020). 8 episodios. Con la intención de darle una oportunidad a su matrimonio, Raquel (Inma Cuesta), una joven profesora de literatura, acepta un trabajo en el instituto del pueblo donde creció su marido. "Y tú, ¿cuánto vas a tardar en morir?” Así de contundente es la nota que Raquel encuentra entre los trabajos a corregir el primer día de trabajo. Su ilusión por impartir clases se dará de bruces con unos alumnos que la reciben con esa macabra bienvenida. Pronto descubrirá quién era la profesora a la que sustituye, Viruca (Bárbara Lennie), y cómo ha marcado la vida de todos. Raquel iniciará su propia búsqueda para descubrir la verdad en un lugar en el que todos parecen guardar secretos. </info>
 <thumbnail>https://i.imgur.com/ZoWxnJq.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El destripador[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.destripador.txt</externallink>
+<info>Miniserie de TV (2020). 4 episodios. Investigadores y testigos recuerdan los asesinatos del destripador de Yorkshire, que proyectó una oscura sombra en el norte de Inglaterra a finales de los años setenta.</info>
+<thumbnail>https://i.imgur.com/7YU7DTU.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]El ferrocarril subterráneo[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.ferrocarril.subterráneo.txt</externallink>
+<info>Serie de TV (2020). 10 episodios. Cora es una joven esclava de una plantación de algodón en Georgia. Abandonada por su madre, vive sometida a la crueldad de sus amos. Cuando César, un joven de Virginia, le habla del ferrocarril subterráneo, ambos deciden iniciar una arriesgada huida hacia el Norte para conseguir la libertad. El ferrocarril subterráneo convierte en realidad una fábula de la época e imagina una verdadera red de estaciones clandestinas unidas por raíles bajo tierra que cruzan el país. En su huida, Cora recorrerá los diferentes estados, y en cada parada se encontrará un mundo completamente diferente, mientras acumulan decepciones en el transcurso de una bajada a los infiernos de la condición humana. Aun así, también habrá destellos de humanidad que le harán mantener la esperanza... Adaptación de la aclamada novela de 2017 "El ferrocarril subterráneo" escrita por Colson Whitehead, por la que recibió el Premio Pulitzer 2017 y el National Book Award.</info>
+<thumbnail>https://i.imgur.com/Qfh5Czu.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -373,11 +400,29 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]En el corredor de la muerte[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/En.el.corredor.de.la.muerte.txt</externallink>
+<info>Miniserie de TV (2019). 4 episodios. 27 de enero de 1994. Los cuerpos de un hombre y dos modelos de 25 años aparecen acribillados a tiros en casa del dueño de un club nocturno. La policía encuentra una cámara instalada en el salón de la víctima que ha grabado el asesinato. Esas imágenes son la pista principal de la policía. Se decide distribuir el rostro borroso de uno de los asaltantes. Tres semanas más tarde, en una comisaría de otro distrito, un agente cree reconocer a uno de los asesinos: es Pablo Ibar, un hombre de nacionalidad española al que acababan de detener junto a unos amigos por un robo menor. Pablo asegura que es inocente. Ninguna de las pruebas halladas en el lugar del crimen lo inculpan… Pero de nada sirve. Pablo es condenado y enviado al corredor de la muerte. Esta es la historia de lucha de un hombre por demostrar su inocencia. La historia de una familia que nunca se ha rendido.</info>
+<thumbnail>https://i.imgur.com/VhPRKIL.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]En el ojo de la tormenta[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/En.el.ojo.de.la.tormenta.txt</externallink>
 <info>En el transcurso de un solo día, Silverton es azotada por una serie de tornados sin precedentes. Toda la ciudad está a merced de ciclones erráticos y mortales, mientras que los cazadores de tormentas predicen que lo peor está aún por llegar. La mayoría de las personas buscan refugio, mientras que otras corren hacia el vórtice, poniendo a prueba hasta dónde está dispuesto a llegar un cazador de tormentas para conseguir esa toma que solo se hace una vez en la vida. </info>
 <thumbnail>https://i.imgur.com/p3d3sFR.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]En la ciènaga[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/En.la.cienaga.txt</externallink>
+<info>Serie de TV (2018). 5 episodios. A principios de los 80, una prostituta y el líder de una asociación juvenil son asesinados en un pequeño pueblo polaco. Dos periodistas no se fían de la investigación policial y deciden indagar por su cuenta.</info>
+<thumbnail>https://i.imgur.com/5L2hVrQ.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -436,6 +481,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Ghoul[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Ghoul.txt</externallink>
+<info>Miniserie de TV (2018). 3 episodios. Un prisionero llega a unas remota y siniestra instalación militar para ser interrogado, pero revertirá la situación exponiendo a sus interrogadores a sus más íntimos secretos... </info>
+<thumbnail>https://i.imgur.com/Ky3VYgS.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Halston[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Halston.txt</externallink>
@@ -450,6 +504,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Helstrom.txt</externallink>
 <info>Serie de TV (2020). 10 episodios. Daimon y Ana Helstrom son hijo e hija de un misterioso y poderoso asesino en serie. Los hermanos tienen una dinámica complicada mientras rastrean lo peor de la humanidad aterradora, cada uno con su actitud y habilidades. </info>
 <thumbnail>https://i.imgur.com/G2CWzZC.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Helvetica[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Helvetica.txt</externallink>
+<info>Serie de TV (2019-). 6 episodios. La presidenta de la Confederación Suiza, Kathy Kunz, está en el apogeo de su poder y se dispone a intercambiar bombas ilegales por rehenes retenidos en Yemen. La situación amenaza con agravarse cuando Tina, una limpiadora del Palacio Federal, decide infiltrarse en los pasillos del poder para salvar a su familia.</info>
+<thumbnail>https://i.imgur.com/EJWx7WQ.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -677,6 +740,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Mare.of.Easttown.txt</externallink>
 <info>Serie de TV (2021-). 7 episodios. Una detective de un pequeño pueblo de Pennsylvania investiga un asesinato local mientras intenta que su vida no se desmorone. </info>
 <thumbnail>https://i.imgur.com/Fz0Hy11.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Marvel's Loki[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel.loki.txt</externallink>
+<info>Loki es llevado ante la misteriosa organización llamada Autoridad de Variación Temporal después de robar el Cubo Cósmico durante los eventos de Avengers: Endgame (2019) y se le da a elegir enfrentarse a la eliminación de la realidad o ayudar contra una amenaza mayor,​ por lo cual Loki termina viajando a través del tiempo, alterando la historia humana.</info>
+<thumbnail>https://i.imgur.com/5U2CIyJ.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
