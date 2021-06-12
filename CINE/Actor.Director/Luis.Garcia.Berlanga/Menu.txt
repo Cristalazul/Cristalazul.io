@@ -20,7 +20,7 @@
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param8]'
+url = '[lou.param7]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -96,7 +96,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param8]'
+url = '[lou.param7]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -172,7 +172,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param8]'
+url = '[lou.param7]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
