@@ -8,7 +8,7 @@
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
 <info>[COLOR white][lou.param7][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
@@ -84,7 +84,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
 <info>[COLOR white][lou.param7][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
