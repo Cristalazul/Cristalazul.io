@@ -19,19 +19,19 @@
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
 <info>[COLOR white][lou.param7][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
 <expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/QmvGYfTL</page>
+<page>https://www.dropbox.com/s/4xco1gwww2c8ydx/Marilyn.Monroe.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -95,19 +95,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
 <info>[COLOR white][lou.param7][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/1UW639Xc</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/z4yus8f4fhvgkru/Katharine.Hepburn.txt?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
