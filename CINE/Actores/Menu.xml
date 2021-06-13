@@ -17,19 +17,19 @@
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/HkvY2keZ</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/clt7ka48x7xc669/Burt.Lancaster.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -93,19 +93,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/KSypaFDp</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/lmiwn1ff317vd7v/Charles.Laughton.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -171,19 +171,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/jdPBYU9r</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/4cezfoiukn5e2b9/Edward.G.Robinson.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -249,19 +249,19 @@ En 1967, estuvo considerado para el rol del simio líder Dr. Zaius. en el film d
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/9kQu37nD</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/rvtze98zeqmac9q/Humphrey.Bogart.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -328,19 +328,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/mEZT7Zsi</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/dl92qnmey0rrref/James.Cagney.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -406,19 +406,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/8bThCeTd</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/bc4jn9h5m9ulr96/Orson.Welles.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -482,19 +482,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/Edk3bmQT</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/0c2tuckrsl9l5va/Paul.Muni.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -558,19 +558,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/UQCKF7DD</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/6gv69npcoaas9md/Peter.Lorre.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
@@ -635,19 +635,19 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>lou</name>
 <listrepeat><![CDATA[
-<title>[COLOR white][lou.param2] [COLOR orange][COLOR gold][lou.param3][/COLOR]</title>
-<info>[COLOR white][lou.param7][/COLOR]</info>
+<title>[COLOR white][lou.param1] [COLOR orange][COLOR gold][lou.param2][/COLOR]</title>
+<info>[COLOR white][lou.param8][/COLOR]</info>
 <link>$doregex[selecion_inteligente]</link>
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
-<page>https://pastebin.com/raw/y2gv82t5</page>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<page>https://www.dropbox.com/s/rck6eofjlziagrr/Sean.Connery.xml?dl=1</page>
 </regex>
 <regex>
 <name>multi</name>
 <expres><![CDATA[#$pyFunction
-url = '[lou.param7]'
+url = '[lou.param8]'
 title = '[lou.param1]'
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 import re,json
