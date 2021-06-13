@@ -38,6 +38,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Antidisturbios[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Antidisturbios.xml</externallink>
+<info>Miniserie de TV (2020). 6 episodios. Seis antidisturbios ejecutan un problemático desahucio en el centro de Madrid, pero el desalojo se complica y sucede una tragedia. Un equipo de Asuntos Internos de la Policía será el encargado de investigar los hechos, ante los cuales los seis policías podrían enfrentarse a una acusación de graves consecuencias. El grupo de agentes busca una salida por su cuenta, complicando aún más la situación. La joven Laia Urquijo, una de las agentes de Asuntos Internos, se obsesiona con el caso y comienza a investigar, descubriendo poco a poco mucho más de lo que jamás hubiera imaginado.</info>
+<thumbnail>https://i.imgur.com/Vypsige.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Beartown[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Beartown.txt</externallink>
@@ -91,6 +100,23 @@
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
+<item>
+<title>[COLOR gold]* [COLOR white]Bodyguard[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Bodyguard.xml</externallink>
+<info>Miniserie de TV (2018). 6 episodios. David Budd es un veterano de guerra que trabaja como especialista en protección para la Policía Metropolitana de Londres. Cuando se le asigna proteger a la ministra Julia Montague, cuya visión política apoya todo lo que él detesta, Budd se encuentra en una encrucijada entre su labor y sus creencias. Aunque él es responsable de su seguridad, quizá ella sea su mayor amenaza.</info>
+<thumbnail>https://i.imgur.com/UW34zbi.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Bosque adentro[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Bosque.adentro.xml</externallink>
+<info>Tras el hallazgo de un cadáver, un fiscal de Varsovia recupera la esperanza de encontrar a su hermana, desaparecida hace 25 años.</info>
+<thumbnail>https://i.imgur.com/2RVC8jI.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
 
 <item>
 <title>[COLOR gold]* [COLOR white]Bruja Escarlata y Vision[/COLOR]</title>  
@@ -98,6 +124,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Bruja.Escarlata.y.Vision.txt</externallink>
 <info>Miniserie de TV (2021). 9 episodios. Combinando el estilo clásico de las sitcoms con el MCU (Universo Cinematográfico de Marvel), cuenta la historia Wanda Maximoff y Vision, dos seres con superpoderes que viven una vida idílica en las afueras de una ciudad hasta que un día comienzan a sospechar que no todo es lo que parece. </info>
 <thumbnail>https://i.imgur.com/2wg0MqE.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Buscarse la vida en Brooklyn[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Buscarse.la.vida.en.Brooklyn.txt</externallink>
+<info>Los cómicos Dan Perlman y Kevin Iso interpretan a unas versiones ficcionadas de ellos mismos en esta comedia semiautobiográfica de 10 episodios de media hora. En la serie, interpretan a dos amigos del mismo vecindario, colegas de toda la vida, que buscan ir más allá de su anodina rutina y luchan por salir adelante en Flatbush, Brooklyn. El día a día de estos 'millennials' en un ambiente de barrio marginal y con estética 'indie' da lugar a todo tipo de gags, reflexiones y crítica social como los relacionados con los 'hipsters', los problemas de salud mental y la creciente ola de gentrificación.</info>
+<thumbnail>https://i.imgur.com/WQt6GRo.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -852,6 +887,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Paraiso[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Paraiso.xml</externallink>
+<info>Serie de TV (2021). 8 episodios. Levante, 1992, final del verano en un pueblo de la costa. Sandra, Eva y Malena, de 15 años, desaparecen en una discoteca sin dejar rastro. La policía no parece estar buscando en la dirección correcta, y por eso Javi, el hermano pequeño de Sandra, comienza una investigación junto a Quino y Álvaro, sus mejores amigos, y Zeta, el matón de la clase. Juntos descubren que quienes tienen a su hermana no son de este mundo.</info>
+<thumbnail>https://i.imgur.com/PTyfWpK.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Parot[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Parot</externallink>
@@ -884,6 +928,24 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Por.h.o.por.b</externallink>
 <info>Serie de TV (2020-Actualidad). Con el madrileño barrio de Malasaña convertido en un personaje más, contará la historia de Hache y Belén, dos amigas de Parla que, tras años sin hablarse, se reencuentran en su nueva vida en el centro de la ciudad. El inevitable choque cultural entre los dos mundos dará lugar a una catástrofe de divertidas proporciones. </info>
 <thumbnail>https://i.imgur.com/tWCx2aB.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Por qué matan las mujeres[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Por.que.matan.a.las.mujeres.xml</externallink>
+<info>Se centra en la vida de tres mujeres que viven en distintas décadas: un ama de casa en los años 60, una celebridad en los 80 y una abogada en el 2019. Cada una trata de lidiar con las infidelidades de sus maridos a su manera.</info>
+<thumbnail>https://i.imgur.com/tIBd7Cb.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Presunto culpable[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Presunto.culpable</externallink>
+<info>Serie de TV (2018). 13 episodios. Ambientada en un pequeño e idílico pueblo pesquero del País Vasco, 'Presunto Culpable' cuenta la historia de Jon Arístegui, un investigador que vive en París y que, tras un terrible suceso, se verá obligado a volver al pueblo en el que nació y que abandonó seis años atrás. Allí tendrá que enfrentarse a los fantasmas de su pasado y a un misterio que nunca llegó a resolverse: la desaparición de su novia, Anne.</info>
+<thumbnail>https://i.imgur.com/ncgjaUx.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -1193,6 +1255,15 @@ Sexta temporada (SPOILER DE LA 5ª): La temporada 6 de Vikings regresa tras la b
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Yasuke.txt</externallink>
 <info>Serie de TV (2021). 6 episodios. Yasuke es un esclavo africano que llega a Japón en el siglo XVI y es acogido bajo la tutela del señor de la guerra Oda Nobunaga. En esta historia, Yasuke busca la paz tras una existencia llena de violencia, pero cuando en el pueblo en el que se encuentra se produce una trifulca social, Yasuke deberá trasnportar a un misterioso niño y evitar a los que le quieren capturar. </info>
 <thumbnail>https://i.imgur.com/yrGxOMG.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]You[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/You.xml</externallink>
+<info>Se trata de un thriller basado en el amor y en las redes sociales. ... You es una historia de amor ambientada en el siglo XXI sobre un veinteañero obsesivo pero brillante que usa la híper conectividad que ofrece la tecnología moderna para hacer que la mujer de sus sueños se enamore de él.</info>
+<thumbnail>https://i.imgur.com/32EY5I9.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
