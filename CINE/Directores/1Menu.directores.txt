@@ -548,7 +548,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CINE/Directores/Menu.Garcia.Berlanga.txt</externallink>
 <info>Miniserie de TV de 8 episodios (2016). El 22 de noviembre de 1963, los disparos que acabaron con la vida del Presidente Kennedy cambiaron el mundo. El profesor Jake Epping (James Franco) intenta viajar al pasado para impedir el magnicidio, pero su misión se verá amenazada. </info>
-<thumbnail>https://i.imgur.com/4CLljge.jpg</thumbnail>
+<thumbnail>https://i.imgur.com/8r38fBE.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
