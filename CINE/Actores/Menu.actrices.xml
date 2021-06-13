@@ -25,7 +25,7 @@
 <thumbnail>[lou.param5]</thumbnail>
 <fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
+<expres><![CDATA[(?s)<title>(.*?)-.*?(.*?)<.*?<genre>(.*?)<.*?<year>(.*?)<.*?thumbnail>(.*?)<.*?fanart>(.*?)<.*?info>(.*?)<urlsolve>(.*?)<.*?]]></expres>
 <page>https://www.dropbox.com/s/4xco1gwww2c8ydx/Marilyn.Monroe.xml?dl=1</page>
 </regex>
 <regex>
