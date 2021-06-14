@@ -62,7 +62,7 @@
 
 
 <item>
-<title>[COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>a6 [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -236,7 +236,7 @@ $doregex[reparar_proxies]
 import requests,six
 def GetLSProData(page_data,Cookie_Jar,m):
     #oficial https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/proxieshttps://pastebin.com/raw/GDkjkYh6
-    pasta = requests.get('https://pastebin.com/raw/GDkjkYh6', verify=False).text
+    pasta = requests.get('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/CONECTORES/proxies', verify=False).text
     return six.ensure_str(pasta)
 ]]></expres>
 <page></page>
@@ -263,6 +263,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,titulo=titulo,foto=foto):#cLrJIh
       iframe = re.findall('(?s)iframe.*?src=[\'"]([^\'"]+)', html)[0]
       html1 = requests.get(iframe, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text
       html1 = six.ensure_str(html1)
+      ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
+      open(ArchivoDestino + 'adictos_wigi.txt','wb').write(six.ensure_binary(html1))
       try:
           url2 = re.findall('source.*?[\'"](.*?m3u8.*?)[\'"]', html1)[0]
       except:
