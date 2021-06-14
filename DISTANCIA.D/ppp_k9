@@ -62,7 +62,7 @@
 
 
 <item>
-<title>[COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>a6 [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -270,7 +270,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,titulo=titulo,foto=foto):#cLrJIh
           unpack=jsunpack.unpack(pack)
           ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
           open(ArchivoDestino + 'adictos_wigi.txt','wb').write(six.ensure_binary(unpack))
-          url2 = re.findall('(?s)(?:sources|src):.*?[\'"]([^\'"]+)"', unpack)[0] + '|Referer=' + url
+          url2 = re.findall('[\'"](https://.*?m3u8.*?)[\'"]', unpack)[0] + '|Referer=' + url
       return url2
     elif 'f4m=' in url:
       url = url[4:]
