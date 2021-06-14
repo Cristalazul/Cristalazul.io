@@ -62,7 +62,7 @@
 
 
 <item>
-<title>[COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>a6 [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -228,7 +228,7 @@ TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
 $doregex[reparar_proxies]
 ]]></expres>
 <page></page>
-<cookieJar></cookieJar>
+<cookiejar></cookiejar>
 </regex>
 <regex>
 <name>reparar_proxies</name>
@@ -286,6 +286,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,titulo=titulo,foto=foto):#cLrJIh
     return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
 ]]></expres>
 <page></page>
+<notplayable>True</notplayable>
 </regex>
 <regex>
 <name>plugin</name>
