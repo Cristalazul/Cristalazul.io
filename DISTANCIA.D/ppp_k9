@@ -62,7 +62,7 @@
 
 
 <item>
-<title>a6 [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>[COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -276,7 +276,9 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,titulo=titulo,foto=foto):#cLrJIh
       url = url[4:]
       return '/?streamtype=HLSRETRY&url='+url
     elif 'acestream=' in url:
-      return ''
+      Acestream = url[10:]
+      lanzar_horus = 'plugin://script.module.horus/?{}'.format(urlencode({'id': Acestream, 'action': 'play', 'title': titulo, 'iconimagen': foto}))
+      return lanzar_horus
     else:
       return url
   else:
