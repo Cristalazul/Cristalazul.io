@@ -62,7 +62,7 @@
 
 
 <item>
-<title>a6 [COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
+<title>[COLOR lightskyblue]Estable [COLOR orangered]Chikiry_Cristal TV HD[/COLOR]</title>
 <link>$doregex[A]</link>
 <regex>
 <name>A</name>
@@ -263,13 +263,13 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url,titulo=titulo,foto=foto):#cLrJIh
       iframe = re.findall('(?s)iframe.*?src=[\'"]([^\'"]+)', html)[0]
       html1 = requests.get(iframe, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0', 'Referer': url}, verify=False).text
       html1 = six.ensure_str(html1)
-      ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
-      open(ArchivoDestino + 'adictos_wigi.txt','wb').write(six.ensure_binary(html1))
       try:
           url2 = re.findall('source.*?[\'"](.*?m3u8.*?)[\'"]', html1)[0]
       except:
           pack = re.findall('(eval\(function\(p,a,c,k,e,d.*)', html1)[0]
           unpack=jsunpack.unpack(pack)
+          ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
+          open(ArchivoDestino + 'adictos_wigi.txt','wb').write(six.ensure_binary(unpack))
           url2 = re.findall('(?s)(?:sources|src):.*?[\'"]([^\'"]+)"', unpack)[0] + '|Referer=' + url
       return url2
     elif 'f4m=' in url:
