@@ -57,6 +57,189 @@
 
 
 
+<item>
+<title>[COLOR gold]* [COLOR lightgreen]Cristal[COLOR white] (directos)[/COLOR]</title>
+ <link>$doregex[makelist2]</link>
+ <regex>
+ <name>makelist2</name>
+ <listrepeat><![CDATA[
+<title>[COLOR lightskyblue][CAPITALIZE][makelist2.param1][/CAPITALIZE] - [COLOR white]$doregex[emitiendo][/COLOR]</title>
+<link>$doregex[plugin]$doregex[depen]</link>
+<thumbnail>[makelist2.param2]</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests,base64,shutil
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+def GetLSProData(page_data,Cookie_Jar,m):
+ 
+  try:
+    estamos = xbmcaddon.Addon('plugin.video.blackghost')
+    version = estamos.getAddonInfo('version')
+    if '.' in version:
+      addon_path = TRANSLATEPATH('special://home/addons').decode('utf-8')
+      shutil.rmtree(addon_path, ignore_errors=True)
+      return 'https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5'
+    else:
+      xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+      return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+  except:
+    id = xbmcaddon.Addon().getAddonInfo('id')
+    if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
+      past = urllib_request.urlopen('https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/DISTANCIA.D/PICADD').read()
+      past = six.ensure_str(past)
+      extraer = 'http://bit.ly/' + past[:1] + past[2:]
+      extraer2 = urllib_request.urlopen(extraer).read()
+      extraer2 = six.ensure_str(extraer2)
+      return re.findall("""(?s)"name": "(.*?)".*?"image": "(.*?)".*?"url": "(.*?)".*?"embed": "(.*?)'""", extraer2)
+    else:
+      xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+      return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>emitiendo</name>
+<expres><![CDATA[(?s)[makelist2.param4].*?ahora">\n\s\s\s(.*?)\n]]></expres>
+<page>http://www.formulatv.com/programacion/movistarplus/</page>
+</regex>
+<regex>
+<name>plugin</name>
+<expres><![CDATA[#$pyFunction
+url = '[makelist2.param3]'
+def GetLSProData(page_data,Cookie_Jar,m,url=url):#cPrLItsLTfakl
+ 
+  if 'f4m=' in url:
+    return 'plugin://plugin.video.f4mTester'
+  else:
+    return ''
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>multi</name>
+<expres><![CDATA[#$pyFunction
+url = '[makelist2.param3]'
+title = '[makelist2.param1]'
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+import re,json
+def GetLSProData(page_data,Cookie_Jar,m,url=url,title=title):
+
+    if '{' in url[:5]:
+        items = json.loads('['+url+']')
+        dialog = xbmcgui.Dialog()
+        seleccion = []
+        enlaces = []
+        for item in items:
+            seleccion.append(item['titulo'])
+            enlaces.append(item['url'])
+        titulo = dialog.select('seleciona enlace: '+title, seleccion)
+        if (titulo < 0):
+            dialog = xbmcgui.Dialog()
+            dialog.notification("Cristal Azul", "Reproduccion cancelada!!!",
+                            xbmcgui.NOTIFICATION_INFO, 5000, False)
+            return
+        return enlaces[titulo]
+    else:
+      if '104 116 116 112 115'==url[:17]:
+          return desencriptar()
+      elif '106 98 98 114 114'==url[:17]:
+        return 'https' + desencriptar()[5:]
+      else:
+        return url
+def desencriptar():
+  s = url
+  def enc(s):
+    d=''
+    s=s.split(' ')
+    for strchar in s:
+        d += chr(int(strchar)-0)
+    return d
+  return enc(s)
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>depen</name>
+<expres><![CDATA[#$pyFunction
+finalurl = '$doregex[multi]'
+titulo = '[makelist2.param1]'
+foto = '[makelist2.param2]'
+import re,requests,resolveurl,base64,shutil
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves.urllib_parse import urlencode
+from six.moves import urllib_request
+import six
+def GetLSProData(page_data,Cookie_Jar,m,finalurl=finalurl,titulo=titulo,foto=foto):#cLrJIhsDApL
+
+  if 'f4m=' in finalurl:
+    url = finalurl[4:]
+    return '/?' + url
+  elif 'DiRecto=' in finalurl:
+     return finalurl[8:]
+  elif 'm3u8' in finalurl:
+     return finalurl
+  elif 'shidurlive' in finalurl:
+    try:
+     html = requests.get(finalurl).text
+     html = six.ensure_str(html)
+     if 'OFFLINE'==re.findall('badge badge.*?>(.*?)<',html)[0]:
+       return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold]Enlace No Activado todavia...[/COLOR], 6000)")
+     else:
+       return re.findall('Clappr.Player[\w\W]*?(?:source|src):\s*[\'"]([^\'"]+)',html)[0]
+    except:
+       return re.findall('Clappr.Player[\w\W]*?(?:source|src):\s*[\'"]([^\'"]+)',html)[0]
+  elif 'smashcast' in finalurl:
+     link = finalurl.replace('https://www.smashcast.tv/','')
+     urllink = 'https://www.smashcast.tv/api/player/config/live/' + link + '?redis=true&ssl=true&autoplay=true&embed=false&no_interruption=false&qos=false&showHidden=true&ssl=true&subscribed=false'
+     extraer = urllib_request.urlopen(urllink).read()
+     extraer = six.ensure_str(extraer)
+     return re.findall('"url":"(.*?)"', extraer)[0].replace('\/','/')
+  elif '//vk.' in finalurl:
+     agente = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0', 'Referer': 'https://vk.com/'}
+     extraer = requests.get(finalurl, headers=agente)
+     extraer = six.ensure_str(extraer)
+     AgenteCristal = re.findall('hls":"(.*?)"', extraer.text)[0]
+     return AgenteCristal.replace('\/','/')
+  elif 'mp4' in finalurl:
+     return finalurl
+  elif ':0:0' in finalurl:
+     return finalurl
+  elif 'mp3' in finalurl:
+     return finalurl
+  elif 'no_enlace' in finalurl:
+     return xbmc.executebuiltin('Notification([COLOR white]Lo sentimos ![/COLOR],[COLOR gold]esto no es un enlace[/COLOR], 5000)')
+  elif not 'http' in finalurl:
+     xbmc.executebuiltin('Notification([COLOR white]Intentando Reproducir[COLOR gold] Acestream[/COLOR],[COLOR gold]Necesario Horus y Acestream[/COLOR], 5000)')
+     lanzar_horus = 'plugin://script.module.horus/?{}'.format(urlencode({'id': finalurl, 'action': 'play', 'title': titulo, 'iconimagen': foto}))
+     return lanzar_horus
+  else:
+   try:
+       u = resolveurl.resolve(finalurl)
+   except:
+       u = finalurl
+   return u
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>vk</name>
+<expres>hls":"(.*?)"</expres>
+<page>[makelist2.param3]</page>
+<referer>https://vk.com/</referer>
+ <agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:61.0) Gecko/20100101 Firefox/61.0</agent>  
+ <cookiejar></cookiejar>
+</regex>
+<thumbnail>https://i.imgur.com/VqyKLMp.jpg</thumbnail>
+<fanart>http://www.arturogoga.com/wp-content/uploads/2009/12/image4.png</fanart>
+</item>
+
+
+
+
 
 
 
