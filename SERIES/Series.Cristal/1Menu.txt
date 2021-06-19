@@ -408,6 +408,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]El Nudo[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.Nudo.txt</externallink>
+<info>Serie de TV (2019). 13 episodios. Narra el relato de dos parejas de mediana edad en una historia que se cuenta en dos tiempos, que arranca con un accidente, y en la que se habla de relaciones humanas y segundas oportunidades. Daniel, hijo único de una familia adinerada e influyente dedicada a la educación, sufre un accidente de coche y es ingresado muy grave en el hospital. A la espera de noticias, su madre, Miriam, y su esposa, Rebeca, empiezan a llamar a sus conocidos para informar de la situación, incluyendo a Sergio, el marido de la mejor amiga de Rebeca, Cristina. Las vidas de Rebeca, Sergio y Cristina se comienzan a tambalear cuando se descubre que en el coche también iba una mujer desconocida que, justo antes del accidente, se estaba yendo sin dejar rastro. La historia de la serie está desarrollada en dos tiempos: en el pasado, donde se narra una historia de amor prohibido entre las dos parejas que tiene mucho que ver con el accidente; y en el presente, donde se inicia una investigación en torno al accidente. </info>
+<thumbnail>https://i.imgur.com/sdAiouh.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]El padrino de Harlem[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.padrino.de.Harlem</externallink>
@@ -435,11 +444,11 @@
 </item>
  
 <item>
-<title>[COLOR gold]* [COLOR white]El Nudo[/COLOR]</title>     
+<title>[COLOR gold]* [COLOR white]Elite: Historias breves[/COLOR]</title>     
 <link>cristalazul</link>
-<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.Nudo.txt</externallink>
-<info>Serie de TV (2019). 13 episodios. Narra el relato de dos parejas de mediana edad en una historia que se cuenta en dos tiempos, que arranca con un accidente, y en la que se habla de relaciones humanas y segundas oportunidades. Daniel, hijo único de una familia adinerada e influyente dedicada a la educación, sufre un accidente de coche y es ingresado muy grave en el hospital. A la espera de noticias, su madre, Miriam, y su esposa, Rebeca, empiezan a llamar a sus conocidos para informar de la situación, incluyendo a Sergio, el marido de la mejor amiga de Rebeca, Cristina. Las vidas de Rebeca, Sergio y Cristina se comienzan a tambalear cuando se descubre que en el coche también iba una mujer desconocida que, justo antes del accidente, se estaba yendo sin dejar rastro. La historia de la serie está desarrollada en dos tiempos: en el pasado, donde se narra una historia de amor prohibido entre las dos parejas que tiene mucho que ver con el accidente; y en el presente, donde se inicia una investigación en torno al accidente. </info>
-<thumbnail>https://i.imgur.com/sdAiouh.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Elite.Historias.breves.xml</externallink>
+<info>Miniserie de TV (2021). 12 episodios. Las historias tienen lugar durante el verano antes del inicio del nuevo año en Las Encinas. En las cuatro historias, se explorarán diferentes tramas individuales y conjuntas de algunos de los estudiantes más veteranos de Las Encinas y quizás de los más nuevos, revelando lo que han sido en el último verano antes de comenzar su nuevo año escolar.</info>
+<thumbnail>https://i.imgur.com/ZreuaNo.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
