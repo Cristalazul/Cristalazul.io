@@ -437,7 +437,7 @@ from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
 TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
-url = 'https://pastebin.com/raw/zrT3hb3m'
+url = 'https://pastebin.com/raw/J6Medbzk'
 titulo = 'Élite Historias Breves'
 import base64, codecs
 
