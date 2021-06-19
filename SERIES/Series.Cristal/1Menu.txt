@@ -155,6 +155,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Capitani[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Capitani.xml</externallink>
+<info>Series de TV (2019–2020). 12 episodios. El cuerpo sin vida de una adolescente es encontrado en el bosque cerca del pueblo de Manscheid, al norte de Luxemburgo. Luc Capitani, un hosco detective del sur del país, es el responsable del caso. Tras encontrar ciertos problemas con el estilo comunal de los habitantes del pueblo, Capitani ve cómo poco a poco depende cada vez más de la ayuda de Elsa Ley, una joven e intrépida policía local. Ambos se verán rápidamente sumidos en una red de secretos y mentiras. </info>
+<thumbnail>https://i.imgur.com/0oZyjXr.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Castillo de naipes (House of Cards)[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Castillo.de.naipes.txt</externallink>
@@ -233,6 +242,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Detras.de.sus.ojos.txt</externallink>
 <info>Serie de TV (2021). 6 episodios. Una madre soltera se adentra en un mundo de manipulaciones perversas al iniciar un amorío con su jefe y una amistad secreta con su enigmática esposa. </info>
 <thumbnail>https://i.imgur.com/hbGCCZY.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Deutschland[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Deutschland.txt</externallink>
+<info>Serie de TV (2020). 8 episodios. Tercera y última entrega de la saga alemana iniciada con 'Deutschland 83' y 'Deutschland 86'. El 9 noviembre de 1989, Alemania se ve sacudida por la caída del Muro de Berlín, mientras el clima de revolución pacífica se extiende por todo el mundo. Martin Rauch (Jonas Nay), considerado ya uno de los mejores espías de la RDA, pierde por completo su identidad y su hogar. Tanto él como sus camaradas de la Agencia Internacional de Inteligencia de Alemania del Este se encuentran desorientados: su gobierno ha colapsado, la organización está sumida en el caos y el futuro es incierto. ¿Cuál es el próximo camino a elegir? ¿Unirse al Gran Hermano en el KGB? ¿Desplazarse al oeste y trabajar para una agencia del enemigo? ¿Recurrir a los contactos internacionales para empezar una nueva vida? Ante la llegada inminente de un nuevo orden mundial, sólo queda reinventarse.</info>
+<thumbnail>https://i.imgur.com/OlMacKm.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -394,15 +412,6 @@
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.padrino.de.Harlem</externallink>
 <info>Cuenta la historia real del gángster Bumpy Johnson (Forest Whitaker), que se abre camino en Harlem durante los años 60 después de pasar diez años en prisión. Cuando vuelve al barrio que una vez fue suyo se lo encuentra prácticamente en ruinas. Con las calles controladas por la mafia italiana, Bumpy debe imponerse a la mafia genovesa para recuperar el control de la ciudad. Durante una brutal batalla forma una inesperada alianza con el radical Malcolm X, aprovechándose de su discurso político para tratar de evitar el caos social y la guerra entre clanes que se avecina. </info>
-<thumbnail>https://i.imgur.com/8jC0DDX.jpg</thumbnail>
-<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR gold]* [COLOR white]El padrino de Harlem[/COLOR]</title>     
-<link>cristalazul</link>
-<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/El.nino.ciervo</externallink>
-<info>Un cataclismo ha devastado el mundo. Gus, mitad chico y mitad ciervo, se une a una variopinta familia de niños híbridos como él para buscar respuestas a lo ocurrido. </info>
 <thumbnail>https://i.imgur.com/33pJlh3.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
@@ -842,6 +851,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]New Amsterdam[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/New.amsterdam.xml</externallink>
+<info>Serie de TV (2018-Actualidad). 2 Temporadas. 40 Episodios. El New Amsterdam se encuentra en una mala situación tanto económica como de reputación. Esto cambiará con la llegada del Dr. Max Goodwin, el nuevo director médico que se propone romper con la burocracia y brindar una atención excepcional. Él no acepta un "no" por respuesta y demostrará que no se detendrá ante nada para dar una nueva vida al hospital, el único en el mundo capaz de tratar a pacientes con ébola y aceptar bajo el mismo techo tanto a presidiarios como al Presidente de Estados Unidos</info>
+<thumbnail>https://i.imgur.com/GYSxp5D.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]No hables con extraños[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/No.hables.con.extranos.txt</externallink>
@@ -883,6 +901,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Panic.txt</externallink>
 <info>10 episodios. Adolescentes compiten en un juego peligroso en el que pueden tener la oportunidad de escapar de su pequeña ciudad rural. </info>
 <thumbnail>https://i.imgur.com/mfrBjqf.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]¡Papá, córtate un poco![/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Papa.cortate.un.poco.txt</externallink>
+<info>Un padre soltero y dueño de una compañía de cosméticos choca de frente con la paternidad cuando su obstinada hija adolescente se muda con él.</info>
+<thumbnail>https://i.imgur.com/Msc4BKK.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -1221,12 +1248,39 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Trese[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Trese.xml</externallink>
+<info>Si la policía es incapaz de proteger Manila de amenazas sobrenaturales, Alexandra Trese será la encargada de hacerlo. Basada en un galardonado cómic filipino.</info>
+<thumbnail>https://i.imgur.com/WzNgdsm.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Valeria[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Valeria.xml</externallink>
+<info>Serie de TV (2020-Actualidad). Primera temporada: 8 episodios. Valeria es una escritora en crisis, tanto por sus novelas como por su marido y la distancia emocional que les separa. Por todo ello Val se refugia en sus mejores amigas: Carmen, Lola y Nerea, quienes la apoyan durante su viaje emocional. Las tres están inmersas en un torbellino de emociones sobre amor, amistad, celos, infidelidad, dudas, desamores, secretos, trabajo, preocupaciones, alegrías y sueños sobre el futuro.</info>
+<thumbnail>https://i.imgur.com/ifhbxAF.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Veneno[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Veneno.txt</externallink>
 <info>Miniserie de TV (2020). 8 episodios. Miniserie sobre una famosa y controvertida transexual de los años 90 conocida como "la Veneno". Una serie inspirada en las memorias oficiales de Cristina Ortiz, "la Veneno", tituladas "¡Digo! Ni puta ni santa", escritas por Valeria Vegas, que cuenta la historia de la realidad transexual en España desde los años 60 hasta la actualidad. Cuando la autora del libro, Valeria, era una niña pequeña, nunca entendió por qué la gente la llamaba por un nombre que no era el suyo. Lo mismo le ocurrió a Cristina, por entonces llamada “Joselito”, que tuvo que sobrevivir a una violenta y cruel infancia en la España de los 60. Dos mujeres que nacieron en épocas muy diferentes pero que, por casualidad o por el destino, acaban unidas para siempre, cuando Valeria, estudiante de Periodismo, decide escribir un libro sobre la vida del icónico y mediático personaje. Adorada por su carisma y su forma de expresarse, libre, deslenguada y divertida, "la Veneno" alcanzó la popularidad gracias a sus apariciones televisivas en los años 90. Sin embargo, su vida y -sobre todo- su muerte siguen siendo un enigma.
 </info>
 <thumbnail>https://i.imgur.com/aRJ9DbU.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Vergüenza[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Verguenza.xml</externallink>
+<info>Jesús y Nuria son una pareja normal con una vida normal, es decir, en crisis permanente. Él es fotógrafo de bodas y bautizos, pero se cree llamado a algo más sublime: la "fotografía artística". Ella, con una inestable situación laboral, teme no llegar a alcanzar los objetivos con los que soñó siendo más joven. Juntos, además, tienen un pequeño gran problema. En cualquier situación, están abocados a hacer siempre el ridículo delante de sus amigos y familiares, quedando fatal de la forma más incómoda. ¿Ha contagiado Jesús a Nuria la maldición de dar vergüenza ajena? ¿Hay una cura posible para la grima social?</info>
+<thumbnail>https://i.imgur.com/GU0MBMv.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
