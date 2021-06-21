@@ -76,7 +76,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
         id_url = 'url'
     else:
         id_url = 'id'
-    lanzar_horus = 'plugin://script.module.horus/?{}'.format(urlencode({'action': 'play', id_url: Acestream, 'title': 'titulo', 'iconimagen': 'http'}))
+    lanzar_horus = 'plugin://script.module.horus/?{}'.format(urlencode({'action': 'play', id_url: Acestream, 'title': 'titulo', 'iconimagen': 'https://i.imgur.com/yGTsSPk.jpg'}))
     return lanzar_horus
 ]]></expres>
 <page></page>
