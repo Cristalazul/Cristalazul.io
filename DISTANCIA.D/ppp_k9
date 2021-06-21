@@ -57,7 +57,7 @@
 
 
 <item>
-<title>[COLOR white] pruebas horus[/COLOR]</title>
+<title>[COLOR white]aa pruebas horus[/COLOR]</title>
 <link>$doregex[llamada]</link>
 <regex>
 <name>llamada</name>
@@ -72,7 +72,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
     Acestream = six.ensure_str(id)
     if Acestream == '':
         Acestream = 'magnet:?xt=urn:btih:1adbaf3f59a5c9ad012ba25a2f6bcf93f6836e32'
-    if in Acestream '.torrent' or in Acestream 'magnet':
+    if '.torrent' in Acestream or 'magnet' in Acestream:
         id_url = 'url'
     else:
         id_url = 'id'
