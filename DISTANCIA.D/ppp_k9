@@ -58,6 +58,38 @@
 
 
 <item>
+<title>[COLOR white]pruebas horus[/COLOR]</title>
+<link>$doregex[llamada]</link>
+<regex>
+<name>llamada</name>
+<expres><![CDATA[#$pyFunction
+from kodi_six import xbmc,xbmcgui
+from six.moves import urllib_parse
+import six
+def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
+
+    id = xbmcgui.Dialog().input('Insertar Acestream: ', type=xbmcgui.INPUT_ALPHANUM)
+    #Acestream = urllib_parse.quote_plus(six.ensure_str(id))
+    Acestream = six.ensure_str(id)
+    if Acestream == '':
+        Acestream = '21740ae9cd48ab593e8470a657cf71a85e7a04e4'
+    llamada = 'plugin://script.module.horus/?url=' +Acestream+ 'action=play&=Canal&iconimage=http'
+    return llamada
+]]></expres>
+<page></page>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+
+
+
+
+
+<item>
 <title>[COLOR gold]* [COLOR lightgreen]Cristal[COLOR white] (directos)[/COLOR]</title>
  <link>$doregex[makelist2]</link>
  <regex>
