@@ -58,7 +58,7 @@
 
 
 <item>
-<title>[COLOR white]pruebas horus[/COLOR]</title>
+<title>[COLOR white]a6 pruebas horus[/COLOR]</title>
 <link>$doregex[llamada]</link>
 <regex>
 <name>llamada</name>
@@ -73,7 +73,7 @@ def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
     Acestream = six.ensure_str(id)
     if Acestream == '':
         Acestream = '21740ae9cd48ab593e8470a657cf71a85e7a04e4'
-    llamada = 'plugin://script.module.horus/?url=' +Acestream+ 'action=play&=Canal&iconimage=http'
+    llamada = 'plugin://script.module.horus/?action=play&url=' + Acestream
     return llamada
 ]]></expres>
 <page></page>
