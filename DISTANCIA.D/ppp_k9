@@ -57,7 +57,7 @@
 
 
 <item>
-<title>[COLOR white]a6 pruebas horus[/COLOR]</title>
+<title>[COLOR white] pruebas horus[/COLOR]</title>
 <link>$doregex[llamada]</link>
 <regex>
 <name>llamada</name>
@@ -69,11 +69,14 @@ import six
 def GetLSProData(page_data,Cookie_Jar,m,):#cPrLItsLTfakl
 
     id = xbmcgui.Dialog().input('Insertar Acestream: ', type=xbmcgui.INPUT_ALPHANUM)
-    #Acestream = urllib_parse.quote_plus(six.ensure_str(id))
     Acestream = six.ensure_str(id)
     if Acestream == '':
         Acestream = 'magnet:?xt=urn:btih:1adbaf3f59a5c9ad012ba25a2f6bcf93f6836e32'
-    lanzar_horus = 'plugin://script.module.horus/?{}'.format(urlencode({'action': 'play', 'url': Acestream, 'title': 'titulo', 'iconimagen': 'http'}))
+    if in Acestream '.torrent' or in Acestream 'magnet':
+        id_url = 'url'
+    else:
+        id_url = 'id'
+    lanzar_horus = 'plugin://script.module.horus/?{}'.format(urlencode({'action': 'play', id_url: Acestream, 'title': 'titulo', 'iconimagen': 'http'}))
     return lanzar_horus
 ]]></expres>
 <page></page>
