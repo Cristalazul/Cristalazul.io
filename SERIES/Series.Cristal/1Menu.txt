@@ -38,6 +38,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]American Gothic[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/American.gothic.xml</externallink>
+<info>Serie de TV (2016). Una importante familia de Boston se tambalea tras el escalofriante descubrimiento de que alguno de sus miembros está vinculado a una cadena de infames asesinatos.</info>
+<thumbnail>https://i.imgur.com/OS8ClLS.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Antidisturbios[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Antidisturbios.xml</externallink>
@@ -205,6 +214,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Coyote.txt</externallink>
 <info>Tras 32 años de servicio, el agente de fronteras Ben Clemens (Michael Chiklis) se da cuenta de que en el fondo está ayudando al tipo de gente que ha tratado siempre de mantener fuera de los Estados Unidos. </info>
 <thumbnail>https://i.imgur.com/Uv3Hxyz.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Creedme[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Creedme.xml</externallink>
+<info>Miniserie de TV. 8 episodios. Narra la verdadera historia de Marie, una adolescente que fue acusada de denunciar falsamente haber sido violada, y las dos detectives que siguieron un camino sinuoso para llegar a la verdad. Basada en el artículo ganador del Premio Pulitzer - An Unbelievable Story of Rape.</info>
+<thumbnail>https://i.imgur.com/vDwD5F0.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -606,6 +624,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Interrogation[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Interrogation.xml</externallink>
+<info>Serie de TV (2020). 10 episodios. Serie no lineal que gira entorno a una serie de interrogaciones realizadas con el propósito de resolver crímenes con una o varias décadas de antigüedad.</info>
+<thumbnail>https://i.imgur.com/N45aqyZ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]It's a Sin[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/It's.a.sin.txt</externallink>
@@ -751,6 +778,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Leonardo[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Leonardo.xml</externallink>
+<info>Serie de TV (2021). 8 episodios. Superproducción europea que explora los secretos y dramas detrás del genial artista italiano del Renacimiento. A lo largo de ocho capítulos y ocho de sus principales obras, desde la ‘Mona Lisa’ y su enigmática sonrisa al simbolismo de ‘La última cena’, la serie cuenta la historia del hombre y del genio, a través de una desconocida historia de misterio y pasión.</info>
+<thumbnail>https://i.imgur.com/8afsjGP.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Libertad[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Libertad.txt</externallink>
@@ -842,6 +878,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Maricón Perdido[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Maricon.perdido.txt</externallink>
+<info>Roberto, ¿tú eres marica?. Bea, su mejor y única amiga, es la que pregunta a un Roberto de 12 años, desencadenando una búsqueda de identidad que se alargará hasta diez años más tarde, cuando en Chueca y con vocación de ser escritor, intentará reformular su vida intentando responderse a la pregunta de quién es y cómo ser feliz en un mundo tan hostil. Bob Pop realiza su primera incursión en la creación de series de ficción, inspirándose en episodios de su propia vida, pero con buenas dosis de ficción y fantasía.</info>
+<thumbnail>https://i.imgur.com/wYzyx95.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Marvel's Loki[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel.loki.txt</externallink>
@@ -874,6 +919,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Marvel.the.defenders</externallink>
 <info>Miniserie de TV (2017). 8 episodios. The Defenders sigue a Daredevil (Charlie Cox), Jessica Jones (Krysten Ritter), Luke Cage (Mike Colter) y Iron Fist (Finn Jones). Cuatro héroes únicos con un objetivo común: salvar Nueva York. Esta es la historia de cuatro personas solitarias que sobrellevan sus propios desafíos y entienden que son más fuertes al formar un equipo. </info>
 <thumbnail>https://i.imgur.com/5GFaGJi.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Mindhunter[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Mindhunter.xml</externallink>
+<info>Serie de TV (2017-2019). 2 temporadas. 19 episodios. Año 1977. Dos agentes del FBI (Jonathan Groff y Holt McCallany) revolucionan las técnicas de investigación para encontrar las respuestas a cómo atrapar a asesinos en serie y mentes psicópatas. Adaptación del libro "Mind Hunter: Inside FBI’s Elite Serial Crime Unit", escrito por Mark Olshaker y John E. Douglas.</info>
+<thumbnail>https://i.imgur.com/SgjqGl2.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -1105,6 +1159,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Rick y Morty[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Rick.y.Morty.txt</externallink>
+<info>Serie de TV (2013-Actualidad). 4 temporadas. 41 episodios. Comedia animada que narra las aventuras de un científico loco, Rick Sánchez, que regresa después de 20 años para vivir con su hija, su marido y sus hijos, Morty y Summer.</info>
+<thumbnail>https://i.imgur.com/difzvH6.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Roadkill[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Roadkill.txt</externallink>
@@ -1277,6 +1340,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]The Rook[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.rook.xml</externallink>
+<info>Una mujer se despierta un día sin saber dónde está o quién es exactamente mientras es perseguida por un grupo de adversarios con fuerzas paranormales. Además de luchar para recuperar su memoria, la joven debe aprender a manejar sus nuevas habilidades para lograr volver a ocupar su cargo como líder del servicio secreto supernatural más importante del Reino Unido.</info>
+<thumbnail>https://i.imgur.com/79BRwMP.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]The Serpent[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Serpent.txt</externallink>
@@ -1345,6 +1417,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Valeria.xml</externallink>
 <info>Serie de TV (2020-Actualidad). Primera temporada: 8 episodios. Valeria es una escritora en crisis, tanto por sus novelas como por su marido y la distancia emocional que les separa. Por todo ello Val se refugia en sus mejores amigas: Carmen, Lola y Nerea, quienes la apoyan durante su viaje emocional. Las tres están inmersas en un torbellino de emociones sobre amor, amistad, celos, infidelidad, dudas, desamores, secretos, trabajo, preocupaciones, alegrías y sueños sobre el futuro.</info>
 <thumbnail>https://i.imgur.com/ifhbxAF.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Valley of Tears[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Valley.of.Tears.txt</externallink>
+<info>Serie de TV (2020). 10 episodios. El 6 de octubre de 1973 comenzó en Oriente Medio la guerra más grande que ha vivido la zona. Una guerra que no fue la última y que cambió por completo a la región.</info>
+<thumbnail>https://i.imgur.com/PmE2rG6.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
