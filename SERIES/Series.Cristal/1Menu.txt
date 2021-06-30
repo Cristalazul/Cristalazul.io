@@ -56,6 +56,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Away[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Away.xml</externallink>
+<info>Serie TV (2020). 10 episodios. La astronauta norteamericana Emma Green (Hilary Swank) se prepara para liderar una tripulación internacional en la primera misión a Marte. Esta gran hazaña en su trayectoria profesional va unida a la difícil decisión de tener que separarse de su marido (Josh Charles) y su hija adolescente (Talitha Bateman) cuando más la necesitan, y al hecho de que quizá no vuelva a verles.</info>
+<thumbnail>https://i.imgur.com/SFKltqx.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Beartown[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Beartown.txt</externallink>
@@ -236,6 +245,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Dark Woods[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Dark.woods.txt</externallink>
+<info>Miniserie de TV. 6 episodios. Inspirada en un crimen real sin resolver durante casi 30 años, la minisierie se centra en la desesperada búsqueda de un oficial de policía de alto rango de su hermana desaparecida, y del sufrimiento de la familia.</info>
+<thumbnail>https://i.imgur.com/BYfW4pG.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Defender a Jacob[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Defender.a.Jacob.txt</externallink>
@@ -296,6 +314,15 @@
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Dom</externallink>
 <info>8 episodios. Narra la historia real de Víctor, un oficial de policía que dedicó su vida a la guerra contra el narcotráfico, y de su hijo Pedro, un chico de clase media de Río de Janeiro que descubrió la cocaína en su adolescencia, se convirtió en un adicto, y eso lo llevó a alzarse finalmente como el líder de una banda criminal que dominó los tabloides de Río de Janeiro a principios de los 2000. </info>
 <thumbnail>https://i.imgur.com/0mImHUd.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Dragones: Hacia nuevos confines[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Dragones.hacia.nuevos.confines.txt</externallink>
+<info>Serie de TV (2015-Actualidad). Los Vikingos de isla Mema y sus antiguos enemigos, los dragones, viven juntos en paz, pero esta coexistencia no es tan armoniosa como uno puede pensar. Los dragones siendo aún bestias salvajes, sin querer crean algunos problemas en la isla; y otra vez, dando lugar al más gruñón entre los vikingos a tomar una excepción a su presencia. Y en cada ocasión tal, corresponde a Hipo y sus amigos a trabajar en una solución para el problema.</info>
+<thumbnail>https://i.imgur.com/ZW0SVYY.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -705,6 +732,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]La historia de Lisey[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.historia.de.Lisey.txt</externallink>
+<info>8 episodios. Una viuda se convierte en objeto de un peligroso acosador, obsesionado con el trabajo de su marido. Lisey Landon (Julianne Moore) sigue con su vida dos años después de la muerte de su marido, el famoso novelista Scott Landon (Clive Owen). Una sucesión de hechos inquietantes hace que Lisey empiece a recordar episodios de su matrimonio con Scott que había suprimido deliberadamente de su memoria.</info>
+<thumbnail>https://i.imgur.com/Bsgm3Lu.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]La leyenda de Sergio Ramos[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.leyenda.de.Sergio.Ramos.txt</externallink>
@@ -874,6 +910,16 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Lupin.txt</externallink>
 <info>Serie de TV (2021-). 5 episodios. Versión contemporánea del clásico francés, Assane Diop (Omar Sy) es un escurridizo ladrón de guante blanco y aficionado a las aventuras de Arsene Lupin que busca vengar la muerte de su padre a causa del poderoso patriarca de una rica familia. Años después de una trágica injusticia, Assane se propone ajustar cuentas -y una deuda- robando un collar de diamantes, pero las cosas no salen según lo previsto. </info>
 <thumbnail>https://i.imgur.com/Qkij04w.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Malaka[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Malaka.xml</externallink>
+<info>El cadáver de una joven aparece flotando en la bahía de Málaga. Es Noelia, hija de un importante empresario local. Al mismo tiempo, en la otra punta de la ciudad, se rompe la tregua entre los grupos que mueven el hachís: alguien ha introducido un producto nuevo, un extraño polen que viene en lingotes dorados. ‘El oro’, como lo llaman, amenaza con reventar el mercado y desencadenar una guerra.
+Un policía corrupto, que conoce la calle a fondo, y una agente de élite, recién llegada de Madrid, serán los protagonistas principales de Malaka. Ambos se verán obligados a trabajar juntos en los dos casos.</info>
+<thumbnail>https://i.imgur.com/fT6g8w6.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -1054,6 +1100,15 @@ En paralelo a la serie, Enrique Urbizu realizó un montaje para cines en formato
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Patria.txt</externallink>
 <info>Miniserie de TV (2019). 8 episodios. Basada en la novela de Fernando Aramburu, que abarca 30 años del conflicto vasco y estudia el impacto del mismo sobre la gente común, como la viuda de un hombre asesinado a tiros por la banda terrorista ETA, que vuelve a su pueblo natal tras el alto el fuego de 2011, o la madre de un etarra encarcelado. </info>
 <thumbnail>https://i.imgur.com/Oesbimx.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Perdida[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Perdida.xml</externallink>
+<info>Un padre hará lo indecible para descubrir lo que ha pasado con su hija, Soledad, que desapareció hace más de una década en una playa, cuando sólo tenía 5 años.</info>
+<thumbnail>https://i.imgur.com/lKiSlgb.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -1285,6 +1340,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Taboo[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Taboo.xml</externallink>
+<info>Serie de TV (2017-Actualidad). Año 1814. James Keziah Delaney es un hombre al que se le dio por muerto tras viajar a África y estar diez años sin noticias de él. Ahora, James, que ha estado en los confines de la tierra, donde casi pierde la vida, vuelve a Londres completamente cambiado y con catorce diamantes robados en el bolsillo.</info>
+<thumbnail>https://i.imgur.com/wigLYNQ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]The Blacklist[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Blacklist.txt</externallink>
@@ -1381,6 +1445,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/The.Undoing.txt</externallink>
 <info>Miniserie de TV (2020). 6 episodios. Grace Sachs (Nicole Kidman) es una mujer que ha cumplido todos los sueños de su vida: es una psicóloga que está a punto de publicar su primer libro, tiene un marido devoto, Jonathan Fraser (Hugh Grant), oncólogo pediatra de prestigio, y un hijo que va a uno de los colegios más importantes de Nueva York. Sin embargo, pocas semanas antes de que su libro se publique, la vida de Grace cambia por completo. Una trágica muerte y la desaparición de su marido Jonathan alteran drásticamente su forma de ver el mundo, y la obligan a comenzar de cero. Su única preocupación ahora es garantizar que su hijo pueda vivir la vida que se merece. Por desgracia para ambos, la tarea es mucho más complicada de lo que parece. </info>
 <thumbnail>https://i.imgur.com/XxY4M40.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Thief[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Thief.xml</externallink>
+<info>Miniserie de TV (2006). 6 episodios. Sobre un grupo de ladrones liderados por el veterano Nick Atwater (Andre Braugher, Hack), un hombre que lleva muchos años ocultando en secreto su verdadera profesión, usando como tapadera la figura de vendedor de coches, para evitar que su esposa y su hijastra descubran quién es en realidad, luchando por mantener un equilibrio entre su vida personal y familiar, con su agitada vida profesional. Pero cuando su esposa fallece, Nick no tiene más remedio que cuidar él solo de la muchacha, Tammy (Mae Whitman), una joven de 14 años con quien no mantiene una buena relación, y tendrá que enfrentarse a las mentiras con las cual ha estado defendiendo su mundo real.</info>
+<thumbnail>https://i.imgur.com/PdmjnwC.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
