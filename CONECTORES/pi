@@ -11,7 +11,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] $doregex[A]  [COLOR lightsalmon]inkapelis web post[COLOR white][/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] $doregex[A]  [COLOR lightsalmon]inkapelis web post mirar[COLOR white][/COLOR]</title>
 <link>$doregex[selecion_inteligente]</link>
 <regex>
 <name>A</name>
