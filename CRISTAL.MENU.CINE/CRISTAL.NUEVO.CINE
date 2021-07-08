@@ -43,7 +43,7 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 <regex>
 <name>j63list2</name>
 <expres><![CDATA[id="videoplayer\d+.*?title="Mystream" href="(.*?)"]]></expres>
-<page>[j63list.param1]</page>
+<page>https://www.megadede.la[j63list.param1]</page>
 </regex>
 <regex>
 <name>final_url</name>
