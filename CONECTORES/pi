@@ -7,8 +7,8 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] a [COLOR lightsalmon]inkapelis web post mirar[COLOR white][/COLOR]</title>
-<link>$doregex[selecion_inteligente]</link>
+<title>[COLOR gold]*[/COLOR] aA [COLOR lightsalmon]inkapelis web post mirar[COLOR white][/COLOR]</title>
+<link>$doregex[A]</link>
 <regex>
 <name>A</name>
 <expres><![CDATA[#$pyFunction
