@@ -7,13 +7,14 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] $doregex[A]  [COLOR lightsalmon]inkapelis web post mirar[COLOR white][/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] aa  [COLOR lightsalmon]inkapelis web post mirar[COLOR white][/COLOR]</title>
 <link>$doregex[selecion_inteligente]</link>
 <regex>
 <name>A</name>
 <expres><![CDATA[#$pyFunction
 import re,requests,base64,shutil,random
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+import six
 EJECUTAR_XBMC = xbmc if six.PY2 else xbmcvfs
 def GetLSProData(page_data, Cookie_Jar, m):
 
