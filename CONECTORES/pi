@@ -21,7 +21,7 @@ def GetLSProData(page_data, Cookie_Jar, m):
 
   id = xbmcaddon.Addon().getAddonInfo('id')
   if 'cristalazul' in id or 'festa' in id or 'FusionTv' in id:
-     return re.findall("src='(.*?)'", requests.post('https://inkapelis.me/wp-admin/admin-ajax.php',headers={'user-agent':'Mozilla/5.0','referer':'https://inkapelis.me/pelicula/coco-online/','x-requested-with':'XMLHttpRequest'},data={'action':'doo_player_ajax','post':'4266','nume':'1','type':'movie'}).content)[0].replace('\\', '')
+     return re.findall("src='([^']+)'", requests.post('https://inkapelis.me/wp-admin/admin-ajax.php',headers={'user-agent':'Mozilla/5.0','referer':'https://inkapelis.me/pelicula/coco-online/','x-requested-with':'XMLHttpRequest'},data={'action':'doo_player_ajax','post':'4266','nume':'1','type':'movie'}).content)[0].replace('\\', '')
 
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
