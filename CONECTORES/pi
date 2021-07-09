@@ -8,6 +8,104 @@
 
 
 <item>
+<title>[COLOR=ff008b8b][B]s Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<link>$doregex[j63list]</link>
+<regex>
+<name>j63list</name>
+<listrepeat><![CDATA[
+<title>[COLOR=ffff8c00][B] ::   [COLOR=fff5f5f5][j63list.param3][/B][/COLOR]</title>
+<link>$doregex[link_final]</link>
+<thumbnail>[j63list.param2]</thumbnail>
+   <fanart>[j63list.param2]</fanart>
+    <info></info>  
+	 <genre></genre>
+]]></listrepeat>
+<expres><![CDATA[(?s)class="Cards">\s+<a href="(.*?peli.*?)".*?echo="(.*?)"\salt="(.*?)".*?<b>(.*?)<]]></expres>
+<page>https://movidy.tv/?s=$doregex[buscar]</page>
+</regex>
+
+<regex>
+<name>buscar</name>
+<expres><![CDATA[#$pyFunction
+import xbmc
+import xbmcaddon
+import xbmcgui
+def GetLSProData(page_data,Cookie_Jar,m):
+    dialog = xbmcgui.Dialog()
+    d = dialog.input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
+    return d
+]]></expres>
+<page></page>
+</regex>
+<regex>
+<name>link_final</name>
+<listrepeat><![CDATA[
+<title>[COLOR white][link_final.param2] [link_final.param3] [link_final.param4] [/COLOR]</title>
+<link>$doregex[selecion_inteligente]</link>
+<thumbnail>[j63list.param2]</thumbnail>
+<fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+url = '[j63list.param1]'
+import re,requests,base64,random
+from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
+from six.moves import urllib_request
+import six
+TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
+def GetLSProData(page_data,Cookie_Jar,m,url=url):
+
+  id = xbmcaddon.Addon().getAddonInfo('id')
+  if 'cristalazul' in id or 'festa' in id or 'streamspro' in id:
+    patron = '(?s)<a href="((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)".*?<b>(.*?)<.*?images.(.*?)\.'
+    response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0'}).text
+    response = six.ensure_str(response)
+    ArchivoDestino = TRANSLATEPATH('special://home/addons/plugin.video.cristalazul/')
+    open(ArchivoDestino + 'html.txt','wb').write(six.ensure_binary(response))
+    data = re.findall(patron, response)
+    try:
+        nueva_data = []
+        for datos in data:
+            url = datos[0]
+            servidor = datos[2]
+            calidad = datos[3]
+            idioma = datos[4]
+            nueva_data += [(url, servidor, calidad, idioma)]
+    except:
+        nueva_data = []
+    patron_2 = "(?s)getElementById\('(.*?)'.*?go_to_player\(\\'((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)'"
+    #data_2 = re.findall(patron, response)
+    try:
+        data_2 = re.findall(patron_2, response)
+        nueva_data_2 = []
+        for datos_2 in data_2:
+            url = datos_2[1]
+            servidor = datos_2[3]
+            calidad = '1080p'
+            idioma = datos_2[0]
+            nueva_data_2 += [(url, servidor, calidad, idioma)]
+    except:
+        nueva_data_2 = []
+    data_final = nueva_data_2 + nueva_data
+    numero_total = len(data_final)
+    return [('http', ' ', ' ', '[COLOR aqua]Cristal Azul Resultados links: [COLOR white] ('+str(numero_total)+')')] + data_final + [('http', ' ', ' ', '[COLOR white]No hay mas resultados...')]
+  else:
+    xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
+    return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
+]]></expres>
+<page></page>
+</regex>
+<thumbnail>https://movidy.tv/static/img/fav-512x512.png</thumbnail>
+<fanart>http://html-color.org/004848.jpg</fanart>
+</item>
+
+
+
+
+
+
+
+
+<item>
 <title>[COLOR=ff008b8b][B]si Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
