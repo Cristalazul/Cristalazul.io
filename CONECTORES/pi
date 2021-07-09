@@ -55,7 +55,7 @@ TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
 def GetLSProData(page_data,Cookie_Jar,m,url=url):
 
   id = xbmcaddon.Addon().getAddonInfo('id')
-  if 'cristalazul' in id or 'festa' in id or 'streamspro' in id
+  if 'cristalazul' in id or 'festa' in id or 'streamspro' in id:
     patron = '(?s)<a href="((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)".*?<b>(.*?)<.*?images.(.*?)\.'
     response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0'}).text
     response = six.ensure_str(response)
