@@ -811,7 +811,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
             nueva_data += [(url, servidor, calidad, idioma)]
     except:
         nueva_data = []
-    patron = "(?s)getElementById\('(.*?)'.*?go_to_player\('((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)'"
+    patron = "(?s)getElementById\('(.*?)'.*?go_to_player.*?((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)'"
     data_2 = re.findall(patron, response)
     try:
         nueva_data_2 = []
