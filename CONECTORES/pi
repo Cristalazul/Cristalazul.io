@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B]si v Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B]mejoras Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
@@ -20,7 +20,7 @@
     <info></info>  
 	 <genre></genre>
 ]]></listrepeat>
-<expres><![CDATA[(?s)class="Cards">\s+<a href="(.*?peli.*?)".*?echo="(.*?)"\salt="(.*?)".*?<b>(.*?)<]]></expres>
+<expres><![CDATA[(?s)class="Cards">\s+<a href="(https://movidy.tv/pelicula.*?)".*?echo="(.*?)"\salt="(.*?)".*?<b>(.*?)<]]></expres>
 <page>https://movidy.tv/?s=$doregex[buscar]</page>
 </regex>
 
