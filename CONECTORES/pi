@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B]s Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B]si Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
@@ -78,9 +78,9 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
         calidad = '1080p'
         idioma = datos_2[0]
         nueva_data_2 += [(url, servidor, calidad, idioma)]
-    data_final = nueva_data_2 + nueva_data
-    numero_total = len(data_final)
-    return [('http', ' ', ' ', '[COLOR aqua]Cristal Azul Resultados links: [COLOR white] ('+str(numero_total)+')')] + data_final + [('http', ' ', ' ', '[COLOR white]No hay mas resultados...')]
+    data_total = nueva_data_2 + nueva_data
+    numero_total = len(data_total)
+    return [('http', ' ', ' ', '[COLOR aqua]Cristal Azul Resultados links: [COLOR white] ('+str(numero_total)+')')] + data_total + [('http', ' ', ' ', '[COLOR white]No hay mas resultados...')]
   else:
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
     return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
