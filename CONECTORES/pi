@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B]si v amor Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B]si v Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
@@ -21,7 +21,7 @@
 	 <genre></genre>
 ]]></listrepeat>
 <expres><![CDATA[(?s)class="Cards">\s+<a href="(.*?peli.*?)".*?echo="(.*?)"\salt="(.*?)".*?<b>(.*?)<]]></expres>
-<page>https://movidy.tv/?s=amor</page>
+<page>https://movidy.tv/?s=$doregex[buscar]</page>
 </regex>
 
 <regex>
@@ -30,11 +30,11 @@
 import xbmc
 import xbmcaddon
 import xbmcgui
-]]></expres>
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
     d = dialog.input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
     return d
+]]></expres>
 <page></page>
 </regex>
 <regex>
@@ -77,7 +77,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
         data_2 = re.findall(patron_2, response)
         nueva_data_2 = []
         for datos_2 in data_2:
-            url = datos_2[1].replace("\", "")
+            url = datos_2[1].replace("\\", "")
             servidor = datos_2[3]
             calidad = '1080p'
             idioma = datos_2[0]
