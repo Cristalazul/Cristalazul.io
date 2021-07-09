@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B] Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B]z Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
@@ -37,29 +37,27 @@ def GetLSProData(page_data,Cookie_Jar,m):
 ]]></expres>
 <page></page>
 </regex>
- <regex>
-            <name>link_final</name>
-            <listrepeat><![CDATA[
+<regex>
+<name>link_final</name>
+<listrepeat><![CDATA[
 <title>[COLOR white][link_final.param2] [link_final.param3] [link_final.param4] [/COLOR]</title>
 <link>$doregex[selecion_inteligente]</link>
-<thumbnail>[makelist2.param2]</thumbnail>
+<thumbnail>[j63list.param2]</thumbnail>
 <fanart>https://i.imgur.com/KFAuyll.jpg</fanart>
 ]]></listrepeat>
-            <expres><![CDATA[#$pyFunction
+<expres><![CDATA[#$pyFunction
 url = '[j63list.param1]'
 import re,requests,base64,random
 from kodi_six import xbmc,xbmcgui,xbmcaddon,xbmcvfs
 from six.moves import urllib_request
 import six
 TRANSLATEPATH = xbmc.translatePath if six.PY2 else xbmcvfs.translatePath
-
 def GetLSProData(page_data,Cookie_Jar,m,url=url):
 
   id = xbmcaddon.Addon().getAddonInfo('id')
   if 'cristalazul' in id or 'festa' in id or 'streamspro' in id
     patron = '(?s)<a href="((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)".*?<b>(.*?)<.*?images.(.*?)\.'
-    response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0','Host': 'playdede.com','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8','Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3','Upgrade-Insecure-Requests': '1'
-,'Connection': 'keep-alive'}).text
+    response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0'}).text
     response = six.ensure_str(response)
     ArchivoDestino = TRANSLATEPATH.translatePath('special://home/addons/plugin.video.cristalazul/')
     open(ArchivoDestino + 'html.txt','wb').write(six.ensure_binary(response))
@@ -93,8 +91,8 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
     xbmc.executebuiltin('PlayMedia("https://www.ivoox.com/listen_mn_23681872_1.m4a?internal=HTML5",1)')
     return xbmc.executebuiltin("Notification([COLOR aqua]Cristal Azul [/COLOR],[COLOR gold] robado a cristal azul[/COLOR], 25000)")
 ]]></expres>
-            <page></page>
-        </regex>
+<page></page>
+</regex>
 <thumbnail>https://movidy.tv/static/img/fav-512x512.png</thumbnail>
 <fanart>http://html-color.org/004848.jpg</fanart>
 </item>
