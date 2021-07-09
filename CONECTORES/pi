@@ -69,9 +69,7 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
         calidad = datos[3]
         idioma = datos[4]
         nueva_data += [(url, servidor, calidad, idioma)]
-				   
     patron_2 = "(?s)getElementById\('(.*?)'.*?go_to_player\('((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)'"
-    response = six.ensure_str(response)
     data_2 = re.findall(patron_2, response)
     nueva_data_2 = []
     for datos_2 in data_2:
