@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B]z Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B] Movidy.co - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
@@ -72,15 +72,15 @@ def GetLSProData(page_data,Cookie_Jar,m,url=url):
             nueva_data += [(url, servidor, calidad, idioma)]
     except:
         nueva_data = []
-    patron_2 = "(?s)getElementById\('(.*?)'.*?go_to_player\(\\'((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)'"
+    patron_2 = """(?s)getElementById\('(.*?)'.*?go_to_player\(\\'((http|https)://(upstream|gamovideo|gounlimited|uqload|vidfast).*?)'"""
     data_2 = re.findall(patron_2, response)
     try:
         nueva_data_2 = []
-        for datos in data_2:
-            url = datos[1]
-            servidor = datos[3]
+        for datos_2 in data_2:
+            url = datos_2[1]
+            servidor = datos_2[3]
             calidad = '1080p'
-            idioma = datos[0]
+            idioma = datos_2[0]
             nueva_data_2 += [(url, servidor, calidad, idioma)]
     except:
         nueva_data_2 = []
