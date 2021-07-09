@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B] ::   HOMECINE - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B] :: prueba  HOMECINE - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list1]</link>
 <regex>
 <name>j63list1</name>
@@ -37,7 +37,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>j63list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR=ff008b8b][B] ::  [COLOR=fff5f5f5][j63list2.param1][/B][/COLOR][j63list2.param2]</title>
+<title>[COLOR=ff008b8b][B] :: $doregex[tab]   [COLOR=fff5f5f5][j63list2.param1] [/B][/COLOR][j63list2.param2]</title>
 <link>$doregex[get-embed]</link>
 <thumbnail>https://[j63list1.param2]</thumbnail>
    <fanart>https://homecine.to/wp-content/uploads/2018/05/fb-capture.png</fanart>
