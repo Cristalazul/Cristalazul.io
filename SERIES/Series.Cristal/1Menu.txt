@@ -38,6 +38,15 @@
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Adele[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Adele.xml</externallink>
+<info>Tras una serie de extrañas desapariciones y la presión de la opinión pública que demanda la resolución de los casos, la policía belga decide crear una división especial dedicada especialmente a estos crímenes y contratarán a la talentosa psicóloga Adèle Zimmer. Allí tendrá que hacer equipo con el inspector Luca Dosco, un policía sencillo y discreto al que le gusta seguir las reglas. Lejos de la rectitud de su compañero, la atrevida psicóloga practica métodos poco ortodoxos para resolver sus casos y se deja guiar por su intuición. Sin embargo, para ella, la oportunidad de incorporarse a este nuevo departamento federal le brinda sobre todo la oportunidad única de continuar la búsqueda para encontrar a su hijo, Léo, desaparecido desde hace 6 meses.</info>
+<thumbnail>https://i.imgur.com/1kK5Oyi.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]American Gods[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/American.gods</externallink>
@@ -625,6 +634,15 @@ El.padre.de.cain</externallink>
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Frontera[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Frontera.xml</externallink>
+<info>Serie de aventuras que narra la caótica y violenta lucha por el control y las riquezas del comercio de pieles en la Norteamérica del siglo XVIII. Relatada desde diferentes perspectivas, la serie está ambientada en un mundo en el que las negociaciones se pueden resolver con una pelea de hachas en espacios cerrados y en el que la complicada relación entre las tribus nativas y los europeos puede generar conflictos sangrientos.</info>
+<thumbnail>https://i.imgur.com/zXm23Wz.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Gambito de dama[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Gambito.de.dama.txt</externallink>
@@ -639,6 +657,15 @@ El.padre.de.cain</externallink>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Gangs.of.London</externallink>
 <info>Serie de TV (2020-Actualidad). 9 episodios. Durante 20 años, Finn Wallace (Colm Meaney) fue el criminal más poderoso de Londres. Miles de millones de libras fluyeron a través de su organización cada año. Pero ahora está muerto y nadie sabe quién ordenó su asesinato. el impulsivo Sean Wallace (Joe Cole), con la ayuda de la familia Dumani encabezada por Ed Dumani (Lucian Msamati), toma el lugar de su padre. Si la situación no era ya suficientemente peligrosa, la toma de poder de Sean repercute en el mundo del crimen internacional. Tal vez el único hombre que podría ayudarlo y ser su aliado es Elliot Finch (Sope Dirsù), quien hasta la fecha ha sido un simple perdedor, un esbirro de la organización criminal con un misterioso interés en la familia Wallace. En este contexto turbulento, Elliot se verá transportado al interior de la mayor organización criminal de Londres</info>
 <thumbnail>https://i.imgur.com/6Qffswv.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Generation Kill[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Generation.kill.xml</externallink>
+<info>Del creador de la prestigiosa The Wire, basada en un aclamado libro de Evan Wright, que trata sobre un batallón de marines en la guerra de Irak, y centrada en el relato de un reportero de la revista Rolling Stone incrustado en un pelotón de marines durante el asalto a Bagdad en el año 2003.</info>
+<thumbnail>https://i.imgur.com/mBgHD4i.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -839,6 +866,15 @@ Pronto Jack se ve atrapado en una compleja red de intereses del crimen organizad
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.reina.del.flow.txt</externallink>
 <info>Serie de TV (2018-Actualidad). 82 episodios. En Colombia, 17 años después de ser injustamente encarcelada, la compositora Yeimy Montoya busca vengarse de los hombres que la hundieron y asesinaron a su familia. </info>
 <thumbnail>https://i.imgur.com/zwodQ1I.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]La reina del pueblo[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/La.reina.del.pueblo.xml</externallink>
+<info>En las fiestas patronales de la ficticia localidad de Polvaredas de la Sierra, cuatro adolescentes quieren encontrar su forma particular de ser especiales. Estefi quiere acabar con los toros y los toreros, Nicole quiere recuperar la que fue en su día la corona de Instagram, Inma quiere ser la Reina de las fiestas y Javi quiere que las fiestas nunca lleguen a su fin. Sin embargo, Inma tendrá que hacer frente a Zaida, la hija del cacique del pueblo y la favorita para la corona.</info>
+<thumbnail>https://i.imgur.com/YTqO72w.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
@@ -1297,6 +1333,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Resident Evil: Oscuridad infinita[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Resident.evil.oscuridad.infinita.txt</externallink>
+<info>En 2006, Leon Kennedy tiene que investigar un ataque informático, pero encuentra zombis después de que la Casa Blanca sea víctima de un misterioso ataque. Más adelante conoce a Claire, que está intentando averiguar qué significa un dibujo hecho por un niño refugiado mientras trabaja en otra misión.</info>
+<thumbnail>https://i.imgur.com/fjboB4M.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Rick y Morty[/COLOR]</title>     
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Rick.y.Morty.txt</externallink>
@@ -1360,6 +1405,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 </item>
 
 <item>
+<title>[COLOR gold]* [COLOR white]Solos[/COLOR]</title>  
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Solos.xml</externallink>
+<info>Serie antológica de siete partes que explora el significado más profundo de la conexión humana a través de la visión individual de sus protagonistas.</info>
+<thumbnail>https://i.imgur.com/SmaURon.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
 <title>[COLOR gold]* [COLOR white]Sombra y Hueso[/COLOR]</title>  
 <link>cristalazul</link>
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Sombra.y.Hueso.txt</externallink>
@@ -1419,6 +1473,15 @@ A partir de ese momento, las autoridades tratan de buscar una solución de emerg
 <externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Taboo.xml</externallink>
 <info>Serie de TV (2017-Actualidad). Año 1814. James Keziah Delaney es un hombre al que se le dio por muerto tras viajar a África y estar diez años sin noticias de él. Ahora, James, que ha estado en los confines de la tierra, donde casi pierde la vida, vuelve a Londres completamente cambiado y con catorce diamantes robados en el bolsillo.</info>
 <thumbnail>https://i.imgur.com/wigLYNQ.jpg</thumbnail>
+<fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gold]* [COLOR white]Territorio Lovecraft[/COLOR]</title>     
+<link>cristalazul</link>
+<externallink>https://raw.githubusercontent.com/Cristalazul/Cristalazul.io/main/SERIES/Series.Cristal/Territorio.lovecraft.txt</externallink>
+<info>Atticus Black (Jonathan Majors) comienza un viaje por carretera en los años 50 junto a su amiga Letitia (Jurnee Smollett-Bell) y su tío George (Courtney B. Vance) en busca de su padre desaparecido (Michael Kenneth Williams). El viaje se convertirá en una lucha por la supervivencia, afrontando el racismo de la América blanca así como una serie de monstruos que podrían haber salido de un libro de Lovecraft... Basada en la novela de 2016 de Matt Ruff.</info>
+<thumbnail>https://i.imgur.com/Zq29C3f.jpg</thumbnail>
 <fanart>https://i.imgur.com/yNfc6m7.jpg</fanart>
 </item>
 
