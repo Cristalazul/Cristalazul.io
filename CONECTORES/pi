@@ -8,7 +8,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Buscador [COLOR white]Pidepalomitas[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR]a [COLOR lightsalmon]Buscador [COLOR white]Pidepalomitas[/COLOR]</title>
 <link>$doregex[j63list]</link>
 <regex>
 <name>j63list</name>
@@ -22,9 +22,18 @@
 ]]></listrepeat>
 <expres><![CDATA[(?s)class="Cards">\s+<a href="(https://movidy.tv/pelicula.*?)".*?echo="(.*?)"\salt="(.*?)".*?<b>(.*?)<]]></expres>
 <page>https://movidy.tv/?s=$doregex[buscar]</page>
-<nextpage><![CDATA[Pagina siguiente.*?>(.*?)<]]></nextpage>
+<nextpage><![CDATA[#$pyFunction
+import re,request
+palabra_buscada = '$doregex[buscar]'
+def GetLSProData(page_data,Cookie_Jar,m):
+    url = 'https://movidy.tv/?s=' + palabra_buscada
+    response = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:88.0) Gecko/20100101 Firefox/88.0'}).text
+    response = six.ensure_str(response)
+    patron = 'Pagina siguiente.*?>(.*?)<'
+    data = re.findall(patron, response)[0]
+    return 'https://movidy.tv/page/' + data + '/?s=' + palabra_buscada
+]]></nextpage>
 </regex>
-
 <regex>
 <name>buscar</name>
 <expres><![CDATA[#$pyFunction
