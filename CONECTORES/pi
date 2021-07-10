@@ -6,7 +6,7 @@
 
 
 <item>
-<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Cine [COLOR white]Estrenos 2[/COLOR]</title>
+<title>[COLOR gold]*[/COLOR] [COLOR lightsalmon]Cinema [COLOR white]Estrenos 2[/COLOR]</title>
 <link>$doregex[cristal]</link>
 <regex>
 <name>cristal</name>
