@@ -11,7 +11,7 @@
 <regex>
 <name>cristal</name>
 <listrepeat><![CDATA[
-<title>[cristal.param7]  [COLOR white][cristal.param1] [COLOR [cristal.param3]]([cristal.param2])[/COLOR]</title>
+<title>[COLOR white][cristal.param1] [COLOR [cristal.param3]]([cristal.param2])[/COLOR]</title>
 <genre>[cristal.param6]</genre>
 <info>[cristal.param5]</info>
 <thumbnail>[cristal.param4]</thumbnail>
