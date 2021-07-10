@@ -7,7 +7,7 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B] :: prueba  HOMECINE - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B] :: pruebas  HOMECINE - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list1]</link>
 <regex>
 <name>j63list1</name>
@@ -47,7 +47,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </regex>
 <regex>
 <name>tab</name>
-<expres>tab[j63list2.param1].*?SRC="(.*?)"</expres>
+<expres>tab[j63list2.param1].*?SRC=".*?\?(.*?)=</expres>
 <page>https://homecine.to[j63list1.param1]</page>
 </regex>
 <regex>
