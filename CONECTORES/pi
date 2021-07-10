@@ -7,25 +7,23 @@
 
 
 <item>
-<title>[COLOR=ff008b8b][B] :: pruebas  HOMECINE - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
+<title>[COLOR=ff008b8b][B] :: prueba  HOMECINE - [COLOR=ffffffff]BUSCADOR [/B][/COLOR]</title>
 <link>$doregex[j63list1]</link>
 <regex>
 <name>j63list1</name>
 <listrepeat><![CDATA[
-<title>[B][COLOR=fff5f5f5][j63list1.param3][/B][/COLOR]</title>
+<title>[B][COLOR=fff5f5f5][j63list1.param2][/B][/COLOR]  [j63list1.param3]</title>
 <link>$doregex[j63list2]</link>
-<thumbnail>https://[j63list1.param2]</thumbnail>
+<thumbnail>https://homecine.to[j63list1.param4]</thumbnail>
    <fanart>https://homecine.to/wp-content/uploads/2018/05/fb-capture.png</fanart>
 ]]></listrepeat>
-<expres><![CDATA[ml-item"><a href="(.*?)".*?="//(.*?)".*?alt="(.*?)"]]></expres>
+<expres><![CDATA[ml-item"><a href="(.*?)".*?title="(.*?)".*?lity">(.*?)<.*?="(.*?)"]]></expres>
 <page>https://homecine.to/?s=$doregex[buscar]</page>
 </regex>
 <regex>
 <name>buscar</name>
 <expres><![CDATA[#$pyFunction
-import xbmc
-import xbmcaddon
-import xbmcgui
+from kodi_six import xbmcgui
 def GetLSProData(page_data,Cookie_Jar,m):
     dialog = xbmcgui.Dialog()
     d = dialog.input('Buscar Pelicula: ', type=xbmcgui.INPUT_ALPHANUM).replace(" ", "+")
@@ -37,7 +35,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <regex>
 <name>j63list2</name>
 <listrepeat><![CDATA[
-<title>[COLOR=ff008b8b][B] :: $doregex[tab]   [COLOR=fff5f5f5][j63list2.param1] [/B][/COLOR][j63list2.param2]</title>
+<title>[COLOR=ff008b8b][B] :: [COLOR=fff5f5f5][j63list2.param1] [/B][/COLOR][j63list2.param2]</title>
 <link>$doregex[get-embed]</link>
 <thumbnail>https://[j63list1.param2]</thumbnail>
    <fanart>https://homecine.to/wp-content/uploads/2018/05/fb-capture.png</fanart>
